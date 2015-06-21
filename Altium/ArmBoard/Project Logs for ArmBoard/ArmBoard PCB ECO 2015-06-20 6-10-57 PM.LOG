@@ -1,0 +1,437 @@
+Added Component: Designator=5V_REG(D2PAK_M)
+Added Component: Designator=BASE(HDR1X6)
+Added Component: Designator=C1(RB7.6-15)
+Added Component: Designator=C2(RB7.6-15)
+Added Component: Designator=C3(RB7.6-15)
+Added Component: Designator=C4(RB7.6-15)
+Added Component: Designator=C5(RB7.6-15)
+Added Component: Designator=C6(RB7.6-15)
+Added Component: Designator=C7(RAD-0.3)
+Added Component: Designator=C8(RAD-0.3)
+Added Component: Designator=C9(RAD-0.3)
+Added Component: Designator=C10(RAD-0.3)
+Added Component: Designator=C11(RAD-0.3)
+Added Component: Designator=C12(RAD-0.3)
+Added Component: Designator=DRIVER_BASE(VNH5019)
+Added Component: Designator=DRIVER_G1(VNH5019)
+Added Component: Designator=DRIVER_G2(VNH5019)
+Added Component: Designator=DRIVER_L1(VNH5019)
+Added Component: Designator=DRIVER_L2(VNH5019)
+Added Component: Designator=DRIVER_L3(VNH5019)
+Added Component: Designator=G1(HDR1X2)
+Added Component: Designator=G2(HDR1X2)
+Added Component: Designator=L1(HDR1X5)
+Added Component: Designator=L2(HDR1X5)
+Added Component: Designator=L3(HDR1X5)
+Added Component: Designator=R1(J1-0603)
+Added Component: Designator=R2(J1-0603)
+Added Component: Designator=R3(J1-0603)
+Added Component: Designator=R4(J1-0603)
+Added Component: Designator=R5(J1-0603)
+Added Component: Designator=R6(J1-0603)
+Added Component: Designator=R7(J1-0603)
+Added Component: Designator=R8(J1-0603)
+Added Component: Designator=R9(J1-0603)
+Added Component: Designator=R10(J1-0603)
+Added Component: Designator=R11(J1-0603)
+Added Component: Designator=R12(J1-0603)
+Added Component: Designator=R13(J1-0603)
+Added Component: Designator=R14(J1-0603)
+Added Component: Designator=R15(J1-0603)
+Added Component: Designator=R16(J1-0603)
+Added Component: Designator=R17(J1-0603)
+Added Component: Designator=R18(J1-0603)
+Added Component: Designator=R19(J1-0603)
+Added Component: Designator=R20(J1-0603)
+Added Component: Designator=R21(J1-0603)
+Added Component: Designator=R22(J1-0603)
+Added Component: Designator=R23(J1-0603)
+Added Component: Designator=R24(J1-0603)
+Added Component: Designator=R25(J1-0603)
+Added Component: Designator=R26(J1-0603)
+Added Component: Designator=R27(J1-0603)
+Added Component: Designator=R28(J1-0603)
+Added Component: Designator=R29(J1-0603)
+Added Component: Designator=R30(J1-0603)
+Added Component: Designator=R31(J1-0603)
+Added Component: Designator=R32(J1-0603)
+Added Component: Designator=R33(J1-0603)
+Added Component: Designator=R34(J1-0603)
+Added Component: Designator=R35(J1-0603)
+Added Component: Designator=R36(J1-0603)
+Added Pin To Net: NetName=5V Pin=5V_REG-3
+Added Pin To Net: NetName=5V Pin=BASE-3
+Added Pin To Net: NetName=5V Pin=L1-3
+Added Pin To Net: NetName=5V Pin=L2-3
+Added Pin To Net: NetName=5V Pin=L3-3
+Added Net: Name=5V
+Added Net: Name=BASE_DATA_IN
+Added Net: Name=BASE_DATA_OUT
+Added Pin To Net: NetName=BASE_INTA Pin=BASE-4
+Added Net: Name=BASE_INTA
+Added Pin To Net: NetName=BASE_INTB Pin=BASE-5
+Added Net: Name=BASE_INTB
+Added Net: Name=BASE_INTERRUPT
+Added Pin To Net: NetName=CP Pin=DRIVER_BASE-11
+Added Pin To Net: NetName=CP Pin=DRIVER_G1-11
+Added Pin To Net: NetName=CP Pin=DRIVER_G2-11
+Added Pin To Net: NetName=CP Pin=DRIVER_L1-11
+Added Pin To Net: NetName=CP Pin=DRIVER_L2-11
+Added Pin To Net: NetName=CP Pin=DRIVER_L3-11
+Added Net: Name=CP
+Added Pin To Net: NetName=GND Pin=5V_REG-2
+Added Pin To Net: NetName=GND Pin=BASE-6
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C9-2
+Added Pin To Net: NetName=GND Pin=C10-2
+Added Pin To Net: NetName=GND Pin=C11-2
+Added Pin To Net: NetName=GND Pin=C12-2
+Added Pin To Net: NetName=GND Pin=DRIVER_BASE-17
+Added Pin To Net: NetName=GND Pin=DRIVER_BASE-18
+Added Pin To Net: NetName=GND Pin=DRIVER_BASE-19
+Added Pin To Net: NetName=GND Pin=DRIVER_BASE-20
+Added Pin To Net: NetName=GND Pin=DRIVER_BASE-26
+Added Pin To Net: NetName=GND Pin=DRIVER_BASE-27
+Added Pin To Net: NetName=GND Pin=DRIVER_BASE-28
+Added Pin To Net: NetName=GND Pin=DRIVER_BASE-29
+Added Pin To Net: NetName=GND Pin=DRIVER_G1-17
+Added Pin To Net: NetName=GND Pin=DRIVER_G1-18
+Added Pin To Net: NetName=GND Pin=DRIVER_G1-19
+Added Pin To Net: NetName=GND Pin=DRIVER_G1-20
+Added Pin To Net: NetName=GND Pin=DRIVER_G1-26
+Added Pin To Net: NetName=GND Pin=DRIVER_G1-27
+Added Pin To Net: NetName=GND Pin=DRIVER_G1-28
+Added Pin To Net: NetName=GND Pin=DRIVER_G1-29
+Added Pin To Net: NetName=GND Pin=DRIVER_G2-17
+Added Pin To Net: NetName=GND Pin=DRIVER_G2-18
+Added Pin To Net: NetName=GND Pin=DRIVER_G2-19
+Added Pin To Net: NetName=GND Pin=DRIVER_G2-20
+Added Pin To Net: NetName=GND Pin=DRIVER_G2-26
+Added Pin To Net: NetName=GND Pin=DRIVER_G2-27
+Added Pin To Net: NetName=GND Pin=DRIVER_G2-28
+Added Pin To Net: NetName=GND Pin=DRIVER_G2-29
+Added Pin To Net: NetName=GND Pin=DRIVER_L1-17
+Added Pin To Net: NetName=GND Pin=DRIVER_L1-18
+Added Pin To Net: NetName=GND Pin=DRIVER_L1-19
+Added Pin To Net: NetName=GND Pin=DRIVER_L1-20
+Added Pin To Net: NetName=GND Pin=DRIVER_L1-26
+Added Pin To Net: NetName=GND Pin=DRIVER_L1-27
+Added Pin To Net: NetName=GND Pin=DRIVER_L1-28
+Added Pin To Net: NetName=GND Pin=DRIVER_L1-29
+Added Pin To Net: NetName=GND Pin=DRIVER_L2-17
+Added Pin To Net: NetName=GND Pin=DRIVER_L2-18
+Added Pin To Net: NetName=GND Pin=DRIVER_L2-19
+Added Pin To Net: NetName=GND Pin=DRIVER_L2-20
+Added Pin To Net: NetName=GND Pin=DRIVER_L2-26
+Added Pin To Net: NetName=GND Pin=DRIVER_L2-27
+Added Pin To Net: NetName=GND Pin=DRIVER_L2-28
+Added Pin To Net: NetName=GND Pin=DRIVER_L2-29
+Added Pin To Net: NetName=GND Pin=DRIVER_L3-17
+Added Pin To Net: NetName=GND Pin=DRIVER_L3-18
+Added Pin To Net: NetName=GND Pin=DRIVER_L3-19
+Added Pin To Net: NetName=GND Pin=DRIVER_L3-20
+Added Pin To Net: NetName=GND Pin=DRIVER_L3-26
+Added Pin To Net: NetName=GND Pin=DRIVER_L3-27
+Added Pin To Net: NetName=GND Pin=DRIVER_L3-28
+Added Pin To Net: NetName=GND Pin=DRIVER_L3-29
+Added Pin To Net: NetName=GND Pin=L1-5
+Added Pin To Net: NetName=GND Pin=L2-5
+Added Pin To Net: NetName=GND Pin=L3-5
+Added Pin To Net: NetName=GND Pin=R5-1
+Added Pin To Net: NetName=GND Pin=R6-1
+Added Pin To Net: NetName=GND Pin=R11-1
+Added Pin To Net: NetName=GND Pin=R12-1
+Added Pin To Net: NetName=GND Pin=R17-1
+Added Pin To Net: NetName=GND Pin=R18-1
+Added Pin To Net: NetName=GND Pin=R23-1
+Added Pin To Net: NetName=GND Pin=R24-1
+Added Pin To Net: NetName=GND Pin=R29-1
+Added Pin To Net: NetName=GND Pin=R30-1
+Added Pin To Net: NetName=GND Pin=R35-1
+Added Pin To Net: NetName=GND Pin=R36-1
+Added Net: Name=GND
+Added Pin To Net: NetName=INA_BASE Pin=R20-1
+Added Net: Name=INA_BASE
+Added Pin To Net: NetName=INA_G1 Pin=R26-1
+Added Net: Name=INA_G1
+Added Pin To Net: NetName=INA_G2 Pin=R32-1
+Added Net: Name=INA_G2
+Added Pin To Net: NetName=INA_L1 Pin=R2-1
+Added Net: Name=INA_L1
+Added Pin To Net: NetName=INA_L2 Pin=R8-1
+Added Net: Name=INA_L2
+Added Pin To Net: NetName=INA_L3 Pin=R14-1
+Added Net: Name=INA_L3
+Added Pin To Net: NetName=INB_BASE Pin=R21-1
+Added Net: Name=INB_BASE
+Added Pin To Net: NetName=INB_G1 Pin=R27-1
+Added Net: Name=INB_G1
+Added Pin To Net: NetName=INB_G2 Pin=R33-1
+Added Net: Name=INB_G2
+Added Pin To Net: NetName=INB_L1 Pin=R3-1
+Added Net: Name=INB_L1
+Added Pin To Net: NetName=INB_L2 Pin=R9-1
+Added Net: Name=INB_L2
+Added Pin To Net: NetName=INB_L3 Pin=R15-1
+Added Net: Name=INB_L3
+Added Pin To Net: NetName=NetDRIVER_BASE_4 Pin=DRIVER_BASE-4
+Added Pin To Net: NetName=NetDRIVER_BASE_4 Pin=R20-2
+Added Net: Name=NetDRIVER_BASE_4
+Added Pin To Net: NetName=NetDRIVER_BASE_5 Pin=DRIVER_BASE-5
+Added Pin To Net: NetName=NetDRIVER_BASE_5 Pin=DRIVER_BASE-9
+Added Pin To Net: NetName=NetDRIVER_BASE_5 Pin=R19-1
+Added Net: Name=NetDRIVER_BASE_5
+Added Pin To Net: NetName=NetDRIVER_BASE_7 Pin=DRIVER_BASE-7
+Added Pin To Net: NetName=NetDRIVER_BASE_7 Pin=R22-2
+Added Net: Name=NetDRIVER_BASE_7
+Added Pin To Net: NetName=NetDRIVER_BASE_8 Pin=DRIVER_BASE-8
+Added Pin To Net: NetName=NetDRIVER_BASE_8 Pin=R24-2
+Added Net: Name=NetDRIVER_BASE_8
+Added Pin To Net: NetName=NetDRIVER_BASE_10 Pin=DRIVER_BASE-10
+Added Pin To Net: NetName=NetDRIVER_BASE_10 Pin=R21-2
+Added Net: Name=NetDRIVER_BASE_10
+Added Pin To Net: NetName=NetDRIVER_G1_4 Pin=DRIVER_G1-4
+Added Pin To Net: NetName=NetDRIVER_G1_4 Pin=R26-2
+Added Net: Name=NetDRIVER_G1_4
+Added Pin To Net: NetName=NetDRIVER_G1_5 Pin=DRIVER_G1-5
+Added Pin To Net: NetName=NetDRIVER_G1_5 Pin=DRIVER_G1-9
+Added Pin To Net: NetName=NetDRIVER_G1_5 Pin=R25-1
+Added Net: Name=NetDRIVER_G1_5
+Added Pin To Net: NetName=NetDRIVER_G1_7 Pin=DRIVER_G1-7
+Added Pin To Net: NetName=NetDRIVER_G1_7 Pin=R28-2
+Added Net: Name=NetDRIVER_G1_7
+Added Pin To Net: NetName=NetDRIVER_G1_8 Pin=DRIVER_G1-8
+Added Pin To Net: NetName=NetDRIVER_G1_8 Pin=R30-2
+Added Net: Name=NetDRIVER_G1_8
+Added Pin To Net: NetName=NetDRIVER_G1_10 Pin=DRIVER_G1-10
+Added Pin To Net: NetName=NetDRIVER_G1_10 Pin=R27-2
+Added Net: Name=NetDRIVER_G1_10
+Added Pin To Net: NetName=NetDRIVER_G2_4 Pin=DRIVER_G2-4
+Added Pin To Net: NetName=NetDRIVER_G2_4 Pin=R32-2
+Added Net: Name=NetDRIVER_G2_4
+Added Pin To Net: NetName=NetDRIVER_G2_5 Pin=DRIVER_G2-5
+Added Pin To Net: NetName=NetDRIVER_G2_5 Pin=DRIVER_G2-9
+Added Pin To Net: NetName=NetDRIVER_G2_5 Pin=R31-1
+Added Net: Name=NetDRIVER_G2_5
+Added Pin To Net: NetName=NetDRIVER_G2_7 Pin=DRIVER_G2-7
+Added Pin To Net: NetName=NetDRIVER_G2_7 Pin=R34-2
+Added Net: Name=NetDRIVER_G2_7
+Added Pin To Net: NetName=NetDRIVER_G2_8 Pin=DRIVER_G2-8
+Added Pin To Net: NetName=NetDRIVER_G2_8 Pin=R36-2
+Added Net: Name=NetDRIVER_G2_8
+Added Pin To Net: NetName=NetDRIVER_G2_10 Pin=DRIVER_G2-10
+Added Pin To Net: NetName=NetDRIVER_G2_10 Pin=R33-2
+Added Net: Name=NetDRIVER_G2_10
+Added Pin To Net: NetName=NetDRIVER_L1_4 Pin=DRIVER_L1-4
+Added Pin To Net: NetName=NetDRIVER_L1_4 Pin=R2-2
+Added Net: Name=NetDRIVER_L1_4
+Added Pin To Net: NetName=NetDRIVER_L1_5 Pin=DRIVER_L1-5
+Added Pin To Net: NetName=NetDRIVER_L1_5 Pin=DRIVER_L1-9
+Added Pin To Net: NetName=NetDRIVER_L1_5 Pin=R1-1
+Added Net: Name=NetDRIVER_L1_5
+Added Pin To Net: NetName=NetDRIVER_L1_7 Pin=DRIVER_L1-7
+Added Pin To Net: NetName=NetDRIVER_L1_7 Pin=R4-2
+Added Net: Name=NetDRIVER_L1_7
+Added Pin To Net: NetName=NetDRIVER_L1_8 Pin=DRIVER_L1-8
+Added Pin To Net: NetName=NetDRIVER_L1_8 Pin=R6-2
+Added Net: Name=NetDRIVER_L1_8
+Added Pin To Net: NetName=NetDRIVER_L1_10 Pin=DRIVER_L1-10
+Added Pin To Net: NetName=NetDRIVER_L1_10 Pin=R3-2
+Added Net: Name=NetDRIVER_L1_10
+Added Pin To Net: NetName=NetDRIVER_L2_4 Pin=DRIVER_L2-4
+Added Pin To Net: NetName=NetDRIVER_L2_4 Pin=R8-2
+Added Net: Name=NetDRIVER_L2_4
+Added Pin To Net: NetName=NetDRIVER_L2_5 Pin=DRIVER_L2-5
+Added Pin To Net: NetName=NetDRIVER_L2_5 Pin=DRIVER_L2-9
+Added Pin To Net: NetName=NetDRIVER_L2_5 Pin=R7-1
+Added Net: Name=NetDRIVER_L2_5
+Added Pin To Net: NetName=NetDRIVER_L2_7 Pin=DRIVER_L2-7
+Added Pin To Net: NetName=NetDRIVER_L2_7 Pin=R10-2
+Added Net: Name=NetDRIVER_L2_7
+Added Pin To Net: NetName=NetDRIVER_L2_8 Pin=DRIVER_L2-8
+Added Pin To Net: NetName=NetDRIVER_L2_8 Pin=R12-2
+Added Net: Name=NetDRIVER_L2_8
+Added Pin To Net: NetName=NetDRIVER_L2_10 Pin=DRIVER_L2-10
+Added Pin To Net: NetName=NetDRIVER_L2_10 Pin=R9-2
+Added Net: Name=NetDRIVER_L2_10
+Added Pin To Net: NetName=NetDRIVER_L3_4 Pin=DRIVER_L3-4
+Added Pin To Net: NetName=NetDRIVER_L3_4 Pin=R14-2
+Added Net: Name=NetDRIVER_L3_4
+Added Pin To Net: NetName=NetDRIVER_L3_5 Pin=DRIVER_L3-5
+Added Pin To Net: NetName=NetDRIVER_L3_5 Pin=DRIVER_L3-9
+Added Pin To Net: NetName=NetDRIVER_L3_5 Pin=R13-1
+Added Net: Name=NetDRIVER_L3_5
+Added Pin To Net: NetName=NetDRIVER_L3_7 Pin=DRIVER_L3-7
+Added Pin To Net: NetName=NetDRIVER_L3_7 Pin=R16-2
+Added Net: Name=NetDRIVER_L3_7
+Added Pin To Net: NetName=NetDRIVER_L3_8 Pin=DRIVER_L3-8
+Added Pin To Net: NetName=NetDRIVER_L3_8 Pin=R18-2
+Added Net: Name=NetDRIVER_L3_8
+Added Pin To Net: NetName=NetDRIVER_L3_10 Pin=DRIVER_L3-10
+Added Pin To Net: NetName=NetDRIVER_L3_10 Pin=R15-2
+Added Net: Name=NetDRIVER_L3_10
+Added Pin To Net: NetName=OUTA_BASE Pin=BASE-1
+Added Pin To Net: NetName=OUTA_BASE Pin=DRIVER_BASE-1
+Added Pin To Net: NetName=OUTA_BASE Pin=DRIVER_BASE-24
+Added Pin To Net: NetName=OUTA_BASE Pin=DRIVER_BASE-25
+Added Pin To Net: NetName=OUTA_BASE Pin=DRIVER_BASE-30
+Added Net: Name=OUTA_BASE
+Added Pin To Net: NetName=OUTA_G1 Pin=DRIVER_G1-1
+Added Pin To Net: NetName=OUTA_G1 Pin=DRIVER_G1-24
+Added Pin To Net: NetName=OUTA_G1 Pin=DRIVER_G1-25
+Added Pin To Net: NetName=OUTA_G1 Pin=DRIVER_G1-30
+Added Pin To Net: NetName=OUTA_G1 Pin=G1-1
+Added Net: Name=OUTA_G1
+Added Pin To Net: NetName=OUTA_G2 Pin=DRIVER_G2-1
+Added Pin To Net: NetName=OUTA_G2 Pin=DRIVER_G2-24
+Added Pin To Net: NetName=OUTA_G2 Pin=DRIVER_G2-25
+Added Pin To Net: NetName=OUTA_G2 Pin=DRIVER_G2-30
+Added Pin To Net: NetName=OUTA_G2 Pin=G2-1
+Added Net: Name=OUTA_G2
+Added Pin To Net: NetName=OUTA_L1 Pin=DRIVER_L1-1
+Added Pin To Net: NetName=OUTA_L1 Pin=DRIVER_L1-24
+Added Pin To Net: NetName=OUTA_L1 Pin=DRIVER_L1-25
+Added Pin To Net: NetName=OUTA_L1 Pin=DRIVER_L1-30
+Added Pin To Net: NetName=OUTA_L1 Pin=L1-1
+Added Net: Name=OUTA_L1
+Added Pin To Net: NetName=OUTA_L2 Pin=DRIVER_L2-1
+Added Pin To Net: NetName=OUTA_L2 Pin=DRIVER_L2-24
+Added Pin To Net: NetName=OUTA_L2 Pin=DRIVER_L2-25
+Added Pin To Net: NetName=OUTA_L2 Pin=DRIVER_L2-30
+Added Pin To Net: NetName=OUTA_L2 Pin=L2-1
+Added Net: Name=OUTA_L2
+Added Pin To Net: NetName=OUTA_L3 Pin=DRIVER_L3-1
+Added Pin To Net: NetName=OUTA_L3 Pin=DRIVER_L3-24
+Added Pin To Net: NetName=OUTA_L3 Pin=DRIVER_L3-25
+Added Pin To Net: NetName=OUTA_L3 Pin=DRIVER_L3-30
+Added Pin To Net: NetName=OUTA_L3 Pin=L3-1
+Added Net: Name=OUTA_L3
+Added Pin To Net: NetName=OUTB_BASE Pin=BASE-2
+Added Pin To Net: NetName=OUTB_BASE Pin=DRIVER_BASE-15
+Added Pin To Net: NetName=OUTB_BASE Pin=DRIVER_BASE-16
+Added Pin To Net: NetName=OUTB_BASE Pin=DRIVER_BASE-21
+Added Pin To Net: NetName=OUTB_BASE Pin=DRIVER_BASE-22
+Added Net: Name=OUTB_BASE
+Added Pin To Net: NetName=OUTB_G1 Pin=DRIVER_G1-15
+Added Pin To Net: NetName=OUTB_G1 Pin=DRIVER_G1-16
+Added Pin To Net: NetName=OUTB_G1 Pin=DRIVER_G1-21
+Added Pin To Net: NetName=OUTB_G1 Pin=DRIVER_G1-22
+Added Pin To Net: NetName=OUTB_G1 Pin=G1-2
+Added Net: Name=OUTB_G1
+Added Pin To Net: NetName=OUTB_G2 Pin=DRIVER_G2-15
+Added Pin To Net: NetName=OUTB_G2 Pin=DRIVER_G2-16
+Added Pin To Net: NetName=OUTB_G2 Pin=DRIVER_G2-21
+Added Pin To Net: NetName=OUTB_G2 Pin=DRIVER_G2-22
+Added Pin To Net: NetName=OUTB_G2 Pin=G2-2
+Added Net: Name=OUTB_G2
+Added Pin To Net: NetName=OUTB_L1 Pin=DRIVER_L1-15
+Added Pin To Net: NetName=OUTB_L1 Pin=DRIVER_L1-16
+Added Pin To Net: NetName=OUTB_L1 Pin=DRIVER_L1-21
+Added Pin To Net: NetName=OUTB_L1 Pin=DRIVER_L1-22
+Added Pin To Net: NetName=OUTB_L1 Pin=L1-2
+Added Net: Name=OUTB_L1
+Added Pin To Net: NetName=OUTB_L2 Pin=DRIVER_L2-15
+Added Pin To Net: NetName=OUTB_L2 Pin=DRIVER_L2-16
+Added Pin To Net: NetName=OUTB_L2 Pin=DRIVER_L2-21
+Added Pin To Net: NetName=OUTB_L2 Pin=DRIVER_L2-22
+Added Pin To Net: NetName=OUTB_L2 Pin=L2-2
+Added Net: Name=OUTB_L2
+Added Pin To Net: NetName=OUTB_L3 Pin=DRIVER_L3-15
+Added Pin To Net: NetName=OUTB_L3 Pin=DRIVER_L3-16
+Added Pin To Net: NetName=OUTB_L3 Pin=DRIVER_L3-21
+Added Pin To Net: NetName=OUTB_L3 Pin=DRIVER_L3-22
+Added Pin To Net: NetName=OUTB_L3 Pin=L3-2
+Added Net: Name=OUTB_L3
+Added Pin To Net: NetName=PWM_BASE Pin=R22-1
+Added Pin To Net: NetName=PWM_BASE Pin=R23-2
+Added Net: Name=PWM_BASE
+Added Pin To Net: NetName=PWM_G1 Pin=R28-1
+Added Pin To Net: NetName=PWM_G1 Pin=R29-2
+Added Net: Name=PWM_G1
+Added Pin To Net: NetName=PWM_G2 Pin=R34-1
+Added Pin To Net: NetName=PWM_G2 Pin=R35-2
+Added Net: Name=PWM_G2
+Added Pin To Net: NetName=PWM_L1 Pin=R4-1
+Added Pin To Net: NetName=PWM_L1 Pin=R5-2
+Added Net: Name=PWM_L1
+Added Pin To Net: NetName=PWM_L2 Pin=R10-1
+Added Pin To Net: NetName=PWM_L2 Pin=R11-2
+Added Net: Name=PWM_L2
+Added Pin To Net: NetName=PWM_L3 Pin=R16-1
+Added Pin To Net: NetName=PWM_L3 Pin=R17-2
+Added Net: Name=PWM_L3
+Added Net: Name=SCL
+Added Net: Name=SDA
+Added Pin To Net: NetName=V_BAT Pin=DRIVER_BASE-12
+Added Pin To Net: NetName=V_BAT Pin=DRIVER_G1-12
+Added Pin To Net: NetName=V_BAT Pin=DRIVER_G2-12
+Added Pin To Net: NetName=V_BAT Pin=DRIVER_L1-12
+Added Pin To Net: NetName=V_BAT Pin=DRIVER_L2-12
+Added Pin To Net: NetName=V_BAT Pin=DRIVER_L3-12
+Added Net: Name=V_BAT
+Added Pin To Net: NetName=VCC Pin=5V_REG-1
+Added Pin To Net: NetName=VCC Pin=C1-1
+Added Pin To Net: NetName=VCC Pin=C2-1
+Added Pin To Net: NetName=VCC Pin=C3-1
+Added Pin To Net: NetName=VCC Pin=C4-1
+Added Pin To Net: NetName=VCC Pin=C5-1
+Added Pin To Net: NetName=VCC Pin=C6-1
+Added Pin To Net: NetName=VCC Pin=C7-1
+Added Pin To Net: NetName=VCC Pin=C8-1
+Added Pin To Net: NetName=VCC Pin=C9-1
+Added Pin To Net: NetName=VCC Pin=C10-1
+Added Pin To Net: NetName=VCC Pin=C11-1
+Added Pin To Net: NetName=VCC Pin=C12-1
+Added Pin To Net: NetName=VCC Pin=DRIVER_BASE-2
+Added Pin To Net: NetName=VCC Pin=DRIVER_BASE-3
+Added Pin To Net: NetName=VCC Pin=DRIVER_BASE-13
+Added Pin To Net: NetName=VCC Pin=DRIVER_BASE-14
+Added Pin To Net: NetName=VCC Pin=DRIVER_BASE-23
+Added Pin To Net: NetName=VCC Pin=DRIVER_G1-2
+Added Pin To Net: NetName=VCC Pin=DRIVER_G1-3
+Added Pin To Net: NetName=VCC Pin=DRIVER_G1-13
+Added Pin To Net: NetName=VCC Pin=DRIVER_G1-14
+Added Pin To Net: NetName=VCC Pin=DRIVER_G1-23
+Added Pin To Net: NetName=VCC Pin=DRIVER_G2-2
+Added Pin To Net: NetName=VCC Pin=DRIVER_G2-3
+Added Pin To Net: NetName=VCC Pin=DRIVER_G2-13
+Added Pin To Net: NetName=VCC Pin=DRIVER_G2-14
+Added Pin To Net: NetName=VCC Pin=DRIVER_G2-23
+Added Pin To Net: NetName=VCC Pin=DRIVER_L1-2
+Added Pin To Net: NetName=VCC Pin=DRIVER_L1-3
+Added Pin To Net: NetName=VCC Pin=DRIVER_L1-13
+Added Pin To Net: NetName=VCC Pin=DRIVER_L1-14
+Added Pin To Net: NetName=VCC Pin=DRIVER_L1-23
+Added Pin To Net: NetName=VCC Pin=DRIVER_L2-2
+Added Pin To Net: NetName=VCC Pin=DRIVER_L2-3
+Added Pin To Net: NetName=VCC Pin=DRIVER_L2-13
+Added Pin To Net: NetName=VCC Pin=DRIVER_L2-14
+Added Pin To Net: NetName=VCC Pin=DRIVER_L2-23
+Added Pin To Net: NetName=VCC Pin=DRIVER_L3-2
+Added Pin To Net: NetName=VCC Pin=DRIVER_L3-3
+Added Pin To Net: NetName=VCC Pin=DRIVER_L3-13
+Added Pin To Net: NetName=VCC Pin=DRIVER_L3-14
+Added Pin To Net: NetName=VCC Pin=DRIVER_L3-23
+Added Net: Name=VCC
+Added Pin To Net: NetName=VDD Pin=R1-2
+Added Pin To Net: NetName=VDD Pin=R7-2
+Added Pin To Net: NetName=VDD Pin=R13-2
+Added Pin To Net: NetName=VDD Pin=R19-2
+Added Pin To Net: NetName=VDD Pin=R25-2
+Added Pin To Net: NetName=VDD Pin=R31-2
+Added Net: Name=VDD
+Added Pin To Net: NetName=WIPER_L1 Pin=L1-4
+Added Net: Name=WIPER_L1
+Added Pin To Net: NetName=WIPER_L2 Pin=L2-4
+Added Net: Name=WIPER_L2
+Added Pin To Net: NetName=WIPER_L3 Pin=L3-4
+Added Net: Name=WIPER_L3
+Added Class: Name=ArmBoard
+Added Room: Name=ArmBoard
