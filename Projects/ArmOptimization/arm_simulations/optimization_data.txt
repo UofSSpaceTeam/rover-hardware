@@ -1,0 +1,7 @@
+min rad = ~150mm
+
+max rad = ~1100mm
+
+Need to be check but goals:
+opt z = ~500mm
+opt r = ~500mm 	
