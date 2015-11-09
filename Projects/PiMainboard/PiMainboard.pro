@@ -1,4 +1,4 @@
-update=2015-11-06 12:53:43 AM
+update=11/8/2015 8:50:01 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../Parts/library
@@ -70,3 +68,5 @@ LibName38=w_relay
 LibName39=w_rtx
 LibName40=w_transistor
 LibName41=w_vacuum
+[general]
+version=1
