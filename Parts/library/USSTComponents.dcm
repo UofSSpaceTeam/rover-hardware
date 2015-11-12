@@ -18,6 +18,12 @@ K MCU, Atmel, CAN
 F http://www.atmel.com/Images/doc8209.pdf
 $ENDCMP
 #
+$CMP HPCE_40-24
+D High Power Card Edge Connetor
+K Card Edge, Slot, FCI
+F http://www.fci.com/en/products/power-solutions/cardedge-power-connectors/high-power-card-edge/hpce-high-power-card-edge-connector.html
+$ENDCMP
+#
 $CMP ISP_Header
 D ISP/Debugwire Header
 K Atmel, SPI

@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Austin\Documents\GitHub\rover-electrical\Projects\DriveController\DriveControllerLogic.sch</source>
+    <date>2015-11-12 2:21:15 AM</date>
+    <tool>Eeschema 4.0.0-rc1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>BLDC Control Stage</title>
+        <company>University of Saskatchewan Space Design Team</company>
+        <rev>1</rev>
+        <date>2015-11-11</date>
+        <source>DriveControllerLogic.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/DriveControllerPower/" tstamps="/56465186/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>DriveControllerPower.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>MCP2562</value>
+      <libsource lib="USSTComponents" part="MCP2562"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5642F2AB</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>ATA6844</value>
+      <libsource lib="USSTComponents" part="ATA6844"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5643AD47</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>ACS710</value>
+      <libsource lib="USSTComponents" part="ACS710"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5643B482</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5643D086</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ATMega32M1</value>
+      <libsource lib="USSTComponents" part="ATMega32M1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5642EF23</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10nF</value>
+      <libsource lib="w_device" part="cap_np"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564401F1</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <libsource lib="w_device" part="cap_np"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56440245</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>10uH</value>
+      <libsource lib="device" part="L_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5644029E</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>10nF</value>
+      <libsource lib="w_device" part="cap_np"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56440BB1</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED_PWR</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5644165A</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED_STAT</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564417AB</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56441914</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56441953</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56444C3B</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED_COAST</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56444C91</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>2.2uF</value>
+      <libsource lib="w_device" part="cap_np"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56447F05</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>470nF</value>
+      <libsource lib="w_device" part="cap_np"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564496A1</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <libsource lib="w_device" part="cap_np"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564496F8</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <libsource lib="w_device" part="cap_np"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56449747</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <libsource lib="w_device" part="cap_np"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56449B2B</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>470nF</value>
+      <libsource lib="w_device" part="cap_np"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56449B88</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>0 (J)</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5644EAB6</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>220pF</value>
+      <libsource lib="w_device" part="cap_np"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56451189</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5645121C</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>33k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5645167C</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>220nF</value>
+      <fields>
+        <field name="Note">ESR:2-15</field>
+      </fields>
+      <libsource lib="w_device" part="cap_np"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564520B1</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56458686</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>100k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56458BDF</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>47k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56458C3A</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1nF</value>
+      <libsource lib="w_device" part="cap_np"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564591A4</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>1nF</value>
+      <libsource lib="w_device" part="cap_np"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564592F7</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100nF</value>
+      <libsource lib="w_device" part="cap_np"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5645AF5B</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED_IOK</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5645E262</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>1k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5645E5E5</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5644B2ED</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>10k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5644B3E0</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5644BF9C</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED_CAN</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5647E964</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>1k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5647EA58</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>ISP_Header</value>
+      <libsource lib="USSTComponents" part="ISP_Header"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56484A9C</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>HPCE_40-24</value>
+      <footprint>MODULE</footprint>
+      <datasheet>DOCUMENTATION</datasheet>
+      <fields>
+        <field name="Part">FCI 10124393-001LF</field>
+      </fields>
+      <libsource lib="USSTComponents" part="HPCE_40-24"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56447F0D</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>PSMN1R0</value>
+      <libsource lib="USSTComponents" part="PSMN1R0"/>
+      <sheetpath names="/DriveControllerPower/" tstamps="/56465186/"/>
+      <tstamp>5648A4E7</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>PSMN1R0</value>
+      <libsource lib="USSTComponents" part="PSMN1R0"/>
+      <sheetpath names="/DriveControllerPower/" tstamps="/56465186/"/>
+      <tstamp>5648A8DE</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>PSMN1R0</value>
+      <libsource lib="USSTComponents" part="PSMN1R0"/>
+      <sheetpath names="/DriveControllerPower/" tstamps="/56465186/"/>
+      <tstamp>5648A943</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>PSMN1R0</value>
+      <libsource lib="USSTComponents" part="PSMN1R0"/>
+      <sheetpath names="/DriveControllerPower/" tstamps="/56465186/"/>
+      <tstamp>5648AA0E</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>PSMN1R0</value>
+      <libsource lib="USSTComponents" part="PSMN1R0"/>
+      <sheetpath names="/DriveControllerPower/" tstamps="/56465186/"/>
+      <tstamp>5648AA60</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>PSMN1R0</value>
+      <libsource lib="USSTComponents" part="PSMN1R0"/>
+      <sheetpath names="/DriveControllerPower/" tstamps="/56465186/"/>
+      <tstamp>5648AABE</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>10nF</value>
+      <libsource lib="w_device" part="cap_np"/>
+      <sheetpath names="/DriveControllerPower/" tstamps="/56465186/"/>
+      <tstamp>564443BC</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/DriveControllerPower/" tstamps="/56465186/"/>
+      <tstamp>5644441E</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>10nF</value>
+      <libsource lib="w_device" part="cap_np"/>
+      <sheetpath names="/DriveControllerPower/" tstamps="/56465186/"/>
+      <tstamp>5644485A</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/DriveControllerPower/" tstamps="/56465186/"/>
+      <tstamp>564448BD</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>10nF</value>
+      <libsource lib="w_device" part="cap_np"/>
+      <sheetpath names="/DriveControllerPower/" tstamps="/56465186/"/>
+      <tstamp>56447E9B</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/DriveControllerPower/" tstamps="/56465186/"/>
+      <tstamp>56447F88</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>10nF</value>
+      <libsource lib="w_device" part="cap_np"/>
+      <sheetpath names="/DriveControllerPower/" tstamps="/56465186/"/>
+      <tstamp>56447FE6</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/DriveControllerPower/" tstamps="/56465186/"/>
+      <tstamp>5644803B</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>10nF</value>
+      <libsource lib="w_device" part="cap_np"/>
+      <sheetpath names="/DriveControllerPower/" tstamps="/56465186/"/>
+      <tstamp>56448093</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/DriveControllerPower/" tstamps="/56465186/"/>
+      <tstamp>564480EA</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>10nF</value>
+      <libsource lib="w_device" part="cap_np"/>
+      <sheetpath names="/DriveControllerPower/" tstamps="/56465186/"/>
+      <tstamp>56448148</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>10</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/DriveControllerPower/" tstamps="/56465186/"/>
+      <tstamp>564481AB</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>BAS16</value>
+      <libsource lib="w_device" part="DIODE"/>
+      <sheetpath names="/DriveControllerPower/" tstamps="/56465186/"/>
+      <tstamp>5645751A</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>100k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/DriveControllerPower/" tstamps="/56465186/"/>
+      <tstamp>564586E9</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>BC817-40</value>
+      <libsource lib="w_transistor" part="NPN"/>
+      <sheetpath names="/DriveControllerPower/" tstamps="/56465186/"/>
+      <tstamp>564588CC</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>10k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/DriveControllerPower/" tstamps="/56465186/"/>
+      <tstamp>564597FE</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>PSMN1R0</value>
+      <libsource lib="USSTComponents" part="PSMN1R0"/>
+      <sheetpath names="/DriveControllerPower/" tstamps="/56465186/"/>
+      <tstamp>5645AF5E</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>10k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/DriveControllerPower/" tstamps="/56465186/"/>
+      <tstamp>5645B3CF</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>BAS16</value>
+      <libsource lib="w_device" part="DIODE"/>
+      <sheetpath names="/DriveControllerPower/" tstamps="/56465186/"/>
+      <tstamp>5645BC11</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>220uF</value>
+      <libsource lib="w_device" part="cap"/>
+      <sheetpath names="/DriveControllerPower/" tstamps="/56465186/"/>
+      <tstamp>5645C3A7</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>220uF</value>
+      <libsource lib="w_device" part="cap"/>
+      <sheetpath names="/DriveControllerPower/" tstamps="/56465186/"/>
+      <tstamp>5645C404</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>22uF</value>
+      <libsource lib="w_device" part="cap"/>
+      <sheetpath names="/DriveControllerPower/" tstamps="/56465186/"/>
+      <tstamp>564601B7</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>100nF</value>
+      <libsource lib="w_device" part="cap_np"/>
+      <sheetpath names="/DriveControllerPower/" tstamps="/56465186/"/>
+      <tstamp>564603C1</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="w_transistor" part="NPN">
+      <description>BJT NPN, generic footprint</description>
+      <docs>/home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Discreti/Transistor/BJT/NPN/*.*</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">NPN</field>
+      </fields>
+      <pins>
+        <pin num="B" name="B" type="input"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="E" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="w_device" part="C">
+      <aliases>
+        <alias>cap_np</alias>
+      </aliases>
+      <description>Capacitor non pol</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="w_device" part="DIODE">
+      <description>Diode simple</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="w_device" part="cap">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">cap</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="USSTComponents" part="PSMN1R0">
+      <description>NXP PSMN1R0</description>
+      <docs>http://www.mouser.com/ds/2/302/PSMN1R0-40YLD-368767.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">PSMN1R0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="USSTComponents" part="HPCE_40-24">
+      <description>High Power Card Edge Connetor</description>
+      <docs>http://www.fci.com/en/products/power-solutions/cardedge-power-connectors/high-power-card-edge/hpce-high-power-card-edge-connector.html</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HPCE_40-24</field>
+        <field name="Footprint">MODULE</field>
+        <field name="Datasheet">DOCUMENTATION</field>
+        <field name="Part">FCI 10124393-001LF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="input"/>
+        <pin num="2" name="P2" type="input"/>
+        <pin num="3" name="P3" type="input"/>
+        <pin num="4" name="P4" type="input"/>
+        <pin num="5" name="P5" type="input"/>
+        <pin num="6" name="P6" type="input"/>
+        <pin num="7" name="P7" type="input"/>
+        <pin num="8" name="P8" type="input"/>
+        <pin num="9" name="P9" type="input"/>
+        <pin num="10" name="P10" type="input"/>
+        <pin num="11" name="P11" type="input"/>
+        <pin num="12" name="P12" type="input"/>
+        <pin num="13" name="P13" type="input"/>
+        <pin num="14" name="P14" type="input"/>
+        <pin num="15" name="P15" type="input"/>
+        <pin num="16" name="P16" type="input"/>
+        <pin num="17" name="P17" type="input"/>
+        <pin num="18" name="P18" type="input"/>
+        <pin num="19" name="P19" type="input"/>
+        <pin num="20" name="P20" type="input"/>
+        <pin num="21" name="P21" type="input"/>
+        <pin num="22" name="P22" type="input"/>
+        <pin num="23" name="P23" type="input"/>
+        <pin num="24" name="P24" type="input"/>
+        <pin num="25" name="P25" type="input"/>
+        <pin num="26" name="P26" type="input"/>
+        <pin num="27" name="P27" type="input"/>
+        <pin num="28" name="P28" type="input"/>
+        <pin num="29" name="P29" type="input"/>
+        <pin num="30" name="P30" type="input"/>
+        <pin num="31" name="P31" type="input"/>
+        <pin num="32" name="P32" type="input"/>
+        <pin num="33" name="P33" type="input"/>
+        <pin num="34" name="P34" type="input"/>
+        <pin num="35" name="P35" type="input"/>
+        <pin num="36" name="P36" type="input"/>
+        <pin num="37" name="P37" type="input"/>
+        <pin num="38" name="P38" type="input"/>
+        <pin num="39" name="P39" type="input"/>
+        <pin num="40" name="P40" type="input"/>
+        <pin num="41" name="S1" type="input"/>
+        <pin num="42" name="S2" type="input"/>
+        <pin num="43" name="S3" type="input"/>
+        <pin num="44" name="S4" type="input"/>
+        <pin num="45" name="S5" type="input"/>
+        <pin num="46" name="S6" type="input"/>
+        <pin num="47" name="S6" type="input"/>
+        <pin num="48" name="S8" type="input"/>
+        <pin num="49" name="S9" type="input"/>
+        <pin num="50" name="S10" type="input"/>
+        <pin num="51" name="S11" type="input"/>
+        <pin num="52" name="S12" type="input"/>
+        <pin num="53" name="S13" type="input"/>
+        <pin num="54" name="S14" type="input"/>
+        <pin num="55" name="S15" type="input"/>
+        <pin num="56" name="S16" type="input"/>
+        <pin num="57" name="S17" type="input"/>
+        <pin num="58" name="S18" type="input"/>
+        <pin num="59" name="S19" type="input"/>
+        <pin num="60" name="S20" type="input"/>
+        <pin num="61" name="S21" type="input"/>
+        <pin num="62" name="S22" type="input"/>
+        <pin num="63" name="S23" type="input"/>
+        <pin num="64" name="S24" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="USSTComponents" part="ATA6844">
+      <description>AT6844 BLDC Driver</description>
+      <docs>http://www.atmel.com/Images/Atmel-9189-Drivers-ATA6843-ATA6844_Datasheet.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATA6844</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VMODE" type="input"/>
+        <pin num="2" name="VINT" type="BiDi"/>
+        <pin num="3" name="RWD" type="input"/>
+        <pin num="4" name="CC" type="BiDi"/>
+        <pin num="5" name="NRESET" type="output"/>
+        <pin num="6" name="WD" type="input"/>
+        <pin num="7" name="WDEN" type="input"/>
+        <pin num="8" name="SLEEP" type="input"/>
+        <pin num="9" name="SCREF" type="input"/>
+        <pin num="10" name="NC" type="NotConnected"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="LINGND" type="power_in"/>
+        <pin num="13" name="LIN" type="BiDi"/>
+        <pin num="14" name="NC" type="NotConnected"/>
+        <pin num="15" name="TXD" type="input"/>
+        <pin num="16" name="IL3" type="input"/>
+        <pin num="17" name="IH3" type="input"/>
+        <pin num="18" name="IL2" type="input"/>
+        <pin num="19" name="IH2" type="input"/>
+        <pin num="20" name="IL1" type="input"/>
+        <pin num="21" name="IH1" type="input"/>
+        <pin num="22" name="RXD" type="output"/>
+        <pin num="23" name="DG1" type="output"/>
+        <pin num="24" name="DG2" type="output"/>
+        <pin num="25" name="DG3" type="output"/>
+        <pin num="26" name="H3" type="output"/>
+        <pin num="27" name="S3" type="BiDi"/>
+        <pin num="28" name="H2" type="output"/>
+        <pin num="29" name="S2" type="BiDi"/>
+        <pin num="30" name="H1" type="output"/>
+        <pin num="31" name="S1" type="output"/>
+        <pin num="32" name="CPOUT" type="BiDi"/>
+        <pin num="33" name="CPHI2" type="input"/>
+        <pin num="34" name="CPLO2" type="output"/>
+        <pin num="35" name="CPHI1" type="input"/>
+        <pin num="36" name="CPLO1" type="output"/>
+        <pin num="37" name="NC" type="NotConnected"/>
+        <pin num="38" name="PBAT" type="power_in"/>
+        <pin num="39" name="VG" type="BiDi"/>
+        <pin num="40" name="L1" type="output"/>
+        <pin num="41" name="L2" type="output"/>
+        <pin num="42" name="L3" type="output"/>
+        <pin num="43" name="PGND" type="power_in"/>
+        <pin num="44" name="VCC" type="power_out"/>
+        <pin num="45" name="NC" type="NotConnected"/>
+        <pin num="46" name="VBAT" type="power_in"/>
+        <pin num="47" name="EN" type="input"/>
+        <pin num="48" name="CST" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="USSTComponents" part="ATMega32M1">
+      <description>ATMega32M1 MCU</description>
+      <docs>http://www.atmel.com/Images/doc8209.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATMega32M1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PD2" type="BiDi"/>
+        <pin num="2" name="PD3" type="BiDi"/>
+        <pin num="3" name="PC1" type="input"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="PC2" type="BiDi"/>
+        <pin num="7" name="PC3" type="BiDi"/>
+        <pin num="8" name="PB0" type="BiDi"/>
+        <pin num="9" name="PB1" type="BiDi"/>
+        <pin num="10" name="PE1" type="BiDi"/>
+        <pin num="11" name="PE2" type="BiDi"/>
+        <pin num="12" name="PD4" type="BiDi"/>
+        <pin num="13" name="PD5" type="BiDi"/>
+        <pin num="14" name="PD6" type="BiDi"/>
+        <pin num="15" name="PD7" type="BiDi"/>
+        <pin num="16" name="PB2" type="BiDi"/>
+        <pin num="17" name="PC4" type="BiDi"/>
+        <pin num="18" name="PC5" type="BiDi"/>
+        <pin num="19" name="AVCC" type="power_in"/>
+        <pin num="20" name="AGND" type="power_in"/>
+        <pin num="21" name="AREF" type="input"/>
+        <pin num="22" name="PC6" type="BiDi"/>
+        <pin num="23" name="PB3" type="BiDi"/>
+        <pin num="24" name="PB4" type="BiDi"/>
+        <pin num="25" name="PC7" type="BiDi"/>
+        <pin num="26" name="PB5" type="BiDi"/>
+        <pin num="27" name="PB6" type="BiDi"/>
+        <pin num="28" name="PB7" type="BiDi"/>
+        <pin num="29" name="PD0" type="BiDi"/>
+        <pin num="30" name="PC0" type="BiDi"/>
+        <pin num="31" name="PE0" type="BiDi"/>
+        <pin num="32" name="PD1" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="USSTComponents" part="MCP2562">
+      <description>CAN Bus Transciever</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20005167C.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP2562</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VDD" type="power_in"/>
+        <pin num="4" name="RXD" type="input"/>
+        <pin num="5" name="VIO" type="power_in"/>
+        <pin num="6" name="CANL" type="BiDi"/>
+        <pin num="7" name="CANH" type="BiDi"/>
+        <pin num="8" name="STBY" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="USSTComponents" part="ACS710">
+      <description>Allegro ACS710</description>
+      <docs>http://www.allegromicro.com/~/media/Files/Datasheets/ACS710-Datasheet.ashx?la=en</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ACS710</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IP+" type="passive"/>
+        <pin num="2" name="IP+" type="passive"/>
+        <pin num="3" name="IP+" type="passive"/>
+        <pin num="4" name="IP+" type="input"/>
+        <pin num="5" name="IP-" type="output"/>
+        <pin num="6" name="IP-" type="passive"/>
+        <pin num="7" name="IP-" type="passive"/>
+        <pin num="8" name="IP-" type="passive"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="VZCR" type="output"/>
+        <pin num="11" name="FILTER" type="output"/>
+        <pin num="12" name="VIOUT" type="output"/>
+        <pin num="13" name="NFAULT" type="output"/>
+        <pin num="14" name="VCC" type="power_in"/>
+        <pin num="15" name="VOC" type="output"/>
+        <pin num="16" name="FAULT_EN" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="L_Small">
+      <description>Inductor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="USSTComponents" part="ISP_Header">
+      <description>ISP/Debugwire Header</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">ISP_Header</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MISO" type="input"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="SCK" type="input"/>
+        <pin num="4" name="MOSI" type="output"/>
+        <pin num="5" name="NRES" type="passive"/>
+        <pin num="6" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="USSTComponents">
+      <uri>C:\Users\Austin\Documents\GitHub\rover-electrical\Parts\library\USSTComponents.lib</uri>
+    </library>
+    <library logical="w_device">
+      <uri>C:\Users\Austin\Documents\GitHub\rover-electrical\Parts\library\w_device.lib</uri>
+    </library>
+    <library logical="w_transistor">
+      <uri>C:\Users\Austin\Documents\GitHub\rover-electrical\Parts\library\w_transistor.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2"/>
+      <node ref="U3" pin="35"/>
+    </net>
+    <net code="2" name="/DriveControllerPower/PBAT">
+      <node ref="Q2" pin="2"/>
+      <node ref="R17" pin="1"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="C24" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="U3" pin="38"/>
+      <node ref="R15" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="3" name="Net-(C6-Pad1)">
+      <node ref="U3" pin="36"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="4" name="Net-(C7-Pad1)">
+      <node ref="U3" pin="34"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="5" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2"/>
+      <node ref="U3" pin="33"/>
+    </net>
+    <net code="6" name="/DriveControllerPower/CPOUT">
+      <node ref="R23" pin="1"/>
+      <node ref="U3" pin="32"/>
+      <node ref="C8" pin="2"/>
+    </net>
+    <net code="7" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2"/>
+      <node ref="U3" pin="39"/>
+    </net>
+    <net code="8" name="/IFL_EN">
+      <node ref="U4" pin="16"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="9" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="U4" pin="15"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="10" name="Net-(C12-Pad1)">
+      <node ref="U4" pin="11"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="11" name="Net-(R8-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="12" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="13" name="Net-(C9-Pad1)">
+      <node ref="C9" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="14" name="/5V0">
+      <node ref="R1" pin="1"/>
+      <node ref="U3" pin="44"/>
+      <node ref="U4" pin="14"/>
+      <node ref="J2" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="R20" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="J1" pin="58"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C14" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="J1" pin="59"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="15" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="16" name="Net-(C10-Pad1)">
+      <node ref="U3" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="17" name="/DriveControllerPower/POUT">
+      <node ref="Q6" pin="3"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="C20" pin="2"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="18" name="/SCREF">
+      <node ref="U1" pin="25"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="19" name="/MISO">
+      <node ref="J2" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="J1" pin="63"/>
+    </net>
+    <net code="20" name="/MOSI">
+      <node ref="U1" pin="2"/>
+      <node ref="J1" pin="64"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="21" name="/NRESET">
+      <node ref="U3" pin="5"/>
+      <node ref="J2" pin="5"/>
+      <node ref="J1" pin="61"/>
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="22" name="/SLEEP">
+      <node ref="U1" pin="32"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="23" name="/STAT_LED">
+      <node ref="D3" pin="2"/>
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="24" name="/NCOAST">
+      <node ref="U3" pin="48"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="25" name="/RXCAN">
+      <node ref="U2" pin="4"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="26" name="/DriveControllerPower/H3">
+      <node ref="J1" pin="45"/>
+      <node ref="J1" pin="46"/>
+      <node ref="U3" pin="26"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="27" name="/DriveControllerPower/H2">
+      <node ref="U3" pin="28"/>
+      <node ref="J1" pin="43"/>
+      <node ref="J1" pin="44"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="28" name="/DriveControllerPower/H1">
+      <node ref="J1" pin="41"/>
+      <node ref="J1" pin="42"/>
+      <node ref="U3" pin="30"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="29" name="/VCAN">
+      <node ref="U2" pin="3"/>
+      <node ref="J1" pin="54"/>
+      <node ref="J1" pin="53"/>
+    </net>
+    <net code="30" name="/TXCAN">
+      <node ref="U1" pin="6"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="31" name="/I_OK">
+      <node ref="U4" pin="13"/>
+      <node ref="D4" pin="2"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="32" name="/IH3">
+      <node ref="U3" pin="17"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="33" name="/ISENSEP">
+      <node ref="U1" pin="18"/>
+      <node ref="U4" pin="12"/>
+    </net>
+    <net code="34" name="/DG1">
+      <node ref="U3" pin="23"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="35" name="/ISENSEN">
+      <node ref="U4" pin="10"/>
+      <node ref="U1" pin="17"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="36" name="/STATCAN">
+      <node ref="D7" pin="2"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="37" name="Net-(C2-Pad1)">
+      <node ref="U1" pin="21"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="38" name="/LGND">
+      <node ref="J2" pin="6"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="J1" pin="55"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J1" pin="57"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U3" pin="12"/>
+      <node ref="J1" pin="56"/>
+      <node ref="J1" pin="47"/>
+      <node ref="C12" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R24" pin="2"/>
+      <node ref="J1" pin="48"/>
+      <node ref="U2" pin="8"/>
+      <node ref="R10" pin="2"/>
+      <node ref="J1" pin="60"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U3" pin="10"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U4" pin="9"/>
+      <node ref="U3" pin="11"/>
+      <node ref="C3" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="20"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C13" pin="2"/>
+    </net>
+    <net code="39" name="Net-(U3-Pad13)">
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="40" name="Net-(U3-Pad15)">
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="41" name="Net-(U3-Pad22)">
+      <node ref="U3" pin="22"/>
+    </net>
+    <net code="42" name="/HA1">
+      <node ref="U1" pin="22"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="43" name="/HA2">
+      <node ref="U1" pin="15"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="44" name="Net-(C1-Pad1)">
+      <node ref="U1" pin="19"/>
+      <node ref="C1" pin="1"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="45" name="/HA3">
+      <node ref="U1" pin="13"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="46" name="/DriveControllerPower/VSUPPLY">
+      <node ref="J1" pin="2"/>
+      <node ref="J1" pin="37"/>
+      <node ref="Q7" pin="3"/>
+      <node ref="J1" pin="38"/>
+      <node ref="J1" pin="40"/>
+      <node ref="J1" pin="39"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J1" pin="1"/>
+      <node ref="D5" pin="2"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="47" name="/DriveControllerPower/W">
+      <node ref="J1" pin="20"/>
+      <node ref="J1" pin="18"/>
+      <node ref="J1" pin="21"/>
+      <node ref="J1" pin="22"/>
+      <node ref="J1" pin="17"/>
+      <node ref="J1" pin="24"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="J1" pin="19"/>
+      <node ref="R16" pin="1"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="J1" pin="23"/>
+      <node ref="U3" pin="27"/>
+      <node ref="C19" pin="2"/>
+    </net>
+    <net code="48" name="/DriveControllerPower/V">
+      <node ref="J1" pin="26"/>
+      <node ref="J1" pin="16"/>
+      <node ref="J1" pin="14"/>
+      <node ref="J1" pin="27"/>
+      <node ref="J1" pin="13"/>
+      <node ref="J1" pin="28"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="U3" pin="29"/>
+      <node ref="J1" pin="25"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="R14" pin="1"/>
+      <node ref="C18" pin="2"/>
+      <node ref="J1" pin="15"/>
+    </net>
+    <net code="49" name="/DriveControllerPower/U">
+      <node ref="J1" pin="10"/>
+      <node ref="J1" pin="29"/>
+      <node ref="R12" pin="1"/>
+      <node ref="J1" pin="9"/>
+      <node ref="C16" pin="2"/>
+      <node ref="J1" pin="11"/>
+      <node ref="J1" pin="30"/>
+      <node ref="J1" pin="12"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="J1" pin="31"/>
+      <node ref="U3" pin="31"/>
+      <node ref="J1" pin="32"/>
+    </net>
+    <net code="50" name="/IH2">
+      <node ref="U1" pin="30"/>
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="51" name="/IL3">
+      <node ref="U1" pin="9"/>
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="52" name="/WD">
+      <node ref="U1" pin="10"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="53" name="/SCK">
+      <node ref="J1" pin="62"/>
+      <node ref="J2" pin="3"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="54" name="/DG2">
+      <node ref="U1" pin="14"/>
+      <node ref="U3" pin="24"/>
+    </net>
+    <net code="55" name="/DG3">
+      <node ref="U3" pin="25"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="56" name="/DriveControllerPower/PGND">
+      <node ref="C21" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="R22" pin="2"/>
+      <node ref="U3" pin="43"/>
+      <node ref="U3" pin="14"/>
+      <node ref="U3" pin="45"/>
+      <node ref="U3" pin="37"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U4" pin="6"/>
+      <node ref="U4" pin="7"/>
+      <node ref="U4" pin="8"/>
+      <node ref="C5" pin="1"/>
+      <node ref="J1" pin="33"/>
+      <node ref="J1" pin="34"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J1" pin="7"/>
+      <node ref="J1" pin="8"/>
+      <node ref="J1" pin="36"/>
+      <node ref="J1" pin="35"/>
+    </net>
+    <net code="57" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="58" name="/DriveControllerPower/VBAT">
+      <node ref="C22" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="D6" pin="2"/>
+      <node ref="U3" pin="47"/>
+      <node ref="U3" pin="46"/>
+    </net>
+    <net code="59" name="/DriveControllerPower/L3">
+      <node ref="Q6" pin="1"/>
+      <node ref="U3" pin="42"/>
+    </net>
+    <net code="60" name="/DriveControllerPower/L2">
+      <node ref="Q5" pin="1"/>
+      <node ref="U3" pin="41"/>
+    </net>
+    <net code="61" name="/DriveControllerPower/L1">
+      <node ref="U3" pin="40"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="62" name="/IH1">
+      <node ref="U3" pin="21"/>
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="63" name="Net-(D1-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="64" name="Net-(D3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="65" name="/IL2">
+      <node ref="U1" pin="27"/>
+      <node ref="U3" pin="18"/>
+    </net>
+    <net code="66" name="/IL1">
+      <node ref="U1" pin="28"/>
+      <node ref="U3" pin="20"/>
+    </net>
+    <net code="67" name="/CANL">
+      <node ref="J1" pin="52"/>
+      <node ref="U2" pin="6"/>
+      <node ref="J1" pin="51"/>
+    </net>
+    <net code="68" name="/CANH">
+      <node ref="J1" pin="49"/>
+      <node ref="U2" pin="7"/>
+      <node ref="J1" pin="50"/>
+    </net>
+    <net code="69" name="Net-(D7-Pad1)">
+      <node ref="R24" pin="1"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="70" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="71" name="Net-(C19-Pad1)">
+      <node ref="R17" pin="2"/>
+      <node ref="C19" pin="1"/>
+    </net>
+    <net code="72" name="Net-(C20-Pad1)">
+      <node ref="R16" pin="2"/>
+      <node ref="C20" pin="1"/>
+    </net>
+    <net code="73" name="Net-(C18-Pad1)">
+      <node ref="R15" pin="2"/>
+      <node ref="C18" pin="1"/>
+    </net>
+    <net code="74" name="Net-(C17-Pad1)">
+      <node ref="R14" pin="2"/>
+      <node ref="C17" pin="1"/>
+    </net>
+    <net code="75" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="76" name="Net-(C16-Pad1)">
+      <node ref="C16" pin="1"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="77" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="Q8" pin="E"/>
+    </net>
+    <net code="78" name="Net-(Q8-PadB)">
+      <node ref="Q8" pin="B"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="79" name="Net-(Q7-Pad1)">
+      <node ref="R23" pin="2"/>
+      <node ref="Q7" pin="1"/>
+      <node ref="Q8" pin="C"/>
+      <node ref="R21" pin="2"/>
+    </net>
+  </nets>
+</export>
