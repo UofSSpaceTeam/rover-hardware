@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MOS_N_GDS
+D N channel MOSFET, GDS footprint
+$ENDCMP
+#
+#End Doc Library

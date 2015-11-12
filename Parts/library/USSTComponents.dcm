@@ -1,9 +1,44 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ACS710
+D Allegro ACS710
+K Current Sensor, Hall Effect
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS710-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ATA6844
+D AT6844 BLDC Driver
+K BLDC, Atmel, LIN
+F http://www.atmel.com/Images/Atmel-9189-Drivers-ATA6843-ATA6844_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATMega32M1
+D ATMega32M1 MCU
+K MCU, Atmel, CAN
+F http://www.atmel.com/Images/doc8209.pdf
+$ENDCMP
+#
+$CMP ISP_Header
+D ISP/Debugwire Header
+K Atmel, SPI
+$ENDCMP
+#
+$CMP MCP2562
+D CAN Bus Transciever
+K CAN, Microchip
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005167C.pdf
+$ENDCMP
+#
 $CMP PI-COMPUTE
 D Pi Compute Module IO Connector
 K Pi, Raspberry Pi, SODIMM
 F https://www.raspberrypi.org/documentation/hardware/computemodule/RPI-CM-V1_1-SCHEMATIC.pdf
+$ENDCMP
+#
+$CMP PSMN1R0
+D NXP PSMN1R0
+K N-Channel MOSFET
+F http://www.mouser.com/ds/2/302/PSMN1R0-40YLD-368767.pdf
 $ENDCMP
 #
 #End Doc Library
