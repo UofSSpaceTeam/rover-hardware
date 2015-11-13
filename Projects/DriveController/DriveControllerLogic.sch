@@ -168,11 +168,11 @@ SCK
 Text Label 4950 2150 0    60   ~ 0
 ISENSEP
 Text Label 4250 3200 0    60   ~ 0
-HA3
+H3
 Text Label 4450 3200 0    60   ~ 0
-HA2
+H2
 Text Label 5550 1750 0    60   ~ 0
-HA1
+H1
 Text Label 3150 1750 0    60   ~ 0
 DG1
 Text Label 4350 2850 1    60   ~ 0
