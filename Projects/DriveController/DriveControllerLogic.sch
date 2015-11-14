@@ -168,11 +168,11 @@ SCK
 Text Label 4950 2150 0    60   ~ 0
 ISENSEP
 Text Label 4250 3200 0    60   ~ 0
-H3
+HA1
 Text Label 4450 3200 0    60   ~ 0
-H2
+HA2
 Text Label 5550 1750 0    60   ~ 0
-H1
+HA3
 Text Label 3150 1750 0    60   ~ 0
 DG1
 Text Label 4350 2850 1    60   ~ 0
@@ -512,8 +512,6 @@ F 4 "ESR:2-15" H 6450 2950 60  0001 C CNN "Note"
 	1    6450 2950
 	1    0    0    -1  
 $EndComp
-Text Label 4500 4300 0    60   ~ 0
-I_OK
 Text Label 4500 4400 0    60   ~ 0
 ISENSEP
 Text Label 4500 4600 0    60   ~ 0
@@ -792,11 +790,11 @@ CANL
 Text Label 5150 7250 0    60   ~ 0
 CANH
 Text Label 4750 7150 0    60   ~ 0
-H3
+HA3
 Text Label 4550 7150 0    60   ~ 0
-H2
+HA2
 Text Label 4350 7150 0    60   ~ 0
-H1
+HA1
 Wire Wire Line
 	700  1850 1100 1850
 Wire Wire Line
@@ -1101,8 +1099,6 @@ Connection ~ 7650 2600
 Wire Wire Line
 	6450 3050 6450 3600
 Connection ~ 6800 3600
-Wire Wire Line
-	4450 4300 4700 4300
 Wire Wire Line
 	4450 4400 4700 4400
 Wire Wire Line
@@ -1489,4 +1485,5 @@ F 4 "FCI 10124393-001LF" H 3550 6250 60  0000 C CNN "Part"
 	1    3900 6300
 	1    0    0    -1  
 $EndComp
+NoConn ~ 4450 4300
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=11/12/2015 2:17:09 PM
+update=2015-11-14 11:59:31 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -70,3 +70,13 @@ LibName38=w_relay
 LibName39=w_rtx
 LibName40=w_transistor
 LibName41=w_vacuum
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
