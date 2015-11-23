@@ -20,3 +20,4 @@
 # Autorouter files (exported from Pcbnew)
 .dsn
 
+*.kicad_pcb_old
