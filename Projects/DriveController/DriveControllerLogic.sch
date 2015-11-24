@@ -304,30 +304,6 @@ Text Label 1850 4450 0    60   ~ 0
 LGND
 Text Notes 1950 3000 0    60   ~ 0
 Status LEDs
-$Comp
-L R R4
-U 1 1 56444C3B
-P 1150 3900
-F 0 "R4" V 1230 3900 50  0000 C CNN
-F 1 "1k" V 1150 3900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 1080 3900 30  0001 C CNN
-F 3 "" H 1150 3900 30  0000 C CNN
-	1    1150 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D2
-U 1 1 56444C91
-P 1150 3550
-F 0 "D2" H 1150 3650 50  0000 C CNN
-F 1 "LED_COAST" H 1150 3450 50  0000 C CNN
-F 2 "LEDs:LED-0805" H 1150 3550 60  0001 C CNN
-F 3 "" H 1150 3550 60  0000 C CNN
-	1    1150 3550
-	0    -1   -1   0   
-$EndComp
-Text Label 1150 4250 0    60   ~ 0
-NCOAST
 Text Label 8150 1750 3    60   ~ 0
 NCOAST
 Text Label 8300 1950 1    60   ~ 0
@@ -588,30 +564,6 @@ F 3 "" H 5650 4650 60  0000 C CNN
 	1    5650 4650
 	1    0    0    -1  
 $EndComp
-$Comp
-L LED D4
-U 1 1 5645E262
-P 750 3550
-F 0 "D4" H 750 3650 50  0000 C CNN
-F 1 "LED_IOK" H 750 3450 50  0000 C CNN
-F 2 "LEDs:LED-0805" H 750 3550 60  0001 C CNN
-F 3 "" H 750 3550 60  0000 C CNN
-	1    750  3550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R11
-U 1 1 5645E5E5
-P 750 3900
-F 0 "R11" V 830 3900 50  0000 C CNN
-F 1 "1k" V 750 3900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 680 3900 30  0001 C CNN
-F 3 "" H 750 3900 30  0000 C CNN
-	1    750  3900
-	1    0    0    -1  
-$EndComp
-Text Label 750  3150 0    60   ~ 0
-I_OK
 Text Label 10150 4750 0    60   ~ 0
 U
 Text Label 10150 4850 0    60   ~ 0
@@ -936,14 +888,6 @@ Wire Wire Line
 	1550 4050 1550 4250
 Wire Wire Line
 	1550 4250 2400 4250
-Connection ~ 1700 4250
-Wire Wire Line
-	1150 3350 1150 3250
-Wire Wire Line
-	1150 3250 1550 3250
-Connection ~ 1550 3250
-Wire Wire Line
-	1150 4050 1150 4250
 Wire Wire Line
 	8150 1750 8150 2100
 Wire Wire Line
@@ -1136,10 +1080,6 @@ Wire Wire Line
 Wire Wire Line
 	5950 3500 5950 3700
 Connection ~ 4600 3500
-Wire Wire Line
-	750  3350 750  3150
-Wire Wire Line
-	750  4050 750  4400
 Wire Wire Line
 	9900 4750 10150 4750
 Wire Wire Line
@@ -1471,8 +1411,6 @@ Wire Wire Line
 	1850 4050 1850 4450
 Wire Wire Line
 	5300 5500 5300 5600
-Text Label 750  4400 0    60   ~ 0
-LGND
 $Comp
 L HPCE_40-24 J1
 U 1 1 56447F0D
@@ -1486,4 +1424,8 @@ F 4 "FCI 10124393-001LF" H 3550 6250 60  0000 C CNN "Part"
 	1    0    0    -1  
 $EndComp
 NoConn ~ 4450 4300
+Wire Wire Line
+	8000 1750 8000 2100
+Text Label 8000 1750 3    60   ~ 0
+PGND
 $EndSCHEMATC
