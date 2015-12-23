@@ -67,12 +67,14 @@ F 3 "https://www.raspberrypi.org/documentation/hardware/computemodule/RPI-CM-V1_
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 7650 3850 1150 900 
+S 7800 2800 1150 900 
 U 5671AB09
 F0 "Lan Module" 60
 F1 "LanModule.sch" 60
-F2 "USB_DP" I L 7650 4050 60 
-F3 "USB_DN" I L 7650 4200 60 
+F2 "USB_DP" I L 7800 3000 60 
+F3 "USB_DN" I L 7800 3150 60 
+F4 "LAN_RUN" I L 7800 3350 60 
+F5 "CLK_24" O L 7800 3550 60 
 $EndSheet
 $Sheet
 S 7650 7500 1200 900 
@@ -178,9 +180,9 @@ Text Label 1800 10750 0    60   ~ 0
 USB_DP
 Text Label 1800 10850 0    60   ~ 0
 USB_DN
-Text Label 7300 4050 0    60   ~ 0
+Text Label 7450 3000 0    60   ~ 0
 USB_DP
-Text Label 7300 4200 0    60   ~ 0
+Text Label 7450 3150 0    60   ~ 0
 USB_DN
 Text GLabel 5050 11700 2    60   Input ~ 0
 1v8
@@ -215,25 +217,26 @@ GND
 Text GLabel 5400 12250 2    60   Input ~ 0
 GND
 $Sheet
-S 7650 10800 1400 800 
+S 7800 4000 1400 800 
 U 567C9351
 F0 "CAN Bus Module" 60
 F1 "CANBus.sch" 60
-F2 "CE" I L 7650 10950 60 
-F3 "MISO" I L 7650 11050 60 
-F4 "MOSI" I L 7650 11150 60 
-F5 "SCLK" I L 7650 11250 60 
-F6 "INT" I L 7650 11350 60 
+F2 "CE" I L 7800 4150 60 
+F3 "MISO" I L 7800 4250 60 
+F4 "MOSI" I L 7800 4350 60 
+F5 "SCLK" I L 7800 4450 60 
+F6 "INT" I L 7800 4550 60 
+F7 "CLK24" I L 7800 4650 60 
 $EndSheet
-Text Label 7300 10950 0    60   ~ 0
+Text Label 7450 4150 0    60   ~ 0
 GPIO8
-Text Label 7300 11050 0    60   ~ 0
+Text Label 7450 4250 0    60   ~ 0
 GPIO9
-Text Label 7300 11150 0    60   ~ 0
+Text Label 7450 4350 0    60   ~ 0
 GPIO10
-Text Label 7300 11250 0    60   ~ 0
+Text Label 7450 4450 0    60   ~ 0
 GPIO11
-Text Label 7300 11350 0    60   ~ 0
+Text Label 7450 4550 0    60   ~ 0
 GPIO25
 Text Label 1850 3700 0    60   ~ 0
 GPIO8
@@ -324,9 +327,9 @@ Wire Wire Line
 Wire Wire Line
 	2250 10850 1800 10850
 Wire Wire Line
-	7650 4050 7300 4050
+	7800 3000 7450 3000
 Wire Wire Line
-	7650 4200 7300 4200
+	7800 3150 7450 3150
 Wire Wire Line
 	4750 11650 5050 11650
 Wire Wire Line
@@ -564,15 +567,15 @@ Wire Wire Line
 Wire Wire Line
 	2250 4550 2050 4550
 Wire Wire Line
-	7300 10950 7650 10950
+	7450 4150 7800 4150
 Wire Wire Line
-	7300 11050 7650 11050
+	7450 4250 7800 4250
 Wire Wire Line
-	7300 11150 7650 11150
+	7450 4350 7800 4350
 Wire Wire Line
-	7300 11250 7650 11250
+	7450 4450 7800 4450
 Wire Wire Line
-	7300 11350 7650 11350
+	7450 4550 7800 4550
 Wire Wire Line
 	2250 3700 1850 3700
 Wire Wire Line
@@ -645,4 +648,18 @@ Text Label 1850 6550 0    60   ~ 0
 GPIO24
 Wire Wire Line
 	7650 9750 7300 9750
+Wire Wire Line
+	7800 3550 7300 3550
+Wire Wire Line
+	7300 3550 7300 4650
+Wire Wire Line
+	7300 4650 7800 4650
+Wire Wire Line
+	7800 3350 7450 3350
+Text Label 7450 3350 0    60   ~ 0
+GPIO6
+Wire Wire Line
+	2250 3400 1900 3400
+Text Label 1900 3400 0    60   ~ 0
+GPIO6
 $EndSCHEMATC

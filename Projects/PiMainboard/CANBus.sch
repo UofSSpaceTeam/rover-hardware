@@ -65,4 +65,6 @@ Text HLabel 4800 4100 0    60   Input ~ 0
 SCLK
 Text HLabel 4800 4200 0    60   Input ~ 0
 INT
+Text HLabel 4800 4350 0    60   Input ~ 0
+CLK24
 $EndSCHEMATC
