@@ -383,7 +383,7 @@ F 3 "" H 7450 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 7450 2450 0    60   ~ 0
-PGND
+POUT
 $Comp
 L cap C22
 U 1 1 564601B7
@@ -584,7 +584,7 @@ Wire Wire Line
 	8550 1950 8550 2250
 Connection ~ 8550 2150
 Text Label 8550 2250 0    60   ~ 0
-PGND
+POUT
 Connection ~ 8550 1650
 Text Notes 8000 1350 0    60   ~ 0
 Power Protection\n
@@ -597,9 +597,9 @@ VBAT
 Text HLabel 7800 1900 2    60   Input ~ 0
 PBAT
 Text HLabel 5600 3050 3    60   Input ~ 0
-PGND
+POUT
 Text Label 5600 2850 0    60   ~ 0
-PGND
+POUT
 Text Label 7550 1900 0    60   ~ 0
 PBAT
 Wire Wire Line

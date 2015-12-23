@@ -324,9 +324,9 @@ $EndComp
 Text Label 8700 1600 0    60   ~ 0
 LGND
 Text Label 8450 2000 1    60   ~ 0
-PGND
+POUT
 Text Label 8650 2000 1    60   ~ 0
-PGND
+POUT
 Text Label 8750 2000 1    60   ~ 0
 L3
 Text Label 8850 2000 1    60   ~ 0
@@ -391,7 +391,7 @@ F 3 "" H 9050 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 9350 2100 0    60   ~ 0
-PGND
+POUT
 Text Label 9700 3000 0    60   ~ 0
 U
 Text Label 9700 3200 0    60   ~ 0
@@ -423,7 +423,7 @@ IH3
 Text Label 8450 4150 1    60   ~ 0
 IL3
 Text Label 8250 4200 1    60   ~ 0
-PGND
+POUT
 Text Label 7600 3700 0    60   ~ 0
 LGND
 Text Label 7500 3200 0    60   ~ 0
@@ -572,8 +572,6 @@ Text Label 10150 4950 0    60   ~ 0
 W
 Text Label 10150 5100 0    60   ~ 0
 POUT
-Text Label 10150 5200 0    60   ~ 0
-PGND
 Text Label 10150 5350 0    60   ~ 0
 VBAT
 Text Label 10150 5450 0    60   ~ 0
@@ -629,27 +627,6 @@ Text Label 4950 2550 0    60   ~ 0
 5V0
 Text Label 4800 2550 0    60   ~ 0
 5V0
-$Sheet
-S 8550 4650 1350 1150
-U 56465186
-F0 "DriveControllerPower" 60
-F1 "DriveControllerPower.sch" 60
-F2 "U" I R 9900 4750 60 
-F3 "V" I R 9900 4850 60 
-F4 "W" I R 9900 4950 60 
-F5 "POUT" I R 9900 5100 60 
-F6 "PGND" I R 9900 5200 60 
-F7 "VBAT" I R 9900 5350 60 
-F8 "PBAT" I R 9900 5450 60 
-F9 "H1" I L 8550 4750 60 
-F10 "H2" I L 8550 4850 60 
-F11 "H3" I L 8550 4950 60 
-F12 "L1" I L 8550 5100 60 
-F13 "L2" I L 8550 5200 60 
-F14 "L3" I L 8550 5300 60 
-F15 "CPOUT" I L 8550 5450 60 
-F16 "VSUPPLY" I L 8550 5600 60 
-$EndSheet
 Text Label 10400 2900 0    60   ~ 0
 CPOUT
 Text Label 8250 5450 0    60   ~ 0
@@ -1089,8 +1066,6 @@ Wire Wire Line
 Wire Wire Line
 	9900 5100 10150 5100
 Wire Wire Line
-	9900 5200 10150 5200
-Wire Wire Line
 	9900 5350 10150 5350
 Wire Wire Line
 	9900 5450 10150 5450
@@ -1427,5 +1402,40 @@ NoConn ~ 4450 4300
 Wire Wire Line
 	8000 1750 8000 2100
 Text Label 8000 1750 3    60   ~ 0
-PGND
+POUT
+$Sheet
+S 8550 4650 1350 1150
+U 56465186
+F0 "DriveControllerPower" 60
+F1 "DriveControllerPower.sch" 60
+F2 "U" I R 9900 4750 60 
+F3 "V" I R 9900 4850 60 
+F4 "W" I R 9900 4950 60 
+F5 "POUT" I R 9900 5100 60 
+F6 "VBAT" I R 9900 5350 60 
+F7 "PBAT" I R 9900 5450 60 
+F8 "H1" I L 8550 4750 60 
+F9 "H2" I L 8550 4850 60 
+F10 "H3" I L 8550 4950 60 
+F11 "L1" I L 8550 5100 60 
+F12 "L2" I L 8550 5200 60 
+F13 "L3" I L 8550 5300 60 
+F14 "CPOUT" I L 8550 5450 60 
+F15 "VSUPPLY" I L 8550 5600 60 
+$EndSheet
+$Comp
+L TB6621FNG U?
+U 1 1 56579FBD
+P 7100 1100
+F 0 "U?" H 7300 1550 60  0000 C CNN
+F 1 "TB6621FNG" H 7100 600 60  0000 C CNN
+F 2 "" H 7800 1500 60  0000 C CNN
+F 3 "" H 7800 1500 60  0000 C CNN
+	1    7100 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 800  6400 800 
+Text Label 6400 800  0    60   ~ 0
+PINK
 $EndSCHEMATC
