@@ -1,0 +1,16 @@
+ARM BOARD BOM
+==============
+
+Description				Part 					Quantity	Use
+--------------------	--------------------	--------	----------------------------------------------
+D-LATCH					?						12			Latch VNH3SP30 config
+4-BIT DEMUX				?						1			Latch select
+3-BIT MUX				?						1 			LinAc wiper ADC select
+Motor Driver			VNH3SP30 				6			Motor driver for LinAc's and motors
+LCD - SPI				?						1 			Display for debugging and status
+LED 					?						3 			Status LED's
+Button					?						1 			Display status mode toggle 
+Optocoupler 			?						24			Logic-motor isolators
+ADC - SPI 				?						3			External ADC for position feedback
+QUADR DECODER 			?						3 			External decoder for motor position feedback
+POS. BUPPER 			?						3 			Bupper for resetting calibration on motors

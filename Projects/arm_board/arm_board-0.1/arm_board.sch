@@ -1,0 +1,676 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ArmComponentLibrary
+LIBS:arm_board-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 23
+Title ""
+Date "2 jan 2016"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 4550 700  1050 2750
+U 56439C3F
+F0 "OIL_ss" 60
+F1 "oil_ss.sch" 60
+F2 "D" I L 4550 850 60 
+F3 "S0" I L 4550 1250 60 
+F4 "S1" I L 4550 1350 60 
+F5 "S2" I L 4550 1450 60 
+F6 "IQ_0" I R 5600 800 60 
+F7 "IQ_1" I R 5600 900 60 
+F8 "IQ_2" I R 5600 1000 60 
+F9 "IQ_3" I R 5600 1100 60 
+F10 "IQ_4" I R 5600 1200 60 
+F11 "IQ_5" I R 5600 1300 60 
+F12 "IQ_6" I R 5600 1400 60 
+F13 "IQ_7" I R 5600 1500 60 
+F14 "EN" I L 4550 1100 60 
+F15 "CLR" I R 5600 2500 60 
+F16 "n_IQ_0" I R 5600 1600 60 
+F17 "n_IQ_1" I R 5600 1700 60 
+F18 "n_IQ_2" I R 5600 1800 60 
+F19 "n_IQ_3" I R 5600 1900 60 
+F20 "n_IQ_4" I R 5600 2000 60 
+F21 "n_IQ_5" I R 5600 2100 60 
+F22 "n_IQ_6" I R 5600 2200 60 
+F23 "n_IQ_7" I R 5600 2300 60 
+F24 "MCU_PWM0" I L 4550 2650 60 
+F25 "MCU_PWM1" I L 4550 2750 60 
+F26 "MCU_PWM2" I L 4550 2850 60 
+F27 "MCU_PWM3" I L 4550 2950 60 
+F28 "MCU_PWM4" I L 4550 3050 60 
+F29 "MCU_PWM5" I L 4550 3150 60 
+F30 "MCU_PWM6" I L 4550 3250 60 
+F31 "MCU_PWM7" I L 4550 3350 60 
+F32 "PWM0" O R 5600 2650 60 
+F33 "PWM1" O R 5600 2750 60 
+F34 "PWM2" O R 5600 2850 60 
+F35 "PWM3" O R 5600 2950 60 
+F36 "PWM4" O R 5600 3050 60 
+F37 "PWM5" O R 5600 3150 60 
+F38 "PWM6" O R 5600 3250 60 
+F39 "PWM7" O R 5600 3350 60 
+$EndSheet
+$Sheet
+S 7800 850  850  850 
+U 56458E25
+F0 "VNH3SP30 SS" 60
+F1 "vnh3sp30_ss.sch" 60
+F2 "PWM" I L 7800 1450 60 
+F3 "EN" I L 7800 1000 60 
+F4 "WPR" O L 7800 1600 60 
+F5 "DIR" I L 7800 1150 60 
+F6 "n_DIR" I L 7800 1250 60 
+$EndSheet
+$Sheet
+S 9150 850  850  850 
+U 5645B857
+F0 "VNH3SP30 SS" 60
+F1 "vnh3sp30_ss.sch" 60
+F2 "PWM" I L 9150 1450 60 
+F3 "EN" I L 9150 1000 60 
+F4 "WPR" O L 9150 1600 60 
+F5 "DIR" I L 9150 1150 60 
+F6 "n_DIR" I L 9150 1250 60 
+$EndSheet
+Text Label 8850 1000 0    60   ~ 0
+M_EN
+Text Label 7450 1450 0    60   ~ 0
+IPWM_0
+Text Label 8800 1450 0    60   ~ 0
+IPWM_1
+Text Label 7550 1000 0    60   ~ 0
+M_EN
+Text Label 7550 1150 0    60   ~ 0
+IQ_0
+$Sheet
+S 6950 2000 1350 1300
+U 564B31DF
+F0 "VNH3SP30 Motor SS" 60
+F1 "vnh3sp30_motor_ss.sch" 60
+F2 "DIR" I L 6950 2150 60 
+F3 "n_DIR" I L 6950 2250 60 
+F4 "PWM" I L 6950 2350 60 
+F5 "EN" I L 6950 2500 60 
+F6 "Q_CNT" O R 8300 2600 60 
+F7 "CNT_OVRFLW" O R 8300 2700 60 
+F8 "CNT_UDRFLW" O R 8300 2800 60 
+F9 "CNT_RESET" O R 8300 2900 60 
+F10 "CNT_S0" O L 6950 2900 60 
+F11 "CNT_S1" O L 6950 3000 60 
+F12 "CNT_S2" O L 6950 3100 60 
+F13 "CNT_S3" O L 6950 3200 60 
+F14 "MOTOR_A" O R 8300 2150 60 
+F15 "MOTOR_B" O R 8300 2250 60 
+$EndSheet
+$Comp
+L TLV150X U?
+U 1 1 564B48BE
+P 2100 6250
+F 0 "U?" H 2550 4850 60  0000 C CNN
+F 1 "TLV150X" H 2100 5950 60  0000 C CNN
+F 2 "" H 2100 6250 60  0000 C CNN
+F 3 "" H 2100 6250 60  0000 C CNN
+	1    2100 6250
+	1    0    0    -1  
+$EndComp
+Text Label 8950 1150 0    60   ~ 0
+IQ_1
+$Sheet
+S 6950 3550 1350 1300
+U 56666F75
+F0 "VNH3SP30 Motor SS" 60
+F1 "vnh3sp30_motor_ss.sch" 60
+F2 "DIR" I L 6950 3700 60 
+F3 "n_DIR" I L 6950 3800 60 
+F4 "PWM" I L 6950 3900 60 
+F5 "EN" I L 6950 4050 60 
+F6 "Q_CNT" O R 8300 4150 60 
+F7 "CNT_OVRFLW" O R 8300 4250 60 
+F8 "CNT_UDRFLW" O R 8300 4350 60 
+F9 "CNT_RESET" O R 8300 4450 60 
+F10 "CNT_S0" O L 6950 4450 60 
+F11 "CNT_S1" O L 6950 4550 60 
+F12 "CNT_S2" O L 6950 4650 60 
+F13 "CNT_S3" O L 6950 4750 60 
+F14 "MOTOR_A" O R 8300 3700 60 
+F15 "MOTOR_B" O R 8300 3800 60 
+$EndSheet
+$Sheet
+S 9350 2050 1350 1300
+U 56669634
+F0 "VNH3SP30 Motor SS" 60
+F1 "vnh3sp30_motor_ss.sch" 60
+F2 "DIR" I L 9350 2200 60 
+F3 "n_DIR" I L 9350 2300 60 
+F4 "PWM" I L 9350 2400 60 
+F5 "EN" I L 9350 2550 60 
+F6 "Q_CNT" O R 10700 2650 60 
+F7 "CNT_OVRFLW" O R 10700 2750 60 
+F8 "CNT_UDRFLW" O R 10700 2850 60 
+F9 "CNT_RESET" O R 10700 2950 60 
+F10 "CNT_S0" O L 9350 2950 60 
+F11 "CNT_S1" O L 9350 3050 60 
+F12 "CNT_S2" O L 9350 3150 60 
+F13 "CNT_S3" O L 9350 3250 60 
+F14 "MOTOR_A" O R 10700 2200 60 
+F15 "MOTOR_B" O R 10700 2300 60 
+$EndSheet
+$Sheet
+S 9350 3600 1350 1300
+U 56669644
+F0 "VNH3SP30 Motor SS" 60
+F1 "vnh3sp30_motor_ss.sch" 60
+F2 "DIR" I L 9350 3750 60 
+F3 "n_DIR" I L 9350 3850 60 
+F4 "PWM" I L 9350 3950 60 
+F5 "EN" I L 9350 4100 60 
+F6 "Q_CNT" O R 10700 4200 60 
+F7 "CNT_OVRFLW" O R 10700 4300 60 
+F8 "CNT_UDRFLW" O R 10700 4400 60 
+F9 "CNT_RESET" O R 10700 4500 60 
+F10 "CNT_S0" O L 9350 4500 60 
+F11 "CNT_S1" O L 9350 4600 60 
+F12 "CNT_S2" O L 9350 4700 60 
+F13 "CNT_S3" O L 9350 4800 60 
+F14 "MOTOR_A" O R 10700 3750 60 
+F15 "MOTOR_B" O R 10700 3850 60 
+$EndSheet
+$Sheet
+S 6950 5050 1350 1300
+U 5666D2E0
+F0 "VNH3SP30 Motor SS" 60
+F1 "vnh3sp30_motor_ss.sch" 60
+F2 "DIR" I L 6950 5200 60 
+F3 "n_DIR" I L 6950 5300 60 
+F4 "PWM" I L 6950 5400 60 
+F5 "EN" I L 6950 5550 60 
+F6 "Q_CNT" O R 8300 5650 60 
+F7 "CNT_OVRFLW" O R 8300 5750 60 
+F8 "CNT_UDRFLW" O R 8300 5850 60 
+F9 "CNT_RESET" O R 8300 5950 60 
+F10 "CNT_S0" O L 6950 5950 60 
+F11 "CNT_S1" O L 6950 6050 60 
+F12 "CNT_S2" O L 6950 6150 60 
+F13 "CNT_S3" O L 6950 6250 60 
+F14 "MOTOR_A" O R 8300 5200 60 
+F15 "MOTOR_B" O R 8300 5300 60 
+$EndSheet
+$Sheet
+S 9350 5100 1350 1300
+U 5666D2F0
+F0 "VNH3SP30 Motor SS" 60
+F1 "vnh3sp30_motor_ss.sch" 60
+F2 "DIR" I L 9350 5250 60 
+F3 "n_DIR" I L 9350 5350 60 
+F4 "PWM" I L 9350 5450 60 
+F5 "EN" I L 9350 5600 60 
+F6 "Q_CNT" O R 10700 5700 60 
+F7 "CNT_OVRFLW" O R 10700 5800 60 
+F8 "CNT_UDRFLW" O R 10700 5900 60 
+F9 "CNT_RESET" O R 10700 6000 60 
+F10 "CNT_S0" O L 9350 6000 60 
+F11 "CNT_S1" O L 9350 6100 60 
+F12 "CNT_S2" O L 9350 6200 60 
+F13 "CNT_S3" O L 9350 6300 60 
+F14 "MOTOR_A" O R 10700 5250 60 
+F15 "MOTOR_B" O R 10700 5350 60 
+$EndSheet
+Text Label 8950 2950 0    60   ~ 0
+CNT_S0
+Text Label 8950 3050 0    60   ~ 0
+CNT_S1
+Text Label 8950 3150 0    60   ~ 0
+CNT_S2
+Text Label 8950 3250 0    60   ~ 0
+CNT_S3
+Text Label 8950 4500 0    60   ~ 0
+CNT_S0
+Text Label 8950 4600 0    60   ~ 0
+CNT_S1
+Text Label 8950 4700 0    60   ~ 0
+CNT_S2
+Text Label 8950 4800 0    60   ~ 0
+CNT_S3
+Text Label 8950 6000 0    60   ~ 0
+CNT_S0
+Text Label 8950 6100 0    60   ~ 0
+CNT_S1
+Text Label 8950 6200 0    60   ~ 0
+CNT_S2
+Text Label 8950 6300 0    60   ~ 0
+CNT_S3
+Text Label 6550 2900 0    60   ~ 0
+CNT_S0
+Text Label 6550 3000 0    60   ~ 0
+CNT_S1
+Text Label 6550 3100 0    60   ~ 0
+CNT_S2
+Text Label 6550 3200 0    60   ~ 0
+CNT_S3
+Text Label 6550 4450 0    60   ~ 0
+CNT_S0
+Text Label 6550 4550 0    60   ~ 0
+CNT_S1
+Text Label 6550 4650 0    60   ~ 0
+CNT_S2
+Text Label 6550 4750 0    60   ~ 0
+CNT_S3
+Text Label 6550 5950 0    60   ~ 0
+CNT_S0
+Text Label 6550 6050 0    60   ~ 0
+CNT_S1
+Text Label 6550 6150 0    60   ~ 0
+CNT_S2
+Text Label 6550 6250 0    60   ~ 0
+CNT_S3
+Text Label 6700 2500 0    60   ~ 0
+EN
+Text Label 9100 2550 0    60   ~ 0
+EN
+Text Label 9100 4100 0    60   ~ 0
+EN
+Text Label 9100 5600 0    60   ~ 0
+EN
+Text Label 6700 5550 0    60   ~ 0
+EN
+Text Label 6700 4050 0    60   ~ 0
+EN
+Text Label 8450 2900 0    60   ~ 0
+RST_M0
+Text Label 10800 2950 0    60   ~ 0
+RST_M1
+Text Label 10800 2750 0    60   ~ 0
+OVRFLW_M1
+Text Label 10800 2850 0    60   ~ 0
+UDRFLW_M1
+Text Label 8450 2800 0    60   ~ 0
+UDRFLW_M0
+Text Label 8450 2700 0    60   ~ 0
+OVRFLW_M0
+Text Label 10800 2650 0    60   ~ 0
+Q_CNT_M1
+Text Label 8450 2600 0    60   ~ 0
+Q_CNT_M0
+Text Label 8450 4150 0    60   ~ 0
+Q_CNT_M2
+Text Label 8450 4250 0    60   ~ 0
+OVRFLW_M2
+Text Label 8450 4350 0    60   ~ 0
+UDRFLW_M2
+Text Label 8450 4450 0    60   ~ 0
+RST_M2
+Text Label 10800 4200 0    60   ~ 0
+Q_CNT_M3
+Text Label 10800 4300 0    60   ~ 0
+OVRFLW_M3
+Text Label 10800 4400 0    60   ~ 0
+UDRFLW_M3
+Text Label 10800 4500 0    60   ~ 0
+RST_M3
+Text Label 8450 5650 0    60   ~ 0
+Q_CNT_M4
+Text Label 8450 5750 0    60   ~ 0
+OVRFLW_M4
+Text Label 8450 5850 0    60   ~ 0
+UDRFLW_M4
+Text Label 8450 5950 0    60   ~ 0
+RST_M4
+Text Label 10800 5700 0    60   ~ 0
+Q_CNT_M5
+Text Label 10800 5800 0    60   ~ 0
+OVRFLW_M5
+Text Label 10800 5900 0    60   ~ 0
+UDRFLW_M5
+Text Label 10800 6000 0    60   ~ 0
+RST_M5
+Text Label 6600 2150 0    60   ~ 0
+DIR_M0
+Text Label 6500 2250 0    60   ~ 0
+n_DIR_M0
+Text Label 8900 2400 0    60   ~ 0
+PWM_M1
+Text Label 6500 2350 0    60   ~ 0
+PWM_M0
+Text Label 9000 2200 0    60   ~ 0
+DIR_M1
+Text Label 8900 2300 0    60   ~ 0
+n_DIR_M1
+Text Label 8900 3950 0    60   ~ 0
+PWM_M3
+Text Label 9000 3750 0    60   ~ 0
+DIR_M3
+Text Label 8900 3850 0    60   ~ 0
+n_DIR_M3
+Text Label 6600 3700 0    60   ~ 0
+DIR_M2
+Text Label 6500 3800 0    60   ~ 0
+n_DIR_M2
+Text Label 6500 3900 0    60   ~ 0
+PWM_M2
+Text Label 6600 5200 0    60   ~ 0
+DIR_M4
+Text Label 6500 5300 0    60   ~ 0
+n_DIR_M4
+Text Label 6500 5400 0    60   ~ 0
+PWM_M4
+Text Label 9000 5250 0    60   ~ 0
+DIR_M5
+Text Label 8900 5350 0    60   ~ 0
+n_DIR_M5
+Text Label 8900 5450 0    60   ~ 0
+PWM_M5
+Text Label 6000 800  2    60   ~ 0
+IQ_0
+Text Label 6000 900  2    60   ~ 0
+IQ_1
+Text Label 6000 1000 2    60   ~ 0
+DIR_M0
+Text Label 6000 1100 2    60   ~ 0
+DIR_M1
+Text Label 6000 1200 2    60   ~ 0
+DIR_M2
+Text Label 6000 1300 2    60   ~ 0
+DIR_M3
+Text Label 6000 1400 2    60   ~ 0
+DIR_M4
+Text Label 6000 1500 2    60   ~ 0
+DIR_M5
+Text Label 6050 1600 2    60   ~ 0
+n_IQ_0
+Text Label 6050 1700 2    60   ~ 0
+n_IQ_1
+Text Label 6050 1800 2    60   ~ 0
+n_DIR_M0
+Text Label 6050 1900 2    60   ~ 0
+n_DIR_M1
+Text Label 6050 2000 2    60   ~ 0
+n_DIR_M2
+Text Label 6050 2100 2    60   ~ 0
+n_DIR_M3
+Text Label 6050 2200 2    60   ~ 0
+n_DIR_M4
+Text Label 6050 2300 2    60   ~ 0
+n_DIR_M5
+Text Label 7500 1250 0    60   ~ 0
+n_IQ_0
+Text Label 8850 1250 0    60   ~ 0
+n_IQ_1
+Text Label 7300 1600 0    60   ~ 0
+WIPER_0
+Text Label 8750 1600 0    60   ~ 0
+WIPER_1
+Text Label 850  5850 0    60   ~ 0
+WIPER_0
+Text Label 850  5950 0    60   ~ 0
+WIPER_1
+Text Label 5950 2650 2    60   ~ 0
+IPWM_0
+Text Label 5950 2750 2    60   ~ 0
+IPWM_1
+Text Label 6000 2850 2    60   ~ 0
+PWM_M2
+Wire Wire Line
+	8850 1000 9150 1000
+Wire Wire Line
+	8800 1450 9150 1450
+Wire Wire Line
+	7450 1450 7800 1450
+Wire Wire Line
+	7550 1000 7800 1000
+Wire Wire Line
+	7550 1150 7800 1150
+Wire Wire Line
+	8950 1150 9150 1150
+Wire Wire Line
+	8950 3250 9350 3250
+Wire Wire Line
+	9350 3150 8950 3150
+Wire Wire Line
+	8950 3050 9350 3050
+Wire Wire Line
+	9350 2950 8950 2950
+Wire Wire Line
+	8950 4800 9350 4800
+Wire Wire Line
+	9350 4700 8950 4700
+Wire Wire Line
+	8950 4600 9350 4600
+Wire Wire Line
+	9350 4500 8950 4500
+Wire Wire Line
+	8950 6300 9350 6300
+Wire Wire Line
+	9350 6200 8950 6200
+Wire Wire Line
+	8950 6100 9350 6100
+Wire Wire Line
+	9350 6000 8950 6000
+Wire Wire Line
+	6550 3200 6950 3200
+Wire Wire Line
+	6950 3100 6550 3100
+Wire Wire Line
+	6550 3000 6950 3000
+Wire Wire Line
+	6950 2900 6550 2900
+Wire Wire Line
+	6550 4750 6950 4750
+Wire Wire Line
+	6950 4650 6550 4650
+Wire Wire Line
+	6550 4550 6950 4550
+Wire Wire Line
+	6950 4450 6550 4450
+Wire Wire Line
+	6550 6250 6950 6250
+Wire Wire Line
+	6950 6150 6550 6150
+Wire Wire Line
+	6550 6050 6950 6050
+Wire Wire Line
+	6950 5950 6550 5950
+Wire Wire Line
+	6700 2500 6950 2500
+Wire Wire Line
+	9100 2550 9350 2550
+Wire Wire Line
+	9100 4100 9350 4100
+Wire Wire Line
+	9100 5600 9350 5600
+Wire Wire Line
+	6700 5550 6950 5550
+Wire Wire Line
+	6700 4050 6950 4050
+Wire Wire Line
+	6600 2150 6950 2150
+Wire Wire Line
+	6500 2250 6950 2250
+Wire Wire Line
+	6500 2350 6950 2350
+Wire Wire Line
+	9000 2200 9350 2200
+Wire Wire Line
+	8900 2300 9350 2300
+Wire Wire Line
+	8900 2400 9350 2400
+Wire Wire Line
+	6600 3700 6950 3700
+Wire Wire Line
+	6500 3800 6950 3800
+Wire Wire Line
+	6500 3900 6950 3900
+Wire Wire Line
+	9000 3750 9350 3750
+Wire Wire Line
+	8900 3850 9350 3850
+Wire Wire Line
+	8900 3950 9350 3950
+Wire Wire Line
+	6600 5200 6950 5200
+Wire Wire Line
+	6500 5300 6950 5300
+Wire Wire Line
+	6500 5400 6950 5400
+Wire Wire Line
+	9000 5250 9350 5250
+Wire Wire Line
+	8900 5350 9350 5350
+Wire Wire Line
+	8900 5450 9350 5450
+Wire Wire Line
+	8300 2600 8450 2600
+Wire Wire Line
+	8300 2700 8450 2700
+Wire Wire Line
+	8300 2800 8450 2800
+Wire Wire Line
+	8300 2900 8450 2900
+Wire Wire Line
+	8300 4150 8450 4150
+Wire Wire Line
+	8300 4250 8450 4250
+Wire Wire Line
+	8300 4350 8450 4350
+Wire Wire Line
+	8300 4450 8450 4450
+Wire Wire Line
+	8300 5650 8450 5650
+Wire Wire Line
+	8300 5750 8450 5750
+Wire Wire Line
+	8300 5850 8450 5850
+Wire Wire Line
+	8300 5950 8450 5950
+Wire Wire Line
+	10700 5700 10800 5700
+Wire Wire Line
+	10700 5800 10800 5800
+Wire Wire Line
+	10700 5900 10800 5900
+Wire Wire Line
+	10700 6000 10800 6000
+Wire Wire Line
+	10700 4200 10800 4200
+Wire Wire Line
+	10700 4300 10800 4300
+Wire Wire Line
+	10700 4400 10800 4400
+Wire Wire Line
+	10700 4500 10800 4500
+Wire Wire Line
+	10700 2650 10800 2650
+Wire Wire Line
+	10700 2750 10800 2750
+Wire Wire Line
+	10700 2850 10800 2850
+Wire Wire Line
+	10700 2950 10800 2950
+Wire Wire Line
+	5600 800  6000 800 
+Wire Wire Line
+	6000 900  5600 900 
+Wire Wire Line
+	6000 1000 5600 1000
+Wire Wire Line
+	6000 1100 5600 1100
+Wire Wire Line
+	6000 1200 5600 1200
+Wire Wire Line
+	6000 1300 5600 1300
+Wire Wire Line
+	6000 1400 5600 1400
+Wire Wire Line
+	6000 1500 5600 1500
+Wire Wire Line
+	5600 1600 6050 1600
+Wire Wire Line
+	5600 1700 6050 1700
+Wire Wire Line
+	5600 1800 6050 1800
+Wire Wire Line
+	5600 1900 6050 1900
+Wire Wire Line
+	5600 2000 6050 2000
+Wire Wire Line
+	5600 2100 6050 2100
+Wire Wire Line
+	5600 2200 6050 2200
+Wire Wire Line
+	5600 2300 6050 2300
+Wire Wire Line
+	7500 1250 7800 1250
+Wire Wire Line
+	8850 1250 9150 1250
+Wire Wire Line
+	8750 1600 9150 1600
+Wire Wire Line
+	7300 1600 7800 1600
+Wire Wire Line
+	850  5950 1300 5950
+Wire Wire Line
+	850  5850 1300 5850
+Wire Wire Line
+	5950 2650 5600 2650
+Wire Wire Line
+	5950 2750 5600 2750
+Wire Wire Line
+	6000 2850 5600 2850
+Text Label 6000 2950 2    60   ~ 0
+PWM_M3
+Text Label 6000 3050 2    60   ~ 0
+PWM_M4
+Text Label 6000 3150 2    60   ~ 0
+PWM_M5
+Text Label 6000 3250 2    60   ~ 0
+PWM_M6
+Text Label 6000 3350 2    60   ~ 0
+PWM_M7
+Wire Wire Line
+	5600 2950 6000 2950
+Wire Wire Line
+	6000 3050 5600 3050
+Wire Wire Line
+	5600 3150 6000 3150
+Wire Wire Line
+	6000 3250 5600 3250
+Wire Wire Line
+	5600 3350 6000 3350
+$EndSCHEMATC
