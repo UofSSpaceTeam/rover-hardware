@@ -447,6 +447,47 @@ Text Label 5950 2750 2    60   ~ 0
 IPWM_1
 Text Label 6000 2850 2    60   ~ 0
 PWM_M2
+Text Label 6000 2950 2    60   ~ 0
+PWM_M3
+Text Label 6000 3050 2    60   ~ 0
+PWM_M4
+Text Label 6000 3150 2    60   ~ 0
+PWM_M5
+Text Label 6000 3250 2    60   ~ 0
+PWM_M6
+Text Label 6000 3350 2    60   ~ 0
+PWM_M7
+$Comp
+L 74HC4051 U?
+U 1 1 568B4084
+P 1950 1450
+F 0 "U?" H 1950 1350 60  0000 C CNN
+F 1 "74HC4051" H 1950 1550 60  0000 C CNN
+F 2 "" H 1950 1450 60  0000 C CNN
+F 3 "" H 1950 1450 60  0000 C CNN
+	1    1950 1450
+	1    0    0    -1  
+$EndComp
+Text Label 3200 1500 2    60   ~ 0
+Q_CNT_M0
+Text Label 3200 1400 2    60   ~ 0
+Q_CNT_M1
+Text Label 3200 1300 2    60   ~ 0
+Q_CNT_M2
+Text Label 3200 1600 2    60   ~ 0
+Q_CNT_M3
+Text Label 750  1600 0    60   ~ 0
+Q_CNT_M5
+Text Label 750  1500 0    60   ~ 0
+Q_CNT_M7
+Text Label 750  1300 0    60   ~ 0
+Q_CNT_M6
+Text Label 750  1200 0    60   ~ 0
+Q_CNT_M4
+Text GLabel 2800 1000 2    60   Input ~ 0
+3.3V
+Text GLabel 1000 2000 0    60   Input ~ 0
+GND_3.3V
 Wire Wire Line
 	8850 1000 9150 1000
 Wire Wire Line
@@ -653,16 +694,6 @@ Wire Wire Line
 	5950 2750 5600 2750
 Wire Wire Line
 	6000 2850 5600 2850
-Text Label 6000 2950 2    60   ~ 0
-PWM_M3
-Text Label 6000 3050 2    60   ~ 0
-PWM_M4
-Text Label 6000 3150 2    60   ~ 0
-PWM_M5
-Text Label 6000 3250 2    60   ~ 0
-PWM_M6
-Text Label 6000 3350 2    60   ~ 0
-PWM_M7
 Wire Wire Line
 	5600 2950 6000 2950
 Wire Wire Line
@@ -673,4 +704,53 @@ Wire Wire Line
 	6000 3250 5600 3250
 Wire Wire Line
 	5600 3350 6000 3350
+Wire Wire Line
+	1250 1200 750  1200
+Wire Wire Line
+	750  1300 1250 1300
+Wire Wire Line
+	1250 1500 750  1500
+Wire Wire Line
+	750  1600 1250 1600
+Wire Wire Line
+	2650 1300 3200 1300
+Wire Wire Line
+	2650 1400 3200 1400
+Wire Wire Line
+	3200 1500 2650 1500
+Wire Wire Line
+	2650 1600 3200 1600
+Wire Wire Line
+	2800 1000 2800 1200
+Wire Wire Line
+	2800 1200 2650 1200
+Wire Wire Line
+	1000 2000 1250 2000
+Wire Wire Line
+	1250 2000 1250 1900
+Wire Wire Line
+	1250 1700 1100 1700
+Wire Wire Line
+	1100 1700 1100 2000
+Connection ~ 1100 2000
+Text GLabel 900  1800 0    60   Input ~ 0
+3.3V
+Wire Wire Line
+	900  1800 1250 1800
+Text Label 3200 1700 2    60   ~ 0
+CNT_SEL0
+Text Label 3200 1800 2    60   ~ 0
+CNT_SEL1
+Text Label 3200 1900 2    60   ~ 0
+CNT_SEL2
+Wire Wire Line
+	3200 1700 2650 1700
+Wire Wire Line
+	2650 1800 3200 1800
+Wire Wire Line
+	2650 1900 3200 1900
+Text Label 900  1400 0    60   ~ 0
+Q_CNT
+Wire Wire Line
+	900  1400 1250 1400
 $EndSCHEMATC
