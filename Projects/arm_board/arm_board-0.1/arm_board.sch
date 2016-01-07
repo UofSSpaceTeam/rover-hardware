@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 23
 Title ""
-Date "2 jan 2016"
+Date "7 jan 2016"
 Rev ""
 Comp ""
 Comment1 ""
@@ -53,24 +53,24 @@ F2 "D" I L 4550 850 60
 F3 "S0" I L 4550 1250 60 
 F4 "S1" I L 4550 1350 60 
 F5 "S2" I L 4550 1450 60 
-F6 "IQ_0" I R 5600 800 60 
-F7 "IQ_1" I R 5600 900 60 
-F8 "IQ_2" I R 5600 1000 60 
-F9 "IQ_3" I R 5600 1100 60 
-F10 "IQ_4" I R 5600 1200 60 
-F11 "IQ_5" I R 5600 1300 60 
-F12 "IQ_6" I R 5600 1400 60 
-F13 "IQ_7" I R 5600 1500 60 
+F6 "IQ_0" O R 5600 800 60 
+F7 "IQ_1" O R 5600 900 60 
+F8 "IQ_2" O R 5600 1000 60 
+F9 "IQ_3" O R 5600 1100 60 
+F10 "IQ_4" O R 5600 1200 60 
+F11 "IQ_5" O R 5600 1300 60 
+F12 "IQ_6" O R 5600 1400 60 
+F13 "IQ_7" O R 5600 1500 60 
 F14 "EN" I L 4550 1100 60 
-F15 "CLR" I R 5600 2500 60 
-F16 "n_IQ_0" I R 5600 1600 60 
-F17 "n_IQ_1" I R 5600 1700 60 
-F18 "n_IQ_2" I R 5600 1800 60 
-F19 "n_IQ_3" I R 5600 1900 60 
-F20 "n_IQ_4" I R 5600 2000 60 
-F21 "n_IQ_5" I R 5600 2100 60 
-F22 "n_IQ_6" I R 5600 2200 60 
-F23 "n_IQ_7" I R 5600 2300 60 
+F15 "CLR" I L 4550 1700 60 
+F16 "n_IQ_0" O R 5600 1600 60 
+F17 "n_IQ_1" O R 5600 1700 60 
+F18 "n_IQ_2" O R 5600 1800 60 
+F19 "n_IQ_3" O R 5600 1900 60 
+F20 "n_IQ_4" O R 5600 2000 60 
+F21 "n_IQ_5" O R 5600 2100 60 
+F22 "n_IQ_6" O R 5600 2200 60 
+F23 "n_IQ_7" O R 5600 2300 60 
 F24 "MCU_PWM0" I L 4550 2650 60 
 F25 "MCU_PWM1" I L 4550 2750 60 
 F26 "MCU_PWM2" I L 4550 2850 60 
@@ -143,12 +143,12 @@ $EndSheet
 $Comp
 L TLV150X U?
 U 1 1 564B48BE
-P 2100 6250
-F 0 "U?" H 2550 4850 60  0000 C CNN
-F 1 "TLV150X" H 2100 5950 60  0000 C CNN
-F 2 "" H 2100 6250 60  0000 C CNN
-F 3 "" H 2100 6250 60  0000 C CNN
-	1    2100 6250
+P 2100 5950
+F 0 "U?" H 2550 4550 60  0000 C CNN
+F 1 "TLV150X" H 2100 5650 60  0000 C CNN
+F 2 "" H 2100 5950 60  0000 C CNN
+F 3 "" H 2100 5950 60  0000 C CNN
+	1    2100 5950
 	1    0    0    -1  
 $EndComp
 Text Label 8950 1150 0    60   ~ 0
@@ -437,9 +437,9 @@ Text Label 7300 1600 0    60   ~ 0
 WIPER_0
 Text Label 8750 1600 0    60   ~ 0
 WIPER_1
-Text Label 850  5850 0    60   ~ 0
+Text Label 850  5550 0    60   ~ 0
 WIPER_0
-Text Label 850  5950 0    60   ~ 0
+Text Label 850  5650 0    60   ~ 0
 WIPER_1
 Text Label 5950 2650 2    60   ~ 0
 IPWM_0
@@ -685,9 +685,9 @@ Wire Wire Line
 Wire Wire Line
 	7300 1600 7800 1600
 Wire Wire Line
-	850  5950 1300 5950
+	850  5650 1300 5650
 Wire Wire Line
-	850  5850 1300 5850
+	850  5550 1300 5550
 Wire Wire Line
 	5950 2650 5600 2650
 Wire Wire Line
@@ -753,4 +753,403 @@ Text Label 900  1400 0    60   ~ 0
 Q_CNT
 Wire Wire Line
 	900  1400 1250 1400
+Text Label 800  6150 0    60   ~ 0
+MCU_SCLK
+Text Label 800  6250 0    60   ~ 0
+MCU_SDO
+Text Label 800  6350 0    60   ~ 0
+MCU_SDI
+Wire Wire Line
+	1300 6150 800  6150
+Wire Wire Line
+	800  6250 1300 6250
+Wire Wire Line
+	1300 6350 800  6350
+Text GLabel 1850 5200 1    60   Input ~ 0
+3.3V
+Text GLabel 2150 7600 0    60   Input ~ 0
+GND_3.3V
+Wire Wire Line
+	2150 7600 2250 7600
+Wire Wire Line
+	2250 7600 2250 7450
+Text Label 3900 2650 0    60   ~ 0
+MCU_PWM0
+Text Label 3900 2750 0    60   ~ 0
+MCU_PWM1
+Text Label 3900 2850 0    60   ~ 0
+MCU_PWM2
+Text Label 3900 2950 0    60   ~ 0
+MCU_PWM3
+Text Label 3900 3050 0    60   ~ 0
+MCU_PWM4
+Text Label 3900 3150 0    60   ~ 0
+MCU_PWM5
+Text Label 3900 3250 0    60   ~ 0
+MCU_PWM6
+Text Label 3900 3350 0    60   ~ 0
+MCU_PWM7
+Wire Wire Line
+	4550 2650 3900 2650
+Wire Wire Line
+	3900 2750 4550 2750
+Wire Wire Line
+	4550 2850 3900 2850
+Wire Wire Line
+	3900 2950 4550 2950
+Wire Wire Line
+	4550 3050 3900 3050
+Wire Wire Line
+	3900 3150 4550 3150
+Wire Wire Line
+	4550 3250 3900 3250
+Wire Wire Line
+	3900 3350 4550 3350
+Text Label 1000 3000 0    60   ~ 0
+MCU_PWM0
+Text Label 1000 3100 0    60   ~ 0
+MCU_PWM1
+Text Label 1000 3200 0    60   ~ 0
+MCU_PWM2
+Text Label 1000 3300 0    60   ~ 0
+MCU_PWM3
+Text Label 1000 3400 0    60   ~ 0
+MCU_PWM4
+Text Label 1000 3500 0    60   ~ 0
+MCU_PWM5
+Text Label 1000 3600 0    60   ~ 0
+MCU_PWM6
+Text Label 1000 3700 0    60   ~ 0
+MCU_PWM7
+Wire Wire Line
+	1650 3000 1000 3000
+Wire Wire Line
+	1000 3100 1650 3100
+Wire Wire Line
+	1650 3200 1000 3200
+Wire Wire Line
+	1000 3300 1650 3300
+Wire Wire Line
+	1650 3400 1000 3400
+Wire Wire Line
+	1000 3500 1650 3500
+Wire Wire Line
+	1650 3600 1000 3600
+Wire Wire Line
+	1000 3700 1650 3700
+Text Label 1250 2600 0    60   ~ 0
+CNT_S0
+Text Label 1250 2700 0    60   ~ 0
+CNT_S1
+Text Label 1250 2800 0    60   ~ 0
+CNT_S2
+Text Label 1250 2900 0    60   ~ 0
+CNT_S3
+Wire Wire Line
+	1250 2900 1650 2900
+Wire Wire Line
+	1650 2800 1250 2800
+Wire Wire Line
+	1250 2700 1650 2700
+Wire Wire Line
+	1650 2600 1250 2600
+Text Label 3000 2600 2    60   ~ 0
+CNT_SEL0
+Text Label 3000 2700 2    60   ~ 0
+CNT_SEL1
+Text Label 3000 2800 2    60   ~ 0
+CNT_SEL2
+Wire Wire Line
+	3000 2600 2450 2600
+Wire Wire Line
+	2450 2700 3000 2700
+Wire Wire Line
+	2450 2800 3000 2800
+Text Label 4000 1250 0    60   ~ 0
+MTR_SEL0
+Text Label 4000 1350 0    60   ~ 0
+MTR_SEL1
+Text Label 4000 1450 0    60   ~ 0
+MTR_SEL2
+Wire Wire Line
+	4000 1250 4550 1250
+Wire Wire Line
+	4550 1350 4000 1350
+Wire Wire Line
+	4000 1450 4550 1450
+Text Label 4050 850  0    60   ~ 0
+MTR_DATA
+Wire Wire Line
+	4050 850  4550 850 
+Text Label 4150 1100 0    60   ~ 0
+MTR_EN
+Wire Wire Line
+	4150 1100 4550 1100
+Text Label 3000 2900 2    60   ~ 0
+MTR_SEL0
+Text Label 3000 3000 2    60   ~ 0
+MTR_SEL1
+Text Label 3000 3100 2    60   ~ 0
+MTR_SEL2
+Wire Wire Line
+	3000 2900 2450 2900
+Wire Wire Line
+	2450 3000 3000 3000
+Wire Wire Line
+	3000 3100 2450 3100
+Text Label 3000 3200 2    60   ~ 0
+MTR_EN
+Wire Wire Line
+	3000 3200 2450 3200
+Text Label 3000 3300 2    60   ~ 0
+MTR_DATA
+Wire Wire Line
+	3000 3300 2450 3300
+Text Label 2950 3500 2    60   ~ 0
+MCU_SCLK
+Text Label 2950 3600 2    60   ~ 0
+MCU_SDO
+Text Label 2950 3700 2    60   ~ 0
+MCU_SDI
+Wire Wire Line
+	2450 3500 2950 3500
+Wire Wire Line
+	2950 3600 2450 3600
+Wire Wire Line
+	2450 3700 2950 3700
+$Comp
+L CONN_20X2 P?
+U 1 1 56AFC61D
+P 2050 3550
+F 0 "P?" H 2050 4600 60  0000 C CNN
+F 1 "CONN_20X2" V 2050 3550 50  0000 C CNN
+F 2 "~" H 2050 3550 60  0000 C CNN
+F 3 "~" H 2050 3550 60  0000 C CNN
+	1    2050 3550
+	1    0    0    -1  
+$EndComp
+Text GLabel 800  6700 0    60   Input ~ 0
+3.3V
+Wire Wire Line
+	800  6700 1300 6700
+Text Label 4000 1700 0    60   ~ 0
+MTR_CLR
+Wire Wire Line
+	4000 1700 4550 1700
+Text Label 3000 3400 2    60   ~ 0
+MTR_CLR
+Wire Wire Line
+	2450 3400 3000 3400
+Text Label 1000 3800 0    60   ~ 0
+Whiper_V++
+Wire Wire Line
+	1000 3800 1650 3800
+Text Label 3050 3800 2    60   ~ 0
+Whiper_GND
+Wire Wire Line
+	3050 3800 2450 3800
+Text Label 700  7000 0    60   ~ 0
+Whiper_V++
+Wire Wire Line
+	700  7000 1300 7000
+Text Label 700  6900 0    60   ~ 0
+Whiper_GND
+Wire Wire Line
+	700  6900 1300 6900
+Text Label 1300 3900 0    60   ~ 0
+Q_CNT
+Wire Wire Line
+	1300 3900 1650 3900
+$Comp
+L 74HC4051 U?
+U 1 1 56CF445A
+P 4850 4300
+F 0 "U?" H 4850 4200 60  0000 C CNN
+F 1 "74HC4051" H 4850 4400 60  0000 C CNN
+F 2 "" H 4850 4300 60  0000 C CNN
+F 3 "" H 4850 4300 60  0000 C CNN
+	1    4850 4300
+	1    0    0    -1  
+$EndComp
+Text Label 6100 4350 2    60   ~ 0
+OVRFLW_M0
+Text Label 6100 4250 2    60   ~ 0
+OVRFLW_M1
+Text Label 6100 4150 2    60   ~ 0
+OVRFLW_M2
+Text Label 6100 4450 2    60   ~ 0
+OVRFLW_M3
+Text Label 3650 4450 0    60   ~ 0
+OVRFLW_M5
+Text Label 3650 4050 0    60   ~ 0
+OVRFLW_M4
+Text GLabel 5700 3850 2    60   Input ~ 0
+3.3V
+Text GLabel 3450 4850 0    60   Input ~ 0
+GND_3.3V
+Wire Wire Line
+	4150 4050 3650 4050
+Wire Wire Line
+	3500 4150 4150 4150
+Wire Wire Line
+	3500 4350 4150 4350
+Wire Wire Line
+	3650 4450 4150 4450
+Wire Wire Line
+	5550 4150 6100 4150
+Wire Wire Line
+	5550 4250 6100 4250
+Wire Wire Line
+	6100 4350 5550 4350
+Wire Wire Line
+	5550 4450 6100 4450
+Wire Wire Line
+	5700 3850 5700 4050
+Wire Wire Line
+	5700 4050 5550 4050
+Wire Wire Line
+	3450 4850 4150 4850
+Wire Wire Line
+	4150 4850 4150 4750
+Wire Wire Line
+	4150 4550 4000 4550
+Wire Wire Line
+	4000 4550 4000 4850
+Connection ~ 4000 4850
+Text GLabel 3800 4650 0    60   Input ~ 0
+3.3V
+Wire Wire Line
+	3800 4650 4150 4650
+Text Label 6200 4550 2    60   ~ 0
+OVRFLW_SEL0
+Text Label 6200 4650 2    60   ~ 0
+OVRFLW_SEL1
+Text Label 6200 4750 2    60   ~ 0
+OVRFLW_SEL2
+Wire Wire Line
+	5550 4550 6200 4550
+Wire Wire Line
+	5550 4650 6200 4650
+Wire Wire Line
+	5550 4750 6200 4750
+Text Label 3800 4250 0    60   ~ 0
+OVRFLW
+Wire Wire Line
+	3800 4250 4150 4250
+Wire Wire Line
+	3500 4150 3500 4850
+Connection ~ 3500 4850
+Connection ~ 3500 4350
+Text Label 3100 3900 2    60   ~ 0
+OVRFLW_SEL0
+Text Label 3100 4000 2    60   ~ 0
+OVRFLW_SEL1
+Text Label 3100 4100 2    60   ~ 0
+OVRFLW_SEL2
+Wire Wire Line
+	2450 3900 3100 3900
+Wire Wire Line
+	2450 4000 3100 4000
+Wire Wire Line
+	2450 4100 3100 4100
+Text Label 1250 4000 0    60   ~ 0
+OVRFLW
+Wire Wire Line
+	1250 4000 1650 4000
+$Comp
+L 74HC4051 U?
+U 1 1 56D576F2
+P 4950 5550
+F 0 "U?" H 4950 5450 60  0000 C CNN
+F 1 "74HC4051" H 4950 5650 60  0000 C CNN
+F 2 "" H 4950 5550 60  0000 C CNN
+F 3 "" H 4950 5550 60  0000 C CNN
+	1    4950 5550
+	1    0    0    -1  
+$EndComp
+Text Label 6200 5600 2    60   ~ 0
+UDRFLW_M0
+Text Label 6200 5500 2    60   ~ 0
+UDRFLW_M1
+Text Label 6200 5400 2    60   ~ 0
+UDRFLW_M2
+Text Label 6200 5700 2    60   ~ 0
+UDRFLW_M3
+Text Label 3750 5700 0    60   ~ 0
+UDRFLW_M5
+Text Label 3750 5300 0    60   ~ 0
+UDRFLW_M4
+Text GLabel 5800 5100 2    60   Input ~ 0
+3.3V
+Text GLabel 3550 6100 0    60   Input ~ 0
+GND_3.3V
+Wire Wire Line
+	4250 5300 3750 5300
+Wire Wire Line
+	3600 5400 4250 5400
+Wire Wire Line
+	3600 5600 4250 5600
+Wire Wire Line
+	3750 5700 4250 5700
+Wire Wire Line
+	5650 5400 6200 5400
+Wire Wire Line
+	5650 5500 6200 5500
+Wire Wire Line
+	6200 5600 5650 5600
+Wire Wire Line
+	5650 5700 6200 5700
+Wire Wire Line
+	5800 5100 5800 5300
+Wire Wire Line
+	5800 5300 5650 5300
+Wire Wire Line
+	3550 6100 4250 6100
+Wire Wire Line
+	4250 6100 4250 6000
+Wire Wire Line
+	4250 5800 4100 5800
+Wire Wire Line
+	4100 5800 4100 6100
+Connection ~ 4100 6100
+Text GLabel 3900 5900 0    60   Input ~ 0
+3.3V
+Wire Wire Line
+	3900 5900 4250 5900
+Text Label 6300 5800 2    60   ~ 0
+UDRFLW_SEL0
+Text Label 6300 5900 2    60   ~ 0
+UDRFLW_SEL1
+Text Label 6300 6000 2    60   ~ 0
+UDRFLW_SEL2
+Wire Wire Line
+	5650 5800 6300 5800
+Wire Wire Line
+	5650 5900 6300 5900
+Wire Wire Line
+	5650 6000 6300 6000
+Text Label 3900 5500 0    60   ~ 0
+UDRFLW
+Wire Wire Line
+	3900 5500 4250 5500
+Wire Wire Line
+	3600 5400 3600 6100
+Connection ~ 3600 6100
+Connection ~ 3600 5600
+Text Label 3100 4200 2    60   ~ 0
+UDRFLW_SEL0
+Text Label 3100 4300 2    60   ~ 0
+UDRFLW_SEL1
+Text Label 3100 4400 2    60   ~ 0
+UDRFLW_SEL2
+Wire Wire Line
+	2450 4200 3100 4200
+Wire Wire Line
+	2450 4300 3100 4300
+Wire Wire Line
+	2450 4400 3100 4400
+Text Label 1250 4100 0    60   ~ 0
+UDRFLW
+Wire Wire Line
+	1250 4100 1650 4100
 $EndSCHEMATC
