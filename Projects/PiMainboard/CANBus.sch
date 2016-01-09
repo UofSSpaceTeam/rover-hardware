@@ -55,16 +55,298 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 4800 3800 0    60   Input ~ 0
+Text HLabel 7150 4550 2    60   Input ~ 0
 CE
-Text HLabel 4800 3900 0    60   Input ~ 0
+Text HLabel 7150 4650 2    60   Input ~ 0
 MISO
-Text HLabel 4800 4000 0    60   Input ~ 0
+Text HLabel 7150 4750 2    60   Input ~ 0
 MOSI
-Text HLabel 4800 4100 0    60   Input ~ 0
+Text HLabel 7150 4850 2    60   Input ~ 0
 SCLK
-Text HLabel 4800 4200 0    60   Input ~ 0
+Text HLabel 7150 4950 2    60   Input ~ 0
 INT
-Text HLabel 4800 4350 0    60   Input ~ 0
+Text HLabel 5700 5050 0    60   Input ~ 0
 CLK24
+$Comp
+L MCP2515 U2_CAN
+U 1 1 568AC62D
+P 6450 4750
+F 0 "U2_CAN" H 6650 5300 60  0000 C CNN
+F 1 "MCP2515" H 6400 4200 60  0000 C CNN
+F 2 "" H 6350 4650 60  0000 C CNN
+F 3 "" H 6350 4650 60  0000 C CNN
+	1    6450 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCP2562 U1_CAN
+U 1 1 568AC6C6
+P 6400 3750
+F 0 "U1_CAN" H 6600 4050 60  0000 C CNN
+F 1 "MCP2562" H 6400 3450 60  0000 C CNN
+F 2 "" H 6150 3650 60  0000 C CNN
+F 3 "" H 6150 3650 60  0000 C CNN
+	1    6400 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 4550 7000 4550
+Wire Wire Line
+	7150 4650 7000 4650
+Wire Wire Line
+	7150 4750 7000 4750
+Wire Wire Line
+	7150 4850 7000 4850
+Wire Wire Line
+	7000 4950 7150 4950
+Wire Wire Line
+	5700 5050 5850 5050
+Wire Wire Line
+	5850 4350 5600 4350
+Wire Wire Line
+	5600 4350 5600 3600
+Wire Wire Line
+	5600 3600 5900 3600
+Wire Wire Line
+	5900 3900 5650 3900
+Wire Wire Line
+	5650 3900 5650 4450
+Wire Wire Line
+	5650 4450 5850 4450
+Wire Wire Line
+	6900 3700 7100 3700
+Wire Wire Line
+	6900 3800 7100 3800
+Text Label 7100 3700 0    60   ~ 0
+CANH_OUT
+Text Label 7100 3800 0    60   ~ 0
+CANL_OUT
+Wire Wire Line
+	6900 3900 7150 3900
+Wire Wire Line
+	7150 3900 7150 4350
+Wire Wire Line
+	7000 4350 7900 4350
+Connection ~ 7150 4350
+Text GLabel 7900 4350 2    60   Input ~ 0
+3v3
+$Comp
+L cap_np C1_CAN
+U 1 1 568ACA60
+P 7650 4500
+F 0 "C1_CAN" H 7700 4510 50  0000 L CNN
+F 1 "0.1uF" H 7700 4440 50  0000 L CNN
+F 2 "" H 7650 4500 60  0000 C CNN
+F 3 "" H 7650 4500 60  0000 C CNN
+	1    7650 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 4450 7650 4350
+Connection ~ 7650 4350
+Wire Wire Line
+	7650 4600 7650 4650
+Wire Wire Line
+	7650 4650 7900 4650
+Text GLabel 7900 4650 2    60   Input ~ 0
+GND
+Wire Wire Line
+	5850 5150 5700 5150
+Text GLabel 5700 5150 0    60   Input ~ 0
+GND
+Wire Wire Line
+	5900 3800 5500 3800
+Wire Wire Line
+	5900 3700 5500 3700
+$Comp
+L cap_np C2_CAN
+U 1 1 568ACCF6
+P 5200 3750
+F 0 "C2_CAN" H 5250 3760 50  0000 L CNN
+F 1 "0.1uF" H 5250 3690 50  0000 L CNN
+F 2 "" H 5200 3750 60  0000 C CNN
+F 3 "" H 5200 3750 60  0000 C CNN
+	1    5200 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3600 5500 3700
+Wire Wire Line
+	5050 3600 5500 3600
+Wire Wire Line
+	5200 3600 5200 3700
+Wire Wire Line
+	5500 3900 5500 3800
+Wire Wire Line
+	5050 3900 5500 3900
+Wire Wire Line
+	5200 3900 5200 3850
+Connection ~ 5200 3600
+Connection ~ 5200 3900
+Text GLabel 5050 3600 0    60   Input ~ 0
+GND
+Text GLabel 5050 3900 0    60   Input ~ 0
+5v0
+$Comp
+L HEADER_4 J1_CAN
+U 1 1 568AD3DE
+P 10150 2250
+F 0 "J1_CAN" H 10150 2500 60  0000 C CNN
+F 1 "HEADER_4" H 10150 2000 60  0000 C CNN
+F 2 "" H 10150 2250 60  0000 C CNN
+F 3 "" H 10150 2250 60  0000 C CNN
+	1    10150 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 2100 9500 2100
+Wire Wire Line
+	10050 2200 9500 2200
+Wire Wire Line
+	10050 2300 9750 2300
+Wire Wire Line
+	10050 2400 9750 2400
+Text Label 9500 2100 0    60   ~ 0
+CANH_OUT
+Text Label 9500 2200 0    60   ~ 0
+CANL_OUT
+Text GLabel 9750 2300 0    60   Input ~ 0
+GND
+Text GLabel 9750 2400 0    60   Input ~ 0
+5v0
+$Comp
+L HEADER_4 J2_CAN
+U 1 1 568ADD75
+P 10150 2900
+F 0 "J2_CAN" H 10150 3150 60  0000 C CNN
+F 1 "HEADER_4" H 10150 2650 60  0000 C CNN
+F 2 "" H 10150 2900 60  0000 C CNN
+F 3 "" H 10150 2900 60  0000 C CNN
+	1    10150 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 2750 9500 2750
+Wire Wire Line
+	10050 2850 9500 2850
+Wire Wire Line
+	10050 2950 9750 2950
+Wire Wire Line
+	10050 3050 9750 3050
+Text Label 9500 2750 0    60   ~ 0
+CANH_OUT
+Text Label 9500 2850 0    60   ~ 0
+CANL_OUT
+Text GLabel 9750 2950 0    60   Input ~ 0
+GND
+Text GLabel 9750 3050 0    60   Input ~ 0
+5v0
+$Comp
+L HEADER_4 J3_CAN
+U 1 1 568ADF7B
+P 10150 3550
+F 0 "J3_CAN" H 10150 3800 60  0000 C CNN
+F 1 "HEADER_4" H 10150 3300 60  0000 C CNN
+F 2 "" H 10150 3550 60  0000 C CNN
+F 3 "" H 10150 3550 60  0000 C CNN
+	1    10150 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 3400 9500 3400
+Wire Wire Line
+	10050 3500 9500 3500
+Wire Wire Line
+	10050 3600 9750 3600
+Wire Wire Line
+	10050 3700 9750 3700
+Text Label 9500 3400 0    60   ~ 0
+CANH_OUT
+Text Label 9500 3500 0    60   ~ 0
+CANL_OUT
+Text GLabel 9750 3600 0    60   Input ~ 0
+GND
+Text GLabel 9750 3700 0    60   Input ~ 0
+5v0
+$Comp
+L HEADER_4 J4_CAN
+U 1 1 568ADF89
+P 10150 4200
+F 0 "J4_CAN" H 10150 4450 60  0000 C CNN
+F 1 "HEADER_4" H 10150 3950 60  0000 C CNN
+F 2 "" H 10150 4200 60  0000 C CNN
+F 3 "" H 10150 4200 60  0000 C CNN
+	1    10150 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 4050 9500 4050
+Wire Wire Line
+	10050 4150 9500 4150
+Wire Wire Line
+	10050 4250 9750 4250
+Wire Wire Line
+	10050 4350 9750 4350
+Text Label 9500 4050 0    60   ~ 0
+CANH_OUT
+Text Label 9500 4150 0    60   ~ 0
+CANL_OUT
+Text GLabel 9750 4250 0    60   Input ~ 0
+GND
+Text GLabel 9750 4350 0    60   Input ~ 0
+5v0
+$Comp
+L HEADER_4 J5_CAN
+U 1 1 568AE0B5
+P 10150 4850
+F 0 "J5_CAN" H 10150 5100 60  0000 C CNN
+F 1 "HEADER_4" H 10150 4600 60  0000 C CNN
+F 2 "" H 10150 4850 60  0000 C CNN
+F 3 "" H 10150 4850 60  0000 C CNN
+	1    10150 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 4700 9500 4700
+Wire Wire Line
+	10050 4800 9500 4800
+Wire Wire Line
+	10050 4900 9750 4900
+Wire Wire Line
+	10050 5000 9750 5000
+Text Label 9500 4700 0    60   ~ 0
+CANH_OUT
+Text Label 9500 4800 0    60   ~ 0
+CANL_OUT
+Text GLabel 9750 4900 0    60   Input ~ 0
+GND
+Text GLabel 9750 5000 0    60   Input ~ 0
+5v0
+$Comp
+L HEADER_4 J6_CAN
+U 1 1 568AE0C3
+P 10150 5500
+F 0 "J6_CAN" H 10150 5750 60  0000 C CNN
+F 1 "HEADER_4" H 10150 5250 60  0000 C CNN
+F 2 "" H 10150 5500 60  0000 C CNN
+F 3 "" H 10150 5500 60  0000 C CNN
+	1    10150 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 5350 9500 5350
+Wire Wire Line
+	10050 5450 9500 5450
+Wire Wire Line
+	10050 5550 9750 5550
+Wire Wire Line
+	10050 5650 9750 5650
+Text Label 9500 5350 0    60   ~ 0
+CANH_OUT
+Text Label 9500 5450 0    60   ~ 0
+CANL_OUT
+Text GLabel 9750 5550 0    60   Input ~ 0
+GND
+Text GLabel 9750 5650 0    60   Input ~ 0
+5v0
 $EndSCHEMATC
