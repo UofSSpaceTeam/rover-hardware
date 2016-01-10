@@ -1,4 +1,4 @@
-update=12/27/2015 8:33:35 PM
+update=Sat 02 Jan 2016 02:26:59 PM CST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,7 +25,12 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=../../Parts/library
+LibDir=/home/carl/Kicad/arm_board/arm_board-0.1/library
+NetFmtName=
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -56,17 +61,6 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=USSTComponents
-LibName31=w_analog
-LibName32=w_connectors
-LibName33=w_device
-LibName34=w_logic
-LibName35=w_memory
-LibName36=w_microcontrollers
-LibName37=w_opto
-LibName38=w_relay
-LibName39=w_rtx
-LibName40=w_transistor
-LibName41=w_vacuum
+LibName30=ArmComponentLibrary
 [general]
 version=1

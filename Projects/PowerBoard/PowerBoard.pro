@@ -1,4 +1,4 @@
-update=12/27/2015 8:33:35 PM
+update=Saturday, January 09, 2016 'amt' 11:03:22 am
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,9 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=../../Parts/library
+LibDir=../../../kicad Support/library;../../Parts/library;../../Parts
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -57,16 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=USSTComponents
-LibName31=w_analog
-LibName32=w_connectors
-LibName33=w_device
-LibName34=w_logic
-LibName35=w_memory
-LibName36=w_microcontrollers
-LibName37=w_opto
-LibName38=w_relay
-LibName39=w_rtx
-LibName40=w_transistor
-LibName41=w_vacuum
-[general]
-version=1
+LibName31=TomParts
