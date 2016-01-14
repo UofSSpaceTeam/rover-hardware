@@ -1,0 +1,17 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# ATX_Power_Connector
+#
+DEF ATX_Power_Connector U 0 40 Y Y 1 F N
+F0 "U" 500 200 60 H V C CNN
+F1 "ATX_Power_Connector" 500 200 60 H V C CNN
+F2 "" 500 200 60 H V C CNN
+F3 "" 500 200 60 H V C CNN
+DRAW
+S -800 1500 1200 -1850 0 1 0 N
+X test ~ 1400 950 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

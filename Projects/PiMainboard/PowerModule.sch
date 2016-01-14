@@ -55,12 +55,42 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 4550 3150 0    60   Input ~ 0
-3v3
-Text HLabel 4550 3300 0    60   Input ~ 0
+Text HLabel 6050 3000 2    60   Input ~ 0
 1v8
-Text HLabel 4550 3450 0    60   Input ~ 0
+Text HLabel 4550 2500 0    60   Input ~ 0
 GND
-Text HLabel 4550 3600 0    60   Input ~ 0
+Text HLabel 4500 3000 0    60   Input ~ 0
 5v0
+$Comp
+L AP1117E18 U2
+U 1 1 5692FD9A
+P 5250 3000
+F 0 "U2" H 5350 2750 50  0000 C CNN
+F 1 "AP1117E18" H 5250 3250 50  0000 C CNN
+F 2 "" H 5250 3000 50  0001 C CNN
+F 3 "" H 5250 3000 50  0000 C CNN
+	1    5250 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L AP1117E33 U3
+U 1 1 5692FDCF
+P 5250 2200
+F 0 "U3" H 5350 1950 50  0000 C CNN
+F 1 "AP1117E33" H 5250 2450 50  0000 C CNN
+F 2 "" H 5250 2200 50  0001 C CNN
+F 3 "" H 5250 2200 50  0000 C CNN
+	1    5250 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3000 4950 3000
+Wire Wire Line
+	4950 2200 4550 2200
+Text HLabel 4550 2200 0    60   Input ~ 0
+5v0
+Text HLabel 4500 3350 0    60   Input ~ 0
+GND
+Text HLabel 6050 2200 2    60   Input ~ 0
+3v3
 $EndSCHEMATC
