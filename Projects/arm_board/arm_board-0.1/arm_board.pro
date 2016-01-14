@@ -1,6 +1,6 @@
-update=Sat 02 Jan 2016 02:26:59 PM CST
+update=Thu 14 Jan 2016 04:40:59 PM CST
 version=1
-last_client=kicad
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=/home/carl/Kicad/arm_board/arm_board-0.1/library
@@ -62,5 +64,3 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=ArmComponentLibrary
-[general]
-version=1

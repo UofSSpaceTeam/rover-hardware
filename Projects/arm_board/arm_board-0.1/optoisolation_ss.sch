@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 23
 Title ""
-Date "7 jan 2016"
+Date "14 jan 2016"
 Rev ""
 Comp ""
 Comment1 ""
@@ -93,13 +93,9 @@ F 3 "" H 7150 2650 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1900 1800 3150 1800
+	1900 1800 3250 1800
 Wire Wire Line
-	3150 1800 3250 1800
-Wire Wire Line
-	1900 1800 1900 2000
-Wire Wire Line
-	1900 2000 1900 2350
+	1900 1800 1900 2350
 Connection ~ 1900 2000
 Connection ~ 5150 1800
 Connection ~ 5150 2350
@@ -115,8 +111,6 @@ Wire Wire Line
 	5150 3850 6950 3850
 Wire Wire Line
 	6950 3850 6950 3350
-Text GLabel 7450 3350 3    60   Input ~ 0
-3.3V
 Text HLabel 7350 1950 1    60   Output ~ 0
 n_IQ_0
 Text HLabel 7150 1950 1    60   Output ~ 0
@@ -135,8 +129,6 @@ Text HLabel 7050 3350 3    60   Output ~ 0
 n_IQ_4
 Text HLabel 7250 3350 3    60   Output ~ 0
 n_IQ_5
-Text GLabel 6850 1950 1    60   Input ~ 0
-GND_3.3V
 $Comp
 L 74LVC04A U?
 U 1 1 56841652
@@ -153,9 +145,9 @@ n_IQ_6
 Text HLabel 6450 4850 0    60   Output ~ 0
 n_IQ_7
 Text GLabel 7850 4550 2    60   Input ~ 0
-3.3V
+NOISE_3.3V
 Text GLabel 6450 5150 0    60   Input ~ 0
-GND_3.3V
+NOISE_GND_3.3V
 Text HLabel 4500 5400 2    60   Output ~ 0
 PWM_0
 Text HLabel 4500 5500 2    60   Output ~ 0
@@ -190,17 +182,11 @@ Connection ~ 3150 1800
 Wire Wire Line
 	5150 1200 5150 1800
 Wire Wire Line
-	4650 1800 5150 1800
+	4650 1800 5200 1800
 Wire Wire Line
-	5150 1800 5200 1800
+	4650 1900 5200 1900
 Wire Wire Line
-	4650 1900 5100 1900
-Wire Wire Line
-	5100 1900 5200 1900
-Wire Wire Line
-	4650 2350 5150 2350
-Wire Wire Line
-	5150 2350 5200 2350
+	4650 2350 5200 2350
 $Comp
 L SFH6732 U?
 U 1 1 568FEB46
@@ -235,18 +221,14 @@ F 3 "~" H 3000 2550 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1900 2350 3200 2350
-Wire Wire Line
-	3200 2350 3250 2350
+	1900 2350 3250 2350
 Wire Wire Line
 	3250 2450 3200 2450
 Wire Wire Line
 	3200 2450 3200 2350
 Connection ~ 3200 2350
 Wire Wire Line
-	4650 2450 5150 2450
-Wire Wire Line
-	5150 2450 5200 2450
+	4650 2450 5200 2450
 Wire Wire Line
 	5150 1200 7450 1200
 Wire Wire Line
@@ -302,9 +284,7 @@ F 3 "~" H 2950 4000 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1850 4100 3100 4100
-Wire Wire Line
-	3100 4100 3200 4100
+	1850 4100 3200 4100
 $Comp
 L SFH6732 U?
 U 1 1 568FF17C
@@ -366,9 +346,7 @@ F 3 "~" H 2950 4850 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1850 4650 3150 4650
-Wire Wire Line
-	3150 4650 3200 4650
+	1850 4650 3200 4650
 Wire Wire Line
 	3200 4750 3150 4750
 Wire Wire Line
@@ -382,13 +360,9 @@ Wire Wire Line
 	5150 2450 5150 3850
 Connection ~ 5150 2450
 Wire Wire Line
-	4600 4100 5100 4100
+	4600 4100 5200 4100
 Wire Wire Line
-	5100 4100 5200 4100
-Wire Wire Line
-	4600 4200 5100 4200
-Wire Wire Line
-	5100 4200 5200 4200
+	4600 4200 5200 4200
 Wire Wire Line
 	5100 4100 5100 4000
 Wire Wire Line
@@ -397,17 +371,13 @@ Connection ~ 7150 4000
 Wire Wire Line
 	7150 4000 7150 3350
 Text GLabel 4600 3750 0    60   Input ~ 0
-5V
+NOISE_5V
 Wire Wire Line
 	4600 3750 4600 4000
 Wire Wire Line
-	4600 4650 5050 4650
+	4600 4650 5100 4650
 Wire Wire Line
-	5050 4650 5100 4650
-Wire Wire Line
-	4600 4750 5050 4750
-Wire Wire Line
-	5050 4750 5100 4750
+	4600 4750 5100 4750
 Wire Wire Line
 	4600 3750 4650 3750
 Wire Wire Line
@@ -429,7 +399,7 @@ Wire Wire Line
 	6000 4750 6450 4750
 Connection ~ 5050 4750
 Text GLabel 4900 5000 2    60   Input ~ 0
-GND_5V
+NOISE_GND_5V
 Wire Wire Line
 	4600 4300 4900 4300
 Wire Wire Line
@@ -480,18 +450,12 @@ GND_3.3V
 Wire Wire Line
 	2550 5450 2550 5400
 Wire Wire Line
-	2550 5400 3050 5400
-Wire Wire Line
-	3050 5400 3100 5400
+	2550 5400 3100 5400
 Wire Wire Line
 	3100 5500 3050 5500
 Wire Wire Line
 	3050 5500 3050 5400
 Connection ~ 3050 5400
-Text GLabel 4500 5600 2    60   Input ~ 0
-GND_5V
-Text GLabel 4500 5300 2    60   Input ~ 0
-5V
 Text HLabel 4500 5950 2    60   Output ~ 0
 PWM_2
 Text HLabel 4500 6050 2    60   Output ~ 0
@@ -538,18 +502,12 @@ GND_3.3V
 Wire Wire Line
 	2550 6000 2550 5950
 Wire Wire Line
-	2550 5950 3050 5950
-Wire Wire Line
-	3050 5950 3100 5950
+	2550 5950 3100 5950
 Wire Wire Line
 	3100 6050 3050 6050
 Wire Wire Line
 	3050 6050 3050 5950
 Connection ~ 3050 5950
-Text GLabel 4500 6150 2    60   Input ~ 0
-GND_5V
-Text GLabel 4500 5850 2    60   Input ~ 0
-5V
 Text HLabel 4500 6550 2    60   Output ~ 0
 PWM_4
 Text HLabel 4500 6650 2    60   Output ~ 0
@@ -596,18 +554,12 @@ GND_3.3V
 Wire Wire Line
 	2550 6600 2550 6550
 Wire Wire Line
-	2550 6550 3050 6550
-Wire Wire Line
-	3050 6550 3100 6550
+	2550 6550 3100 6550
 Wire Wire Line
 	3100 6650 3050 6650
 Wire Wire Line
 	3050 6650 3050 6550
 Connection ~ 3050 6550
-Text GLabel 4500 6750 2    60   Input ~ 0
-GND_5V
-Text GLabel 4500 6450 2    60   Input ~ 0
-5V
 Text HLabel 4500 7100 2    60   Output ~ 0
 PWM_6
 Text HLabel 4500 7200 2    60   Output ~ 0
@@ -654,16 +606,34 @@ GND_3.3V
 Wire Wire Line
 	2550 7150 2550 7100
 Wire Wire Line
-	2550 7100 3050 7100
-Wire Wire Line
-	3050 7100 3100 7100
+	2550 7100 3100 7100
 Wire Wire Line
 	3100 7200 3050 7200
 Wire Wire Line
 	3050 7200 3050 7100
 Connection ~ 3050 7100
-Text GLabel 4500 7300 2    60   Input ~ 0
-GND_5V
+Text GLabel 7450 3350 3    60   Input ~ 0
+NOISE_3.3V
+Text GLabel 6600 1800 0    60   Input ~ 0
+NOISE_GND_3.3V
+Wire Wire Line
+	6600 1800 6850 1800
+Wire Wire Line
+	6850 1800 6850 1950
+Text GLabel 4500 5300 2    60   Input ~ 0
+NOISE_5V
+Text GLabel 4500 5850 2    60   Input ~ 0
+NOISE_5V
+Text GLabel 4500 6450 2    60   Input ~ 0
+NOISE_5V
 Text GLabel 4500 7000 2    60   Input ~ 0
-5V
+NOISE_5V
+Text GLabel 4500 5600 2    60   Input ~ 0
+NOISE_GND_5V
+Text GLabel 4500 6150 2    60   Input ~ 0
+NOISE_GND_5V
+Text GLabel 4500 6750 2    60   Input ~ 0
+NOISE_GND_5V
+Text GLabel 4500 7300 2    60   Input ~ 0
+NOISE_GND_5V
 $EndSCHEMATC
