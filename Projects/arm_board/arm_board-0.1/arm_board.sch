@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 23
 Title ""
-Date "14 jan 2016"
+Date "30 jan 2016"
 Rev ""
 Comp ""
 Comment1 ""
@@ -111,13 +111,13 @@ F5 "DIR" I L 9150 1150 60
 F6 "n_DIR" I L 9150 1250 60 
 $EndSheet
 Text Label 8850 1000 0    60   ~ 0
-M_EN
+EN
 Text Label 7450 1450 0    60   ~ 0
 IPWM_0
 Text Label 8800 1450 0    60   ~ 0
 IPWM_1
 Text Label 7550 1000 0    60   ~ 0
-M_EN
+EN
 Text Label 7550 1150 0    60   ~ 0
 IQ_0
 $Comp
@@ -246,15 +246,15 @@ DIR_M0
 Text Label 6500 2250 0    60   ~ 0
 n_DIR_M0
 Text Label 8900 2400 0    60   ~ 0
-PWM_M1
+PWM_M3
 Text Label 6500 2350 0    60   ~ 0
-PWM_M0
+PWM_M2
 Text Label 9000 2200 0    60   ~ 0
 DIR_M1
 Text Label 8900 2300 0    60   ~ 0
 n_DIR_M1
 Text Label 8900 3950 0    60   ~ 0
-PWM_M3
+PWM_M5
 Text Label 9000 3750 0    60   ~ 0
 DIR_M3
 Text Label 8900 3850 0    60   ~ 0
@@ -264,19 +264,19 @@ DIR_M2
 Text Label 6500 3800 0    60   ~ 0
 n_DIR_M2
 Text Label 6500 3900 0    60   ~ 0
-PWM_M2
+PWM_M4
 Text Label 6600 5200 0    60   ~ 0
 DIR_M4
 Text Label 6500 5300 0    60   ~ 0
 n_DIR_M4
 Text Label 6500 5400 0    60   ~ 0
-PWM_M4
+PWM_M6
 Text Label 9000 5250 0    60   ~ 0
 DIR_M5
 Text Label 8900 5350 0    60   ~ 0
 n_DIR_M5
 Text Label 8900 5450 0    60   ~ 0
-PWM_M5
+PWM_M7
 Text Label 6000 800  2    60   ~ 0
 IQ_0
 Text Label 6000 900  2    60   ~ 0
@@ -340,43 +340,43 @@ PWM_M7
 $Comp
 L 74HC4051 MUX
 U 1 1 568B4084
-P 1950 1450
-F 0 "MUX" H 1950 1350 60  0000 C CNN
-F 1 "74HC4051" H 1950 1550 60  0000 C CNN
-F 2 "" H 1950 1450 60  0000 C CNN
-F 3 "" H 1950 1450 60  0000 C CNN
-	1    1950 1450
+P 2100 1100
+F 0 "MUX" H 2100 1000 60  0000 C CNN
+F 1 "74HC4051" H 2100 1200 60  0000 C CNN
+F 2 "" H 2100 1100 60  0000 C CNN
+F 3 "" H 2100 1100 60  0000 C CNN
+	1    2100 1100
 	1    0    0    -1  
 $EndComp
-Text Label 3200 1500 2    60   ~ 0
+Text Label 3350 1150 2    60   ~ 0
 Q_CNT_M0
-Text Label 3200 1400 2    60   ~ 0
+Text Label 3350 1050 2    60   ~ 0
 Q_CNT_M1
-Text Label 3200 1300 2    60   ~ 0
+Text Label 3350 950  2    60   ~ 0
 Q_CNT_M2
-Text Label 3200 1600 2    60   ~ 0
+Text Label 3350 1250 2    60   ~ 0
 Q_CNT_M3
-Text Label 750  1600 0    60   ~ 0
+Text Label 900  1250 0    60   ~ 0
 Q_CNT_M5
-Text Label 750  1500 0    60   ~ 0
+Text Label 900  1150 0    60   ~ 0
 Q_CNT_M7
-Text Label 750  1300 0    60   ~ 0
+Text Label 900  950  0    60   ~ 0
 Q_CNT_M6
-Text Label 750  1200 0    60   ~ 0
+Text Label 900  850  0    60   ~ 0
 Q_CNT_M4
-Text GLabel 2800 1000 2    60   Input ~ 0
+Text GLabel 2950 650  2    60   Input ~ 0
 3.3V
-Text GLabel 1000 2000 0    60   Input ~ 0
+Text GLabel 1150 1650 0    60   Input ~ 0
 GND_3.3V
-Text GLabel 900  1800 0    60   Input ~ 0
+Text GLabel 1050 1450 0    60   Input ~ 0
 3.3V
-Text Label 3200 1700 2    60   ~ 0
-CNT_SEL0
-Text Label 3200 1800 2    60   ~ 0
-CNT_SEL1
-Text Label 3200 1900 2    60   ~ 0
-CNT_SEL2
-Text Label 900  1400 0    60   ~ 0
+Text Label 3350 1350 2    60   ~ 0
+SEL0
+Text Label 3350 1450 2    60   ~ 0
+SEL1
+Text Label 3350 1550 2    60   ~ 0
+SEL2
+Text Label 1050 1050 0    60   ~ 0
 Q_CNT
 Text Label 800  6150 0    60   ~ 0
 MCU_SCLK
@@ -404,77 +404,65 @@ Text Label 3900 3250 0    60   ~ 0
 MCU_PWM6
 Text Label 3900 3350 0    60   ~ 0
 MCU_PWM7
-Text Label 750  2600 0    60   ~ 0
+Text Label 1100 2250 0    60   ~ 0
 MCU_PWM0
-Text Label 750  2700 0    60   ~ 0
+Text Label 1100 2350 0    60   ~ 0
 MCU_PWM1
-Text Label 750  2800 0    60   ~ 0
+Text Label 1100 2450 0    60   ~ 0
 MCU_PWM2
-Text Label 750  2900 0    60   ~ 0
+Text Label 1100 2550 0    60   ~ 0
 MCU_PWM3
-Text Label 750  3000 0    60   ~ 0
+Text Label 1100 2650 0    60   ~ 0
 MCU_PWM4
-Text Label 750  3100 0    60   ~ 0
+Text Label 1100 2750 0    60   ~ 0
 MCU_PWM5
-Text Label 750  3200 0    60   ~ 0
+Text Label 1100 2850 0    60   ~ 0
 MCU_PWM6
-Text Label 750  3300 0    60   ~ 0
+Text Label 1100 2950 0    60   ~ 0
 MCU_PWM7
-Text Label 1000 2200 0    60   ~ 0
+Text Label 1350 1850 0    60   ~ 0
 CNT_S0
-Text Label 1000 2300 0    60   ~ 0
+Text Label 1350 1950 0    60   ~ 0
 CNT_S1
-Text Label 1000 2400 0    60   ~ 0
+Text Label 1350 2050 0    60   ~ 0
 CNT_S2
-Text Label 1000 2500 0    60   ~ 0
+Text Label 1350 2150 0    60   ~ 0
 CNT_S3
-Text Label 2750 2200 2    60   ~ 0
-CNT_SEL0
-Text Label 2750 2300 2    60   ~ 0
-CNT_SEL1
-Text Label 2750 2400 2    60   ~ 0
-CNT_SEL2
 Text Label 4000 1250 0    60   ~ 0
-MTR_SEL0
+SEL0
 Text Label 4000 1350 0    60   ~ 0
-MTR_SEL1
+SEL1
 Text Label 4000 1450 0    60   ~ 0
-MTR_SEL2
+SEL2
 Text Label 4050 850  0    60   ~ 0
 MTR_DATA
 Text Label 4150 1100 0    60   ~ 0
 MTR_EN
-Text Label 2750 2500 2    60   ~ 0
-MTR_SEL0
-Text Label 2750 2600 2    60   ~ 0
-MTR_SEL1
-Text Label 2750 2700 2    60   ~ 0
-MTR_SEL2
-Text Label 2750 2800 2    60   ~ 0
+Text Label 3100 1850 2    60   ~ 0
 MTR_EN
-Text Label 2750 2900 2    60   ~ 0
+Text Label 3100 1950 2    60   ~ 0
 MTR_DATA
-Text Label 2700 3100 2    60   ~ 0
+Text Label 3050 2150 2    60   ~ 0
 MCU_SCLK
-Text Label 2700 3200 2    60   ~ 0
+Text Label 3050 2250 2    60   ~ 0
 MCU_SDO
-Text Label 2700 3300 2    60   ~ 0
+Text Label 3050 2350 2    60   ~ 0
 MCU_SDI
 Text GLabel 800  6700 0    60   Input ~ 0
 3.3V
 Text Label 4000 1700 0    60   ~ 0
 MTR_CLR
-Text Label 2750 3000 2    60   ~ 0
+Text Label 3100 2050 2    60   ~ 0
 MTR_CLR
-Text Label 750  4100 0    60   ~ 0
+Text Label 3200 3250 2    60   ~ 0
 Whiper_V++
-Text Label 2800 4100 2    60   ~ 0
+Text Label 3150 3150 2    60   ~ 0
 Whiper_GND
 Text Label 700  7000 0    60   ~ 0
 Whiper_V++
 Text Label 700  6900 0    60   ~ 0
 Whiper_GND
-Text Label 1050 3400 0    60   ~ 0
+Text Label 1400 3050 0    60   ~ 0
 Q_CNT
 $Comp
 L 74HC4051 MUX
@@ -506,20 +494,14 @@ GND_3.3V
 Text GLabel 3800 4650 0    60   Input ~ 0
 3.3V
 Text Label 6200 4550 2    60   ~ 0
-OVRFLW_SEL0
+SEL0
 Text Label 6200 4650 2    60   ~ 0
-OVRFLW_SEL1
+SEL1
 Text Label 6200 4750 2    60   ~ 0
-OVRFLW_SEL2
+SEL2
 Text Label 3800 4250 0    60   ~ 0
 OVRFLW
-Text Label 2850 3500 2    60   ~ 0
-OVRFLW_SEL0
-Text Label 2850 3600 2    60   ~ 0
-OVRFLW_SEL1
-Text Label 2850 3700 2    60   ~ 0
-OVRFLW_SEL2
-Text Label 1000 3500 0    60   ~ 0
+Text Label 1350 3150 0    60   ~ 0
 OVRFLW
 $Comp
 L 74HC4051 MUX
@@ -551,36 +533,19 @@ GND_3.3V
 Text GLabel 3900 5900 0    60   Input ~ 0
 3.3V
 Text Label 6300 5800 2    60   ~ 0
-UDRFLW_SEL0
+SEL0
 Text Label 6300 5900 2    60   ~ 0
-UDRFLW_SEL1
+SEL1
 Text Label 6300 6000 2    60   ~ 0
-UDRFLW_SEL2
+SEL2
 Text Label 3900 5500 0    60   ~ 0
 UDRFLW
-Text Label 2850 3800 2    60   ~ 0
-UDRFLW_SEL0
-Text Label 2850 3900 2    60   ~ 0
-UDRFLW_SEL1
-Text Label 2850 4000 2    60   ~ 0
-UDRFLW_SEL2
-Text Label 1000 3600 0    60   ~ 0
+Text Label 1350 3250 0    60   ~ 0
 UDRFLW
 Text Label 3300 5750 2    60   ~ 0
 EOC_MCU
-Text Label 950  3700 0    60   ~ 0
+Text Label 3000 3050 2    60   ~ 0
 EOC_MCU
-$Comp
-L CONN_25X2 P?
-U 1 1 56E0844E
-P 1800 3400
-F 0 "P?" H 1800 4700 60  0000 C CNN
-F 1 "CONN_25X2" V 1800 3400 50  0000 C CNN
-F 2 "~" H 1800 3400 60  0000 C CNN
-F 3 "~" H 1800 3400 60  0000 C CNN
-	1    1800 3400
-	1    0    0    -1  
-$EndComp
 Text Label 850  6800 0    60   ~ 0
 MCU_FS
 Wire Wire Line
@@ -800,44 +765,44 @@ Wire Wire Line
 Wire Wire Line
 	5600 3350 6000 3350
 Wire Wire Line
-	1250 1200 750  1200
+	1400 850  900  850 
 Wire Wire Line
-	750  1300 1250 1300
+	900  950  1400 950 
 Wire Wire Line
-	1250 1500 750  1500
+	1400 1150 900  1150
 Wire Wire Line
-	750  1600 1250 1600
+	900  1250 1400 1250
 Wire Wire Line
-	2650 1300 3200 1300
+	2800 950  3350 950 
 Wire Wire Line
-	2650 1400 3200 1400
+	2800 1050 3350 1050
 Wire Wire Line
-	3200 1500 2650 1500
+	3350 1150 2800 1150
 Wire Wire Line
-	2650 1600 3200 1600
+	2800 1250 3350 1250
 Wire Wire Line
-	2800 1000 2800 1200
+	2950 650  2950 850 
 Wire Wire Line
-	2800 1200 2650 1200
+	2950 850  2800 850 
 Wire Wire Line
-	1000 2000 1250 2000
+	1150 1650 1400 1650
 Wire Wire Line
-	1250 2000 1250 1900
+	1400 1650 1400 1550
 Wire Wire Line
-	1250 1700 1100 1700
+	1400 1350 1250 1350
 Wire Wire Line
-	1100 1700 1100 2000
-Connection ~ 1100 2000
+	1250 1350 1250 1650
+Connection ~ 1250 1650
 Wire Wire Line
-	900  1800 1250 1800
+	1050 1450 1400 1450
 Wire Wire Line
-	3200 1700 2650 1700
+	3350 1350 2800 1350
 Wire Wire Line
-	2650 1800 3200 1800
+	2800 1450 3350 1450
 Wire Wire Line
-	2650 1900 3200 1900
+	2800 1550 3350 1550
 Wire Wire Line
-	900  1400 1250 1400
+	1050 1050 1400 1050
 Wire Wire Line
 	1300 6150 800  6150
 Wire Wire Line
@@ -865,35 +830,29 @@ Wire Wire Line
 Wire Wire Line
 	3900 3350 4550 3350
 Wire Wire Line
-	1400 2600 750  2600
+	1750 2250 1100 2250
 Wire Wire Line
-	750  2700 1400 2700
+	1100 2350 1750 2350
 Wire Wire Line
-	1400 2800 750  2800
+	1750 2450 1100 2450
 Wire Wire Line
-	750  2900 1400 2900
+	1100 2550 1750 2550
 Wire Wire Line
-	1400 3000 750  3000
+	1750 2650 1100 2650
 Wire Wire Line
-	750  3100 1400 3100
+	1100 2750 1750 2750
 Wire Wire Line
-	1400 3200 750  3200
+	1750 2850 1100 2850
 Wire Wire Line
-	750  3300 1400 3300
+	1100 2950 1750 2950
 Wire Wire Line
-	1000 2500 1400 2500
+	1350 2150 1750 2150
 Wire Wire Line
-	1400 2400 1000 2400
+	1750 2050 1350 2050
 Wire Wire Line
-	1000 2300 1400 2300
+	1350 1950 1750 1950
 Wire Wire Line
-	1400 2200 1000 2200
-Wire Wire Line
-	2750 2200 2200 2200
-Wire Wire Line
-	2200 2300 2750 2300
-Wire Wire Line
-	2200 2400 2750 2400
+	1750 1850 1350 1850
 Wire Wire Line
 	4000 1250 4550 1250
 Wire Wire Line
@@ -905,35 +864,29 @@ Wire Wire Line
 Wire Wire Line
 	4150 1100 4550 1100
 Wire Wire Line
-	2750 2500 2200 2500
+	3100 1850 2550 1850
 Wire Wire Line
-	2200 2600 2750 2600
+	3100 1950 2550 1950
 Wire Wire Line
-	2750 2700 2200 2700
+	2550 2150 3050 2150
 Wire Wire Line
-	2750 2800 2200 2800
+	3050 2250 2550 2250
 Wire Wire Line
-	2750 2900 2200 2900
-Wire Wire Line
-	2200 3100 2700 3100
-Wire Wire Line
-	2700 3200 2200 3200
-Wire Wire Line
-	2200 3300 2700 3300
+	2550 2350 3050 2350
 Wire Wire Line
 	800  6700 1300 6700
 Wire Wire Line
 	4000 1700 4550 1700
 Wire Wire Line
-	2200 3000 2750 3000
+	2550 2050 3100 2050
 Wire Wire Line
-	750  4100 1400 4100
+	3200 3250 2550 3250
 Wire Wire Line
 	700  7000 1300 7000
 Wire Wire Line
 	700  6900 1300 6900
 Wire Wire Line
-	1050 3400 1400 3400
+	1400 3050 1750 3050
 Wire Wire Line
 	4150 4050 3650 4050
 Wire Wire Line
@@ -978,13 +931,7 @@ Wire Wire Line
 Connection ~ 3500 4850
 Connection ~ 3500 4350
 Wire Wire Line
-	2200 3500 2850 3500
-Wire Wire Line
-	2200 3600 2850 3600
-Wire Wire Line
-	2200 3700 2850 3700
-Wire Wire Line
-	1000 3500 1400 3500
+	1350 3150 1750 3150
 Wire Wire Line
 	4250 5300 3750 5300
 Wire Wire Line
@@ -1029,38 +976,32 @@ Wire Wire Line
 Connection ~ 3600 6100
 Connection ~ 3600 5600
 Wire Wire Line
-	2200 3800 2850 3800
-Wire Wire Line
-	2200 3900 2850 3900
-Wire Wire Line
-	2200 4000 2850 4000
-Wire Wire Line
-	1000 3600 1400 3600
+	1350 3250 1750 3250
 Wire Wire Line
 	3300 5750 2850 5750
 Wire Wire Line
-	950  3700 1400 3700
+	3000 3050 2550 3050
 Wire Wire Line
 	850  6800 1300 6800
-Text Label 2650 3400 2    60   ~ 0
+Text Label 3000 2450 2    60   ~ 0
 MCU_FS
 Wire Wire Line
-	2650 3400 2200 3400
+	3000 2450 2550 2450
 Text Label 850  7100 0    60   ~ 0
 n_ADC_CS
 Wire Wire Line
 	850  7100 1300 7100
 Wire Wire Line
-	950  3800 1400 3800
+	3000 2950 2550 2950
 Text Label 700  6600 0    60   ~ 0
 n_ADC_CSTART
 Wire Wire Line
 	700  6600 1300 6600
-Text Label 700  3900 0    60   ~ 0
+Text Label 3250 2850 2    60   ~ 0
 n_ADC_CSTART
 Wire Wire Line
-	700  3900 1400 3900
-Text Label 950  3800 0    60   ~ 0
+	3250 2850 2550 2850
+Text Label 3000 2950 2    60   ~ 0
 n_ADC_CS
 $Sheet
 S 9350 2050 1350 1300
@@ -1234,5 +1175,128 @@ Text GLabel 5450 6950 0    60   Input ~ 0
 Text GLabel 5450 7150 0    60   Input ~ 0
 GND_3.3V
 Wire Wire Line
-	2800 4100 2200 4100
+	3150 3150 2550 3150
+Text Label 3000 2550 2    60   ~ 0
+SEL0
+Text Label 3000 2650 2    60   ~ 0
+SEL1
+Text Label 3000 2750 2    60   ~ 0
+SEL2
+Wire Wire Line
+	3000 2550 2550 2550
+Wire Wire Line
+	3000 2650 2550 2650
+Wire Wire Line
+	3000 2750 2550 2750
+$Comp
+L CONN_12X2 P?
+U 1 1 56AB9799
+P 2150 2400
+F 0 "P?" H 2150 3050 60  0000 C CNN
+F 1 "CONN_12X2" V 2150 2400 50  0000 C CNN
+F 2 "~" H 2150 2400 60  0000 C CNN
+F 3 "~" H 2150 2400 60  0000 C CNN
+	1    2150 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC138 DEMUX
+U 1 1 56B3CC68
+P 1900 4200
+F 0 "DEMUX" H 1900 4100 60  0000 C CNN
+F 1 "74HC138" H 1850 4250 60  0000 C CNN
+F 2 "" H 1850 4200 60  0000 C CNN
+F 3 "" H 1850 4200 60  0000 C CNN
+	1    1900 4200
+	1    0    0    -1  
+$EndComp
+Text GLabel 2700 3850 2    60   Input ~ 0
+3.3V
+Wire Wire Line
+	2700 3850 2700 4000
+Wire Wire Line
+	2700 4000 2600 4000
+Text GLabel 1000 4700 0    60   Input ~ 0
+GND_3.3V
+Wire Wire Line
+	1000 4700 1200 4700
+Wire Wire Line
+	1100 4300 1100 4700
+Wire Wire Line
+	1100 4400 1200 4400
+Connection ~ 1100 4700
+Wire Wire Line
+	850  4500 1200 4500
+Text Label 800  4000 0    60   ~ 0
+SEL0
+Text Label 800  4100 0    60   ~ 0
+SEL1
+Text Label 800  4200 0    60   ~ 0
+SEL2
+Wire Wire Line
+	800  4200 1200 4200
+Wire Wire Line
+	1200 4100 800  4100
+Wire Wire Line
+	800  4000 1200 4000
+Wire Wire Line
+	1100 4300 1200 4300
+Connection ~ 1100 4400
+Text Label 850  4500 0    60   ~ 0
+RST
+Text Label 1450 3350 0    60   ~ 0
+RST
+Wire Wire Line
+	1450 3350 1750 3350
+Text Label 3050 4100 2    60   ~ 0
+RST_M0
+Wire Wire Line
+	3050 4100 2600 4100
+Text Label 3050 4200 2    60   ~ 0
+RST_M1
+Wire Wire Line
+	3050 4200 2600 4200
+Text Label 3050 4300 2    60   ~ 0
+RST_M2
+Wire Wire Line
+	3050 4300 2600 4300
+Text Label 3050 4400 2    60   ~ 0
+RST_M3
+Wire Wire Line
+	3050 4400 2600 4400
+Text Label 3050 4500 2    60   ~ 0
+RST_M4
+Wire Wire Line
+	3050 4500 2600 4500
+Text Label 3050 4600 2    60   ~ 0
+RST_M5
+Wire Wire Line
+	3050 4600 2600 4600
+Text Label 2950 3350 2    60   ~ 0
+EN
+Wire Wire Line
+	2950 3350 2550 3350
+Text Label 1300 3450 0    60   ~ 0
+Whiper_0
+Text Label 3000 3450 2    60   ~ 0
+Whiper_1
+Text Label 1300 3550 0    60   ~ 0
+Whiper_2
+$Comp
+L CONN_6X2 P?
+U 1 1 56CB8435
+P 2150 3300
+F 0 "P?" H 2150 3650 60  0000 C CNN
+F 1 "CONN_6X2" V 2150 3300 60  0000 C CNN
+F 2 "~" H 2150 3300 60  0000 C CNN
+F 3 "~" H 2150 3300 60  0000 C CNN
+	1    2150 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 3450 2550 3450
+Wire Wire Line
+	1750 3450 1300 3450
+Wire Wire Line
+	1300 3550 1750 3550
 $EndSCHEMATC
