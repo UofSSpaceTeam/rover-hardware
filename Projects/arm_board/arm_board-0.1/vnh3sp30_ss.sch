@@ -30,7 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:ArmComponentLibrary
 LIBS:arm_board-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -49,11 +49,10 @@ L VNH3SP30 VNH1
 U 1 1 56458EA8
 P 4700 3100
 AR Path="/56458E25/56458EA8" Ref="VNH1"  Part="1" 
-AR Path="/5645AA82/56458EA8" Ref="VNH1"  Part="1" 
-AR Path="/5645B857/56458EA8" Ref="VNH1"  Part="1" 
+AR Path="/5645B857/56458EA8" Ref="VNH2"  Part="1" 
 F 0 "VNH1" H 5400 2150 60  0000 C CNN
 F 1 "VNH3SP30" H 4700 3100 60  0000 C CNN
-F 2 "" H 3100 2900 60  0000 C CNN
+F 2 "ArmFootprints:VNH3SP30TR-E" H 3100 2900 60  0001 C CNN
 F 3 "" H 3100 2900 60  0000 C CNN
 	1    4700 3100
 	1    0    0    -1  
@@ -70,7 +69,7 @@ Connection ~ 4700 2150
 Text GLabel 4700 4600 2    60   Input ~ 0
 GND_12V
 Wire Wire Line
-	4700 4600 4700 4300
+	4700 4300 4700 4600
 Wire Wire Line
 	4450 4300 4950 4300
 Wire Wire Line
@@ -114,29 +113,20 @@ Wire Wire Line
 	3800 2800 3800 2900
 Wire Wire Line
 	3800 2900 3850 2900
-Wire Wire Line
-	3250 3050 3850 3050
-Wire Wire Line
-	3250 3150 3850 3150
 Text HLabel 3450 3300 0    60   Input ~ 0
 PWM
 Wire Wire Line
 	3450 3300 3850 3300
-Text HLabel 3400 2850 0    60   Input ~ 0
-EN
-Wire Wire Line
-	3400 2850 3800 2850
 Connection ~ 3800 2850
 $Comp
-L CONN_01X05 P1
+L CONN_01X05 P5
 U 1 1 56459110
 P 6600 3900
-AR Path="/56458E25/56459110" Ref="P1"  Part="1" 
-AR Path="/5645AA82/56459110" Ref="P1"  Part="1" 
-AR Path="/5645B857/56459110" Ref="P1"  Part="1" 
-F 0 "P1" H 6600 4200 50  0000 C CNN
+AR Path="/56458E25/56459110" Ref="P5"  Part="1" 
+AR Path="/5645B857/56459110" Ref="P6"  Part="1" 
+F 0 "P5" H 6600 4200 50  0000 C CNN
 F 1 "CONN_01X05" V 6700 3900 50  0000 C CNN
-F 2 "" H 6600 3900 60  0000 C CNN
+F 2 "ArmFootprints:5-pin_640467-1" H 6600 3900 60  0001 C CNN
 F 3 "" H 6600 3900 60  0000 C CNN
 	1    6600 3900
 	1    0    0    -1  
@@ -147,26 +137,71 @@ Wire Wire Line
 	6400 3800 6200 3800
 Wire Wire Line
 	6200 3800 6200 3350
-Text GLabel 6100 3900 0    60   Input ~ 0
-3.3V
 Wire Wire Line
 	6100 3900 6400 3900
-Text GLabel 6100 4050 0    60   Input ~ 0
-GND_3.3V
-Wire Wire Line
-	6100 4050 6250 4050
-Wire Wire Line
-	6250 4050 6250 4000
-Wire Wire Line
-	6250 4000 6400 4000
 Text HLabel 7100 4400 2    60   Output ~ 0
 WPR
 Wire Wire Line
 	6400 4100 6400 4400
 Wire Wire Line
 	6400 4400 7100 4400
-Text HLabel 3250 3050 0    60   Input ~ 0
+Text HLabel 3000 3050 0    60   Input ~ 0
 DIR
-Text HLabel 3250 3150 0    60   Input ~ 0
+Text HLabel 3000 3150 0    60   Input ~ 0
 n_DIR
+Text GLabel 6100 4250 0    60   Input ~ 0
+Whiper_GND
+Wire Wire Line
+	6400 4000 6100 4000
+Wire Wire Line
+	6100 4000 6100 4250
+Text GLabel 6100 3900 0    60   Input ~ 0
+Whiper_V++
+$Comp
+L R R18
+U 1 1 56C634E2
+P 3600 3050
+AR Path="/56458E25/56C634E2" Ref="R18"  Part="1" 
+AR Path="/5645B857/56C634E2" Ref="R21"  Part="1" 
+F 0 "R18" V 3680 3050 40  0000 C CNN
+F 1 "1k" V 3607 3051 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 3530 3050 30  0001 C CNN
+F 3 "" H 3600 3050 30  0000 C CNN
+	1    3600 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R22
+U 1 1 56C6351D
+P 3600 3150
+AR Path="/5645B857/56C6351D" Ref="R22"  Part="1" 
+AR Path="/56458E25/56C6351D" Ref="R19"  Part="1" 
+F 0 "R19" V 3680 3150 40  0000 C CNN
+F 1 "1k" V 3607 3151 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 3530 3150 30  0001 C CNN
+F 3 "" H 3600 3150 30  0000 C CNN
+	1    3600 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3350 3050 3000 3050
+Wire Wire Line
+	3000 3150 3350 3150
+Text GLabel 3200 2850 0    60   Input ~ 0
+NOISE_5V
+$Comp
+L R R17
+U 1 1 56C63A99
+P 3450 2850
+AR Path="/56458E25/56C63A99" Ref="R17"  Part="1" 
+AR Path="/5645B857/56C63A99" Ref="R20"  Part="1" 
+F 0 "R17" V 3530 2850 40  0000 C CNN
+F 1 "4.7k" V 3457 2851 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 3380 2850 30  0001 C CNN
+F 3 "" H 3450 2850 30  0000 C CNN
+	1    3450 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 2850 3800 2850
 $EndSCHEMATC

@@ -30,11 +30,11 @@ LIBS:contrib
 LIBS:valves
 LIBS:ArmComponentLibrary
 LIBS:arm_board-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 21 23
+Sheet 18 23
 Title ""
 Date "30 jan 2016"
 Rev ""
@@ -45,21 +45,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L VNH3SP30 VNH1
-U 1 1 564A6239
+L VNH3SP30 VNH8
+U 1 1 56AED672
 P 8550 3800
-AR Path="/564B31DF/564A6239" Ref="VNH1"  Part="1" 
-AR Path="/56666F75/564A6239" Ref="VNH1"  Part="1" 
-AR Path="/56669634/564A6239" Ref="VNH1"  Part="1" 
-AR Path="/56669644/564A6239" Ref="VNH1"  Part="1" 
-AR Path="/5666D2E0/564A6239" Ref="VNH1"  Part="1" 
-AR Path="/5666D2F0/564A6239" Ref="VNH1"  Part="1" 
-AR Path="/56F5245F/564A6239" Ref="VNH1"  Part="1" 
-AR Path="/56F544AF/564A6239" Ref="VNH1"  Part="1" 
-AR Path="/56F75F1F/564A6239" Ref="VNH1"  Part="1" 
-F 0 "VNH1" H 9250 2850 60  0000 C CNN
+F 0 "VNH8" H 9250 2850 60  0000 C CNN
 F 1 "VNH3SP30" H 8550 3800 60  0000 C CNN
-F 2 "" H 6950 3600 60  0000 C CNN
+F 2 "ArmFootprints:VNH3SP30TR-E" H 6950 3600 60  0001 C CNN
 F 3 "" H 6950 3600 60  0000 C CNN
 	1    8550 3800
 	1    0    0    -1  
@@ -102,23 +93,17 @@ Wire Wire Line
 Wire Wire Line
 	8550 5250 8550 4900
 Connection ~ 8550 4900
-Text HLabel 7250 3750 0    60   Input ~ 0
+Text HLabel 6750 3750 0    60   Input ~ 0
 DIR
-Text HLabel 7250 3850 0    60   Input ~ 0
+Text HLabel 6700 3850 0    60   Input ~ 0
 n_DIR
 Text HLabel 7250 4000 0    60   Input ~ 0
 PWM
 Wire Wire Line
 	7250 4000 7700 4000
-Wire Wire Line
-	7250 3850 7700 3850
-Wire Wire Line
-	7250 3750 7700 3750
-Wire Wire Line
-	7250 3500 7700 3500
 $Sheet
 S 5250 4600 1100 1000
-U 564A908F
+U 56AED673
 F0 "16-bit UD Counter" 60
 F1 "ud_counter-16b.sch" 60
 F2 "OVERFLOW" O R 6350 5400 60 
@@ -126,39 +111,23 @@ F3 "UNDERFLOW" O R 6350 5500 60
 F4 "Q" O R 6350 4750 60 
 F5 "CNT_UP" I L 5250 4700 60 
 F6 "CNT_DWN" I L 5250 4800 60 
-F7 "RESET" I L 5250 5000 60 
-F8 "S0" I L 5250 5200 60 
-F9 "S1" I L 5250 5300 60 
-F10 "S2" I L 5250 5400 60 
-F11 "S3" I L 5250 5500 60 
+F7 "S0" I L 5250 5200 60 
+F8 "S1" I L 5250 5300 60 
+F9 "S2" I L 5250 5400 60 
+F10 "S3" I L 5250 5500 60 
+F11 "n_RESET" I L 5250 5000 60 
 $EndSheet
-Wire Wire Line
-	7700 3600 7550 3600
-Wire Wire Line
-	7550 3600 7550 3500
-Connection ~ 7550 3500
-Text HLabel 7250 3500 0    60   Input ~ 0
-EN
-Text Label 7350 3750 0    60   ~ 0
+Text Label 6550 3600 0    60   ~ 0
 DIR
-Text Label 7350 3850 0    60   ~ 0
+Text Label 6450 4000 0    60   ~ 0
 n_DIR
 $Comp
-L 74LVC2G08 U?
-U 1 1 565DD202
+L 74LVC2G08 U49
+U 1 1 56AED674
 P 4650 4850
-AR Path="/564B31DF/565DD202" Ref="U?"  Part="1" 
-AR Path="/56666F75/565DD202" Ref="U?"  Part="1" 
-AR Path="/56669634/565DD202" Ref="U?"  Part="1" 
-AR Path="/56669644/565DD202" Ref="U?"  Part="1" 
-AR Path="/5666D2E0/565DD202" Ref="U?"  Part="1" 
-AR Path="/5666D2F0/565DD202" Ref="U?"  Part="1" 
-AR Path="/56F5245F/565DD202" Ref="U?"  Part="1" 
-AR Path="/56F544AF/565DD202" Ref="U?"  Part="1" 
-AR Path="/56F75F1F/565DD202" Ref="U?"  Part="1" 
-F 0 "U?" H 4750 4450 60  0000 C CNN
+F 0 "U49" H 4750 4450 60  0000 C CNN
 F 1 "74LVC2G08" V 4500 4900 60  0000 C CNN
-F 2 "" H 4650 4850 60  0000 C CNN
+F 2 "ArmFootprints:SN74LVC2G08DCTR" H 4650 4850 60  0001 C CNN
 F 3 "" H 4650 4850 60  0000 C CNN
 	1    4650 4850
 	1    0    0    -1  
@@ -207,7 +176,7 @@ CNT_OVRFLW
 Text HLabel 6750 5050 2    60   Output ~ 0
 CNT_UDRFLW
 Text HLabel 4850 5650 0    60   Output ~ 0
-CNT_RESET
+n_CNT_RESET
 Text HLabel 4850 5750 0    60   Output ~ 0
 CNT_S0
 Text HLabel 4850 5850 0    60   Output ~ 0
@@ -266,49 +235,97 @@ Connection ~ 9400 3550
 Wire Wire Line
 	9400 3950 9400 4150
 Connection ~ 9400 4050
+Text Label 9350 5250 0    60   ~ 0
+QDC
+Text GLabel 9850 5350 0    60   Input ~ 0
+Whiper_V++
+Wire Wire Line
+	9400 3550 11000 3550
+Text HLabel 10650 5250 2    60   Output ~ 0
+WPR
+Text GLabel 10650 5350 2    60   Input ~ 0
+Whiper_GND
 $Comp
-L CONN_6 P?
-U 1 1 56F466A7
-P 10750 5750
-AR Path="/564B31DF/56F466A7" Ref="P?"  Part="1" 
-AR Path="/56F5245F/56F466A7" Ref="P?"  Part="1" 
-AR Path="/56F544AF/56F466A7" Ref="P?"  Part="1" 
-AR Path="/56F75F1F/56F466A7" Ref="P?"  Part="1" 
-F 0 "P?" V 10700 5750 60  0000 C CNN
-F 1 "CONN_6" V 10800 5750 60  0000 C CNN
-F 2 "~" H 10750 5750 60  0000 C CNN
-F 3 "~" H 10750 5750 60  0000 C CNN
-	1    10750 5750
+L R R36
+U 1 1 56C6163E
+P 7450 3750
+F 0 "R36" V 7530 3750 40  0000 C CNN
+F 1 "1k" V 7457 3751 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 7380 3750 30  0001 C CNN
+F 3 "" H 7450 3750 30  0000 C CNN
+	1    7450 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7200 3750 6750 3750
+Wire Wire Line
+	6550 3600 6900 3600
+Wire Wire Line
+	6900 3600 6900 3750
+Connection ~ 6900 3750
+$Comp
+L R R37
+U 1 1 56C618B9
+P 7450 3850
+F 0 "R37" V 7530 3850 40  0000 C CNN
+F 1 "1k" V 7457 3851 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 7380 3850 30  0001 C CNN
+F 3 "" H 7450 3850 30  0000 C CNN
+	1    7450 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7200 3850 6700 3850
+Wire Wire Line
+	6450 4000 6850 4000
+Wire Wire Line
+	6850 4000 6850 3850
+Connection ~ 6850 3850
+Text GLabel 7050 3200 1    60   Input ~ 0
+NOISE_5V
+Connection ~ 7550 3500
+Wire Wire Line
+	7550 3600 7550 3500
+Wire Wire Line
+	7700 3600 7550 3600
+Wire Wire Line
+	7550 3500 7700 3500
+$Comp
+L R R35
+U 1 1 56C65444
+P 7300 3500
+F 0 "R35" V 7380 3500 40  0000 C CNN
+F 1 "4.7k" V 7307 3501 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 7230 3500 30  0001 C CNN
+F 3 "" H 7300 3500 30  0000 C CNN
+	1    7300 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7050 3200 7050 3500
+Text GLabel 9850 5150 0    60   Input ~ 0
+3.3V
+Text GLabel 10650 5150 2    60   Input ~ 0
+GND_3.3V
+$Comp
+L CONN_4X2 P9
+U 1 1 56C67526
+P 10250 5200
+F 0 "P9" H 10250 5450 50  0000 C CNN
+F 1 "CONN_4X2" V 10250 5200 40  0000 C CNN
+F 2 "ArmFootprints:MiniFitJr_8-pin_0050348563" H 10250 5200 60  0001 C CNN
+F 3 "" H 10250 5200 60  0000 C CNN
+	1    10250 5200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9800 3550 9800 5500
+	9850 4050 9850 5050
 Wire Wire Line
-	9800 5500 10400 5500
-Connection ~ 9800 3550
+	9350 5250 9850 5250
 Wire Wire Line
-	9700 4050 9700 5600
+	9400 4050 9850 4050
 Wire Wire Line
-	9700 5600 10400 5600
-Connection ~ 9700 4050
-Text Label 10150 5700 0    60   ~ 0
-QDC
+	11000 3550 11000 5050
 Wire Wire Line
-	10150 5700 10400 5700
-Text GLabel 10000 5800 0    60   Input ~ 0
-3.3V
-Wire Wire Line
-	10000 5800 10400 5800
-Text GLabel 9700 5900 0    60   Input ~ 0
-GND_3.3V
-Wire Wire Line
-	9700 5900 10400 5900
-Wire Wire Line
-	9400 3550 9800 3550
-Wire Wire Line
-	9700 4050 9400 4050
-Text HLabel 10000 6000 0    60   Output ~ 0
-WPR
-Wire Wire Line
-	10000 6000 10400 6000
+	11000 5050 10650 5050
 $EndSCHEMATC
