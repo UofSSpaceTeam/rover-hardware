@@ -121,54 +121,10 @@ Text Label 6550 3600 0    60   ~ 0
 DIR
 Text Label 6450 4000 0    60   ~ 0
 n_DIR
-$Comp
-L 74LVC2G08 U49
-U 1 1 56AED674
-P 4650 4850
-F 0 "U49" H 4750 4450 60  0000 C CNN
-F 1 "74LVC2G08" V 4500 4900 60  0000 C CNN
-F 2 "ArmFootprints:SN74LVC2G08DCTR" H 4650 4850 60  0001 C CNN
-F 3 "" H 4650 4850 60  0000 C CNN
-	1    4650 4850
-	1    0    0    -1  
-$EndComp
-Text Label 3450 4750 0    60   ~ 0
-QDC
-Wire Wire Line
-	3450 4750 4000 4750
-Wire Wire Line
-	4000 4650 4000 4800
-Connection ~ 4000 4750
-Text Label 3700 4550 0    60   ~ 0
-DIR
-Text Label 3700 4900 0    60   ~ 0
-n_DIR
-Wire Wire Line
-	3700 4900 4000 4900
-Wire Wire Line
-	4000 4550 3700 4550
-Text GLabel 4200 4050 0    60   Input ~ 0
+Text GLabel 4150 3750 1    60   Input ~ 0
 3.3V
-Wire Wire Line
-	4200 4050 4400 4050
-Wire Wire Line
-	4400 4050 4400 4150
-Text GLabel 3950 5500 0    60   Input ~ 0
+Text GLabel 4150 4950 3    60   Input ~ 0
 GND_3.3V
-Wire Wire Line
-	3950 5500 4400 5500
-Wire Wire Line
-	4400 5500 4400 5400
-Wire Wire Line
-	5000 4600 5000 4700
-Wire Wire Line
-	5000 4700 5250 4700
-Wire Wire Line
-	5000 4850 5150 4850
-Wire Wire Line
-	5150 4850 5150 4800
-Wire Wire Line
-	5150 4800 5250 4800
 Text HLabel 6750 4750 2    60   Output ~ 0
 Q_CNT
 Text HLabel 6750 4900 2    60   Output ~ 0
@@ -257,7 +213,7 @@ F 3 "" H 7450 3750 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7200 3750 6750 3750
+	6750 3750 7200 3750
 Wire Wire Line
 	6550 3600 6900 3600
 Wire Wire Line
@@ -275,7 +231,7 @@ F 3 "" H 7450 3850 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7200 3850 6700 3850
+	6700 3850 7200 3850
 Wire Wire Line
 	6450 4000 6850 4000
 Wire Wire Line
@@ -328,4 +284,44 @@ Wire Wire Line
 	11000 3550 11000 5050
 Wire Wire Line
 	11000 5050 10650 5050
+$Comp
+L 74HC08 U57
+U 1 1 56CE788A
+P 4150 4300
+F 0 "U57" H 4150 4150 60  0000 C CNN
+F 1 "74HC08" H 4150 4300 60  0000 C CNN
+F 2 "SMD_Packages:SOIC-14_N" H 4150 4300 60  0001 C CNN
+F 3 "" H 4150 4300 60  0000 C CNN
+	1    4150 4300
+	1    0    0    -1  
+$EndComp
+Text Label 3350 4100 0    60   ~ 0
+QDC
+Text Label 3350 4000 0    60   ~ 0
+DIR
+Text Label 3300 4300 0    60   ~ 0
+n_DIR
+Wire Wire Line
+	3350 4000 3600 4000
+Wire Wire Line
+	3350 4100 3600 4100
+Wire Wire Line
+	3550 4100 3550 4200
+Wire Wire Line
+	3550 4200 3600 4200
+Connection ~ 3550 4100
+Wire Wire Line
+	3300 4300 3600 4300
+Wire Wire Line
+	4700 4050 5100 4050
+Wire Wire Line
+	5100 4050 5100 4700
+Wire Wire Line
+	5100 4700 5250 4700
+Wire Wire Line
+	4700 4250 4950 4250
+Wire Wire Line
+	4950 4250 4950 4800
+Wire Wire Line
+	4950 4800 5250 4800
 $EndSCHEMATC
