@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/carl/Programming/usst/rover-electrical/Projects/arm_board/arm_board-0.1/arm_board.sch</source>
-    <date>Thu 18 Feb 2016 12:06:51 PM CST</date>
-    <tool>Eeschema 4.0.1-stable</tool>
+    <date>Sat 05 Mar 2016 02:13:19 PM CST</date>
+    <tool>Eeschema 4.0.2-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -43,7 +43,7 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="4" name="/VNH3SP30 SS/" tstamps="/56458E25/">
+    <sheet number="4" name="/VNH3SP30 SS 1/" tstamps="/56458E25/">
       <title_block>
         <title/>
         <company/>
@@ -56,7 +56,7 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="5" name="/VNH3SP30 SS/" tstamps="/5645B857/">
+    <sheet number="5" name="/VNH3SP30 SS 2/" tstamps="/5645B857/">
       <title_block>
         <title/>
         <company/>
@@ -69,7 +69,7 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="6" name="/VNH3SP30 Motor SS/" tstamps="/56F5245F/">
+    <sheet number="6" name="/VNH3SP30 Motor SS 1/" tstamps="/56F5245F/">
       <title_block>
         <title/>
         <company/>
@@ -82,7 +82,7 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="7" name="/VNH3SP30 Motor SS/16-bit UD Counter/" tstamps="/56F5245F/564A908F/">
+    <sheet number="7" name="/VNH3SP30 Motor SS 1/16-bit UD Counter/" tstamps="/56F5245F/564A908F/">
       <title_block>
         <title/>
         <company/>
@@ -95,7 +95,7 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="8" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/" tstamps="/56F5245F/564A908F/564D3AE9/">
+    <sheet number="8" name="/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/" tstamps="/56F5245F/564A908F/564D3AE9/">
       <title_block>
         <title/>
         <company/>
@@ -108,7 +108,7 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="9" name="/VNH3SP30 Motor SS/" tstamps="/56F544AF/">
+    <sheet number="9" name="/VNH3SP30 Motor SS 3/" tstamps="/56F544AF/">
       <title_block>
         <title/>
         <company/>
@@ -121,7 +121,7 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="10" name="/VNH3SP30 Motor SS/16-bit UD Counter/" tstamps="/56F544AF/564A908F/">
+    <sheet number="10" name="/VNH3SP30 Motor SS 3/16-bit UD Counter/" tstamps="/56F544AF/564A908F/">
       <title_block>
         <title/>
         <company/>
@@ -134,7 +134,7 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="11" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/" tstamps="/56F544AF/564A908F/564D3AE9/">
+    <sheet number="11" name="/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/" tstamps="/56F544AF/564A908F/564D3AE9/">
       <title_block>
         <title/>
         <company/>
@@ -147,7 +147,7 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="12" name="/VNH3SP30 Motor SS/" tstamps="/56F55E0D/">
+    <sheet number="12" name="/VNH3SP30 Motor SS 5/" tstamps="/56F55E0D/">
       <title_block>
         <title/>
         <company/>
@@ -160,7 +160,7 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="13" name="/VNH3SP30 Motor SS/16-bit UD Counter/" tstamps="/56F55E0D/564A908F/">
+    <sheet number="13" name="/VNH3SP30 Motor SS 5/16-bit UD Counter/" tstamps="/56F55E0D/564A908F/">
       <title_block>
         <title/>
         <company/>
@@ -173,7 +173,7 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="14" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/" tstamps="/56F55E0D/564A908F/564D3AE9/">
+    <sheet number="14" name="/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/" tstamps="/56F55E0D/564A908F/564D3AE9/">
       <title_block>
         <title/>
         <company/>
@@ -186,7 +186,7 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="15" name="/VNH3SP30 Motor SS/" tstamps="/56F56B2F/">
+    <sheet number="15" name="/VNH3SP30 Motor SS 4/" tstamps="/56F56B2F/">
       <title_block>
         <title/>
         <company/>
@@ -199,7 +199,7 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="16" name="/VNH3SP30 Motor SS/16-bit UD Counter/" tstamps="/56F56B2F/564A908F/">
+    <sheet number="16" name="/VNH3SP30 Motor SS 4/16-bit UD Counter/" tstamps="/56F56B2F/564A908F/">
       <title_block>
         <title/>
         <company/>
@@ -212,7 +212,7 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="17" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/" tstamps="/56F56B2F/564A908F/564D3AE9/">
+    <sheet number="17" name="/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/" tstamps="/56F56B2F/564A908F/564D3AE9/">
       <title_block>
         <title/>
         <company/>
@@ -264,7 +264,7 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="21" name="/VNH3SP30 Motor SS/" tstamps="/56F53B7D/">
+    <sheet number="21" name="/VNH3SP30 Motor SS 2/" tstamps="/56F53B7D/">
       <title_block>
         <title/>
         <company/>
@@ -277,7 +277,7 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="22" name="/VNH3SP30 Motor SS/16-bit UD Counter/" tstamps="/56F53B7D/564A908F/">
+    <sheet number="22" name="/VNH3SP30 Motor SS 2/16-bit UD Counter/" tstamps="/56F53B7D/564A908F/">
       <title_block>
         <title/>
         <company/>
@@ -290,7 +290,7 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="23" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/" tstamps="/56F53B7D/564A908F/564D3AE9/">
+    <sheet number="23" name="/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/" tstamps="/56F53B7D/564A908F/564D3AE9/">
       <title_block>
         <title/>
         <company/>
@@ -333,13 +333,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56D576F2</tstamp>
     </comp>
-    <comp ref="U2">
-      <value>7805</value>
-      <footprint>ArmFootprints:MC7805CDTRKG</footprint>
-      <libsource lib="regul" part="7805"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56FC0560</tstamp>
-    </comp>
     <comp ref="P3">
       <value>CONN_2</value>
       <footprint>ArmFootprints:MiniFitJr_2-pin_0039310028</footprint>
@@ -368,6 +361,24 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56CB1ED2</tstamp>
     </comp>
+    <comp ref="R41">
+      <value>R</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56DB6D61</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>R</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56DEFB63</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>R</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E024E9</tstamp>
+    </comp>
     <comp ref="U3">
       <value>SN54HC259</value>
       <footprint>SMD_Packages:SO-16-N</footprint>
@@ -389,13 +400,6 @@
       <sheetpath names="/OIL_ss/Optoisolation SS/" tstamps="/56439C3F/56441E96/"/>
       <tstamp>568411D2</tstamp>
     </comp>
-    <comp ref="U13">
-      <value>74LVC04A</value>
-      <footprint>SMD_Packages:SOIC-14_N</footprint>
-      <libsource lib="ArmComponentLibrary" part="74LVC04A"/>
-      <sheetpath names="/OIL_ss/Optoisolation SS/" tstamps="/56439C3F/56441E96/"/>
-      <tstamp>56841652</tstamp>
-    </comp>
     <comp ref="U10">
       <value>SFH6732</value>
       <footprint>ArmFootprints:SFH6732-X007T</footprint>
@@ -409,48 +413,6 @@
       <libsource lib="ArmComponentLibrary" part="SFH6732"/>
       <sheetpath names="/OIL_ss/Optoisolation SS/" tstamps="/56439C3F/56441E96/"/>
       <tstamp>568FEB46</tstamp>
-    </comp>
-    <comp ref="U8">
-      <value>SFH6732</value>
-      <footprint>ArmFootprints:SFH6732-X007T</footprint>
-      <libsource lib="ArmComponentLibrary" part="SFH6732"/>
-      <sheetpath names="/OIL_ss/Optoisolation SS/" tstamps="/56439C3F/56441E96/"/>
-      <tstamp>568FF17C</tstamp>
-    </comp>
-    <comp ref="U9">
-      <value>SFH6732</value>
-      <footprint>ArmFootprints:SFH6732-X007T</footprint>
-      <libsource lib="ArmComponentLibrary" part="SFH6732"/>
-      <sheetpath names="/OIL_ss/Optoisolation SS/" tstamps="/56439C3F/56441E96/"/>
-      <tstamp>568FF18B</tstamp>
-    </comp>
-    <comp ref="U4">
-      <value>SFH6732</value>
-      <footprint>ArmFootprints:SFH6732-X007T</footprint>
-      <libsource lib="ArmComponentLibrary" part="SFH6732"/>
-      <sheetpath names="/OIL_ss/Optoisolation SS/" tstamps="/56439C3F/56441E96/"/>
-      <tstamp>568FFA7E</tstamp>
-    </comp>
-    <comp ref="U5">
-      <value>SFH6732</value>
-      <footprint>ArmFootprints:SFH6732-X007T</footprint>
-      <libsource lib="ArmComponentLibrary" part="SFH6732"/>
-      <sheetpath names="/OIL_ss/Optoisolation SS/" tstamps="/56439C3F/56441E96/"/>
-      <tstamp>568FFBD0</tstamp>
-    </comp>
-    <comp ref="U6">
-      <value>SFH6732</value>
-      <footprint>ArmFootprints:SFH6732-X007T</footprint>
-      <libsource lib="ArmComponentLibrary" part="SFH6732"/>
-      <sheetpath names="/OIL_ss/Optoisolation SS/" tstamps="/56439C3F/56441E96/"/>
-      <tstamp>568FFC31</tstamp>
-    </comp>
-    <comp ref="U7">
-      <value>SFH6732</value>
-      <footprint>ArmFootprints:SFH6732-X007T</footprint>
-      <libsource lib="ArmComponentLibrary" part="SFH6732"/>
-      <sheetpath names="/OIL_ss/Optoisolation SS/" tstamps="/56439C3F/56441E96/"/>
-      <tstamp>568FFC50</tstamp>
     </comp>
     <comp ref="R14">
       <value>1k</value>
@@ -478,489 +440,552 @@
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/OIL_ss/Optoisolation SS/" tstamps="/56439C3F/56441E96/"/>
-      <tstamp>56C8FA26</tstamp>
+      <tstamp>56CDFD83</tstamp>
+    </comp>
+    <comp ref="U21">
+      <value>74LVC04A</value>
+      <footprint>SMD_Packages:SOIC-14_N</footprint>
+      <libsource lib="ArmComponentLibrary" part="74LVC04A"/>
+      <sheetpath names="/OIL_ss/Optoisolation SS/" tstamps="/56439C3F/56441E96/"/>
+      <tstamp>56CDFD8A</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>SFH6732</value>
+      <footprint>ArmFootprints:SFH6732-X007T</footprint>
+      <libsource lib="ArmComponentLibrary" part="SFH6732"/>
+      <sheetpath names="/OIL_ss/Optoisolation SS/" tstamps="/56439C3F/56441E96/"/>
+      <tstamp>56CDFD94</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>SFH6732</value>
+      <footprint>ArmFootprints:SFH6732-X007T</footprint>
+      <libsource lib="ArmComponentLibrary" part="SFH6732"/>
+      <sheetpath names="/OIL_ss/Optoisolation SS/" tstamps="/56439C3F/56441E96/"/>
+      <tstamp>56CDFD9A</tstamp>
     </comp>
     <comp ref="R10">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/OIL_ss/Optoisolation SS/" tstamps="/56439C3F/56441E96/"/>
-      <tstamp>56C8FA9F</tstamp>
+      <tstamp>56CDFDA4</tstamp>
     </comp>
     <comp ref="R11">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/OIL_ss/Optoisolation SS/" tstamps="/56439C3F/56441E96/"/>
-      <tstamp>56C8FAF3</tstamp>
+      <tstamp>56CDFDAA</tstamp>
     </comp>
     <comp ref="R12">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/OIL_ss/Optoisolation SS/" tstamps="/56439C3F/56441E96/"/>
-      <tstamp>56C8FB4C</tstamp>
+      <tstamp>56CDFDB0</tstamp>
     </comp>
     <comp ref="R1">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/OIL_ss/Optoisolation SS/" tstamps="/56439C3F/56441E96/"/>
-      <tstamp>56C8FC96</tstamp>
+      <tstamp>56CE03DF</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>74LVC04A</value>
+      <footprint>SMD_Packages:SOIC-14_N</footprint>
+      <libsource lib="ArmComponentLibrary" part="74LVC04A"/>
+      <sheetpath names="/OIL_ss/Optoisolation SS/" tstamps="/56439C3F/56441E96/"/>
+      <tstamp>56CE03E6</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>SFH6732</value>
+      <footprint>ArmFootprints:SFH6732-X007T</footprint>
+      <libsource lib="ArmComponentLibrary" part="SFH6732"/>
+      <sheetpath names="/OIL_ss/Optoisolation SS/" tstamps="/56439C3F/56441E96/"/>
+      <tstamp>56CE03F0</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>SFH6732</value>
+      <footprint>ArmFootprints:SFH6732-X007T</footprint>
+      <libsource lib="ArmComponentLibrary" part="SFH6732"/>
+      <sheetpath names="/OIL_ss/Optoisolation SS/" tstamps="/56439C3F/56441E96/"/>
+      <tstamp>56CE03F6</tstamp>
     </comp>
     <comp ref="R2">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/OIL_ss/Optoisolation SS/" tstamps="/56439C3F/56441E96/"/>
-      <tstamp>56C8FE6D</tstamp>
+      <tstamp>56CE0400</tstamp>
     </comp>
     <comp ref="R3">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/OIL_ss/Optoisolation SS/" tstamps="/56439C3F/56441E96/"/>
-      <tstamp>56C8FEC5</tstamp>
+      <tstamp>56CE0406</tstamp>
     </comp>
     <comp ref="R4">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/OIL_ss/Optoisolation SS/" tstamps="/56439C3F/56441E96/"/>
-      <tstamp>56C8FF26</tstamp>
+      <tstamp>56CE040C</tstamp>
     </comp>
     <comp ref="R5">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/OIL_ss/Optoisolation SS/" tstamps="/56439C3F/56441E96/"/>
-      <tstamp>56C8FF84</tstamp>
+      <tstamp>56CE0437</tstamp>
+    </comp>
+    <comp ref="U14">
+      <value>74LVC04A</value>
+      <footprint>SMD_Packages:SOIC-14_N</footprint>
+      <libsource lib="ArmComponentLibrary" part="74LVC04A"/>
+      <sheetpath names="/OIL_ss/Optoisolation SS/" tstamps="/56439C3F/56441E96/"/>
+      <tstamp>56CE043E</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>SFH6732</value>
+      <footprint>ArmFootprints:SFH6732-X007T</footprint>
+      <libsource lib="ArmComponentLibrary" part="SFH6732"/>
+      <sheetpath names="/OIL_ss/Optoisolation SS/" tstamps="/56439C3F/56441E96/"/>
+      <tstamp>56CE0448</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>SFH6732</value>
+      <footprint>ArmFootprints:SFH6732-X007T</footprint>
+      <libsource lib="ArmComponentLibrary" part="SFH6732"/>
+      <sheetpath names="/OIL_ss/Optoisolation SS/" tstamps="/56439C3F/56441E96/"/>
+      <tstamp>56CE044E</tstamp>
     </comp>
     <comp ref="R6">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/OIL_ss/Optoisolation SS/" tstamps="/56439C3F/56441E96/"/>
-      <tstamp>56C8FFE1</tstamp>
+      <tstamp>56CE0458</tstamp>
     </comp>
     <comp ref="R7">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/OIL_ss/Optoisolation SS/" tstamps="/56439C3F/56441E96/"/>
-      <tstamp>56C90045</tstamp>
+      <tstamp>56CE045E</tstamp>
     </comp>
     <comp ref="R8">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/OIL_ss/Optoisolation SS/" tstamps="/56439C3F/56441E96/"/>
-      <tstamp>56C900B2</tstamp>
+      <tstamp>56CE0464</tstamp>
     </comp>
     <comp ref="VNH1">
       <value>VNH3SP30</value>
       <footprint>ArmFootprints:VNH3SP30TR-E</footprint>
       <libsource lib="ArmComponentLibrary" part="VNH3SP30"/>
-      <sheetpath names="/VNH3SP30 SS/" tstamps="/56458E25/"/>
+      <sheetpath names="/VNH3SP30 SS 1/" tstamps="/56458E25/"/>
       <tstamp>56458EA8</tstamp>
     </comp>
     <comp ref="P5">
       <value>CONN_01X05</value>
       <footprint>ArmFootprints:5-pin_640467-1</footprint>
       <libsource lib="arm_board-cache" part="CONN_01X05"/>
-      <sheetpath names="/VNH3SP30 SS/" tstamps="/56458E25/"/>
+      <sheetpath names="/VNH3SP30 SS 1/" tstamps="/56458E25/"/>
       <tstamp>56459110</tstamp>
     </comp>
     <comp ref="R18">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/VNH3SP30 SS/" tstamps="/56458E25/"/>
+      <sheetpath names="/VNH3SP30 SS 1/" tstamps="/56458E25/"/>
       <tstamp>56C634E2</tstamp>
     </comp>
     <comp ref="R19">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/VNH3SP30 SS/" tstamps="/56458E25/"/>
+      <sheetpath names="/VNH3SP30 SS 1/" tstamps="/56458E25/"/>
       <tstamp>56C6351D</tstamp>
     </comp>
     <comp ref="R17">
       <value>4.7k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/VNH3SP30 SS/" tstamps="/56458E25/"/>
+      <sheetpath names="/VNH3SP30 SS 1/" tstamps="/56458E25/"/>
       <tstamp>56C63A99</tstamp>
     </comp>
     <comp ref="VNH2">
       <value>VNH3SP30</value>
       <footprint>ArmFootprints:VNH3SP30TR-E</footprint>
       <libsource lib="ArmComponentLibrary" part="VNH3SP30"/>
-      <sheetpath names="/VNH3SP30 SS/" tstamps="/5645B857/"/>
+      <sheetpath names="/VNH3SP30 SS 2/" tstamps="/5645B857/"/>
       <tstamp>56458EA8</tstamp>
     </comp>
     <comp ref="P6">
       <value>CONN_01X05</value>
       <footprint>ArmFootprints:5-pin_640467-1</footprint>
       <libsource lib="arm_board-cache" part="CONN_01X05"/>
-      <sheetpath names="/VNH3SP30 SS/" tstamps="/5645B857/"/>
+      <sheetpath names="/VNH3SP30 SS 2/" tstamps="/5645B857/"/>
       <tstamp>56459110</tstamp>
     </comp>
     <comp ref="R21">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/VNH3SP30 SS/" tstamps="/5645B857/"/>
+      <sheetpath names="/VNH3SP30 SS 2/" tstamps="/5645B857/"/>
       <tstamp>56C634E2</tstamp>
     </comp>
     <comp ref="R22">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/VNH3SP30 SS/" tstamps="/5645B857/"/>
+      <sheetpath names="/VNH3SP30 SS 2/" tstamps="/5645B857/"/>
       <tstamp>56C6351D</tstamp>
     </comp>
     <comp ref="R20">
       <value>4.7k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/VNH3SP30 SS/" tstamps="/5645B857/"/>
+      <sheetpath names="/VNH3SP30 SS 2/" tstamps="/5645B857/"/>
       <tstamp>56C63A99</tstamp>
     </comp>
     <comp ref="VNH3">
       <value>VNH3SP30</value>
       <footprint>ArmFootprints:VNH3SP30TR-E</footprint>
       <libsource lib="ArmComponentLibrary" part="VNH3SP30"/>
-      <sheetpath names="/VNH3SP30 Motor SS/" tstamps="/56F5245F/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 1/" tstamps="/56F5245F/"/>
       <tstamp>564A6239</tstamp>
-    </comp>
-    <comp ref="U14">
-      <value>74LVC2G08</value>
-      <footprint>ArmFootprints:SN74LVC2G08DCTR</footprint>
-      <libsource lib="ArmComponentLibrary" part="74LVC2G08"/>
-      <sheetpath names="/VNH3SP30 Motor SS/" tstamps="/56F5245F/"/>
-      <tstamp>565DD202</tstamp>
     </comp>
     <comp ref="R24">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/VNH3SP30 Motor SS/" tstamps="/56F5245F/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 1/" tstamps="/56F5245F/"/>
       <tstamp>56C5F3D4</tstamp>
     </comp>
     <comp ref="R25">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/VNH3SP30 Motor SS/" tstamps="/56F5245F/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 1/" tstamps="/56F5245F/"/>
       <tstamp>56C5F9C5</tstamp>
     </comp>
     <comp ref="R23">
       <value>4.7k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/VNH3SP30 Motor SS/" tstamps="/56F5245F/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 1/" tstamps="/56F5245F/"/>
       <tstamp>56C6696F</tstamp>
     </comp>
     <comp ref="P1">
       <value>CONN_5</value>
       <footprint>ArmFootprints:5-pin_640467-1</footprint>
       <libsource lib="conn" part="CONN_5"/>
-      <sheetpath names="/VNH3SP30 Motor SS/" tstamps="/56F5245F/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 1/" tstamps="/56F5245F/"/>
       <tstamp>56CA7E11</tstamp>
     </comp>
-    <comp ref="U15">
-      <value>74HC4067</value>
-      <footprint>SMD_Packages:SOIC-24</footprint>
-      <libsource lib="ArmComponentLibrary" part="74HC4067"/>
-      <sheetpath names="/VNH3SP30 Motor SS/16-bit UD Counter/" tstamps="/56F5245F/564A908F/"/>
-      <tstamp>564A929C</tstamp>
+    <comp ref="U28">
+      <value>74HC08</value>
+      <footprint>SMD_Packages:SOIC-14_N</footprint>
+      <libsource lib="ArmComponentLibrary" part="74HC08"/>
+      <sheetpath names="/VNH3SP30 Motor SS 1/" tstamps="/56F5245F/"/>
+      <tstamp>56CE991E</tstamp>
     </comp>
     <comp ref="U16">
       <value>MC14013B</value>
       <footprint>SMD_Packages:SOIC-14_N</footprint>
       <libsource lib="ArmComponentLibrary" part="MC14013B"/>
-      <sheetpath names="/VNH3SP30 Motor SS/16-bit UD Counter/" tstamps="/56F5245F/564A908F/"/>
-      <tstamp>5659B370</tstamp>
+      <sheetpath names="/VNH3SP30 Motor SS 1/16-bit UD Counter/" tstamps="/56F5245F/564A908F/"/>
+      <tstamp>56C78081</tstamp>
+    </comp>
+    <comp ref="U15">
+      <value>74HC4067</value>
+      <footprint>SMD_Packages:SOIC-24</footprint>
+      <libsource lib="ArmComponentLibrary" part="74HC4067"/>
+      <sheetpath names="/VNH3SP30 Motor SS 1/16-bit UD Counter/" tstamps="/56F5245F/564A908F/"/>
+      <tstamp>56CA6B36</tstamp>
     </comp>
     <comp ref="U17">
       <value>74HC193</value>
       <footprint>SMD_Packages:SO-16-N</footprint>
       <libsource lib="ArmComponentLibrary" part="74HC193"/>
-      <sheetpath names="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/" tstamps="/56F5245F/564A908F/564D3AE9/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/" tstamps="/56F5245F/564A908F/564D3AE9/"/>
       <tstamp>564D42F4</tstamp>
     </comp>
     <comp ref="U19">
       <value>74HC193</value>
       <footprint>SMD_Packages:SO-16-N</footprint>
       <libsource lib="ArmComponentLibrary" part="74HC193"/>
-      <sheetpath names="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/" tstamps="/56F5245F/564A908F/564D3AE9/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/" tstamps="/56F5245F/564A908F/564D3AE9/"/>
       <tstamp>564D42F6</tstamp>
     </comp>
     <comp ref="U18">
       <value>74HC193</value>
       <footprint>SMD_Packages:SO-16-N</footprint>
       <libsource lib="ArmComponentLibrary" part="74HC193"/>
-      <sheetpath names="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/" tstamps="/56F5245F/564A908F/564D3AE9/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/" tstamps="/56F5245F/564A908F/564D3AE9/"/>
       <tstamp>564D42F7</tstamp>
     </comp>
     <comp ref="U20">
       <value>74HC193</value>
       <footprint>SMD_Packages:SO-16-N</footprint>
       <libsource lib="ArmComponentLibrary" part="74HC193"/>
-      <sheetpath names="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/" tstamps="/56F5245F/564A908F/564D3AE9/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/" tstamps="/56F5245F/564A908F/564D3AE9/"/>
       <tstamp>564D42F8</tstamp>
     </comp>
     <comp ref="VNH5">
       <value>VNH3SP30</value>
       <footprint>ArmFootprints:VNH3SP30TR-E</footprint>
       <libsource lib="ArmComponentLibrary" part="VNH3SP30"/>
-      <sheetpath names="/VNH3SP30 Motor SS/" tstamps="/56F544AF/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 3/" tstamps="/56F544AF/"/>
       <tstamp>564A6239</tstamp>
-    </comp>
-    <comp ref="U28">
-      <value>74LVC2G08</value>
-      <footprint>ArmFootprints:SN74LVC2G08DCTR</footprint>
-      <libsource lib="ArmComponentLibrary" part="74LVC2G08"/>
-      <sheetpath names="/VNH3SP30 Motor SS/" tstamps="/56F544AF/"/>
-      <tstamp>565DD202</tstamp>
     </comp>
     <comp ref="R27">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/VNH3SP30 Motor SS/" tstamps="/56F544AF/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 3/" tstamps="/56F544AF/"/>
       <tstamp>56C5F3D4</tstamp>
     </comp>
     <comp ref="R28">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/VNH3SP30 Motor SS/" tstamps="/56F544AF/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 3/" tstamps="/56F544AF/"/>
       <tstamp>56C5F9C5</tstamp>
     </comp>
     <comp ref="R26">
       <value>4.7k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/VNH3SP30 Motor SS/" tstamps="/56F544AF/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 3/" tstamps="/56F544AF/"/>
       <tstamp>56C6696F</tstamp>
     </comp>
     <comp ref="P2">
       <value>CONN_5</value>
       <footprint>ArmFootprints:5-pin_640467-1</footprint>
       <libsource lib="conn" part="CONN_5"/>
-      <sheetpath names="/VNH3SP30 Motor SS/" tstamps="/56F544AF/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 3/" tstamps="/56F544AF/"/>
       <tstamp>56CA7E11</tstamp>
     </comp>
-    <comp ref="U29">
-      <value>74HC4067</value>
-      <footprint>SMD_Packages:SOIC-24</footprint>
-      <libsource lib="ArmComponentLibrary" part="74HC4067"/>
-      <sheetpath names="/VNH3SP30 Motor SS/16-bit UD Counter/" tstamps="/56F544AF/564A908F/"/>
-      <tstamp>564A929C</tstamp>
+    <comp ref="U35">
+      <value>74HC08</value>
+      <footprint>SMD_Packages:SOIC-14_N</footprint>
+      <libsource lib="ArmComponentLibrary" part="74HC08"/>
+      <sheetpath names="/VNH3SP30 Motor SS 3/" tstamps="/56F544AF/"/>
+      <tstamp>56CE991E</tstamp>
     </comp>
-    <comp ref="U30">
+    <comp ref="U23">
       <value>MC14013B</value>
       <footprint>SMD_Packages:SOIC-14_N</footprint>
       <libsource lib="ArmComponentLibrary" part="MC14013B"/>
-      <sheetpath names="/VNH3SP30 Motor SS/16-bit UD Counter/" tstamps="/56F544AF/564A908F/"/>
-      <tstamp>5659B370</tstamp>
+      <sheetpath names="/VNH3SP30 Motor SS 3/16-bit UD Counter/" tstamps="/56F544AF/564A908F/"/>
+      <tstamp>56C78081</tstamp>
+    </comp>
+    <comp ref="U22">
+      <value>74HC4067</value>
+      <footprint>SMD_Packages:SOIC-24</footprint>
+      <libsource lib="ArmComponentLibrary" part="74HC4067"/>
+      <sheetpath names="/VNH3SP30 Motor SS 3/16-bit UD Counter/" tstamps="/56F544AF/564A908F/"/>
+      <tstamp>56CA6B36</tstamp>
     </comp>
     <comp ref="U31">
       <value>74HC193</value>
       <footprint>SMD_Packages:SO-16-N</footprint>
       <libsource lib="ArmComponentLibrary" part="74HC193"/>
-      <sheetpath names="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/" tstamps="/56F544AF/564A908F/564D3AE9/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/" tstamps="/56F544AF/564A908F/564D3AE9/"/>
       <tstamp>564D42F4</tstamp>
     </comp>
     <comp ref="U33">
       <value>74HC193</value>
       <footprint>SMD_Packages:SO-16-N</footprint>
       <libsource lib="ArmComponentLibrary" part="74HC193"/>
-      <sheetpath names="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/" tstamps="/56F544AF/564A908F/564D3AE9/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/" tstamps="/56F544AF/564A908F/564D3AE9/"/>
       <tstamp>564D42F6</tstamp>
     </comp>
     <comp ref="U32">
       <value>74HC193</value>
       <footprint>SMD_Packages:SO-16-N</footprint>
       <libsource lib="ArmComponentLibrary" part="74HC193"/>
-      <sheetpath names="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/" tstamps="/56F544AF/564A908F/564D3AE9/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/" tstamps="/56F544AF/564A908F/564D3AE9/"/>
       <tstamp>564D42F7</tstamp>
     </comp>
     <comp ref="U34">
       <value>74HC193</value>
       <footprint>SMD_Packages:SO-16-N</footprint>
       <libsource lib="ArmComponentLibrary" part="74HC193"/>
-      <sheetpath names="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/" tstamps="/56F544AF/564A908F/564D3AE9/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/" tstamps="/56F544AF/564A908F/564D3AE9/"/>
       <tstamp>564D42F8</tstamp>
     </comp>
     <comp ref="VNH6">
       <value>VNH3SP30</value>
       <footprint>ArmFootprints:VNH3SP30TR-E</footprint>
       <libsource lib="ArmComponentLibrary" part="VNH3SP30"/>
-      <sheetpath names="/VNH3SP30 Motor SS/" tstamps="/56F55E0D/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 5/" tstamps="/56F55E0D/"/>
       <tstamp>564A6239</tstamp>
-    </comp>
-    <comp ref="U35">
-      <value>74LVC2G08</value>
-      <footprint>ArmFootprints:SN74LVC2G08DCTR</footprint>
-      <libsource lib="ArmComponentLibrary" part="74LVC2G08"/>
-      <sheetpath names="/VNH3SP30 Motor SS/" tstamps="/56F55E0D/"/>
-      <tstamp>565DD202</tstamp>
     </comp>
     <comp ref="R30">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/VNH3SP30 Motor SS/" tstamps="/56F55E0D/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 5/" tstamps="/56F55E0D/"/>
       <tstamp>56C5F3D4</tstamp>
     </comp>
     <comp ref="R31">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/VNH3SP30 Motor SS/" tstamps="/56F55E0D/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 5/" tstamps="/56F55E0D/"/>
       <tstamp>56C5F9C5</tstamp>
     </comp>
     <comp ref="R29">
       <value>4.7k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/VNH3SP30 Motor SS/" tstamps="/56F55E0D/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 5/" tstamps="/56F55E0D/"/>
       <tstamp>56C6696F</tstamp>
     </comp>
     <comp ref="P7">
       <value>CONN_5</value>
       <footprint>ArmFootprints:5-pin_640467-1</footprint>
       <libsource lib="conn" part="CONN_5"/>
-      <sheetpath names="/VNH3SP30 Motor SS/" tstamps="/56F55E0D/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 5/" tstamps="/56F55E0D/"/>
       <tstamp>56CA7E11</tstamp>
     </comp>
-    <comp ref="U36">
-      <value>74HC4067</value>
-      <footprint>SMD_Packages:SOIC-24</footprint>
-      <libsource lib="ArmComponentLibrary" part="74HC4067"/>
-      <sheetpath names="/VNH3SP30 Motor SS/16-bit UD Counter/" tstamps="/56F55E0D/564A908F/"/>
-      <tstamp>564A929C</tstamp>
+    <comp ref="U42">
+      <value>74HC08</value>
+      <footprint>SMD_Packages:SOIC-14_N</footprint>
+      <libsource lib="ArmComponentLibrary" part="74HC08"/>
+      <sheetpath names="/VNH3SP30 Motor SS 5/" tstamps="/56F55E0D/"/>
+      <tstamp>56CE991E</tstamp>
     </comp>
-    <comp ref="U37">
+    <comp ref="U30">
       <value>MC14013B</value>
       <footprint>SMD_Packages:SOIC-14_N</footprint>
       <libsource lib="ArmComponentLibrary" part="MC14013B"/>
-      <sheetpath names="/VNH3SP30 Motor SS/16-bit UD Counter/" tstamps="/56F55E0D/564A908F/"/>
-      <tstamp>5659B370</tstamp>
+      <sheetpath names="/VNH3SP30 Motor SS 5/16-bit UD Counter/" tstamps="/56F55E0D/564A908F/"/>
+      <tstamp>56C78081</tstamp>
+    </comp>
+    <comp ref="U29">
+      <value>74HC4067</value>
+      <footprint>SMD_Packages:SOIC-24</footprint>
+      <libsource lib="ArmComponentLibrary" part="74HC4067"/>
+      <sheetpath names="/VNH3SP30 Motor SS 5/16-bit UD Counter/" tstamps="/56F55E0D/564A908F/"/>
+      <tstamp>56CA6B36</tstamp>
     </comp>
     <comp ref="U38">
       <value>74HC193</value>
       <footprint>SMD_Packages:SO-16-N</footprint>
       <libsource lib="ArmComponentLibrary" part="74HC193"/>
-      <sheetpath names="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/" tstamps="/56F55E0D/564A908F/564D3AE9/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/" tstamps="/56F55E0D/564A908F/564D3AE9/"/>
       <tstamp>564D42F4</tstamp>
     </comp>
     <comp ref="U40">
       <value>74HC193</value>
       <footprint>SMD_Packages:SO-16-N</footprint>
       <libsource lib="ArmComponentLibrary" part="74HC193"/>
-      <sheetpath names="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/" tstamps="/56F55E0D/564A908F/564D3AE9/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/" tstamps="/56F55E0D/564A908F/564D3AE9/"/>
       <tstamp>564D42F6</tstamp>
     </comp>
     <comp ref="U39">
       <value>74HC193</value>
       <footprint>SMD_Packages:SO-16-N</footprint>
       <libsource lib="ArmComponentLibrary" part="74HC193"/>
-      <sheetpath names="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/" tstamps="/56F55E0D/564A908F/564D3AE9/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/" tstamps="/56F55E0D/564A908F/564D3AE9/"/>
       <tstamp>564D42F7</tstamp>
     </comp>
     <comp ref="U41">
       <value>74HC193</value>
       <footprint>SMD_Packages:SO-16-N</footprint>
       <libsource lib="ArmComponentLibrary" part="74HC193"/>
-      <sheetpath names="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/" tstamps="/56F55E0D/564A908F/564D3AE9/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/" tstamps="/56F55E0D/564A908F/564D3AE9/"/>
       <tstamp>564D42F8</tstamp>
     </comp>
     <comp ref="VNH7">
       <value>VNH3SP30</value>
       <footprint>ArmFootprints:VNH3SP30TR-E</footprint>
       <libsource lib="ArmComponentLibrary" part="VNH3SP30"/>
-      <sheetpath names="/VNH3SP30 Motor SS/" tstamps="/56F56B2F/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 4/" tstamps="/56F56B2F/"/>
       <tstamp>564A6239</tstamp>
-    </comp>
-    <comp ref="U42">
-      <value>74LVC2G08</value>
-      <footprint>ArmFootprints:SN74LVC2G08DCTR</footprint>
-      <libsource lib="ArmComponentLibrary" part="74LVC2G08"/>
-      <sheetpath names="/VNH3SP30 Motor SS/" tstamps="/56F56B2F/"/>
-      <tstamp>565DD202</tstamp>
     </comp>
     <comp ref="R33">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/VNH3SP30 Motor SS/" tstamps="/56F56B2F/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 4/" tstamps="/56F56B2F/"/>
       <tstamp>56C5F3D4</tstamp>
     </comp>
     <comp ref="R34">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/VNH3SP30 Motor SS/" tstamps="/56F56B2F/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 4/" tstamps="/56F56B2F/"/>
       <tstamp>56C5F9C5</tstamp>
     </comp>
     <comp ref="R32">
       <value>4.7k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/VNH3SP30 Motor SS/" tstamps="/56F56B2F/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 4/" tstamps="/56F56B2F/"/>
       <tstamp>56C6696F</tstamp>
     </comp>
     <comp ref="P8">
       <value>CONN_5</value>
       <footprint>ArmFootprints:5-pin_640467-1</footprint>
       <libsource lib="conn" part="CONN_5"/>
-      <sheetpath names="/VNH3SP30 Motor SS/" tstamps="/56F56B2F/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 4/" tstamps="/56F56B2F/"/>
       <tstamp>56CA7E11</tstamp>
     </comp>
-    <comp ref="U43">
-      <value>74HC4067</value>
-      <footprint>SMD_Packages:SOIC-24</footprint>
-      <libsource lib="ArmComponentLibrary" part="74HC4067"/>
-      <sheetpath names="/VNH3SP30 Motor SS/16-bit UD Counter/" tstamps="/56F56B2F/564A908F/"/>
-      <tstamp>564A929C</tstamp>
-    </comp>
     <comp ref="U44">
+      <value>74HC08</value>
+      <footprint>SMD_Packages:SOIC-14_N</footprint>
+      <libsource lib="ArmComponentLibrary" part="74HC08"/>
+      <sheetpath names="/VNH3SP30 Motor SS 4/" tstamps="/56F56B2F/"/>
+      <tstamp>56CE991E</tstamp>
+    </comp>
+    <comp ref="U37">
       <value>MC14013B</value>
       <footprint>SMD_Packages:SOIC-14_N</footprint>
       <libsource lib="ArmComponentLibrary" part="MC14013B"/>
-      <sheetpath names="/VNH3SP30 Motor SS/16-bit UD Counter/" tstamps="/56F56B2F/564A908F/"/>
-      <tstamp>5659B370</tstamp>
+      <sheetpath names="/VNH3SP30 Motor SS 4/16-bit UD Counter/" tstamps="/56F56B2F/564A908F/"/>
+      <tstamp>56C78081</tstamp>
+    </comp>
+    <comp ref="U36">
+      <value>74HC4067</value>
+      <footprint>SMD_Packages:SOIC-24</footprint>
+      <libsource lib="ArmComponentLibrary" part="74HC4067"/>
+      <sheetpath names="/VNH3SP30 Motor SS 4/16-bit UD Counter/" tstamps="/56F56B2F/564A908F/"/>
+      <tstamp>56CA6B36</tstamp>
     </comp>
     <comp ref="U45">
       <value>74HC193</value>
       <footprint>SMD_Packages:SO-16-N</footprint>
       <libsource lib="ArmComponentLibrary" part="74HC193"/>
-      <sheetpath names="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/" tstamps="/56F56B2F/564A908F/564D3AE9/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/" tstamps="/56F56B2F/564A908F/564D3AE9/"/>
       <tstamp>564D42F4</tstamp>
     </comp>
     <comp ref="U47">
       <value>74HC193</value>
       <footprint>SMD_Packages:SO-16-N</footprint>
       <libsource lib="ArmComponentLibrary" part="74HC193"/>
-      <sheetpath names="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/" tstamps="/56F56B2F/564A908F/564D3AE9/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/" tstamps="/56F56B2F/564A908F/564D3AE9/"/>
       <tstamp>564D42F6</tstamp>
     </comp>
     <comp ref="U46">
       <value>74HC193</value>
       <footprint>SMD_Packages:SO-16-N</footprint>
       <libsource lib="ArmComponentLibrary" part="74HC193"/>
-      <sheetpath names="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/" tstamps="/56F56B2F/564A908F/564D3AE9/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/" tstamps="/56F56B2F/564A908F/564D3AE9/"/>
       <tstamp>564D42F7</tstamp>
     </comp>
     <comp ref="U48">
       <value>74HC193</value>
       <footprint>SMD_Packages:SO-16-N</footprint>
       <libsource lib="ArmComponentLibrary" part="74HC193"/>
-      <sheetpath names="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/" tstamps="/56F56B2F/564A908F/564D3AE9/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/" tstamps="/56F56B2F/564A908F/564D3AE9/"/>
       <tstamp>564D42F8</tstamp>
     </comp>
     <comp ref="VNH8">
@@ -969,13 +994,6 @@
       <libsource lib="ArmComponentLibrary" part="VNH3SP30"/>
       <sheetpath names="/vnh3sp30_motorLinac_ss/" tstamps="/56F75F1F/"/>
       <tstamp>56AED672</tstamp>
-    </comp>
-    <comp ref="U49">
-      <value>74LVC2G08</value>
-      <footprint>ArmFootprints:SN74LVC2G08DCTR</footprint>
-      <libsource lib="ArmComponentLibrary" part="74LVC2G08"/>
-      <sheetpath names="/vnh3sp30_motorLinac_ss/" tstamps="/56F75F1F/"/>
-      <tstamp>56AED674</tstamp>
     </comp>
     <comp ref="R36">
       <value>1k</value>
@@ -1005,19 +1023,26 @@
       <sheetpath names="/vnh3sp30_motorLinac_ss/" tstamps="/56F75F1F/"/>
       <tstamp>56C67526</tstamp>
     </comp>
-    <comp ref="U50">
-      <value>74HC4067</value>
-      <footprint>SMD_Packages:SOIC-24</footprint>
-      <libsource lib="ArmComponentLibrary" part="74HC4067"/>
-      <sheetpath names="/vnh3sp30_motorLinac_ss/16-bit UD Counter/" tstamps="/56F75F1F/56AED673/"/>
-      <tstamp>564A929C</tstamp>
+    <comp ref="U57">
+      <value>74HC08</value>
+      <footprint>SMD_Packages:SOIC-14_N</footprint>
+      <libsource lib="ArmComponentLibrary" part="74HC08"/>
+      <sheetpath names="/vnh3sp30_motorLinac_ss/" tstamps="/56F75F1F/"/>
+      <tstamp>56CE788A</tstamp>
     </comp>
-    <comp ref="U51">
+    <comp ref="U49">
       <value>MC14013B</value>
       <footprint>SMD_Packages:SOIC-14_N</footprint>
       <libsource lib="ArmComponentLibrary" part="MC14013B"/>
       <sheetpath names="/vnh3sp30_motorLinac_ss/16-bit UD Counter/" tstamps="/56F75F1F/56AED673/"/>
-      <tstamp>5659B370</tstamp>
+      <tstamp>56C78081</tstamp>
+    </comp>
+    <comp ref="U43">
+      <value>74HC4067</value>
+      <footprint>SMD_Packages:SOIC-24</footprint>
+      <libsource lib="ArmComponentLibrary" part="74HC4067"/>
+      <sheetpath names="/vnh3sp30_motorLinac_ss/16-bit UD Counter/" tstamps="/56F75F1F/56AED673/"/>
+      <tstamp>56CA6B36</tstamp>
     </comp>
     <comp ref="U52">
       <value>74HC193</value>
@@ -1051,84 +1076,84 @@
       <value>VNH3SP30</value>
       <footprint>ArmFootprints:VNH3SP30TR-E</footprint>
       <libsource lib="ArmComponentLibrary" part="VNH3SP30"/>
-      <sheetpath names="/VNH3SP30 Motor SS/" tstamps="/56F53B7D/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 2/" tstamps="/56F53B7D/"/>
       <tstamp>564A6239</tstamp>
-    </comp>
-    <comp ref="U21">
-      <value>74LVC2G08</value>
-      <footprint>ArmFootprints:SN74LVC2G08DCTR</footprint>
-      <libsource lib="ArmComponentLibrary" part="74LVC2G08"/>
-      <sheetpath names="/VNH3SP30 Motor SS/" tstamps="/56F53B7D/"/>
-      <tstamp>565DD202</tstamp>
     </comp>
     <comp ref="R39">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/VNH3SP30 Motor SS/" tstamps="/56F53B7D/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 2/" tstamps="/56F53B7D/"/>
       <tstamp>56C5F3D4</tstamp>
     </comp>
     <comp ref="R40">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/VNH3SP30 Motor SS/" tstamps="/56F53B7D/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 2/" tstamps="/56F53B7D/"/>
       <tstamp>56C5F9C5</tstamp>
     </comp>
     <comp ref="R38">
       <value>4.7k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/VNH3SP30 Motor SS/" tstamps="/56F53B7D/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 2/" tstamps="/56F53B7D/"/>
       <tstamp>56C6696F</tstamp>
     </comp>
     <comp ref="P10">
       <value>CONN_5</value>
       <footprint>ArmFootprints:5-pin_640467-1</footprint>
       <libsource lib="conn" part="CONN_5"/>
-      <sheetpath names="/VNH3SP30 Motor SS/" tstamps="/56F53B7D/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 2/" tstamps="/56F53B7D/"/>
       <tstamp>56CA7E11</tstamp>
     </comp>
-    <comp ref="U22">
-      <value>74HC4067</value>
-      <footprint>SMD_Packages:SOIC-24</footprint>
-      <libsource lib="ArmComponentLibrary" part="74HC4067"/>
-      <sheetpath names="/VNH3SP30 Motor SS/16-bit UD Counter/" tstamps="/56F53B7D/564A908F/"/>
-      <tstamp>564A929C</tstamp>
+    <comp ref="U58">
+      <value>74HC08</value>
+      <footprint>SMD_Packages:SOIC-14_N</footprint>
+      <libsource lib="ArmComponentLibrary" part="74HC08"/>
+      <sheetpath names="/VNH3SP30 Motor SS 2/" tstamps="/56F53B7D/"/>
+      <tstamp>56CE991E</tstamp>
     </comp>
-    <comp ref="U23">
+    <comp ref="U51">
       <value>MC14013B</value>
       <footprint>SMD_Packages:SOIC-14_N</footprint>
       <libsource lib="ArmComponentLibrary" part="MC14013B"/>
-      <sheetpath names="/VNH3SP30 Motor SS/16-bit UD Counter/" tstamps="/56F53B7D/564A908F/"/>
-      <tstamp>5659B370</tstamp>
+      <sheetpath names="/VNH3SP30 Motor SS 2/16-bit UD Counter/" tstamps="/56F53B7D/564A908F/"/>
+      <tstamp>56C78081</tstamp>
+    </comp>
+    <comp ref="U50">
+      <value>74HC4067</value>
+      <footprint>SMD_Packages:SOIC-24</footprint>
+      <libsource lib="ArmComponentLibrary" part="74HC4067"/>
+      <sheetpath names="/VNH3SP30 Motor SS 2/16-bit UD Counter/" tstamps="/56F53B7D/564A908F/"/>
+      <tstamp>56CA6B36</tstamp>
     </comp>
     <comp ref="U24">
       <value>74HC193</value>
       <footprint>SMD_Packages:SO-16-N</footprint>
       <libsource lib="ArmComponentLibrary" part="74HC193"/>
-      <sheetpath names="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/" tstamps="/56F53B7D/564A908F/564D3AE9/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/" tstamps="/56F53B7D/564A908F/564D3AE9/"/>
       <tstamp>564D42F4</tstamp>
     </comp>
     <comp ref="U26">
       <value>74HC193</value>
       <footprint>SMD_Packages:SO-16-N</footprint>
       <libsource lib="ArmComponentLibrary" part="74HC193"/>
-      <sheetpath names="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/" tstamps="/56F53B7D/564A908F/564D3AE9/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/" tstamps="/56F53B7D/564A908F/564D3AE9/"/>
       <tstamp>564D42F6</tstamp>
     </comp>
     <comp ref="U25">
       <value>74HC193</value>
       <footprint>SMD_Packages:SO-16-N</footprint>
       <libsource lib="ArmComponentLibrary" part="74HC193"/>
-      <sheetpath names="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/" tstamps="/56F53B7D/564A908F/564D3AE9/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/" tstamps="/56F53B7D/564A908F/564D3AE9/"/>
       <tstamp>564D42F7</tstamp>
     </comp>
     <comp ref="U27">
       <value>74HC193</value>
       <footprint>SMD_Packages:SO-16-N</footprint>
       <libsource lib="ArmComponentLibrary" part="74HC193"/>
-      <sheetpath names="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/" tstamps="/56F53B7D/564A908F/564D3AE9/"/>
+      <sheetpath names="/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/" tstamps="/56F53B7D/564A908F/564D3AE9/"/>
       <tstamp>564D42F8</tstamp>
     </comp>
   </components>
@@ -1173,6 +1198,28 @@
         <pin num="32" name="~" type="input"/>
         <pin num="33" name="~" type="input"/>
         <pin num="34" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ArmComponentLibrary" part="74HC08">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1A" type="input"/>
+        <pin num="2" name="1B" type="input"/>
+        <pin num="3" name="1Y" type="input"/>
+        <pin num="4" name="2A" type="input"/>
+        <pin num="5" name="2B" type="input"/>
+        <pin num="6" name="2Y" type="input"/>
+        <pin num="7" name="GND" type="input"/>
+        <pin num="8" name="3Y" type="input"/>
+        <pin num="9" name="3A" type="input"/>
+        <pin num="10" name="3B" type="input"/>
+        <pin num="11" name="4Y" type="input"/>
+        <pin num="12" name="4A" type="input"/>
+        <pin num="13" name="4B" type="input"/>
+        <pin num="14" name="VCC" type="input"/>
       </pins>
     </libpart>
     <libpart lib="ArmComponentLibrary" part="74HC138">
@@ -1235,7 +1282,7 @@
         <pin num="4" name="Y7" type="input"/>
         <pin num="5" name="Y5" type="input"/>
         <pin num="6" name="n_E" type="input"/>
-        <pin num="7" name="VEE" type="input"/>
+        <pin num="7" name="GND" type="input"/>
         <pin num="8" name="GND" type="input"/>
         <pin num="9" name="S2" type="input"/>
         <pin num="10" name="S1" type="input"/>
@@ -1276,7 +1323,7 @@
         <pin num="21" name="I_10" type="input"/>
         <pin num="22" name="I_9" type="input"/>
         <pin num="23" name="I_8" type="input"/>
-        <pin num="~" name="VCC" type="input"/>
+        <pin num="24" name="VCC" type="input"/>
       </pins>
     </libpart>
     <libpart lib="ArmComponentLibrary" part="74LVC04A">
@@ -1299,33 +1346,6 @@
         <pin num="12" name="6Y" type="input"/>
         <pin num="13" name="6A" type="input"/>
         <pin num="14" name="VCC" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="ArmComponentLibrary" part="74LVC2G08">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">74LVC2G08</field>
-      </fields>
-      <pins>
-        <pin num="~" name="1A" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="regul" part="7805">
-      <aliases>
-        <alias>LM7805</alias>
-        <alias>LM7812</alias>
-        <alias>78L05</alias>
-      </aliases>
-      <description>Linear Regulator +5V</description>
-      <docs>regulator\lm78xx.pdf</docs>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">7805</field>
-      </fields>
-      <pins>
-        <pin num="GND" name="GND" type="input"/>
-        <pin num="VI" name="VI" type="input"/>
-        <pin num="VO" name="VO" type="power_out"/>
       </pins>
     </libpart>
     <libpart lib="arm_board-cache" part="CONN_01X05">
@@ -1395,7 +1415,20 @@
         <field name="Value">MC14013B</field>
       </fields>
       <pins>
-        <pin num="~" name="CA" type="input"/>
+        <pin num="1" name="QA" type="input"/>
+        <pin num="2" name="n_QA" type="input"/>
+        <pin num="3" name="CA" type="input"/>
+        <pin num="4" name="RA" type="input"/>
+        <pin num="5" name="DA" type="input"/>
+        <pin num="6" name="SA" type="input"/>
+        <pin num="7" name="VSS" type="input"/>
+        <pin num="8" name="SB" type="input"/>
+        <pin num="9" name="DB" type="input"/>
+        <pin num="10" name="RB" type="input"/>
+        <pin num="11" name="CB" type="input"/>
+        <pin num="12" name="n_QB" type="input"/>
+        <pin num="13" name="QB" type="input"/>
+        <pin num="14" name="VDD" type="input"/>
       </pins>
     </libpart>
     <libpart lib="device" part="R">
@@ -1510,1858 +1543,2062 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
-    </library>
-    <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
-    </library>
-    <library logical="regul">
-      <uri>/usr/share/kicad/library/regul.lib</uri>
-    </library>
     <library logical="ArmComponentLibrary">
       <uri>/home/carl/Kicad/arm_board/arm_board-0.1/library/ArmComponentLibrary.lib</uri>
     </library>
     <library logical="arm_board-cache">
       <uri>/home/carl/Programming/usst/rover-electrical/Projects/arm_board/arm_board-0.1/arm_board-cache.lib</uri>
     </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
   </libraries>
   <nets>
-    <net code="1" name="/OVRFLW">
-      <node ref="U56" pin="27"/>
-      <node ref="MUX2" pin="3"/>
-    </net>
-    <net code="2" name="/OIL_ss/D">
-      <node ref="U56" pin="4"/>
-      <node ref="U3" pin="13"/>
-    </net>
-    <net code="3" name="/OIL_ss/EN">
-      <node ref="U56" pin="2"/>
-      <node ref="U3" pin="14"/>
-    </net>
-    <net code="4" name="/OIL_ss/CLR">
-      <node ref="U56" pin="6"/>
-      <node ref="U3" pin="15"/>
-    </net>
-    <net code="5" name="/VNH3SP30 Motor SS/Q_CNT">
-      <node ref="U15" pin="1"/>
-      <node ref="MUX1" pin="14"/>
-    </net>
-    <net code="6" name="/n_ADC_CS">
-      <node ref="U1" pin="16"/>
-      <node ref="U56" pin="24"/>
-    </net>
-    <net code="7" name="/n_ADC_CSTART">
-      <node ref="U56" pin="22"/>
-      <node ref="U1" pin="10"/>
-    </net>
-    <net code="8" name="/MCU_FS">
-      <node ref="U1" pin="13"/>
-      <node ref="U56" pin="14"/>
-    </net>
-    <net code="9" name="/VNH3SP30 Motor SS/CNT_OVRFLW">
-      <node ref="MUX2" pin="14"/>
-    </net>
-    <net code="10" name="/VNH3SP30 Motor SS/CNT_UDRFLW">
-      <node ref="MUX3" pin="14"/>
-      <node ref="U16" pin="~"/>
-    </net>
-    <net code="11" name="/UDRFLW">
+    <net code="1" name="/UDRFLW">
       <node ref="MUX3" pin="3"/>
       <node ref="U56" pin="29"/>
     </net>
-    <net code="12" name="/EOC_MCU">
+    <net code="2" name="/EOC_MCU">
       <node ref="U56" pin="26"/>
       <node ref="U1" pin="4"/>
     </net>
-    <net code="13" name="/VNH3SP30 SS/PWM">
+    <net code="3" name="/MCU_FS">
+      <node ref="U1" pin="13"/>
+      <node ref="U56" pin="14"/>
+    </net>
+    <net code="4" name="/n_ADC_CS">
+      <node ref="U1" pin="16"/>
+      <node ref="U56" pin="24"/>
+    </net>
+    <net code="5" name="/n_ADC_CSTART">
+      <node ref="U56" pin="22"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="6" name="/OVRFLW">
+      <node ref="MUX2" pin="3"/>
+      <node ref="U56" pin="27"/>
+    </net>
+    <net code="7" name="/VNH3SP30 Motor SS 1/CNT_UDRFLW">
+      <node ref="U16" pin="1"/>
+      <node ref="MUX3" pin="14"/>
+    </net>
+    <net code="8" name="/VNH3SP30 SS 1/PWM">
+      <node ref="U10" pin="6"/>
       <node ref="VNH1" pin="8"/>
-      <node ref="U4" pin="7"/>
     </net>
-    <net code="14" name="/VNH3SP30 SS/PWM">
+    <net code="9" name="/VNH3SP30 SS 2/PWM">
+      <node ref="U11" pin="6"/>
       <node ref="VNH2" pin="8"/>
-      <node ref="U4" pin="6"/>
     </net>
-    <net code="15" name="/Q_CNT_M6">
-      <node ref="MUX1" pin="2"/>
+    <net code="10" name="/VNH3SP30 SS 1/n_DIR">
+      <node ref="U12" pin="2"/>
+      <node ref="R19" pin="2"/>
     </net>
-    <net code="16" name="/Q_CNT_M7">
-      <node ref="MUX1" pin="4"/>
-    </net>
-    <net code="17" name="/VNH3SP30 Motor SS/CNT_OVRFLW">
-      <node ref="MUX2" pin="5"/>
-    </net>
-    <net code="18" name="/VNH3SP30 Motor SS/CNT_UDRFLW">
-      <node ref="MUX3" pin="5"/>
-      <node ref="U37" pin="~"/>
-    </net>
-    <net code="19" name="/VNH3SP30 Motor SS/Q_CNT">
-      <node ref="MUX1" pin="12"/>
-      <node ref="U29" pin="1"/>
-    </net>
-    <net code="20" name="/VNH3SP30 Motor SS/CNT_OVRFLW">
-      <node ref="MUX2" pin="12"/>
-    </net>
-    <net code="21" name="/VNH3SP30 Motor SS/CNT_UDRFLW">
-      <node ref="U30" pin="~"/>
-      <node ref="MUX3" pin="12"/>
-    </net>
-    <net code="22" name="/VNH3SP30 SS/DIR">
+    <net code="11" name="/VNH3SP30 SS 1/DIR">
+      <node ref="R18" pin="2"/>
       <node ref="U12" pin="1"/>
       <node ref="U10" pin="7"/>
-      <node ref="R18" pin="2"/>
     </net>
-    <net code="23" name="/VNH3SP30 SS/DIR">
-      <node ref="U10" pin="6"/>
-      <node ref="U12" pin="3"/>
+    <net code="12" name="/VNH3SP30 SS 2/DIR">
+      <node ref="U11" pin="7"/>
       <node ref="R21" pin="2"/>
+      <node ref="U12" pin="3"/>
     </net>
-    <net code="24" name="/VNH3SP30 SS/n_DIR">
-      <node ref="R19" pin="2"/>
-      <node ref="U12" pin="2"/>
-    </net>
-    <net code="25" name="/VNH3SP30 SS/n_DIR">
-      <node ref="U12" pin="4"/>
-      <node ref="R22" pin="2"/>
-    </net>
-    <net code="26" name="/OIL_ss/MCU_PWM3">
-      <node ref="R4" pin="1"/>
-      <node ref="U56" pin="15"/>
-    </net>
-    <net code="27" name="/OIL_ss/MCU_PWM4">
-      <node ref="R5" pin="1"/>
-      <node ref="U56" pin="17"/>
-    </net>
-    <net code="28" name="/OIL_ss/MCU_PWM5">
-      <node ref="R6" pin="1"/>
-      <node ref="U56" pin="19"/>
-    </net>
-    <net code="29" name="/OIL_ss/MCU_PWM6">
-      <node ref="R7" pin="1"/>
-      <node ref="U56" pin="21"/>
-    </net>
-    <net code="30" name="/OIL_ss/MCU_PWM0">
-      <node ref="U56" pin="9"/>
-      <node ref="R1" pin="1"/>
-    </net>
-    <net code="31" name="/OIL_ss/MCU_PWM1">
-      <node ref="R2" pin="1"/>
-      <node ref="U56" pin="11"/>
-    </net>
-    <net code="32" name="/OIL_ss/MCU_PWM2">
-      <node ref="R3" pin="1"/>
-      <node ref="U56" pin="13"/>
-    </net>
-    <net code="33" name="/OIL_ss/MCU_PWM7">
-      <node ref="U56" pin="23"/>
-      <node ref="R8" pin="1"/>
-    </net>
-    <net code="34" name="/Q_CNT">
-      <node ref="U56" pin="25"/>
+    <net code="13" name="/Q_CNT">
       <node ref="MUX1" pin="3"/>
+      <node ref="U56" pin="25"/>
     </net>
-    <net code="35" name="/MCU_SCLK">
-      <node ref="U56" pin="8"/>
-      <node ref="U1" pin="3"/>
+    <net code="14" name="/VNH3SP30 SS 2/n_DIR">
+      <node ref="R22" pin="2"/>
+      <node ref="U12" pin="4"/>
     </net>
-    <net code="36" name="/MCU_SDO">
+    <net code="15" name="/MCU_SDO">
       <node ref="U1" pin="2"/>
       <node ref="U56" pin="10"/>
     </net>
-    <net code="37" name="/MCU_SDI">
-      <node ref="U56" pin="12"/>
-      <node ref="U1" pin="1"/>
+    <net code="16" name="/OIL_ss/D">
+      <node ref="U56" pin="4"/>
+      <node ref="U3" pin="13"/>
     </net>
-    <net code="38" name="/VNH3SP30 SS/WPR">
+    <net code="17" name="/OIL_ss/EN">
+      <node ref="U3" pin="14"/>
+      <node ref="U56" pin="2"/>
+    </net>
+    <net code="18" name="/MCU_SCLK">
+      <node ref="U56" pin="8"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="19" name="/MCU_SDI">
+      <node ref="U1" pin="1"/>
+      <node ref="U56" pin="12"/>
+    </net>
+    <net code="20" name="/OIL_ss/CLR">
+      <node ref="U56" pin="6"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="21" name="/OIL_ss/MCU_PWM0">
+      <node ref="R14" pin="1"/>
+      <node ref="U56" pin="9"/>
+    </net>
+    <net code="22" name="/OIL_ss/MCU_PWM1">
+      <node ref="R16" pin="1"/>
+      <node ref="U56" pin="11"/>
+    </net>
+    <net code="23" name="/OIL_ss/MCU_PWM2">
+      <node ref="R10" pin="1"/>
+      <node ref="U56" pin="13"/>
+    </net>
+    <net code="24" name="/OIL_ss/MCU_PWM3">
+      <node ref="R12" pin="1"/>
+      <node ref="U56" pin="15"/>
+    </net>
+    <net code="25" name="/OIL_ss/MCU_PWM4">
+      <node ref="U56" pin="17"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="26" name="/OIL_ss/MCU_PWM5">
+      <node ref="R4" pin="1"/>
+      <node ref="U56" pin="19"/>
+    </net>
+    <net code="27" name="/OIL_ss/MCU_PWM6">
+      <node ref="U56" pin="21"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="28" name="/OIL_ss/MCU_PWM7">
+      <node ref="R8" pin="1"/>
+      <node ref="U56" pin="23"/>
+    </net>
+    <net code="29" name="/VNH3SP30 SS 2/WPR">
       <node ref="U56" pin="32"/>
       <node ref="U1" pin="7"/>
       <node ref="P6" pin="5"/>
     </net>
-    <net code="39" name="/VNH3SP30 Motor SS/n_CNT_RESET">
-      <node ref="U23" pin="~"/>
-      <node ref="U27" pin="11"/>
-      <node ref="DEMUX1" pin="13"/>
-      <node ref="U25" pin="11"/>
-      <node ref="U24" pin="11"/>
-      <node ref="U26" pin="11"/>
-    </net>
-    <net code="40" name="/VNH3SP30 Motor SS/n_CNT_RESET">
-      <node ref="U34" pin="11"/>
-      <node ref="U31" pin="11"/>
-      <node ref="U30" pin="~"/>
-      <node ref="U30" pin="~"/>
-      <node ref="U33" pin="11"/>
-      <node ref="DEMUX1" pin="12"/>
-      <node ref="U32" pin="11"/>
-    </net>
-    <net code="41" name="/VNH3SP30 Motor SS/n_CNT_RESET">
-      <node ref="U47" pin="11"/>
-      <node ref="U44" pin="~"/>
-      <node ref="U45" pin="11"/>
-      <node ref="DEMUX1" pin="11"/>
-      <node ref="U48" pin="11"/>
-      <node ref="U46" pin="11"/>
-    </net>
-    <net code="42" name="/VNH3SP30 Motor SS/n_CNT_RESET">
-      <node ref="DEMUX1" pin="10"/>
-      <node ref="U41" pin="11"/>
-      <node ref="U38" pin="11"/>
-      <node ref="U39" pin="11"/>
-      <node ref="U37" pin="~"/>
-      <node ref="U40" pin="11"/>
-      <node ref="U37" pin="~"/>
-    </net>
-    <net code="43" name="/VNH3SP30 SS/WPR">
-      <node ref="P5" pin="5"/>
+    <net code="30" name="/VNH3SP30 SS 1/WPR">
       <node ref="U56" pin="33"/>
       <node ref="U1" pin="6"/>
+      <node ref="P5" pin="5"/>
     </net>
-    <net code="44" name="/vnh3sp30_motorLinac_ss/WPR">
-      <node ref="U56" pin="34"/>
-      <node ref="U1" pin="8"/>
-      <node ref="P9" pin="6"/>
-    </net>
-    <net code="45" name="/VNH3SP30 Motor SS/n_CNT_RESET">
-      <node ref="U19" pin="11"/>
-      <node ref="U18" pin="11"/>
-      <node ref="DEMUX1" pin="14"/>
-      <node ref="U16" pin="~"/>
-      <node ref="U16" pin="~"/>
-      <node ref="U20" pin="11"/>
-      <node ref="U17" pin="11"/>
-    </net>
-    <net code="46" name="/OIL_ss/S2">
-      <node ref="U3" pin="3"/>
-      <node ref="MUX2" pin="9"/>
-      <node ref="U56" pin="20"/>
-      <node ref="DEMUX1" pin="3"/>
-      <node ref="MUX3" pin="9"/>
-      <node ref="MUX1" pin="9"/>
-    </net>
-    <net code="47" name="3.3V">
-      <node ref="U34" pin="9"/>
-      <node ref="U25" pin="16"/>
-      <node ref="U54" pin="16"/>
-      <node ref="U37" pin="~"/>
-      <node ref="U23" pin="~"/>
-      <node ref="U23" pin="~"/>
-      <node ref="U37" pin="~"/>
-      <node ref="U29" pin="~"/>
-      <node ref="P1" pin="4"/>
-      <node ref="U40" pin="16"/>
-      <node ref="P10" pin="4"/>
-      <node ref="U46" pin="16"/>
-      <node ref="U26" pin="16"/>
-      <node ref="U23" pin="~"/>
-      <node ref="U48" pin="16"/>
-      <node ref="U24" pin="16"/>
-      <node ref="U48" pin="9"/>
-      <node ref="U32" pin="16"/>
-      <node ref="U30" pin="~"/>
-      <node ref="U30" pin="~"/>
-      <node ref="U55" pin="9"/>
-      <node ref="U53" pin="16"/>
-      <node ref="U33" pin="16"/>
-      <node ref="U55" pin="16"/>
-      <node ref="U36" pin="~"/>
-      <node ref="U31" pin="16"/>
-      <node ref="U52" pin="16"/>
-      <node ref="U30" pin="~"/>
-      <node ref="U34" pin="16"/>
-      <node ref="U37" pin="~"/>
-      <node ref="U51" pin="~"/>
-      <node ref="U51" pin="~"/>
-      <node ref="U50" pin="~"/>
-      <node ref="P8" pin="4"/>
-      <node ref="U17" pin="16"/>
-      <node ref="U43" pin="~"/>
-      <node ref="U20" pin="16"/>
-      <node ref="U18" pin="16"/>
-      <node ref="U20" pin="9"/>
-      <node ref="U19" pin="16"/>
-      <node ref="P7" pin="4"/>
-      <node ref="P9" pin="3"/>
-      <node ref="U41" pin="9"/>
-      <node ref="U41" pin="16"/>
-      <node ref="U47" pin="16"/>
-      <node ref="P2" pin="4"/>
-      <node ref="U44" pin="~"/>
-      <node ref="U22" pin="~"/>
-      <node ref="U45" pin="16"/>
-      <node ref="U16" pin="~"/>
-      <node ref="U39" pin="16"/>
-      <node ref="U16" pin="~"/>
-      <node ref="U38" pin="16"/>
-      <node ref="U16" pin="~"/>
-      <node ref="U27" pin="16"/>
-      <node ref="U15" pin="~"/>
-      <node ref="U27" pin="9"/>
-      <node ref="U44" pin="~"/>
-      <node ref="U44" pin="~"/>
-      <node ref="U3" pin="16"/>
-      <node ref="MUX3" pin="7"/>
-      <node ref="DEMUX1" pin="16"/>
-      <node ref="MUX1" pin="16"/>
-      <node ref="P4" pin="1"/>
-      <node ref="MUX2" pin="7"/>
-      <node ref="MUX1" pin="7"/>
-      <node ref="U1" pin="5"/>
-      <node ref="MUX3" pin="16"/>
-      <node ref="MUX2" pin="16"/>
-      <node ref="U1" pin="12"/>
-    </net>
-    <net code="48" name="GND_3.3V">
-      <node ref="U9" pin="2"/>
-      <node ref="U11" pin="2"/>
-      <node ref="U33" pin="1"/>
-      <node ref="U31" pin="15"/>
-      <node ref="U31" pin="8"/>
-      <node ref="U31" pin="14"/>
-      <node ref="U31" pin="9"/>
-      <node ref="U31" pin="10"/>
-      <node ref="U32" pin="9"/>
-      <node ref="U49" pin="~"/>
-      <node ref="U32" pin="14"/>
-      <node ref="U32" pin="10"/>
-      <node ref="U32" pin="15"/>
-      <node ref="U32" pin="8"/>
-      <node ref="U32" pin="1"/>
-      <node ref="U34" pin="15"/>
-      <node ref="U34" pin="14"/>
-      <node ref="U34" pin="10"/>
-      <node ref="P9" pin="4"/>
-      <node ref="U34" pin="8"/>
-      <node ref="U34" pin="1"/>
-      <node ref="U31" pin="1"/>
-      <node ref="U4" pin="3"/>
-      <node ref="U4" pin="2"/>
-      <node ref="U5" pin="3"/>
-      <node ref="U5" pin="2"/>
-      <node ref="U9" pin="3"/>
-      <node ref="U11" pin="3"/>
-      <node ref="U33" pin="15"/>
-      <node ref="U10" pin="2"/>
-      <node ref="U33" pin="8"/>
-      <node ref="U10" pin="3"/>
-      <node ref="U33" pin="9"/>
-      <node ref="U8" pin="3"/>
-      <node ref="U8" pin="2"/>
-      <node ref="U33" pin="10"/>
-      <node ref="U33" pin="14"/>
-      <node ref="MUX2" pin="8"/>
-      <node ref="U41" pin="14"/>
-      <node ref="U41" pin="15"/>
-      <node ref="U41" pin="8"/>
-      <node ref="MUX2" pin="6"/>
-      <node ref="U39" pin="1"/>
-      <node ref="U39" pin="8"/>
-      <node ref="U39" pin="9"/>
-      <node ref="U39" pin="10"/>
-      <node ref="MUX2" pin="4"/>
-      <node ref="U38" pin="1"/>
-      <node ref="U38" pin="8"/>
-      <node ref="U38" pin="9"/>
-      <node ref="U38" pin="10"/>
-      <node ref="U38" pin="14"/>
-      <node ref="U38" pin="15"/>
-      <node ref="MUX2" pin="2"/>
-      <node ref="P7" pin="5"/>
-      <node ref="U40" pin="1"/>
-      <node ref="U41" pin="10"/>
-      <node ref="U41" pin="1"/>
-      <node ref="U35" pin="~"/>
-      <node ref="U28" pin="~"/>
-      <node ref="U39" pin="14"/>
-      <node ref="U39" pin="15"/>
-      <node ref="U44" pin="~"/>
-      <node ref="U44" pin="~"/>
-      <node ref="MUX3" pin="2"/>
-      <node ref="P8" pin="5"/>
-      <node ref="U6" pin="3"/>
-      <node ref="U44" pin="~"/>
-      <node ref="U40" pin="10"/>
-      <node ref="U40" pin="15"/>
-      <node ref="U40" pin="8"/>
-      <node ref="U40" pin="9"/>
-      <node ref="U40" pin="14"/>
-      <node ref="U42" pin="~"/>
-      <node ref="U17" pin="1"/>
-      <node ref="U23" pin="~"/>
-      <node ref="U43" pin="15"/>
-      <node ref="U23" pin="~"/>
-      <node ref="U23" pin="~"/>
-      <node ref="U17" pin="14"/>
-      <node ref="U17" pin="8"/>
-      <node ref="U17" pin="9"/>
-      <node ref="U1" pin="11"/>
-      <node ref="U19" pin="15"/>
-      <node ref="U17" pin="15"/>
-      <node ref="U17" pin="10"/>
-      <node ref="U27" pin="10"/>
-      <node ref="U24" pin="1"/>
-      <node ref="U19" pin="10"/>
-      <node ref="U22" pin="12"/>
-      <node ref="U22" pin="15"/>
-      <node ref="P4" pin="2"/>
-      <node ref="U19" pin="1"/>
-      <node ref="U19" pin="8"/>
-      <node ref="U19" pin="9"/>
-      <node ref="U19" pin="14"/>
-      <node ref="U51" pin="~"/>
-      <node ref="U30" pin="~"/>
-      <node ref="U30" pin="~"/>
-      <node ref="U30" pin="~"/>
-      <node ref="U50" pin="12"/>
-      <node ref="U29" pin="12"/>
-      <node ref="U29" pin="15"/>
-      <node ref="U50" pin="15"/>
-      <node ref="U51" pin="~"/>
-      <node ref="U51" pin="~"/>
-      <node ref="DEMUX1" pin="5"/>
-      <node ref="DEMUX1" pin="4"/>
-      <node ref="U20" pin="1"/>
-      <node ref="U18" pin="1"/>
-      <node ref="U20" pin="15"/>
-      <node ref="U20" pin="14"/>
-      <node ref="U20" pin="10"/>
-      <node ref="U18" pin="9"/>
-      <node ref="U20" pin="8"/>
-      <node ref="U43" pin="12"/>
-      <node ref="U18" pin="8"/>
-      <node ref="U27" pin="15"/>
-      <node ref="DEMUX1" pin="8"/>
-      <node ref="U18" pin="15"/>
-      <node ref="U18" pin="14"/>
-      <node ref="U18" pin="10"/>
-      <node ref="MUX3" pin="8"/>
-      <node ref="U16" pin="~"/>
-      <node ref="U16" pin="~"/>
-      <node ref="U16" pin="~"/>
-      <node ref="MUX3" pin="4"/>
-      <node ref="MUX3" pin="6"/>
-      <node ref="U15" pin="12"/>
-      <node ref="U15" pin="15"/>
-      <node ref="U7" pin="2"/>
-      <node ref="U7" pin="3"/>
-      <node ref="U6" pin="2"/>
-      <node ref="U24" pin="15"/>
-      <node ref="U25" pin="10"/>
-      <node ref="U25" pin="1"/>
-      <node ref="U25" pin="8"/>
-      <node ref="U25" pin="9"/>
-      <node ref="U25" pin="14"/>
-      <node ref="U25" pin="15"/>
-      <node ref="U26" pin="10"/>
-      <node ref="U27" pin="14"/>
-      <node ref="U27" pin="8"/>
-      <node ref="U27" pin="1"/>
-      <node ref="U26" pin="1"/>
-      <node ref="U26" pin="8"/>
-      <node ref="U26" pin="9"/>
-      <node ref="U26" pin="14"/>
-      <node ref="U26" pin="15"/>
-      <node ref="U24" pin="10"/>
-      <node ref="U24" pin="8"/>
-      <node ref="U24" pin="9"/>
-      <node ref="U24" pin="14"/>
-      <node ref="U48" pin="10"/>
-      <node ref="U48" pin="1"/>
-      <node ref="U54" pin="9"/>
-      <node ref="U54" pin="10"/>
-      <node ref="U47" pin="1"/>
-      <node ref="U54" pin="14"/>
-      <node ref="U54" pin="15"/>
-      <node ref="U47" pin="14"/>
-      <node ref="P1" pin="5"/>
-      <node ref="U47" pin="10"/>
-      <node ref="U47" pin="9"/>
-      <node ref="U55" pin="14"/>
-      <node ref="U46" pin="15"/>
-      <node ref="U55" pin="10"/>
-      <node ref="U48" pin="14"/>
-      <node ref="P10" pin="5"/>
-      <node ref="U48" pin="8"/>
-      <node ref="U45" pin="1"/>
-      <node ref="U14" pin="~"/>
-      <node ref="MUX1" pin="6"/>
-      <node ref="U37" pin="~"/>
-      <node ref="U37" pin="~"/>
-      <node ref="U46" pin="1"/>
-      <node ref="U45" pin="15"/>
-      <node ref="U45" pin="8"/>
-      <node ref="U45" pin="14"/>
-      <node ref="U52" pin="1"/>
-      <node ref="U54" pin="1"/>
-      <node ref="U45" pin="9"/>
-      <node ref="U45" pin="10"/>
-      <node ref="U53" pin="1"/>
-      <node ref="U52" pin="10"/>
-      <node ref="U52" pin="9"/>
-      <node ref="U52" pin="8"/>
-      <node ref="U52" pin="14"/>
-      <node ref="U54" pin="8"/>
-      <node ref="U47" pin="15"/>
-      <node ref="U52" pin="15"/>
-      <node ref="U47" pin="8"/>
-      <node ref="U37" pin="~"/>
-      <node ref="U36" pin="15"/>
-      <node ref="P2" pin="5"/>
-      <node ref="U46" pin="8"/>
-      <node ref="U53" pin="8"/>
-      <node ref="U53" pin="9"/>
-      <node ref="U53" pin="10"/>
-      <node ref="U53" pin="14"/>
-      <node ref="U53" pin="15"/>
-      <node ref="U46" pin="9"/>
-      <node ref="U21" pin="~"/>
-      <node ref="U46" pin="10"/>
-      <node ref="U36" pin="12"/>
-      <node ref="U55" pin="15"/>
-      <node ref="U55" pin="1"/>
-      <node ref="U46" pin="14"/>
-      <node ref="MUX1" pin="8"/>
-      <node ref="U48" pin="15"/>
-      <node ref="U3" pin="8"/>
-      <node ref="U55" pin="8"/>
-    </net>
-    <net code="49" name="/RST">
-      <node ref="U56" pin="31"/>
-      <node ref="DEMUX1" pin="6"/>
-    </net>
-    <net code="50" name="/OIL_ss/S0">
-      <node ref="MUX2" pin="11"/>
-      <node ref="U56" pin="16"/>
-      <node ref="U3" pin="1"/>
-      <node ref="MUX1" pin="11"/>
-      <node ref="MUX3" pin="11"/>
-      <node ref="DEMUX1" pin="1"/>
-    </net>
-    <net code="51" name="/OIL_ss/S1">
-      <node ref="MUX1" pin="10"/>
-      <node ref="U56" pin="18"/>
-      <node ref="MUX2" pin="10"/>
-      <node ref="U3" pin="2"/>
-      <node ref="MUX3" pin="10"/>
-      <node ref="DEMUX1" pin="2"/>
-    </net>
-    <net code="52" name="/vnh3sp30_motorLinac_ss/n_CNT_RESET">
-      <node ref="U51" pin="~"/>
-      <node ref="U52" pin="11"/>
-      <node ref="DEMUX1" pin="15"/>
-      <node ref="U55" pin="11"/>
-      <node ref="U54" pin="11"/>
-      <node ref="U51" pin="~"/>
-      <node ref="U53" pin="11"/>
-    </net>
-    <net code="53" name="Whiper_GND">
-      <node ref="U1" pin="14"/>
-      <node ref="P9" pin="8"/>
+    <net code="31" name="Whiper_GND">
+      <node ref="P6" pin="4"/>
       <node ref="U56" pin="28"/>
       <node ref="P5" pin="4"/>
-      <node ref="P6" pin="4"/>
+      <node ref="P9" pin="8"/>
+      <node ref="U1" pin="14"/>
     </net>
-    <net code="54" name="Whiper_V++">
-      <node ref="P5" pin="3"/>
+    <net code="32" name="Whiper_V++">
       <node ref="P9" pin="7"/>
       <node ref="P6" pin="3"/>
       <node ref="U1" pin="15"/>
       <node ref="U56" pin="30"/>
+      <node ref="P5" pin="3"/>
     </net>
-    <net code="55" name="Net-(DEMUX1-Pad7)">
-      <node ref="DEMUX1" pin="7"/>
-    </net>
-    <net code="56" name="Net-(DEMUX1-Pad9)">
-      <node ref="DEMUX1" pin="9"/>
-    </net>
-    <net code="57" name="12V">
-      <node ref="VNH3" pin="3"/>
-      <node ref="VNH3" pin="13"/>
-      <node ref="VNH4" pin="3"/>
-      <node ref="VNH8" pin="23"/>
-      <node ref="VNH1" pin="13"/>
-      <node ref="VNH5" pin="3"/>
-      <node ref="VNH1" pin="23"/>
-      <node ref="VNH8" pin="13"/>
-      <node ref="VNH4" pin="13"/>
-      <node ref="VNH3" pin="23"/>
-      <node ref="VNH8" pin="3"/>
-      <node ref="VNH4" pin="23"/>
-      <node ref="VNH7" pin="23"/>
-      <node ref="VNH7" pin="13"/>
-      <node ref="U2" pin="VI"/>
-      <node ref="VNH7" pin="3"/>
-      <node ref="VNH1" pin="3"/>
-      <node ref="P3" pin="1"/>
-      <node ref="VNH2" pin="3"/>
-      <node ref="VNH6" pin="13"/>
-      <node ref="VNH6" pin="3"/>
-      <node ref="VNH5" pin="13"/>
-      <node ref="VNH6" pin="23"/>
-      <node ref="VNH2" pin="13"/>
-      <node ref="VNH5" pin="23"/>
-      <node ref="VNH2" pin="23"/>
-    </net>
-    <net code="58" name="NOISE_5V">
+    <net code="33" name="NOISE_5V">
+      <node ref="R23" pin="2"/>
       <node ref="R17" pin="2"/>
-      <node ref="U12" pin="14"/>
-      <node ref="R29" pin="2"/>
-      <node ref="U4" pin="8"/>
-      <node ref="U7" pin="8"/>
-      <node ref="U8" pin="8"/>
-      <node ref="U9" pin="8"/>
-      <node ref="U10" pin="8"/>
+      <node ref="R20" pin="2"/>
       <node ref="R35" pin="2"/>
-      <node ref="U5" pin="8"/>
+      <node ref="R32" pin="2"/>
       <node ref="R38" pin="2"/>
-      <node ref="U2" pin="VO"/>
+      <node ref="R26" pin="2"/>
+      <node ref="R29" pin="2"/>
       <node ref="U13" pin="14"/>
       <node ref="U11" pin="8"/>
-      <node ref="R26" pin="2"/>
-      <node ref="R20" pin="2"/>
+      <node ref="U7" pin="8"/>
       <node ref="U6" pin="8"/>
-      <node ref="R23" pin="2"/>
-      <node ref="R32" pin="2"/>
+      <node ref="U12" pin="14"/>
+      <node ref="U14" pin="14"/>
+      <node ref="U4" pin="8"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U8" pin="8"/>
+      <node ref="U21" pin="14"/>
+      <node ref="U10" pin="8"/>
+      <node ref="U9" pin="8"/>
     </net>
-    <net code="59" name="GND_12V">
-      <node ref="VNH4" pin="19"/>
-      <node ref="VNH8" pin="19"/>
+    <net code="34" name="Net-(MUX3-Pad2)">
+      <node ref="R43" pin="1"/>
+      <node ref="MUX3" pin="4"/>
+      <node ref="MUX3" pin="2"/>
+    </net>
+    <net code="35" name="Net-(R43-Pad2)">
+      <node ref="R43" pin="2"/>
+    </net>
+    <net code="36" name="Net-(R42-Pad2)">
+      <node ref="R42" pin="2"/>
+    </net>
+    <net code="37" name="Net-(MUX1-Pad2)">
+      <node ref="MUX1" pin="4"/>
+      <node ref="R42" pin="1"/>
+      <node ref="MUX1" pin="2"/>
+    </net>
+    <net code="38" name="Net-(MUX2-Pad2)">
+      <node ref="MUX2" pin="4"/>
+      <node ref="MUX2" pin="2"/>
+      <node ref="R41" pin="1"/>
+    </net>
+    <net code="39" name="/OIL_ss/S2">
+      <node ref="MUX2" pin="9"/>
+      <node ref="U3" pin="3"/>
+      <node ref="MUX3" pin="9"/>
+      <node ref="DEMUX1" pin="3"/>
+      <node ref="U56" pin="20"/>
+      <node ref="MUX1" pin="9"/>
+    </net>
+    <net code="40" name="12V">
+      <node ref="VNH6" pin="23"/>
+      <node ref="VNH7" pin="13"/>
+      <node ref="VNH2" pin="13"/>
+      <node ref="VNH6" pin="13"/>
+      <node ref="VNH2" pin="23"/>
+      <node ref="VNH7" pin="3"/>
+      <node ref="P3" pin="1"/>
+      <node ref="VNH7" pin="23"/>
+      <node ref="VNH1" pin="13"/>
+      <node ref="VNH3" pin="13"/>
+      <node ref="VNH8" pin="3"/>
+      <node ref="VNH3" pin="23"/>
+      <node ref="VNH1" pin="23"/>
+      <node ref="VNH1" pin="3"/>
+      <node ref="VNH4" pin="3"/>
+      <node ref="VNH6" pin="3"/>
+      <node ref="VNH8" pin="23"/>
+      <node ref="VNH8" pin="13"/>
+      <node ref="VNH5" pin="3"/>
+      <node ref="VNH3" pin="3"/>
+      <node ref="VNH5" pin="13"/>
+      <node ref="VNH4" pin="23"/>
+      <node ref="VNH5" pin="23"/>
+      <node ref="VNH4" pin="13"/>
+      <node ref="VNH2" pin="3"/>
+    </net>
+    <net code="41" name="GND_12V">
+      <node ref="U12" pin="7"/>
+      <node ref="VNH2" pin="27"/>
       <node ref="VNH4" pin="20"/>
-      <node ref="U8" pin="5"/>
-      <node ref="U11" pin="5"/>
-      <node ref="VNH4" pin="28"/>
-      <node ref="VNH4" pin="18"/>
-      <node ref="VNH4" pin="27"/>
       <node ref="VNH4" pin="26"/>
-      <node ref="U4" pin="5"/>
-      <node ref="U9" pin="5"/>
+      <node ref="VNH2" pin="26"/>
+      <node ref="VNH4" pin="27"/>
+      <node ref="U8" pin="5"/>
       <node ref="U5" pin="5"/>
+      <node ref="U9" pin="5"/>
+      <node ref="U10" pin="5"/>
+      <node ref="U11" pin="5"/>
+      <node ref="VNH2" pin="19"/>
+      <node ref="VNH3" pin="18"/>
+      <node ref="VNH3" pin="27"/>
+      <node ref="VNH3" pin="26"/>
+      <node ref="U14" pin="7"/>
+      <node ref="VNH3" pin="20"/>
+      <node ref="VNH2" pin="28"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U13" pin="7"/>
+      <node ref="VNH3" pin="19"/>
+      <node ref="VNH2" pin="20"/>
+      <node ref="VNH3" pin="28"/>
+      <node ref="VNH6" pin="20"/>
+      <node ref="VNH7" pin="19"/>
+      <node ref="VNH8" pin="19"/>
+      <node ref="VNH7" pin="20"/>
+      <node ref="VNH8" pin="28"/>
       <node ref="VNH7" pin="26"/>
+      <node ref="VNH7" pin="27"/>
+      <node ref="VNH7" pin="18"/>
+      <node ref="VNH7" pin="28"/>
+      <node ref="VNH5" pin="20"/>
+      <node ref="P3" pin="2"/>
+      <node ref="VNH4" pin="28"/>
+      <node ref="VNH4" pin="19"/>
+      <node ref="VNH4" pin="18"/>
+      <node ref="VNH2" pin="18"/>
       <node ref="U7" pin="5"/>
       <node ref="U6" pin="5"/>
-      <node ref="U13" pin="7"/>
-      <node ref="U10" pin="5"/>
-      <node ref="VNH8" pin="26"/>
+      <node ref="VNH5" pin="28"/>
+      <node ref="VNH5" pin="18"/>
+      <node ref="VNH5" pin="27"/>
+      <node ref="VNH5" pin="26"/>
+      <node ref="VNH5" pin="19"/>
+      <node ref="VNH6" pin="19"/>
       <node ref="VNH8" pin="27"/>
       <node ref="VNH8" pin="18"/>
-      <node ref="VNH8" pin="28"/>
-      <node ref="U12" pin="7"/>
-      <node ref="VNH5" pin="26"/>
-      <node ref="VNH5" pin="20"/>
-      <node ref="VNH5" pin="28"/>
-      <node ref="VNH7" pin="20"/>
-      <node ref="P3" pin="2"/>
-      <node ref="VNH5" pin="27"/>
-      <node ref="VNH2" pin="20"/>
-      <node ref="VNH5" pin="18"/>
-      <node ref="VNH5" pin="19"/>
-      <node ref="VNH2" pin="19"/>
-      <node ref="VNH2" pin="28"/>
-      <node ref="VNH2" pin="18"/>
-      <node ref="VNH2" pin="27"/>
-      <node ref="VNH2" pin="26"/>
-      <node ref="VNH6" pin="20"/>
-      <node ref="U2" pin="GND"/>
-      <node ref="VNH6" pin="26"/>
+      <node ref="U21" pin="7"/>
       <node ref="VNH6" pin="28"/>
-      <node ref="VNH6" pin="19"/>
-      <node ref="VNH8" pin="20"/>
-      <node ref="VNH1" pin="20"/>
-      <node ref="VNH1" pin="26"/>
-      <node ref="VNH1" pin="27"/>
-      <node ref="VNH1" pin="18"/>
-      <node ref="VNH1" pin="19"/>
       <node ref="VNH6" pin="18"/>
-      <node ref="VNH1" pin="28"/>
       <node ref="VNH6" pin="27"/>
-      <node ref="VNH3" pin="18"/>
-      <node ref="VNH3" pin="28"/>
-      <node ref="VNH3" pin="19"/>
-      <node ref="VNH3" pin="27"/>
-      <node ref="VNH3" pin="20"/>
-      <node ref="VNH3" pin="26"/>
-      <node ref="VNH7" pin="18"/>
-      <node ref="VNH7" pin="27"/>
-      <node ref="VNH7" pin="28"/>
-      <node ref="VNH7" pin="19"/>
+      <node ref="VNH6" pin="26"/>
+      <node ref="VNH1" pin="28"/>
+      <node ref="VNH8" pin="20"/>
+      <node ref="VNH1" pin="19"/>
+      <node ref="VNH8" pin="26"/>
+      <node ref="VNH1" pin="18"/>
+      <node ref="VNH1" pin="27"/>
+      <node ref="VNH1" pin="26"/>
+      <node ref="VNH1" pin="20"/>
     </net>
-    <net code="60" name="/VNH3SP30 Motor SS/n_DIR">
-      <node ref="R40" pin="2"/>
-      <node ref="U12" pin="10"/>
-      <node ref="U21" pin="~"/>
+    <net code="42" name="3.3V">
+      <node ref="U16" pin="9"/>
+      <node ref="U29" pin="24"/>
+      <node ref="U16" pin="5"/>
+      <node ref="U37" pin="5"/>
+      <node ref="U23" pin="14"/>
+      <node ref="U30" pin="5"/>
+      <node ref="U30" pin="9"/>
+      <node ref="U30" pin="14"/>
+      <node ref="U15" pin="24"/>
+      <node ref="U22" pin="24"/>
+      <node ref="U23" pin="5"/>
+      <node ref="U23" pin="9"/>
+      <node ref="U51" pin="14"/>
+      <node ref="U51" pin="5"/>
+      <node ref="U39" pin="16"/>
+      <node ref="U50" pin="24"/>
+      <node ref="U51" pin="9"/>
+      <node ref="U16" pin="14"/>
+      <node ref="U27" pin="9"/>
+      <node ref="U42" pin="14"/>
+      <node ref="U27" pin="16"/>
+      <node ref="U17" pin="16"/>
+      <node ref="U49" pin="14"/>
+      <node ref="U49" pin="9"/>
+      <node ref="U49" pin="5"/>
+      <node ref="U25" pin="16"/>
+      <node ref="U24" pin="16"/>
+      <node ref="U26" pin="16"/>
+      <node ref="P7" pin="4"/>
+      <node ref="P8" pin="4"/>
+      <node ref="P9" pin="3"/>
+      <node ref="U57" pin="14"/>
+      <node ref="U20" pin="16"/>
+      <node ref="U20" pin="9"/>
+      <node ref="U18" pin="16"/>
+      <node ref="U44" pin="14"/>
+      <node ref="U43" pin="24"/>
+      <node ref="U19" pin="16"/>
+      <node ref="U37" pin="14"/>
+      <node ref="P1" pin="4"/>
+      <node ref="U40" pin="16"/>
+      <node ref="U28" pin="14"/>
+      <node ref="U37" pin="9"/>
+      <node ref="U38" pin="16"/>
+      <node ref="U41" pin="9"/>
+      <node ref="U35" pin="14"/>
+      <node ref="P2" pin="4"/>
+      <node ref="U36" pin="24"/>
+      <node ref="U33" pin="16"/>
+      <node ref="U31" pin="16"/>
+      <node ref="U41" pin="16"/>
+      <node ref="U34" pin="9"/>
+      <node ref="U34" pin="16"/>
+      <node ref="P10" pin="4"/>
+      <node ref="U32" pin="16"/>
+      <node ref="U58" pin="14"/>
+      <node ref="DEMUX1" pin="16"/>
+      <node ref="U55" pin="9"/>
+      <node ref="U48" pin="16"/>
+      <node ref="U3" pin="16"/>
+      <node ref="U47" pin="16"/>
+      <node ref="P4" pin="1"/>
+      <node ref="U55" pin="16"/>
+      <node ref="MUX1" pin="16"/>
+      <node ref="U46" pin="16"/>
+      <node ref="U53" pin="16"/>
+      <node ref="MUX2" pin="16"/>
+      <node ref="U45" pin="16"/>
+      <node ref="U52" pin="16"/>
+      <node ref="U48" pin="9"/>
+      <node ref="MUX3" pin="16"/>
+      <node ref="U54" pin="16"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="12"/>
     </net>
-    <net code="61" name="/vnh3sp30_motorLinac_ss/DIR">
-      <node ref="U12" pin="5"/>
+    <net code="43" name="GND_3.3V">
+      <node ref="U19" pin="9"/>
+      <node ref="U19" pin="8"/>
+      <node ref="U19" pin="1"/>
+      <node ref="U17" pin="15"/>
+      <node ref="U27" pin="14"/>
+      <node ref="U27" pin="15"/>
+      <node ref="U24" pin="1"/>
+      <node ref="U19" pin="10"/>
+      <node ref="U17" pin="14"/>
+      <node ref="U17" pin="10"/>
+      <node ref="U17" pin="9"/>
+      <node ref="U17" pin="8"/>
+      <node ref="U19" pin="15"/>
+      <node ref="U19" pin="14"/>
+      <node ref="U20" pin="10"/>
+      <node ref="U20" pin="8"/>
+      <node ref="U20" pin="1"/>
+      <node ref="U44" pin="7"/>
+      <node ref="P8" pin="5"/>
+      <node ref="U18" pin="14"/>
+      <node ref="U18" pin="10"/>
+      <node ref="U18" pin="9"/>
+      <node ref="U18" pin="8"/>
+      <node ref="U18" pin="1"/>
+      <node ref="U18" pin="15"/>
+      <node ref="U20" pin="15"/>
+      <node ref="U20" pin="14"/>
+      <node ref="U1" pin="11"/>
+      <node ref="U17" pin="1"/>
+      <node ref="MUX1" pin="8"/>
+      <node ref="MUX1" pin="6"/>
+      <node ref="U53" pin="10"/>
+      <node ref="U42" pin="7"/>
+      <node ref="U53" pin="9"/>
+      <node ref="U53" pin="8"/>
+      <node ref="P7" pin="5"/>
+      <node ref="U53" pin="1"/>
+      <node ref="U54" pin="10"/>
+      <node ref="U54" pin="9"/>
+      <node ref="U54" pin="8"/>
+      <node ref="U57" pin="7"/>
+      <node ref="U24" pin="8"/>
+      <node ref="U24" pin="9"/>
+      <node ref="U26" pin="10"/>
+      <node ref="U26" pin="9"/>
+      <node ref="U26" pin="8"/>
+      <node ref="U26" pin="1"/>
+      <node ref="U26" pin="14"/>
+      <node ref="U54" pin="1"/>
+      <node ref="U27" pin="1"/>
+      <node ref="U27" pin="8"/>
+      <node ref="U52" pin="15"/>
+      <node ref="U52" pin="14"/>
+      <node ref="U27" pin="10"/>
+      <node ref="U52" pin="9"/>
+      <node ref="U52" pin="8"/>
+      <node ref="U52" pin="1"/>
+      <node ref="U25" pin="15"/>
+      <node ref="U52" pin="10"/>
+      <node ref="U26" pin="15"/>
+      <node ref="U25" pin="14"/>
+      <node ref="U25" pin="10"/>
+      <node ref="U25" pin="9"/>
+      <node ref="U25" pin="8"/>
+      <node ref="U25" pin="1"/>
+      <node ref="U24" pin="15"/>
+      <node ref="U24" pin="14"/>
+      <node ref="U24" pin="10"/>
+      <node ref="U55" pin="10"/>
+      <node ref="U30" pin="8"/>
+      <node ref="U55" pin="8"/>
+      <node ref="U7" pin="2"/>
+      <node ref="U55" pin="1"/>
+      <node ref="U6" pin="3"/>
+      <node ref="U6" pin="2"/>
+      <node ref="U30" pin="7"/>
+      <node ref="U15" pin="12"/>
+      <node ref="U15" pin="15"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U10" pin="3"/>
+      <node ref="U29" pin="12"/>
+      <node ref="U29" pin="15"/>
+      <node ref="U10" pin="2"/>
+      <node ref="U11" pin="2"/>
+      <node ref="U11" pin="3"/>
+      <node ref="U55" pin="15"/>
+      <node ref="U55" pin="14"/>
+      <node ref="U7" pin="3"/>
+      <node ref="U30" pin="6"/>
+      <node ref="U16" pin="8"/>
+      <node ref="U50" pin="15"/>
+      <node ref="U51" pin="7"/>
+      <node ref="U51" pin="8"/>
+      <node ref="U50" pin="12"/>
+      <node ref="U51" pin="6"/>
+      <node ref="U16" pin="7"/>
+      <node ref="U16" pin="6"/>
+      <node ref="U53" pin="15"/>
+      <node ref="U22" pin="12"/>
+      <node ref="U53" pin="14"/>
+      <node ref="U22" pin="15"/>
+      <node ref="U23" pin="6"/>
+      <node ref="U23" pin="7"/>
+      <node ref="U23" pin="8"/>
+      <node ref="U49" pin="8"/>
+      <node ref="DEMUX1" pin="8"/>
+      <node ref="U49" pin="7"/>
+      <node ref="DEMUX1" pin="5"/>
+      <node ref="DEMUX1" pin="4"/>
+      <node ref="P9" pin="4"/>
+      <node ref="U43" pin="15"/>
+      <node ref="U43" pin="12"/>
+      <node ref="U49" pin="6"/>
+      <node ref="U37" pin="8"/>
+      <node ref="R41" pin="2"/>
+      <node ref="P4" pin="2"/>
+      <node ref="U36" pin="12"/>
+      <node ref="U36" pin="15"/>
+      <node ref="U8" pin="2"/>
+      <node ref="U8" pin="3"/>
+      <node ref="U37" pin="6"/>
+      <node ref="U9" pin="2"/>
+      <node ref="U9" pin="3"/>
+      <node ref="U37" pin="7"/>
+      <node ref="U41" pin="10"/>
+      <node ref="U38" pin="10"/>
+      <node ref="U38" pin="14"/>
+      <node ref="U38" pin="15"/>
+      <node ref="U34" pin="14"/>
+      <node ref="U40" pin="1"/>
+      <node ref="U34" pin="15"/>
+      <node ref="U41" pin="1"/>
+      <node ref="U34" pin="10"/>
+      <node ref="U34" pin="8"/>
+      <node ref="U41" pin="8"/>
+      <node ref="U41" pin="14"/>
+      <node ref="U41" pin="15"/>
+      <node ref="U38" pin="1"/>
+      <node ref="U58" pin="7"/>
+      <node ref="U34" pin="1"/>
+      <node ref="P1" pin="5"/>
+      <node ref="U28" pin="7"/>
+      <node ref="U38" pin="8"/>
+      <node ref="U38" pin="9"/>
+      <node ref="U31" pin="15"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U45" pin="9"/>
+      <node ref="U33" pin="1"/>
+      <node ref="U45" pin="8"/>
+      <node ref="U45" pin="10"/>
+      <node ref="U31" pin="14"/>
+      <node ref="U31" pin="10"/>
+      <node ref="U45" pin="14"/>
+      <node ref="U31" pin="9"/>
+      <node ref="U31" pin="8"/>
+      <node ref="U48" pin="14"/>
+      <node ref="U39" pin="1"/>
+      <node ref="U39" pin="8"/>
+      <node ref="U39" pin="9"/>
+      <node ref="U39" pin="10"/>
+      <node ref="U46" pin="10"/>
+      <node ref="U47" pin="1"/>
+      <node ref="U48" pin="1"/>
+      <node ref="U39" pin="14"/>
+      <node ref="U39" pin="15"/>
+      <node ref="U48" pin="15"/>
+      <node ref="U45" pin="15"/>
+      <node ref="U46" pin="9"/>
+      <node ref="MUX2" pin="8"/>
+      <node ref="MUX2" pin="7"/>
+      <node ref="MUX2" pin="6"/>
+      <node ref="U40" pin="10"/>
+      <node ref="U32" pin="8"/>
+      <node ref="U46" pin="14"/>
+      <node ref="U46" pin="15"/>
+      <node ref="U40" pin="9"/>
+      <node ref="U32" pin="9"/>
+      <node ref="U32" pin="1"/>
+      <node ref="MUX3" pin="8"/>
+      <node ref="P10" pin="5"/>
+      <node ref="MUX3" pin="7"/>
+      <node ref="MUX3" pin="6"/>
+      <node ref="U40" pin="14"/>
+      <node ref="U46" pin="1"/>
+      <node ref="U32" pin="15"/>
+      <node ref="U32" pin="14"/>
+      <node ref="U32" pin="10"/>
+      <node ref="U46" pin="8"/>
+      <node ref="U40" pin="15"/>
+      <node ref="U40" pin="8"/>
+      <node ref="P2" pin="5"/>
+      <node ref="U47" pin="10"/>
+      <node ref="U31" pin="1"/>
+      <node ref="U47" pin="8"/>
+      <node ref="U47" pin="9"/>
+      <node ref="U45" pin="1"/>
+      <node ref="U54" pin="15"/>
+      <node ref="U54" pin="14"/>
+      <node ref="U35" pin="7"/>
+      <node ref="U48" pin="8"/>
+      <node ref="U33" pin="8"/>
+      <node ref="U33" pin="9"/>
+      <node ref="U33" pin="10"/>
+      <node ref="U33" pin="14"/>
+      <node ref="U33" pin="15"/>
+      <node ref="U48" pin="10"/>
+      <node ref="U47" pin="14"/>
+      <node ref="U47" pin="15"/>
+    </net>
+    <net code="44" name="/OIL_ss/S0">
+      <node ref="MUX2" pin="11"/>
+      <node ref="U56" pin="16"/>
+      <node ref="U3" pin="1"/>
+      <node ref="DEMUX1" pin="1"/>
+      <node ref="MUX3" pin="11"/>
+      <node ref="MUX1" pin="11"/>
+    </net>
+    <net code="45" name="/OIL_ss/S1">
+      <node ref="DEMUX1" pin="2"/>
+      <node ref="MUX1" pin="10"/>
+      <node ref="MUX3" pin="10"/>
+      <node ref="U56" pin="18"/>
+      <node ref="U3" pin="2"/>
+      <node ref="MUX2" pin="10"/>
+    </net>
+    <net code="46" name="Net-(DEMUX1-Pad7)">
+      <node ref="DEMUX1" pin="7"/>
+    </net>
+    <net code="47" name="/vnh3sp30_motorLinac_ss/WPR">
+      <node ref="U1" pin="8"/>
+      <node ref="U56" pin="34"/>
+      <node ref="P9" pin="6"/>
+    </net>
+    <net code="48" name="/VNH3SP30 Motor SS 2/n_CNT_RESET">
+      <node ref="U27" pin="11"/>
+      <node ref="U25" pin="11"/>
+      <node ref="U51" pin="4"/>
+      <node ref="U24" pin="11"/>
+      <node ref="U51" pin="10"/>
+      <node ref="U26" pin="11"/>
+      <node ref="DEMUX1" pin="13"/>
+    </net>
+    <net code="49" name="/RST">
+      <node ref="DEMUX1" pin="6"/>
+      <node ref="U56" pin="31"/>
+    </net>
+    <net code="50" name="/vnh3sp30_motorLinac_ss/n_CNT_RESET">
+      <node ref="DEMUX1" pin="15"/>
+      <node ref="U49" pin="10"/>
+      <node ref="U49" pin="4"/>
+      <node ref="U53" pin="11"/>
+      <node ref="U55" pin="11"/>
+      <node ref="U54" pin="11"/>
+      <node ref="U52" pin="11"/>
+    </net>
+    <net code="51" name="/VNH3SP30 Motor SS 1/n_CNT_RESET">
+      <node ref="DEMUX1" pin="14"/>
+      <node ref="U19" pin="11"/>
+      <node ref="U17" pin="11"/>
+      <node ref="U16" pin="4"/>
+      <node ref="U20" pin="11"/>
+      <node ref="U16" pin="10"/>
+      <node ref="U18" pin="11"/>
+    </net>
+    <net code="52" name="/VNH3SP30 Motor SS 3/n_CNT_RESET">
+      <node ref="U23" pin="4"/>
+      <node ref="U23" pin="10"/>
+      <node ref="DEMUX1" pin="12"/>
+      <node ref="U33" pin="11"/>
+      <node ref="U32" pin="11"/>
+      <node ref="U34" pin="11"/>
+      <node ref="U31" pin="11"/>
+    </net>
+    <net code="53" name="/VNH3SP30 Motor SS 4/n_CNT_RESET">
+      <node ref="U48" pin="11"/>
+      <node ref="U46" pin="11"/>
+      <node ref="U37" pin="4"/>
+      <node ref="U37" pin="10"/>
+      <node ref="U47" pin="11"/>
+      <node ref="DEMUX1" pin="11"/>
+      <node ref="U45" pin="11"/>
+    </net>
+    <net code="54" name="/VNH3SP30 Motor SS 5/n_CNT_RESET">
+      <node ref="U40" pin="11"/>
+      <node ref="U41" pin="11"/>
+      <node ref="U30" pin="4"/>
+      <node ref="U39" pin="11"/>
+      <node ref="U30" pin="10"/>
+      <node ref="DEMUX1" pin="10"/>
+      <node ref="U38" pin="11"/>
+    </net>
+    <net code="55" name="Net-(DEMUX1-Pad9)">
+      <node ref="DEMUX1" pin="9"/>
+    </net>
+    <net code="56" name="/VNH3SP30 Motor SS 2/PWM">
+      <node ref="VNH4" pin="8"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="57" name="/vnh3sp30_motorLinac_ss/DIR">
+      <node ref="U21" pin="1"/>
+      <node ref="U8" pin="7"/>
+      <node ref="U57" pin="1"/>
       <node ref="R36" pin="2"/>
-      <node ref="U11" pin="7"/>
-      <node ref="U49" pin="~"/>
     </net>
-    <net code="62" name="/vnh3sp30_motorLinac_ss/n_DIR">
-      <node ref="U12" pin="6"/>
+    <net code="58" name="/vnh3sp30_motorLinac_ss/n_DIR">
+      <node ref="U57" pin="5"/>
       <node ref="R37" pin="2"/>
-      <node ref="U49" pin="~"/>
+      <node ref="U21" pin="2"/>
     </net>
-    <net code="63" name="/VNH3SP30 Motor SS/PWM">
-      <node ref="U5" pin="6"/>
+    <net code="59" name="/VNH3SP30 Motor SS 1/PWM">
+      <node ref="U9" pin="6"/>
       <node ref="VNH3" pin="8"/>
     </net>
-    <net code="64" name="/vnh3sp30_motorLinac_ss/PWM">
+    <net code="60" name="/vnh3sp30_motorLinac_ss/PWM">
+      <node ref="U8" pin="6"/>
       <node ref="VNH8" pin="8"/>
-      <node ref="U5" pin="7"/>
     </net>
-    <net code="65" name="/VNH3SP30 Motor SS/DIR">
-      <node ref="U14" pin="~"/>
-      <node ref="U12" pin="9"/>
-      <node ref="U11" pin="6"/>
+    <net code="61" name="/VNH3SP30 Motor SS 1/DIR">
+      <node ref="U21" pin="3"/>
+      <node ref="U28" pin="1"/>
+      <node ref="U9" pin="7"/>
       <node ref="R24" pin="2"/>
     </net>
-    <net code="66" name="/VNH3SP30 Motor SS/n_DIR">
-      <node ref="U12" pin="8"/>
+    <net code="62" name="/VNH3SP30 Motor SS 1/n_DIR">
       <node ref="R25" pin="2"/>
-      <node ref="U14" pin="~"/>
+      <node ref="U21" pin="4"/>
+      <node ref="U28" pin="5"/>
     </net>
-    <net code="67" name="/VNH3SP30 Motor SS/PWM">
-      <node ref="U6" pin="6"/>
+    <net code="63" name="/VNH3SP30 Motor SS 3/PWM">
+      <node ref="U5" pin="6"/>
       <node ref="VNH5" pin="8"/>
     </net>
-    <net code="68" name="/VNH3SP30 Motor SS/DIR">
-      <node ref="U28" pin="~"/>
-      <node ref="U8" pin="6"/>
+    <net code="64" name="/VNH3SP30 Motor SS 3/DIR">
       <node ref="R27" pin="2"/>
-      <node ref="U12" pin="13"/>
+      <node ref="U13" pin="3"/>
+      <node ref="U35" pin="1"/>
+      <node ref="U5" pin="7"/>
     </net>
-    <net code="69" name="/VNH3SP30 Motor SS/n_DIR">
+    <net code="65" name="/VNH3SP30 Motor SS 3/n_DIR">
+      <node ref="U13" pin="4"/>
+      <node ref="U35" pin="5"/>
       <node ref="R28" pin="2"/>
-      <node ref="U12" pin="12"/>
-      <node ref="U28" pin="~"/>
     </net>
-    <net code="70" name="/VNH3SP30 Motor SS/DIR">
-      <node ref="U12" pin="11"/>
-      <node ref="U8" pin="7"/>
-      <node ref="U21" pin="~"/>
+    <net code="66" name="/VNH3SP30 Motor SS 2/DIR">
+      <node ref="U58" pin="1"/>
+      <node ref="U4" pin="7"/>
+      <node ref="U13" pin="1"/>
       <node ref="R39" pin="2"/>
     </net>
-    <net code="71" name="/VNH3SP30 Motor SS/PWM">
-      <node ref="VNH4" pin="8"/>
-      <node ref="U6" pin="7"/>
-    </net>
-    <net code="72" name="/VNH3SP30 Motor SS/DIR">
-      <node ref="U13" pin="1"/>
-      <node ref="U42" pin="~"/>
-      <node ref="R33" pin="2"/>
-      <node ref="U9" pin="7"/>
-    </net>
-    <net code="73" name="/VNH3SP30 Motor SS/n_DIR">
-      <node ref="R34" pin="2"/>
-      <node ref="U42" pin="~"/>
+    <net code="67" name="/VNH3SP30 Motor SS 2/n_DIR">
+      <node ref="U58" pin="5"/>
+      <node ref="R40" pin="2"/>
       <node ref="U13" pin="2"/>
     </net>
-    <net code="74" name="/VNH3SP30 Motor SS/PWM">
-      <node ref="U7" pin="7"/>
+    <net code="68" name="/VNH3SP30 Motor SS 4/DIR">
+      <node ref="U44" pin="1"/>
+      <node ref="U6" pin="7"/>
+      <node ref="R33" pin="2"/>
+      <node ref="U14" pin="1"/>
+    </net>
+    <net code="69" name="/VNH3SP30 Motor SS 4/n_DIR">
+      <node ref="U14" pin="2"/>
+      <node ref="R34" pin="2"/>
+      <node ref="U44" pin="5"/>
+    </net>
+    <net code="70" name="/VNH3SP30 Motor SS 4/PWM">
       <node ref="VNH7" pin="8"/>
+      <node ref="U6" pin="6"/>
     </net>
-    <net code="75" name="/VNH3SP30 Motor SS/DIR">
-      <node ref="U35" pin="~"/>
-      <node ref="U13" pin="3"/>
+    <net code="71" name="/VNH3SP30 Motor SS 5/DIR">
+      <node ref="U7" pin="7"/>
       <node ref="R30" pin="2"/>
-      <node ref="U9" pin="6"/>
+      <node ref="U14" pin="3"/>
+      <node ref="U42" pin="1"/>
     </net>
-    <net code="76" name="/VNH3SP30 Motor SS/n_DIR">
-      <node ref="U13" pin="4"/>
+    <net code="72" name="/VNH3SP30 Motor SS 5/n_DIR">
       <node ref="R31" pin="2"/>
-      <node ref="U35" pin="~"/>
+      <node ref="U42" pin="5"/>
+      <node ref="U14" pin="4"/>
     </net>
-    <net code="77" name="/VNH3SP30 Motor SS/PWM">
-      <node ref="U7" pin="6"/>
+    <net code="73" name="/VNH3SP30 Motor SS 5/PWM">
       <node ref="VNH6" pin="8"/>
+      <node ref="U7" pin="6"/>
     </net>
-    <net code="78" name="/vnh3sp30_motorLinac_ss/CNT_UDRFLW">
-      <node ref="U51" pin="~"/>
+    <net code="74" name="/VNH3SP30 Motor SS 3/Q_CNT">
+      <node ref="U22" pin="1"/>
+      <node ref="MUX1" pin="12"/>
+    </net>
+    <net code="75" name="/VNH3SP30 Motor SS 1/CNT_OVRFLW">
+      <node ref="U16" pin="13"/>
+      <node ref="MUX2" pin="14"/>
+    </net>
+    <net code="76" name="/vnh3sp30_motorLinac_ss/CNT_UDRFLW">
+      <node ref="U49" pin="1"/>
       <node ref="MUX3" pin="13"/>
     </net>
-    <net code="79" name="/vnh3sp30_motorLinac_ss/CNT_OVRFLW">
-      <node ref="U51" pin="~"/>
+    <net code="77" name="/vnh3sp30_motorLinac_ss/CNT_OVRFLW">
+      <node ref="U49" pin="13"/>
       <node ref="MUX2" pin="13"/>
     </net>
-    <net code="80" name="/vnh3sp30_motorLinac_ss/Q_CNT">
+    <net code="78" name="/VNH3SP30 Motor SS 1/Q_CNT">
+      <node ref="U15" pin="1"/>
+      <node ref="MUX1" pin="14"/>
+    </net>
+    <net code="79" name="/vnh3sp30_motorLinac_ss/Q_CNT">
       <node ref="MUX1" pin="13"/>
-      <node ref="U50" pin="1"/>
-    </net>
-    <net code="81" name="/VNH3SP30 Motor SS/Q_CNT">
-      <node ref="MUX1" pin="15"/>
-      <node ref="U22" pin="1"/>
-    </net>
-    <net code="82" name="/VNH3SP30 Motor SS/CNT_OVRFLW">
-      <node ref="MUX2" pin="15"/>
-      <node ref="U23" pin="~"/>
-    </net>
-    <net code="83" name="/VNH3SP30 Motor SS/CNT_UDRFLW">
-      <node ref="U23" pin="~"/>
-      <node ref="MUX3" pin="15"/>
-    </net>
-    <net code="84" name="/VNH3SP30 Motor SS/Q_CNT">
       <node ref="U43" pin="1"/>
+    </net>
+    <net code="80" name="/VNH3SP30 Motor SS 2/Q_CNT">
+      <node ref="U50" pin="1"/>
+      <node ref="MUX1" pin="15"/>
+    </net>
+    <net code="81" name="/VNH3SP30 Motor SS 2/CNT_OVRFLW">
+      <node ref="U51" pin="13"/>
+      <node ref="MUX2" pin="15"/>
+    </net>
+    <net code="82" name="/VNH3SP30 Motor SS 2/CNT_UDRFLW">
+      <node ref="MUX3" pin="15"/>
+      <node ref="U51" pin="1"/>
+    </net>
+    <net code="83" name="/VNH3SP30 Motor SS 3/CNT_OVRFLW">
+      <node ref="U23" pin="13"/>
+      <node ref="MUX2" pin="12"/>
+    </net>
+    <net code="84" name="/VNH3SP30 Motor SS 3/CNT_UDRFLW">
+      <node ref="U23" pin="1"/>
+      <node ref="MUX3" pin="12"/>
+    </net>
+    <net code="85" name="/VNH3SP30 Motor SS 4/Q_CNT">
+      <node ref="U36" pin="1"/>
       <node ref="MUX1" pin="1"/>
     </net>
-    <net code="85" name="/VNH3SP30 Motor SS/CNT_OVRFLW">
-      <node ref="U44" pin="~"/>
+    <net code="86" name="/VNH3SP30 Motor SS 4/CNT_OVRFLW">
+      <node ref="U37" pin="13"/>
       <node ref="MUX2" pin="1"/>
     </net>
-    <net code="86" name="/VNH3SP30 Motor SS/CNT_UDRFLW">
-      <node ref="U44" pin="~"/>
+    <net code="87" name="/VNH3SP30 Motor SS 4/CNT_UDRFLW">
+      <node ref="U37" pin="1"/>
       <node ref="MUX3" pin="1"/>
     </net>
-    <net code="87" name="/VNH3SP30 Motor SS/Q_CNT">
-      <node ref="U36" pin="1"/>
+    <net code="88" name="/VNH3SP30 Motor SS 5/Q_CNT">
       <node ref="MUX1" pin="5"/>
+      <node ref="U29" pin="1"/>
     </net>
-    <net code="88" name="/VNH3SP30 Motor SS/CNT_S1">
-      <node ref="U36" pin="11"/>
-      <node ref="U50" pin="11"/>
-      <node ref="U29" pin="11"/>
-      <node ref="U15" pin="11"/>
-      <node ref="U56" pin="3"/>
-      <node ref="U22" pin="11"/>
-      <node ref="U43" pin="11"/>
+    <net code="89" name="/VNH3SP30 Motor SS 5/CNT_OVRFLW">
+      <node ref="U30" pin="13"/>
+      <node ref="MUX2" pin="5"/>
     </net>
-    <net code="89" name="/VNH3SP30 Motor SS/CNT_S3">
-      <node ref="U15" pin="13"/>
+    <net code="90" name="/VNH3SP30 Motor SS 5/CNT_UDRFLW">
+      <node ref="MUX3" pin="5"/>
+      <node ref="U30" pin="1"/>
+    </net>
+    <net code="91" name="Net-(MUX1-Pad7)">
+      <node ref="MUX1" pin="7"/>
+    </net>
+    <net code="92" name="/VNH3SP30 Motor SS 1/CNT_S2">
+      <node ref="U29" pin="14"/>
+      <node ref="U43" pin="14"/>
+      <node ref="U22" pin="14"/>
+      <node ref="U15" pin="14"/>
+      <node ref="U50" pin="14"/>
+      <node ref="U56" pin="5"/>
+      <node ref="U36" pin="14"/>
+    </net>
+    <net code="93" name="/VNH3SP30 Motor SS 1/CNT_S3">
       <node ref="U36" pin="13"/>
-      <node ref="U50" pin="13"/>
-      <node ref="U29" pin="13"/>
-      <node ref="U43" pin="13"/>
       <node ref="U56" pin="7"/>
       <node ref="U22" pin="13"/>
+      <node ref="U43" pin="13"/>
+      <node ref="U15" pin="13"/>
+      <node ref="U50" pin="13"/>
+      <node ref="U29" pin="13"/>
     </net>
-    <net code="90" name="/VNH3SP30 Motor SS/CNT_S0">
-      <node ref="U43" pin="10"/>
-      <node ref="U36" pin="10"/>
-      <node ref="U15" pin="10"/>
-      <node ref="U22" pin="10"/>
+    <net code="94" name="/VNH3SP30 Motor SS 1/CNT_S0">
       <node ref="U29" pin="10"/>
+      <node ref="U36" pin="10"/>
+      <node ref="U22" pin="10"/>
+      <node ref="U43" pin="10"/>
+      <node ref="U15" pin="10"/>
       <node ref="U50" pin="10"/>
       <node ref="U56" pin="1"/>
     </net>
-    <net code="91" name="/VNH3SP30 Motor SS/CNT_S2">
-      <node ref="U29" pin="14"/>
-      <node ref="U36" pin="14"/>
-      <node ref="U50" pin="14"/>
-      <node ref="U15" pin="14"/>
-      <node ref="U22" pin="14"/>
-      <node ref="U56" pin="5"/>
-      <node ref="U43" pin="14"/>
+    <net code="95" name="/VNH3SP30 Motor SS 1/CNT_S1">
+      <node ref="U43" pin="11"/>
+      <node ref="U29" pin="11"/>
+      <node ref="U36" pin="11"/>
+      <node ref="U15" pin="11"/>
+      <node ref="U50" pin="11"/>
+      <node ref="U56" pin="3"/>
+      <node ref="U22" pin="11"/>
     </net>
-    <net code="92" name="Net-(U1-Pad9)">
+    <net code="96" name="Net-(U1-Pad9)">
       <node ref="U1" pin="9"/>
     </net>
-    <net code="93" name="/OIL_ss/Optoisolation SS/Q_0">
-      <node ref="U3" pin="4"/>
-      <node ref="R13" pin="1"/>
-    </net>
-    <net code="94" name="/OIL_ss/Optoisolation SS/Q_1">
-      <node ref="R14" pin="1"/>
-      <node ref="U3" pin="5"/>
-    </net>
-    <net code="95" name="/OIL_ss/Optoisolation SS/Q_2">
-      <node ref="R15" pin="1"/>
+    <net code="97" name="/OIL_ss/Optoisolation SS/Q_2">
       <node ref="U3" pin="6"/>
-    </net>
-    <net code="96" name="/OIL_ss/Optoisolation SS/Q_3">
-      <node ref="U3" pin="7"/>
-      <node ref="R16" pin="1"/>
-    </net>
-    <net code="97" name="/OIL_ss/Optoisolation SS/Q_4">
       <node ref="R9" pin="1"/>
-      <node ref="U3" pin="9"/>
     </net>
-    <net code="98" name="/OIL_ss/Optoisolation SS/Q_5">
-      <node ref="R10" pin="1"/>
+    <net code="98" name="/OIL_ss/Optoisolation SS/Q_0">
+      <node ref="R13" pin="1"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="99" name="/OIL_ss/Optoisolation SS/Q_1">
+      <node ref="U3" pin="5"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="100" name="/OIL_ss/Optoisolation SS/Q_3">
+      <node ref="U3" pin="7"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="101" name="/OIL_ss/Optoisolation SS/Q_4">
+      <node ref="U3" pin="9"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="102" name="/OIL_ss/Optoisolation SS/Q_5">
+      <node ref="R3" pin="1"/>
       <node ref="U3" pin="10"/>
     </net>
-    <net code="99" name="/OIL_ss/Optoisolation SS/Q_6">
-      <node ref="R11" pin="1"/>
+    <net code="103" name="/OIL_ss/Optoisolation SS/Q_6">
+      <node ref="R5" pin="1"/>
       <node ref="U3" pin="11"/>
     </net>
-    <net code="100" name="/OIL_ss/Optoisolation SS/Q_7">
-      <node ref="R12" pin="1"/>
+    <net code="104" name="/OIL_ss/Optoisolation SS/Q_7">
       <node ref="U3" pin="12"/>
+      <node ref="R7" pin="1"/>
     </net>
-    <net code="101" name="Net-(R17-Pad1)">
+    <net code="105" name="Net-(R17-Pad1)">
       <node ref="R17" pin="1"/>
-      <node ref="VNH1" pin="6"/>
       <node ref="VNH1" pin="10"/>
+      <node ref="VNH1" pin="6"/>
     </net>
-    <net code="102" name="Net-(P5-Pad2)">
-      <node ref="P5" pin="2"/>
-      <node ref="VNH1" pin="15"/>
+    <net code="106" name="Net-(P5-Pad2)">
       <node ref="VNH1" pin="21"/>
+      <node ref="VNH1" pin="15"/>
       <node ref="VNH1" pin="16"/>
+      <node ref="P5" pin="2"/>
     </net>
-    <net code="103" name="Net-(R19-Pad1)">
-      <node ref="VNH1" pin="11"/>
-      <node ref="R19" pin="1"/>
-    </net>
-    <net code="104" name="Net-(R18-Pad1)">
-      <node ref="R18" pin="1"/>
-      <node ref="VNH1" pin="5"/>
-    </net>
-    <net code="105" name="Net-(P5-Pad1)">
+    <net code="107" name="Net-(P5-Pad1)">
+      <node ref="VNH1" pin="30"/>
+      <node ref="VNH1" pin="1"/>
       <node ref="VNH1" pin="25"/>
       <node ref="P5" pin="1"/>
-      <node ref="VNH1" pin="1"/>
-      <node ref="VNH1" pin="30"/>
     </net>
-    <net code="106" name="Net-(P6-Pad2)">
-      <node ref="VNH2" pin="15"/>
-      <node ref="P6" pin="2"/>
-      <node ref="VNH2" pin="16"/>
-      <node ref="VNH2" pin="21"/>
+    <net code="108" name="Net-(R19-Pad1)">
+      <node ref="R19" pin="1"/>
+      <node ref="VNH1" pin="11"/>
     </net>
-    <net code="107" name="Net-(R22-Pad1)">
-      <node ref="R22" pin="1"/>
-      <node ref="VNH2" pin="11"/>
+    <net code="109" name="Net-(R18-Pad1)">
+      <node ref="VNH1" pin="5"/>
+      <node ref="R18" pin="1"/>
     </net>
-    <net code="108" name="Net-(R20-Pad1)">
-      <node ref="VNH2" pin="6"/>
-      <node ref="VNH2" pin="10"/>
+    <net code="110" name="Net-(R20-Pad1)">
       <node ref="R20" pin="1"/>
+      <node ref="VNH2" pin="10"/>
+      <node ref="VNH2" pin="6"/>
     </net>
-    <net code="109" name="Net-(R21-Pad1)">
-      <node ref="VNH2" pin="5"/>
-      <node ref="R21" pin="1"/>
-    </net>
-    <net code="110" name="Net-(P6-Pad1)">
+    <net code="111" name="Net-(P6-Pad1)">
       <node ref="P6" pin="1"/>
       <node ref="VNH2" pin="1"/>
       <node ref="VNH2" pin="30"/>
       <node ref="VNH2" pin="25"/>
     </net>
-    <net code="111" name="/VNH3SP30 Motor SS/16-bit UD Counter/CNT_DWN">
-      <node ref="U17" pin="4"/>
-      <node ref="U14" pin="~"/>
+    <net code="112" name="Net-(P6-Pad2)">
+      <node ref="VNH2" pin="21"/>
+      <node ref="VNH2" pin="15"/>
+      <node ref="VNH2" pin="16"/>
+      <node ref="P6" pin="2"/>
     </net>
-    <net code="112" name="/VNH3SP30 Motor SS/16-bit UD Counter/CNT_UP">
+    <net code="113" name="Net-(R21-Pad1)">
+      <node ref="R21" pin="1"/>
+      <node ref="VNH2" pin="5"/>
+    </net>
+    <net code="114" name="Net-(R22-Pad1)">
+      <node ref="R22" pin="1"/>
+      <node ref="VNH2" pin="11"/>
+    </net>
+    <net code="115" name="/VNH3SP30 Motor SS 1/16-bit UD Counter/CNT_UP">
       <node ref="U17" pin="5"/>
-      <node ref="U14" pin="~"/>
+      <node ref="U28" pin="3"/>
     </net>
-    <net code="113" name="/VNH3SP30 Motor SS/QDC">
-      <node ref="U14" pin="~"/>
-      <node ref="U14" pin="~"/>
-      <node ref="P1" pin="3"/>
-    </net>
-    <net code="114" name="Net-(R25-Pad1)">
-      <node ref="R25" pin="1"/>
-      <node ref="VNH3" pin="11"/>
-    </net>
-    <net code="115" name="Net-(R23-Pad1)">
-      <node ref="VNH3" pin="6"/>
-      <node ref="VNH3" pin="10"/>
-      <node ref="R23" pin="1"/>
-    </net>
-    <net code="116" name="Net-(R24-Pad1)">
-      <node ref="R24" pin="1"/>
-      <node ref="VNH3" pin="5"/>
-    </net>
-    <net code="117" name="Net-(P1-Pad2)">
-      <node ref="VNH3" pin="21"/>
-      <node ref="VNH3" pin="16"/>
-      <node ref="VNH3" pin="15"/>
-      <node ref="P1" pin="2"/>
-    </net>
-    <net code="118" name="Net-(P1-Pad1)">
+    <net code="116" name="Net-(P1-Pad1)">
       <node ref="VNH3" pin="25"/>
       <node ref="VNH3" pin="30"/>
       <node ref="VNH3" pin="1"/>
       <node ref="P1" pin="1"/>
     </net>
-    <net code="119" name="/VNH3SP30 Motor SS/16-bit UD Counter/CNT_DWN">
-      <node ref="U21" pin="~"/>
-      <node ref="U24" pin="4"/>
+    <net code="117" name="Net-(P1-Pad2)">
+      <node ref="P1" pin="2"/>
+      <node ref="VNH3" pin="21"/>
+      <node ref="VNH3" pin="15"/>
+      <node ref="VNH3" pin="16"/>
     </net>
-    <net code="120" name="/VNH3SP30 Motor SS/16-bit UD Counter/CNT_UP">
-      <node ref="U21" pin="~"/>
-      <node ref="U24" pin="5"/>
+    <net code="118" name="/VNH3SP30 Motor SS 1/QDC">
+      <node ref="U28" pin="4"/>
+      <node ref="U28" pin="2"/>
+      <node ref="P1" pin="3"/>
     </net>
-    <net code="121" name="/VNH3SP30 Motor SS/QDC">
-      <node ref="U21" pin="~"/>
-      <node ref="U21" pin="~"/>
+    <net code="119" name="Net-(R24-Pad1)">
+      <node ref="VNH3" pin="5"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="120" name="Net-(U28-Pad8)">
+      <node ref="U28" pin="8"/>
+    </net>
+    <net code="121" name="Net-(U28-Pad9)">
+      <node ref="U28" pin="9"/>
+    </net>
+    <net code="122" name="Net-(U28-Pad10)">
+      <node ref="U28" pin="10"/>
+    </net>
+    <net code="123" name="Net-(U28-Pad11)">
+      <node ref="U28" pin="11"/>
+    </net>
+    <net code="124" name="Net-(U28-Pad12)">
+      <node ref="U28" pin="12"/>
+    </net>
+    <net code="125" name="Net-(U28-Pad13)">
+      <node ref="U28" pin="13"/>
+    </net>
+    <net code="126" name="Net-(R25-Pad1)">
+      <node ref="R25" pin="1"/>
+      <node ref="VNH3" pin="11"/>
+    </net>
+    <net code="127" name="Net-(R23-Pad1)">
+      <node ref="R23" pin="1"/>
+      <node ref="VNH3" pin="6"/>
+      <node ref="VNH3" pin="10"/>
+    </net>
+    <net code="128" name="/VNH3SP30 Motor SS 1/16-bit UD Counter/CNT_DWN">
+      <node ref="U17" pin="4"/>
+      <node ref="U28" pin="6"/>
+    </net>
+    <net code="129" name="/VNH3SP30 Motor SS 2/QDC">
+      <node ref="U58" pin="4"/>
+      <node ref="U58" pin="2"/>
       <node ref="P10" pin="3"/>
     </net>
-    <net code="122" name="Net-(R40-Pad1)">
+    <net code="130" name="Net-(P10-Pad1)">
+      <node ref="VNH4" pin="30"/>
+      <node ref="VNH4" pin="25"/>
+      <node ref="P10" pin="1"/>
+      <node ref="VNH4" pin="1"/>
+    </net>
+    <net code="131" name="Net-(P10-Pad2)">
+      <node ref="P10" pin="2"/>
+      <node ref="VNH4" pin="21"/>
+      <node ref="VNH4" pin="15"/>
+      <node ref="VNH4" pin="16"/>
+    </net>
+    <net code="132" name="Net-(R39-Pad1)">
+      <node ref="VNH4" pin="5"/>
+      <node ref="R39" pin="1"/>
+    </net>
+    <net code="133" name="Net-(R40-Pad1)">
       <node ref="VNH4" pin="11"/>
       <node ref="R40" pin="1"/>
     </net>
-    <net code="123" name="Net-(R38-Pad1)">
-      <node ref="VNH4" pin="10"/>
-      <node ref="VNH4" pin="6"/>
+    <net code="134" name="Net-(U58-Pad11)">
+      <node ref="U58" pin="11"/>
+    </net>
+    <net code="135" name="Net-(U58-Pad12)">
+      <node ref="U58" pin="12"/>
+    </net>
+    <net code="136" name="Net-(U58-Pad13)">
+      <node ref="U58" pin="13"/>
+    </net>
+    <net code="137" name="Net-(U58-Pad10)">
+      <node ref="U58" pin="10"/>
+    </net>
+    <net code="138" name="/VNH3SP30 Motor SS 2/16-bit UD Counter/CNT_UP">
+      <node ref="U58" pin="3"/>
+      <node ref="U24" pin="5"/>
+    </net>
+    <net code="139" name="/VNH3SP30 Motor SS 2/16-bit UD Counter/CNT_DWN">
+      <node ref="U24" pin="4"/>
+      <node ref="U58" pin="6"/>
+    </net>
+    <net code="140" name="Net-(U58-Pad8)">
+      <node ref="U58" pin="8"/>
+    </net>
+    <net code="141" name="Net-(U58-Pad9)">
+      <node ref="U58" pin="9"/>
+    </net>
+    <net code="142" name="Net-(R38-Pad1)">
       <node ref="R38" pin="1"/>
+      <node ref="VNH4" pin="6"/>
+      <node ref="VNH4" pin="10"/>
     </net>
-    <net code="124" name="Net-(R39-Pad1)">
-      <node ref="R39" pin="1"/>
-      <node ref="VNH4" pin="5"/>
+    <net code="143" name="/VNH3SP30 Motor SS 3/16-bit UD Counter/CNT_UP">
+      <node ref="U31" pin="5"/>
+      <node ref="U35" pin="3"/>
     </net>
-    <net code="125" name="Net-(P10-Pad2)">
-      <node ref="VNH4" pin="16"/>
-      <node ref="VNH4" pin="21"/>
-      <node ref="VNH4" pin="15"/>
-      <node ref="P10" pin="2"/>
+    <net code="144" name="Net-(R26-Pad1)">
+      <node ref="VNH5" pin="10"/>
+      <node ref="R26" pin="1"/>
+      <node ref="VNH5" pin="6"/>
     </net>
-    <net code="126" name="Net-(P10-Pad1)">
-      <node ref="VNH4" pin="30"/>
-      <node ref="VNH4" pin="1"/>
-      <node ref="VNH4" pin="25"/>
-      <node ref="P10" pin="1"/>
-    </net>
-    <net code="127" name="Net-(R28-Pad1)">
-      <node ref="VNH5" pin="11"/>
-      <node ref="R28" pin="1"/>
-    </net>
-    <net code="128" name="Net-(R27-Pad1)">
-      <node ref="VNH5" pin="5"/>
+    <net code="145" name="Net-(R27-Pad1)">
       <node ref="R27" pin="1"/>
+      <node ref="VNH5" pin="5"/>
     </net>
-    <net code="129" name="Net-(P2-Pad2)">
+    <net code="146" name="Net-(R28-Pad1)">
+      <node ref="R28" pin="1"/>
+      <node ref="VNH5" pin="11"/>
+    </net>
+    <net code="147" name="Net-(U35-Pad8)">
+      <node ref="U35" pin="8"/>
+    </net>
+    <net code="148" name="/VNH3SP30 Motor SS 3/QDC">
+      <node ref="U35" pin="4"/>
+      <node ref="U35" pin="2"/>
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="149" name="Net-(U35-Pad9)">
+      <node ref="U35" pin="9"/>
+    </net>
+    <net code="150" name="Net-(P2-Pad2)">
       <node ref="P2" pin="2"/>
+      <node ref="VNH5" pin="21"/>
       <node ref="VNH5" pin="16"/>
       <node ref="VNH5" pin="15"/>
-      <node ref="VNH5" pin="21"/>
     </net>
-    <net code="130" name="Net-(P2-Pad1)">
-      <node ref="VNH5" pin="1"/>
+    <net code="151" name="Net-(P2-Pad1)">
+      <node ref="P2" pin="1"/>
       <node ref="VNH5" pin="25"/>
       <node ref="VNH5" pin="30"/>
-      <node ref="P2" pin="1"/>
+      <node ref="VNH5" pin="1"/>
     </net>
-    <net code="131" name="/VNH3SP30 Motor SS/QDC">
-      <node ref="U28" pin="~"/>
-      <node ref="P2" pin="3"/>
-      <node ref="U28" pin="~"/>
-    </net>
-    <net code="132" name="Net-(R26-Pad1)">
-      <node ref="VNH5" pin="10"/>
-      <node ref="VNH5" pin="6"/>
-      <node ref="R26" pin="1"/>
-    </net>
-    <net code="133" name="/VNH3SP30 Motor SS/16-bit UD Counter/CNT_DWN">
+    <net code="152" name="/VNH3SP30 Motor SS 3/16-bit UD Counter/CNT_DWN">
+      <node ref="U35" pin="6"/>
       <node ref="U31" pin="4"/>
-      <node ref="U28" pin="~"/>
     </net>
-    <net code="134" name="/VNH3SP30 Motor SS/16-bit UD Counter/CNT_UP">
-      <node ref="U31" pin="5"/>
-      <node ref="U28" pin="~"/>
+    <net code="153" name="Net-(U35-Pad13)">
+      <node ref="U35" pin="13"/>
     </net>
-    <net code="135" name="Net-(R30-Pad1)">
+    <net code="154" name="Net-(U35-Pad12)">
+      <node ref="U35" pin="12"/>
+    </net>
+    <net code="155" name="Net-(U35-Pad11)">
+      <node ref="U35" pin="11"/>
+    </net>
+    <net code="156" name="Net-(U35-Pad10)">
+      <node ref="U35" pin="10"/>
+    </net>
+    <net code="157" name="Net-(R31-Pad1)">
+      <node ref="R31" pin="1"/>
+      <node ref="VNH6" pin="11"/>
+    </net>
+    <net code="158" name="Net-(R30-Pad1)">
       <node ref="R30" pin="1"/>
       <node ref="VNH6" pin="5"/>
     </net>
-    <net code="136" name="/VNH3SP30 Motor SS/16-bit UD Counter/CNT_DWN">
-      <node ref="U38" pin="4"/>
-      <node ref="U35" pin="~"/>
-    </net>
-    <net code="137" name="/VNH3SP30 Motor SS/16-bit UD Counter/CNT_UP">
-      <node ref="U38" pin="5"/>
-      <node ref="U35" pin="~"/>
-    </net>
-    <net code="138" name="Net-(R29-Pad1)">
-      <node ref="VNH6" pin="10"/>
+    <net code="159" name="Net-(R29-Pad1)">
       <node ref="R29" pin="1"/>
       <node ref="VNH6" pin="6"/>
+      <node ref="VNH6" pin="10"/>
     </net>
-    <net code="139" name="Net-(R31-Pad1)">
-      <node ref="VNH6" pin="11"/>
-      <node ref="R31" pin="1"/>
-    </net>
-    <net code="140" name="/VNH3SP30 Motor SS/QDC">
-      <node ref="U35" pin="~"/>
-      <node ref="U35" pin="~"/>
+    <net code="160" name="/VNH3SP30 Motor SS 5/QDC">
+      <node ref="U42" pin="4"/>
+      <node ref="U42" pin="2"/>
       <node ref="P7" pin="3"/>
     </net>
-    <net code="141" name="Net-(P7-Pad1)">
-      <node ref="VNH6" pin="30"/>
-      <node ref="VNH6" pin="25"/>
+    <net code="161" name="Net-(P7-Pad2)">
+      <node ref="P7" pin="2"/>
+      <node ref="VNH6" pin="16"/>
+      <node ref="VNH6" pin="15"/>
+      <node ref="VNH6" pin="21"/>
+    </net>
+    <net code="162" name="Net-(U42-Pad13)">
+      <node ref="U42" pin="13"/>
+    </net>
+    <net code="163" name="Net-(U42-Pad12)">
+      <node ref="U42" pin="12"/>
+    </net>
+    <net code="164" name="Net-(U42-Pad11)">
+      <node ref="U42" pin="11"/>
+    </net>
+    <net code="165" name="Net-(U42-Pad10)">
+      <node ref="U42" pin="10"/>
+    </net>
+    <net code="166" name="Net-(U42-Pad9)">
+      <node ref="U42" pin="9"/>
+    </net>
+    <net code="167" name="Net-(U42-Pad8)">
+      <node ref="U42" pin="8"/>
+    </net>
+    <net code="168" name="/VNH3SP30 Motor SS 5/16-bit UD Counter/CNT_UP">
+      <node ref="U42" pin="3"/>
+      <node ref="U38" pin="5"/>
+    </net>
+    <net code="169" name="Net-(P7-Pad1)">
       <node ref="P7" pin="1"/>
       <node ref="VNH6" pin="1"/>
+      <node ref="VNH6" pin="30"/>
+      <node ref="VNH6" pin="25"/>
     </net>
-    <net code="142" name="Net-(P7-Pad2)">
-      <node ref="VNH6" pin="21"/>
-      <node ref="VNH6" pin="15"/>
-      <node ref="VNH6" pin="16"/>
-      <node ref="P7" pin="2"/>
+    <net code="170" name="/VNH3SP30 Motor SS 5/16-bit UD Counter/CNT_DWN">
+      <node ref="U38" pin="4"/>
+      <node ref="U42" pin="6"/>
     </net>
-    <net code="143" name="/VNH3SP30 Motor SS/QDC">
+    <net code="171" name="/VNH3SP30 Motor SS 4/16-bit UD Counter/CNT_DWN">
+      <node ref="U44" pin="6"/>
+      <node ref="U45" pin="4"/>
+    </net>
+    <net code="172" name="/VNH3SP30 Motor SS 4/QDC">
+      <node ref="U44" pin="4"/>
+      <node ref="U44" pin="2"/>
       <node ref="P8" pin="3"/>
-      <node ref="U42" pin="~"/>
-      <node ref="U42" pin="~"/>
     </net>
-    <net code="144" name="Net-(P8-Pad1)">
-      <node ref="P8" pin="1"/>
-      <node ref="VNH7" pin="1"/>
-      <node ref="VNH7" pin="25"/>
-      <node ref="VNH7" pin="30"/>
+    <net code="173" name="Net-(R32-Pad1)">
+      <node ref="VNH7" pin="10"/>
+      <node ref="R32" pin="1"/>
+      <node ref="VNH7" pin="6"/>
     </net>
-    <net code="145" name="Net-(R33-Pad1)">
-      <node ref="R33" pin="1"/>
-      <node ref="VNH7" pin="5"/>
-    </net>
-    <net code="146" name="Net-(R34-Pad1)">
+    <net code="174" name="Net-(R34-Pad1)">
       <node ref="R34" pin="1"/>
       <node ref="VNH7" pin="11"/>
     </net>
-    <net code="147" name="Net-(P8-Pad2)">
+    <net code="175" name="Net-(R33-Pad1)">
+      <node ref="R33" pin="1"/>
+      <node ref="VNH7" pin="5"/>
+    </net>
+    <net code="176" name="Net-(P8-Pad2)">
       <node ref="VNH7" pin="15"/>
-      <node ref="VNH7" pin="21"/>
-      <node ref="P8" pin="2"/>
       <node ref="VNH7" pin="16"/>
+      <node ref="P8" pin="2"/>
+      <node ref="VNH7" pin="21"/>
     </net>
-    <net code="148" name="Net-(R32-Pad1)">
-      <node ref="VNH7" pin="6"/>
-      <node ref="VNH7" pin="10"/>
-      <node ref="R32" pin="1"/>
+    <net code="177" name="Net-(P8-Pad1)">
+      <node ref="VNH7" pin="30"/>
+      <node ref="VNH7" pin="25"/>
+      <node ref="VNH7" pin="1"/>
+      <node ref="P8" pin="1"/>
     </net>
-    <net code="149" name="/VNH3SP30 Motor SS/16-bit UD Counter/CNT_UP">
-      <node ref="U42" pin="~"/>
+    <net code="178" name="/VNH3SP30 Motor SS 4/16-bit UD Counter/CNT_UP">
       <node ref="U45" pin="5"/>
+      <node ref="U44" pin="3"/>
     </net>
-    <net code="150" name="/VNH3SP30 Motor SS/16-bit UD Counter/CNT_DWN">
-      <node ref="U42" pin="~"/>
-      <node ref="U45" pin="4"/>
+    <net code="179" name="Net-(U44-Pad13)">
+      <node ref="U44" pin="13"/>
     </net>
-    <net code="151" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/CNT_DWN">
-      <node ref="U49" pin="~"/>
-      <node ref="U52" pin="4"/>
+    <net code="180" name="Net-(U44-Pad12)">
+      <node ref="U44" pin="12"/>
     </net>
-    <net code="152" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/CNT_UP">
-      <node ref="U52" pin="5"/>
-      <node ref="U49" pin="~"/>
+    <net code="181" name="Net-(U44-Pad11)">
+      <node ref="U44" pin="11"/>
     </net>
-    <net code="153" name="/vnh3sp30_motorLinac_ss/QDC">
-      <node ref="U49" pin="~"/>
-      <node ref="P9" pin="5"/>
-      <node ref="U49" pin="~"/>
+    <net code="182" name="Net-(U44-Pad10)">
+      <node ref="U44" pin="10"/>
     </net>
-    <net code="154" name="Net-(R35-Pad1)">
-      <node ref="R35" pin="1"/>
-      <node ref="VNH8" pin="10"/>
-      <node ref="VNH8" pin="6"/>
+    <net code="183" name="Net-(U44-Pad9)">
+      <node ref="U44" pin="9"/>
     </net>
-    <net code="155" name="Net-(R36-Pad1)">
-      <node ref="VNH8" pin="5"/>
-      <node ref="R36" pin="1"/>
+    <net code="184" name="Net-(U44-Pad8)">
+      <node ref="U44" pin="8"/>
     </net>
-    <net code="156" name="Net-(R37-Pad1)">
+    <net code="185" name="Net-(P9-Pad2)">
+      <node ref="VNH8" pin="30"/>
+      <node ref="VNH8" pin="25"/>
+      <node ref="P9" pin="2"/>
+      <node ref="VNH8" pin="1"/>
+    </net>
+    <net code="186" name="Net-(R37-Pad1)">
       <node ref="VNH8" pin="11"/>
       <node ref="R37" pin="1"/>
     </net>
-    <net code="157" name="Net-(P9-Pad1)">
+    <net code="187" name="Net-(R36-Pad1)">
+      <node ref="VNH8" pin="5"/>
+      <node ref="R36" pin="1"/>
+    </net>
+    <net code="188" name="Net-(R35-Pad1)">
+      <node ref="VNH8" pin="6"/>
+      <node ref="VNH8" pin="10"/>
+      <node ref="R35" pin="1"/>
+    </net>
+    <net code="189" name="Net-(P9-Pad1)">
       <node ref="P9" pin="1"/>
-      <node ref="VNH8" pin="16"/>
-      <node ref="VNH8" pin="15"/>
       <node ref="VNH8" pin="21"/>
+      <node ref="VNH8" pin="15"/>
+      <node ref="VNH8" pin="16"/>
     </net>
-    <net code="158" name="Net-(P9-Pad2)">
-      <node ref="VNH8" pin="30"/>
-      <node ref="VNH8" pin="1"/>
-      <node ref="VNH8" pin="25"/>
-      <node ref="P9" pin="2"/>
+    <net code="190" name="/vnh3sp30_motorLinac_ss/QDC">
+      <node ref="U57" pin="4"/>
+      <node ref="U57" pin="2"/>
+      <node ref="P9" pin="5"/>
     </net>
-    <net code="159" name="Net-(R15-Pad2)">
-      <node ref="R15" pin="2"/>
-      <node ref="U11" pin="1"/>
+    <net code="191" name="Net-(U57-Pad13)">
+      <node ref="U57" pin="13"/>
     </net>
-    <net code="160" name="Net-(R16-Pad2)">
-      <node ref="R16" pin="2"/>
-      <node ref="U11" pin="4"/>
+    <net code="192" name="Net-(U57-Pad12)">
+      <node ref="U57" pin="12"/>
     </net>
-    <net code="161" name="Net-(U13-Pad13)">
-      <node ref="U13" pin="13"/>
+    <net code="193" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/CNT_UP">
+      <node ref="U52" pin="5"/>
+      <node ref="U57" pin="3"/>
     </net>
-    <net code="162" name="Net-(U13-Pad12)">
-      <node ref="U13" pin="12"/>
+    <net code="194" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/CNT_DWN">
+      <node ref="U52" pin="4"/>
+      <node ref="U57" pin="6"/>
     </net>
-    <net code="163" name="Net-(U13-Pad11)">
-      <node ref="U13" pin="11"/>
+    <net code="195" name="Net-(U57-Pad8)">
+      <node ref="U57" pin="8"/>
     </net>
-    <net code="164" name="Net-(U13-Pad10)">
-      <node ref="U13" pin="10"/>
+    <net code="196" name="Net-(U57-Pad9)">
+      <node ref="U57" pin="9"/>
     </net>
-    <net code="165" name="Net-(U13-Pad9)">
-      <node ref="U13" pin="9"/>
+    <net code="197" name="Net-(U57-Pad10)">
+      <node ref="U57" pin="10"/>
     </net>
-    <net code="166" name="Net-(U13-Pad8)">
-      <node ref="U13" pin="8"/>
+    <net code="198" name="Net-(U57-Pad11)">
+      <node ref="U57" pin="11"/>
     </net>
-    <net code="167" name="Net-(U13-Pad6)">
-      <node ref="U13" pin="6"/>
+    <net code="199" name="Net-(U21-Pad9)">
+      <node ref="U21" pin="9"/>
     </net>
-    <net code="168" name="Net-(U13-Pad5)">
-      <node ref="U13" pin="5"/>
-    </net>
-    <net code="169" name="Net-(R14-Pad2)">
-      <node ref="U10" pin="4"/>
-      <node ref="R14" pin="2"/>
-    </net>
-    <net code="170" name="Net-(R13-Pad2)">
-      <node ref="U10" pin="1"/>
-      <node ref="R13" pin="2"/>
-    </net>
-    <net code="171" name="Net-(R12-Pad2)">
-      <node ref="U9" pin="4"/>
-      <node ref="R12" pin="2"/>
-    </net>
-    <net code="172" name="Net-(R11-Pad2)">
-      <node ref="R11" pin="2"/>
-      <node ref="U9" pin="1"/>
-    </net>
-    <net code="173" name="Net-(R10-Pad2)">
-      <node ref="R10" pin="2"/>
-      <node ref="U8" pin="4"/>
-    </net>
-    <net code="174" name="Net-(R9-Pad2)">
+    <net code="200" name="Net-(R9-Pad2)">
       <node ref="U8" pin="1"/>
       <node ref="R9" pin="2"/>
     </net>
-    <net code="175" name="Net-(R4-Pad2)">
+    <net code="201" name="Net-(U21-Pad5)">
+      <node ref="U21" pin="5"/>
+    </net>
+    <net code="202" name="Net-(U21-Pad6)">
+      <node ref="U21" pin="6"/>
+    </net>
+    <net code="203" name="Net-(U21-Pad8)">
+      <node ref="U21" pin="8"/>
+    </net>
+    <net code="204" name="Net-(R14-Pad2)">
+      <node ref="U10" pin="4"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="205" name="Net-(R15-Pad2)">
+      <node ref="R15" pin="2"/>
+      <node ref="U11" pin="1"/>
+    </net>
+    <net code="206" name="Net-(R16-Pad2)">
+      <node ref="R16" pin="2"/>
+      <node ref="U11" pin="4"/>
+    </net>
+    <net code="207" name="Net-(R11-Pad2)">
+      <node ref="U9" pin="1"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="208" name="Net-(R12-Pad2)">
+      <node ref="U9" pin="4"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="209" name="Net-(U21-Pad11)">
+      <node ref="U21" pin="11"/>
+    </net>
+    <net code="210" name="Net-(U21-Pad12)">
+      <node ref="U21" pin="12"/>
+    </net>
+    <net code="211" name="Net-(U21-Pad13)">
+      <node ref="U21" pin="13"/>
+    </net>
+    <net code="212" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="U8" pin="4"/>
+    </net>
+    <net code="213" name="Net-(U21-Pad10)">
+      <node ref="U21" pin="10"/>
+    </net>
+    <net code="214" name="Net-(U14-Pad13)">
+      <node ref="U14" pin="13"/>
+    </net>
+    <net code="215" name="Net-(U14-Pad12)">
+      <node ref="U14" pin="12"/>
+    </net>
+    <net code="216" name="Net-(U14-Pad11)">
+      <node ref="U14" pin="11"/>
+    </net>
+    <net code="217" name="Net-(U14-Pad10)">
+      <node ref="U14" pin="10"/>
+    </net>
+    <net code="218" name="Net-(U14-Pad9)">
+      <node ref="U14" pin="9"/>
+    </net>
+    <net code="219" name="Net-(U14-Pad8)">
+      <node ref="U14" pin="8"/>
+    </net>
+    <net code="220" name="Net-(U14-Pad6)">
+      <node ref="U14" pin="6"/>
+    </net>
+    <net code="221" name="Net-(U14-Pad5)">
+      <node ref="U14" pin="5"/>
+    </net>
+    <net code="222" name="Net-(R4-Pad2)">
       <node ref="U5" pin="4"/>
       <node ref="R4" pin="2"/>
     </net>
-    <net code="176" name="Net-(R5-Pad2)">
+    <net code="223" name="Net-(R5-Pad2)">
       <node ref="U6" pin="1"/>
       <node ref="R5" pin="2"/>
     </net>
-    <net code="177" name="Net-(R6-Pad2)">
-      <node ref="U6" pin="4"/>
-      <node ref="R6" pin="2"/>
+    <net code="224" name="Net-(U13-Pad5)">
+      <node ref="U13" pin="5"/>
     </net>
-    <net code="178" name="Net-(R7-Pad2)">
-      <node ref="U7" pin="1"/>
-      <node ref="R7" pin="2"/>
+    <net code="225" name="Net-(U13-Pad6)">
+      <node ref="U13" pin="6"/>
     </net>
-    <net code="179" name="Net-(R8-Pad2)">
-      <node ref="R8" pin="2"/>
-      <node ref="U7" pin="4"/>
+    <net code="226" name="Net-(U13-Pad8)">
+      <node ref="U13" pin="8"/>
     </net>
-    <net code="180" name="Net-(R3-Pad2)">
-      <node ref="R3" pin="2"/>
-      <node ref="U5" pin="1"/>
+    <net code="227" name="Net-(U13-Pad9)">
+      <node ref="U13" pin="9"/>
     </net>
-    <net code="181" name="Net-(R1-Pad2)">
-      <node ref="U4" pin="1"/>
+    <net code="228" name="Net-(U13-Pad10)">
+      <node ref="U13" pin="10"/>
+    </net>
+    <net code="229" name="Net-(U13-Pad11)">
+      <node ref="U13" pin="11"/>
+    </net>
+    <net code="230" name="Net-(U13-Pad12)">
+      <node ref="U13" pin="12"/>
+    </net>
+    <net code="231" name="Net-(U13-Pad13)">
+      <node ref="U13" pin="13"/>
+    </net>
+    <net code="232" name="Net-(R1-Pad2)">
       <node ref="R1" pin="2"/>
+      <node ref="U4" pin="1"/>
     </net>
-    <net code="182" name="Net-(R2-Pad2)">
+    <net code="233" name="Net-(R2-Pad2)">
       <node ref="R2" pin="2"/>
       <node ref="U4" pin="4"/>
     </net>
-    <net code="183" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/n_UDRFLW">
-      <node ref="U20" pin="13"/>
-      <node ref="U16" pin="~"/>
+    <net code="234" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="U5" pin="1"/>
     </net>
-    <net code="184" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/n_OVRFLW">
-      <node ref="U16" pin="~"/>
-      <node ref="U20" pin="12"/>
+    <net code="235" name="Net-(U12-Pad9)">
+      <node ref="U12" pin="9"/>
     </net>
-    <net code="185" name="Net-(U16-Pad~)">
-      <node ref="U16" pin="~"/>
+    <net code="236" name="Net-(U12-Pad10)">
+      <node ref="U12" pin="10"/>
     </net>
-    <net code="186" name="Net-(U16-Pad~)">
-      <node ref="U16" pin="~"/>
+    <net code="237" name="Net-(U12-Pad11)">
+      <node ref="U12" pin="11"/>
     </net>
-    <net code="187" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q8">
-      <node ref="U15" pin="2"/>
-      <node ref="U18" pin="3"/>
+    <net code="238" name="Net-(U12-Pad12)">
+      <node ref="U12" pin="12"/>
     </net>
-    <net code="188" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q15">
-      <node ref="U20" pin="7"/>
-      <node ref="U15" pin="9"/>
+    <net code="239" name="Net-(U12-Pad13)">
+      <node ref="U12" pin="13"/>
     </net>
-    <net code="189" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q14">
-      <node ref="U20" pin="6"/>
-      <node ref="U15" pin="8"/>
+    <net code="240" name="Net-(R13-Pad2)">
+      <node ref="R13" pin="2"/>
+      <node ref="U10" pin="1"/>
     </net>
-    <net code="190" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q13">
-      <node ref="U15" pin="7"/>
-      <node ref="U20" pin="2"/>
+    <net code="241" name="Net-(U12-Pad8)">
+      <node ref="U12" pin="8"/>
     </net>
-    <net code="191" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q12">
-      <node ref="U20" pin="3"/>
-      <node ref="U15" pin="6"/>
+    <net code="242" name="Net-(U12-Pad5)">
+      <node ref="U12" pin="5"/>
     </net>
-    <net code="192" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q9">
-      <node ref="U18" pin="2"/>
-      <node ref="U15" pin="3"/>
+    <net code="243" name="Net-(U12-Pad6)">
+      <node ref="U12" pin="6"/>
     </net>
-    <net code="193" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q0">
-      <node ref="U15" pin="16"/>
-      <node ref="U17" pin="3"/>
+    <net code="244" name="Net-(R6-Pad2)">
+      <node ref="U6" pin="4"/>
+      <node ref="R6" pin="2"/>
     </net>
-    <net code="194" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q2">
+    <net code="245" name="Net-(R8-Pad2)">
+      <node ref="U7" pin="4"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="246" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2"/>
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="247" name="/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q1">
+      <node ref="U15" pin="17"/>
+      <node ref="U17" pin="2"/>
+    </net>
+    <net code="248" name="/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q2">
       <node ref="U15" pin="18"/>
       <node ref="U17" pin="6"/>
     </net>
-    <net code="195" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q3">
-      <node ref="U15" pin="19"/>
+    <net code="249" name="/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q3">
       <node ref="U17" pin="7"/>
+      <node ref="U15" pin="19"/>
     </net>
-    <net code="196" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q4">
-      <node ref="U19" pin="3"/>
-      <node ref="U15" pin="20"/>
-    </net>
-    <net code="197" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q5">
-      <node ref="U19" pin="2"/>
-      <node ref="U15" pin="21"/>
-    </net>
-    <net code="198" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q6">
-      <node ref="U19" pin="6"/>
-      <node ref="U15" pin="22"/>
-    </net>
-    <net code="199" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q7">
-      <node ref="U15" pin="23"/>
-      <node ref="U19" pin="7"/>
-    </net>
-    <net code="200" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q1">
-      <node ref="U17" pin="2"/>
-      <node ref="U15" pin="17"/>
-    </net>
-    <net code="201" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q10">
-      <node ref="U18" pin="6"/>
-      <node ref="U15" pin="4"/>
-    </net>
-    <net code="202" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q11">
+    <net code="250" name="/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q11">
       <node ref="U18" pin="7"/>
       <node ref="U15" pin="5"/>
     </net>
-    <net code="203" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q15">
-      <node ref="U22" pin="9"/>
-      <node ref="U27" pin="7"/>
+    <net code="251" name="/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q4">
+      <node ref="U15" pin="20"/>
+      <node ref="U19" pin="3"/>
     </net>
-    <net code="204" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q10">
-      <node ref="U22" pin="4"/>
-      <node ref="U25" pin="6"/>
+    <net code="252" name="/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q7">
+      <node ref="U15" pin="23"/>
+      <node ref="U19" pin="7"/>
     </net>
-    <net code="205" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q4">
-      <node ref="U26" pin="3"/>
-      <node ref="U22" pin="20"/>
+    <net code="253" name="/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/n_OVRFLW">
+      <node ref="U20" pin="12"/>
+      <node ref="U16" pin="11"/>
     </net>
-    <net code="206" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q0">
-      <node ref="U24" pin="3"/>
-      <node ref="U22" pin="16"/>
+    <net code="254" name="/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/n_UDRFLW">
+      <node ref="U16" pin="3"/>
+      <node ref="U20" pin="13"/>
     </net>
-    <net code="207" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q7">
-      <node ref="U26" pin="7"/>
-      <node ref="U22" pin="23"/>
+    <net code="255" name="/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q15">
+      <node ref="U15" pin="9"/>
+      <node ref="U20" pin="7"/>
     </net>
-    <net code="208" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q6">
-      <node ref="U26" pin="6"/>
-      <node ref="U22" pin="22"/>
+    <net code="256" name="/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q14">
+      <node ref="U20" pin="6"/>
+      <node ref="U15" pin="8"/>
     </net>
-    <net code="209" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q5">
-      <node ref="U22" pin="21"/>
-      <node ref="U26" pin="2"/>
+    <net code="257" name="/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q13">
+      <node ref="U20" pin="2"/>
+      <node ref="U15" pin="7"/>
     </net>
-    <net code="210" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q14">
-      <node ref="U27" pin="6"/>
-      <node ref="U22" pin="8"/>
+    <net code="258" name="/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q12">
+      <node ref="U20" pin="3"/>
+      <node ref="U15" pin="6"/>
     </net>
-    <net code="211" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q13">
-      <node ref="U22" pin="7"/>
-      <node ref="U27" pin="2"/>
+    <net code="259" name="/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q5">
+      <node ref="U19" pin="2"/>
+      <node ref="U15" pin="21"/>
     </net>
-    <net code="212" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q12">
-      <node ref="U27" pin="3"/>
-      <node ref="U22" pin="6"/>
+    <net code="260" name="/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q10">
+      <node ref="U18" pin="6"/>
+      <node ref="U15" pin="4"/>
     </net>
-    <net code="213" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q11">
-      <node ref="U22" pin="5"/>
-      <node ref="U25" pin="7"/>
+    <net code="261" name="/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q9">
+      <node ref="U15" pin="3"/>
+      <node ref="U18" pin="2"/>
     </net>
-    <net code="214" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q9">
-      <node ref="U22" pin="3"/>
-      <node ref="U25" pin="2"/>
+    <net code="262" name="/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q8">
+      <node ref="U15" pin="2"/>
+      <node ref="U18" pin="3"/>
     </net>
-    <net code="215" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q8">
-      <node ref="U25" pin="3"/>
-      <node ref="U22" pin="2"/>
+    <net code="263" name="/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q6">
+      <node ref="U19" pin="6"/>
+      <node ref="U15" pin="22"/>
     </net>
-    <net code="216" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q1">
-      <node ref="U22" pin="17"/>
-      <node ref="U24" pin="2"/>
+    <net code="264" name="/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q0">
+      <node ref="U17" pin="3"/>
+      <node ref="U15" pin="16"/>
     </net>
-    <net code="217" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q2">
-      <node ref="U22" pin="18"/>
-      <node ref="U24" pin="6"/>
+    <net code="265" name="Net-(U16-Pad2)">
+      <node ref="U16" pin="2"/>
     </net>
-    <net code="218" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q3">
-      <node ref="U24" pin="7"/>
-      <node ref="U22" pin="19"/>
+    <net code="266" name="Net-(U16-Pad12)">
+      <node ref="U16" pin="12"/>
     </net>
-    <net code="219" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/n_OVRFLW">
-      <node ref="U27" pin="12"/>
-      <node ref="U23" pin="~"/>
-    </net>
-    <net code="220" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/n_UDRFLW">
-      <node ref="U23" pin="~"/>
+    <net code="267" name="/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/n_UDRFLW">
       <node ref="U27" pin="13"/>
+      <node ref="U51" pin="3"/>
     </net>
-    <net code="221" name="Net-(U23-Pad~)">
-      <node ref="U23" pin="~"/>
+    <net code="268" name="/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q3">
+      <node ref="U50" pin="19"/>
+      <node ref="U24" pin="7"/>
     </net>
-    <net code="222" name="Net-(U23-Pad~)">
-      <node ref="U23" pin="~"/>
-    </net>
-    <net code="223" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q1">
-      <node ref="U31" pin="2"/>
-      <node ref="U29" pin="17"/>
-    </net>
-    <net code="224" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q0">
-      <node ref="U31" pin="3"/>
-      <node ref="U29" pin="16"/>
-    </net>
-    <net code="225" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q7">
-      <node ref="U29" pin="23"/>
-      <node ref="U33" pin="7"/>
-    </net>
-    <net code="226" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q6">
-      <node ref="U33" pin="6"/>
-      <node ref="U29" pin="22"/>
-    </net>
-    <net code="227" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q5">
-      <node ref="U29" pin="21"/>
-      <node ref="U33" pin="2"/>
-    </net>
-    <net code="228" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q4">
-      <node ref="U33" pin="3"/>
-      <node ref="U29" pin="20"/>
-    </net>
-    <net code="229" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q15">
-      <node ref="U34" pin="7"/>
-      <node ref="U29" pin="9"/>
-    </net>
-    <net code="230" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q14">
-      <node ref="U29" pin="8"/>
-      <node ref="U34" pin="6"/>
-    </net>
-    <net code="231" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q13">
-      <node ref="U34" pin="2"/>
-      <node ref="U29" pin="7"/>
-    </net>
-    <net code="232" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q12">
-      <node ref="U29" pin="6"/>
-      <node ref="U34" pin="3"/>
-    </net>
-    <net code="233" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q11">
-      <node ref="U29" pin="5"/>
-      <node ref="U32" pin="7"/>
-    </net>
-    <net code="234" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q10">
-      <node ref="U29" pin="4"/>
-      <node ref="U32" pin="6"/>
-    </net>
-    <net code="235" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q9">
-      <node ref="U32" pin="2"/>
-      <node ref="U29" pin="3"/>
-    </net>
-    <net code="236" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q8">
-      <node ref="U32" pin="3"/>
-      <node ref="U29" pin="2"/>
-    </net>
-    <net code="237" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q2">
-      <node ref="U31" pin="6"/>
-      <node ref="U29" pin="18"/>
-    </net>
-    <net code="238" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q3">
-      <node ref="U31" pin="7"/>
-      <node ref="U29" pin="19"/>
-    </net>
-    <net code="239" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/n_OVRFLW">
-      <node ref="U34" pin="12"/>
-      <node ref="U30" pin="~"/>
-    </net>
-    <net code="240" name="Net-(U30-Pad~)">
-      <node ref="U30" pin="~"/>
-    </net>
-    <net code="241" name="Net-(U30-Pad~)">
-      <node ref="U30" pin="~"/>
-    </net>
-    <net code="242" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/n_UDRFLW">
-      <node ref="U34" pin="13"/>
-      <node ref="U30" pin="~"/>
-    </net>
-    <net code="243" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q0">
-      <node ref="U38" pin="3"/>
-      <node ref="U36" pin="16"/>
-    </net>
-    <net code="244" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q7">
-      <node ref="U36" pin="23"/>
-      <node ref="U40" pin="7"/>
-    </net>
-    <net code="245" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q6">
-      <node ref="U36" pin="22"/>
-      <node ref="U40" pin="6"/>
-    </net>
-    <net code="246" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q5">
-      <node ref="U36" pin="21"/>
-      <node ref="U40" pin="2"/>
-    </net>
-    <net code="247" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q4">
-      <node ref="U36" pin="20"/>
-      <node ref="U40" pin="3"/>
-    </net>
-    <net code="248" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q1">
-      <node ref="U38" pin="2"/>
-      <node ref="U36" pin="17"/>
-    </net>
-    <net code="249" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q15">
-      <node ref="U41" pin="7"/>
-      <node ref="U36" pin="9"/>
-    </net>
-    <net code="250" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q14">
-      <node ref="U36" pin="8"/>
-      <node ref="U41" pin="6"/>
-    </net>
-    <net code="251" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q13">
-      <node ref="U36" pin="7"/>
-      <node ref="U41" pin="2"/>
-    </net>
-    <net code="252" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q12">
-      <node ref="U36" pin="6"/>
-      <node ref="U41" pin="3"/>
-    </net>
-    <net code="253" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q11">
-      <node ref="U39" pin="7"/>
-      <node ref="U36" pin="5"/>
-    </net>
-    <net code="254" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q10">
-      <node ref="U39" pin="6"/>
-      <node ref="U36" pin="4"/>
-    </net>
-    <net code="255" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q9">
-      <node ref="U36" pin="3"/>
-      <node ref="U39" pin="2"/>
-    </net>
-    <net code="256" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q8">
-      <node ref="U36" pin="2"/>
-      <node ref="U39" pin="3"/>
-    </net>
-    <net code="257" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q3">
-      <node ref="U38" pin="7"/>
-      <node ref="U36" pin="19"/>
-    </net>
-    <net code="258" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q2">
-      <node ref="U38" pin="6"/>
-      <node ref="U36" pin="18"/>
-    </net>
-    <net code="259" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/n_OVRFLW">
-      <node ref="U37" pin="~"/>
-      <node ref="U41" pin="12"/>
-    </net>
-    <net code="260" name="Net-(U37-Pad~)">
-      <node ref="U37" pin="~"/>
-    </net>
-    <net code="261" name="Net-(U37-Pad~)">
-      <node ref="U37" pin="~"/>
-    </net>
-    <net code="262" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/n_UDRFLW">
-      <node ref="U41" pin="13"/>
-      <node ref="U37" pin="~"/>
-    </net>
-    <net code="263" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q15">
-      <node ref="U48" pin="7"/>
-      <node ref="U43" pin="9"/>
-    </net>
-    <net code="264" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q14">
-      <node ref="U43" pin="8"/>
-      <node ref="U48" pin="6"/>
-    </net>
-    <net code="265" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q13">
-      <node ref="U43" pin="7"/>
-      <node ref="U48" pin="2"/>
-    </net>
-    <net code="266" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q12">
-      <node ref="U43" pin="6"/>
-      <node ref="U48" pin="3"/>
-    </net>
-    <net code="267" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q11">
-      <node ref="U43" pin="5"/>
-      <node ref="U46" pin="7"/>
-    </net>
-    <net code="268" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q8">
-      <node ref="U43" pin="2"/>
-      <node ref="U46" pin="3"/>
-    </net>
-    <net code="269" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q7">
-      <node ref="U43" pin="23"/>
-      <node ref="U47" pin="7"/>
-    </net>
-    <net code="270" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q0">
-      <node ref="U43" pin="16"/>
-      <node ref="U45" pin="3"/>
-    </net>
-    <net code="271" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q1">
-      <node ref="U45" pin="2"/>
-      <node ref="U43" pin="17"/>
-    </net>
-    <net code="272" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q2">
-      <node ref="U45" pin="6"/>
-      <node ref="U43" pin="18"/>
-    </net>
-    <net code="273" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q3">
-      <node ref="U43" pin="19"/>
-      <node ref="U45" pin="7"/>
-    </net>
-    <net code="274" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q6">
-      <node ref="U47" pin="6"/>
-      <node ref="U43" pin="22"/>
-    </net>
-    <net code="275" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q9">
-      <node ref="U46" pin="2"/>
-      <node ref="U43" pin="3"/>
-    </net>
-    <net code="276" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q10">
-      <node ref="U43" pin="4"/>
-      <node ref="U46" pin="6"/>
-    </net>
-    <net code="277" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q4">
-      <node ref="U47" pin="3"/>
-      <node ref="U43" pin="20"/>
-    </net>
-    <net code="278" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/Q5">
-      <node ref="U43" pin="21"/>
-      <node ref="U47" pin="2"/>
-    </net>
-    <net code="279" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/n_OVRFLW">
-      <node ref="U48" pin="12"/>
-      <node ref="U44" pin="~"/>
-    </net>
-    <net code="280" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/n_UDRFLW">
-      <node ref="U48" pin="13"/>
-      <node ref="U44" pin="~"/>
-    </net>
-    <net code="281" name="Net-(U44-Pad~)">
-      <node ref="U44" pin="~"/>
-    </net>
-    <net code="282" name="Net-(U44-Pad~)">
-      <node ref="U44" pin="~"/>
-    </net>
-    <net code="283" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/n_OVRFLW">
-      <node ref="U51" pin="~"/>
-      <node ref="U55" pin="12"/>
-    </net>
-    <net code="284" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/n_UDRFLW">
-      <node ref="U51" pin="~"/>
-      <node ref="U55" pin="13"/>
-    </net>
-    <net code="285" name="Net-(U51-Pad~)">
-      <node ref="U51" pin="~"/>
-    </net>
-    <net code="286" name="Net-(U51-Pad~)">
-      <node ref="U51" pin="~"/>
-    </net>
-    <net code="287" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q5">
-      <node ref="U50" pin="21"/>
-      <node ref="U54" pin="2"/>
-    </net>
-    <net code="288" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q6">
-      <node ref="U54" pin="6"/>
-      <node ref="U50" pin="22"/>
-    </net>
-    <net code="289" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q7">
-      <node ref="U50" pin="23"/>
-      <node ref="U54" pin="7"/>
-    </net>
-    <net code="290" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q0">
-      <node ref="U52" pin="3"/>
+    <net code="269" name="/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q0">
+      <node ref="U24" pin="3"/>
       <node ref="U50" pin="16"/>
     </net>
-    <net code="291" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q1">
+    <net code="270" name="/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q1">
+      <node ref="U24" pin="2"/>
       <node ref="U50" pin="17"/>
-      <node ref="U52" pin="2"/>
     </net>
-    <net code="292" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q2">
+    <net code="271" name="/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q2">
       <node ref="U50" pin="18"/>
-      <node ref="U52" pin="6"/>
+      <node ref="U24" pin="6"/>
     </net>
-    <net code="293" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q4">
+    <net code="272" name="/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q7">
+      <node ref="U50" pin="23"/>
+      <node ref="U26" pin="7"/>
+    </net>
+    <net code="273" name="/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q4">
+      <node ref="U26" pin="3"/>
       <node ref="U50" pin="20"/>
-      <node ref="U54" pin="3"/>
     </net>
-    <net code="294" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q8">
-      <node ref="U50" pin="2"/>
-      <node ref="U53" pin="3"/>
+    <net code="274" name="/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q5">
+      <node ref="U50" pin="21"/>
+      <node ref="U26" pin="2"/>
     </net>
-    <net code="295" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q11">
+    <net code="275" name="/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q6">
+      <node ref="U50" pin="22"/>
+      <node ref="U26" pin="6"/>
+    </net>
+    <net code="276" name="/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q11">
       <node ref="U50" pin="5"/>
-      <node ref="U53" pin="7"/>
+      <node ref="U25" pin="7"/>
     </net>
-    <net code="296" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q14">
-      <node ref="U55" pin="6"/>
-      <node ref="U50" pin="8"/>
+    <net code="277" name="/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q8">
+      <node ref="U50" pin="2"/>
+      <node ref="U25" pin="3"/>
     </net>
-    <net code="297" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q13">
-      <node ref="U50" pin="7"/>
-      <node ref="U55" pin="2"/>
-    </net>
-    <net code="298" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q12">
-      <node ref="U50" pin="6"/>
-      <node ref="U55" pin="3"/>
-    </net>
-    <net code="299" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q15">
-      <node ref="U50" pin="9"/>
-      <node ref="U55" pin="7"/>
-    </net>
-    <net code="300" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q9">
-      <node ref="U53" pin="2"/>
+    <net code="278" name="/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q9">
+      <node ref="U25" pin="2"/>
       <node ref="U50" pin="3"/>
     </net>
-    <net code="301" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q10">
-      <node ref="U53" pin="6"/>
-      <node ref="U50" pin="4"/>
+    <net code="279" name="/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q15">
+      <node ref="U50" pin="9"/>
+      <node ref="U27" pin="7"/>
     </net>
-    <net code="302" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q3">
-      <node ref="U50" pin="19"/>
+    <net code="280" name="/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q14">
+      <node ref="U27" pin="6"/>
+      <node ref="U50" pin="8"/>
+    </net>
+    <net code="281" name="/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q13">
+      <node ref="U27" pin="2"/>
+      <node ref="U50" pin="7"/>
+    </net>
+    <net code="282" name="/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q12">
+      <node ref="U27" pin="3"/>
+      <node ref="U50" pin="6"/>
+    </net>
+    <net code="283" name="/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q10">
+      <node ref="U50" pin="4"/>
+      <node ref="U25" pin="6"/>
+    </net>
+    <net code="284" name="Net-(U51-Pad12)">
+      <node ref="U51" pin="12"/>
+    </net>
+    <net code="285" name="/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/n_OVRFLW">
+      <node ref="U27" pin="12"/>
+      <node ref="U51" pin="11"/>
+    </net>
+    <net code="286" name="Net-(U51-Pad2)">
+      <node ref="U51" pin="2"/>
+    </net>
+    <net code="287" name="/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q15">
+      <node ref="U22" pin="9"/>
+      <node ref="U34" pin="7"/>
+    </net>
+    <net code="288" name="/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q6">
+      <node ref="U22" pin="22"/>
+      <node ref="U33" pin="6"/>
+    </net>
+    <net code="289" name="/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q5">
+      <node ref="U33" pin="2"/>
+      <node ref="U22" pin="21"/>
+    </net>
+    <net code="290" name="/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q4">
+      <node ref="U33" pin="3"/>
+      <node ref="U22" pin="20"/>
+    </net>
+    <net code="291" name="/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q7">
+      <node ref="U22" pin="23"/>
+      <node ref="U33" pin="7"/>
+    </net>
+    <net code="292" name="/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q14">
+      <node ref="U22" pin="8"/>
+      <node ref="U34" pin="6"/>
+    </net>
+    <net code="293" name="/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q13">
+      <node ref="U22" pin="7"/>
+      <node ref="U34" pin="2"/>
+    </net>
+    <net code="294" name="/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q12">
+      <node ref="U34" pin="3"/>
+      <node ref="U22" pin="6"/>
+    </net>
+    <net code="295" name="/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q11">
+      <node ref="U32" pin="7"/>
+      <node ref="U22" pin="5"/>
+    </net>
+    <net code="296" name="/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q10">
+      <node ref="U22" pin="4"/>
+      <node ref="U32" pin="6"/>
+    </net>
+    <net code="297" name="/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q9">
+      <node ref="U32" pin="2"/>
+      <node ref="U22" pin="3"/>
+    </net>
+    <net code="298" name="/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q8">
+      <node ref="U32" pin="3"/>
+      <node ref="U22" pin="2"/>
+    </net>
+    <net code="299" name="/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q0">
+      <node ref="U31" pin="3"/>
+      <node ref="U22" pin="16"/>
+    </net>
+    <net code="300" name="/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q2">
+      <node ref="U31" pin="6"/>
+      <node ref="U22" pin="18"/>
+    </net>
+    <net code="301" name="/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q1">
+      <node ref="U31" pin="2"/>
+      <node ref="U22" pin="17"/>
+    </net>
+    <net code="302" name="/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q3">
+      <node ref="U31" pin="7"/>
+      <node ref="U22" pin="19"/>
+    </net>
+    <net code="303" name="/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/n_UDRFLW">
+      <node ref="U23" pin="3"/>
+      <node ref="U34" pin="13"/>
+    </net>
+    <net code="304" name="Net-(U23-Pad12)">
+      <node ref="U23" pin="12"/>
+    </net>
+    <net code="305" name="/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/n_OVRFLW">
+      <node ref="U34" pin="12"/>
+      <node ref="U23" pin="11"/>
+    </net>
+    <net code="306" name="Net-(U23-Pad2)">
+      <node ref="U23" pin="2"/>
+    </net>
+    <net code="307" name="/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q14">
+      <node ref="U41" pin="6"/>
+      <node ref="U29" pin="8"/>
+    </net>
+    <net code="308" name="/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q0">
+      <node ref="U29" pin="16"/>
+      <node ref="U38" pin="3"/>
+    </net>
+    <net code="309" name="/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q6">
+      <node ref="U29" pin="22"/>
+      <node ref="U40" pin="6"/>
+    </net>
+    <net code="310" name="/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q5">
+      <node ref="U40" pin="2"/>
+      <node ref="U29" pin="21"/>
+    </net>
+    <net code="311" name="/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q4">
+      <node ref="U29" pin="20"/>
+      <node ref="U40" pin="3"/>
+    </net>
+    <net code="312" name="/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q7">
+      <node ref="U29" pin="23"/>
+      <node ref="U40" pin="7"/>
+    </net>
+    <net code="313" name="/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q15">
+      <node ref="U29" pin="9"/>
+      <node ref="U41" pin="7"/>
+    </net>
+    <net code="314" name="/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q13">
+      <node ref="U29" pin="7"/>
+      <node ref="U41" pin="2"/>
+    </net>
+    <net code="315" name="/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q12">
+      <node ref="U41" pin="3"/>
+      <node ref="U29" pin="6"/>
+    </net>
+    <net code="316" name="/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q11">
+      <node ref="U39" pin="7"/>
+      <node ref="U29" pin="5"/>
+    </net>
+    <net code="317" name="/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q10">
+      <node ref="U39" pin="6"/>
+      <node ref="U29" pin="4"/>
+    </net>
+    <net code="318" name="/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q9">
+      <node ref="U39" pin="2"/>
+      <node ref="U29" pin="3"/>
+    </net>
+    <net code="319" name="/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q8">
+      <node ref="U29" pin="2"/>
+      <node ref="U39" pin="3"/>
+    </net>
+    <net code="320" name="/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q2">
+      <node ref="U38" pin="6"/>
+      <node ref="U29" pin="18"/>
+    </net>
+    <net code="321" name="/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q1">
+      <node ref="U38" pin="2"/>
+      <node ref="U29" pin="17"/>
+    </net>
+    <net code="322" name="/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q3">
+      <node ref="U38" pin="7"/>
+      <node ref="U29" pin="19"/>
+    </net>
+    <net code="323" name="/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/n_UDRFLW">
+      <node ref="U41" pin="13"/>
+      <node ref="U30" pin="3"/>
+    </net>
+    <net code="324" name="Net-(U30-Pad12)">
+      <node ref="U30" pin="12"/>
+    </net>
+    <net code="325" name="/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/n_OVRFLW">
+      <node ref="U41" pin="12"/>
+      <node ref="U30" pin="11"/>
+    </net>
+    <net code="326" name="Net-(U30-Pad2)">
+      <node ref="U30" pin="2"/>
+    </net>
+    <net code="327" name="/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/n_OVRFLW">
+      <node ref="U37" pin="11"/>
+      <node ref="U48" pin="12"/>
+    </net>
+    <net code="328" name="/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q10">
+      <node ref="U36" pin="4"/>
+      <node ref="U46" pin="6"/>
+    </net>
+    <net code="329" name="/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q15">
+      <node ref="U36" pin="9"/>
+      <node ref="U48" pin="7"/>
+    </net>
+    <net code="330" name="/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q14">
+      <node ref="U36" pin="8"/>
+      <node ref="U48" pin="6"/>
+    </net>
+    <net code="331" name="/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q13">
+      <node ref="U36" pin="7"/>
+      <node ref="U48" pin="2"/>
+    </net>
+    <net code="332" name="/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q12">
+      <node ref="U36" pin="6"/>
+      <node ref="U48" pin="3"/>
+    </net>
+    <net code="333" name="/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q11">
+      <node ref="U46" pin="7"/>
+      <node ref="U36" pin="5"/>
+    </net>
+    <net code="334" name="/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q9">
+      <node ref="U46" pin="2"/>
+      <node ref="U36" pin="3"/>
+    </net>
+    <net code="335" name="/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q8">
+      <node ref="U46" pin="3"/>
+      <node ref="U36" pin="2"/>
+    </net>
+    <net code="336" name="/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q7">
+      <node ref="U47" pin="7"/>
+      <node ref="U36" pin="23"/>
+    </net>
+    <net code="337" name="/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q6">
+      <node ref="U36" pin="22"/>
+      <node ref="U47" pin="6"/>
+    </net>
+    <net code="338" name="/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q5">
+      <node ref="U36" pin="21"/>
+      <node ref="U47" pin="2"/>
+    </net>
+    <net code="339" name="/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q4">
+      <node ref="U36" pin="20"/>
+      <node ref="U47" pin="3"/>
+    </net>
+    <net code="340" name="/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q3">
+      <node ref="U45" pin="7"/>
+      <node ref="U36" pin="19"/>
+    </net>
+    <net code="341" name="/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q2">
+      <node ref="U36" pin="18"/>
+      <node ref="U45" pin="6"/>
+    </net>
+    <net code="342" name="/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q1">
+      <node ref="U45" pin="2"/>
+      <node ref="U36" pin="17"/>
+    </net>
+    <net code="343" name="/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q0">
+      <node ref="U36" pin="16"/>
+      <node ref="U45" pin="3"/>
+    </net>
+    <net code="344" name="Net-(U37-Pad12)">
+      <node ref="U37" pin="12"/>
+    </net>
+    <net code="345" name="/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/n_UDRFLW">
+      <node ref="U48" pin="13"/>
+      <node ref="U37" pin="3"/>
+    </net>
+    <net code="346" name="Net-(U37-Pad2)">
+      <node ref="U37" pin="2"/>
+    </net>
+    <net code="347" name="Net-(U49-Pad12)">
+      <node ref="U49" pin="12"/>
+    </net>
+    <net code="348" name="Net-(U49-Pad2)">
+      <node ref="U49" pin="2"/>
+    </net>
+    <net code="349" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q6">
+      <node ref="U43" pin="22"/>
+      <node ref="U54" pin="6"/>
+    </net>
+    <net code="350" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q3">
+      <node ref="U43" pin="19"/>
       <node ref="U52" pin="7"/>
     </net>
-    <net code="303" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/n_TCD_1">
-      <node ref="U18" pin="4"/>
-      <node ref="U19" pin="13"/>
+    <net code="351" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q2">
+      <node ref="U43" pin="18"/>
+      <node ref="U52" pin="6"/>
     </net>
-    <net code="304" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/n_TCU_1">
-      <node ref="U19" pin="12"/>
-      <node ref="U18" pin="5"/>
+    <net code="352" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q1">
+      <node ref="U52" pin="2"/>
+      <node ref="U43" pin="17"/>
     </net>
-    <net code="305" name="Net-(U18-Pad13)">
-      <node ref="U18" pin="13"/>
+    <net code="353" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q0">
+      <node ref="U52" pin="3"/>
+      <node ref="U43" pin="16"/>
+    </net>
+    <net code="354" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q7">
+      <node ref="U43" pin="23"/>
+      <node ref="U54" pin="7"/>
+    </net>
+    <net code="355" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q5">
+      <node ref="U43" pin="21"/>
+      <node ref="U54" pin="2"/>
+    </net>
+    <net code="356" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q4">
+      <node ref="U54" pin="3"/>
+      <node ref="U43" pin="20"/>
+    </net>
+    <net code="357" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q15">
+      <node ref="U55" pin="7"/>
+      <node ref="U43" pin="9"/>
+    </net>
+    <net code="358" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q14">
+      <node ref="U43" pin="8"/>
+      <node ref="U55" pin="6"/>
+    </net>
+    <net code="359" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q13">
+      <node ref="U55" pin="2"/>
+      <node ref="U43" pin="7"/>
+    </net>
+    <net code="360" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q12">
+      <node ref="U55" pin="3"/>
+      <node ref="U43" pin="6"/>
+    </net>
+    <net code="361" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/n_OVRFLW">
+      <node ref="U49" pin="11"/>
+      <node ref="U55" pin="12"/>
+    </net>
+    <net code="362" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/n_UDRFLW">
+      <node ref="U55" pin="13"/>
+      <node ref="U49" pin="3"/>
+    </net>
+    <net code="363" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q11">
+      <node ref="U43" pin="5"/>
+      <node ref="U53" pin="7"/>
+    </net>
+    <net code="364" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q10">
+      <node ref="U53" pin="6"/>
+      <node ref="U43" pin="4"/>
+    </net>
+    <net code="365" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q9">
+      <node ref="U53" pin="2"/>
+      <node ref="U43" pin="3"/>
+    </net>
+    <net code="366" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q8">
+      <node ref="U43" pin="2"/>
+      <node ref="U53" pin="3"/>
+    </net>
+    <net code="367" name="Net-(U18-Pad13)">
       <node ref="U20" pin="4"/>
+      <node ref="U18" pin="13"/>
     </net>
-    <net code="306" name="Net-(U18-Pad12)">
-      <node ref="U20" pin="5"/>
+    <net code="368" name="/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/n_TCU_1">
+      <node ref="U18" pin="5"/>
+      <node ref="U19" pin="12"/>
+    </net>
+    <net code="369" name="/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/n_TCD_1">
+      <node ref="U19" pin="13"/>
+      <node ref="U18" pin="4"/>
+    </net>
+    <net code="370" name="Net-(U18-Pad12)">
       <node ref="U18" pin="12"/>
+      <node ref="U20" pin="5"/>
     </net>
-    <net code="307" name="Net-(U17-Pad13)">
-      <node ref="U17" pin="13"/>
+    <net code="371" name="Net-(U17-Pad13)">
       <node ref="U19" pin="4"/>
+      <node ref="U17" pin="13"/>
     </net>
-    <net code="308" name="Net-(U17-Pad12)">
+    <net code="372" name="Net-(U17-Pad12)">
       <node ref="U19" pin="5"/>
       <node ref="U17" pin="12"/>
     </net>
-    <net code="309" name="Net-(U25-Pad12)">
-      <node ref="U25" pin="12"/>
+    <net code="373" name="Net-(U25-Pad12)">
       <node ref="U27" pin="5"/>
+      <node ref="U25" pin="12"/>
     </net>
-    <net code="310" name="Net-(U24-Pad12)">
-      <node ref="U26" pin="5"/>
+    <net code="374" name="Net-(U24-Pad12)">
       <node ref="U24" pin="12"/>
+      <node ref="U26" pin="5"/>
     </net>
-    <net code="311" name="Net-(U24-Pad13)">
-      <node ref="U26" pin="4"/>
+    <net code="375" name="Net-(U24-Pad13)">
       <node ref="U24" pin="13"/>
+      <node ref="U26" pin="4"/>
     </net>
-    <net code="312" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/n_TCD_1">
+    <net code="376" name="/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/n_TCD_1">
       <node ref="U25" pin="4"/>
       <node ref="U26" pin="13"/>
     </net>
-    <net code="313" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/n_TCU_1">
+    <net code="377" name="/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/n_TCU_1">
       <node ref="U25" pin="5"/>
       <node ref="U26" pin="12"/>
     </net>
-    <net code="314" name="Net-(U25-Pad13)">
+    <net code="378" name="Net-(U25-Pad13)">
       <node ref="U25" pin="13"/>
       <node ref="U27" pin="4"/>
     </net>
-    <net code="315" name="Net-(U32-Pad12)">
+    <net code="379" name="Net-(U32-Pad12)">
       <node ref="U34" pin="5"/>
       <node ref="U32" pin="12"/>
     </net>
-    <net code="316" name="Net-(U32-Pad13)">
-      <node ref="U34" pin="4"/>
+    <net code="380" name="Net-(U32-Pad13)">
       <node ref="U32" pin="13"/>
+      <node ref="U34" pin="4"/>
     </net>
-    <net code="317" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/n_TCD_1">
-      <node ref="U32" pin="4"/>
+    <net code="381" name="/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/n_TCD_1">
       <node ref="U33" pin="13"/>
+      <node ref="U32" pin="4"/>
     </net>
-    <net code="318" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/n_TCU_1">
-      <node ref="U33" pin="12"/>
+    <net code="382" name="/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/n_TCU_1">
       <node ref="U32" pin="5"/>
+      <node ref="U33" pin="12"/>
     </net>
-    <net code="319" name="Net-(U31-Pad13)">
-      <node ref="U33" pin="4"/>
+    <net code="383" name="Net-(U31-Pad13)">
       <node ref="U31" pin="13"/>
+      <node ref="U33" pin="4"/>
     </net>
-    <net code="320" name="Net-(U31-Pad12)">
-      <node ref="U33" pin="5"/>
+    <net code="384" name="Net-(U31-Pad12)">
       <node ref="U31" pin="12"/>
+      <node ref="U33" pin="5"/>
     </net>
-    <net code="321" name="Net-(U39-Pad13)">
-      <node ref="U41" pin="4"/>
+    <net code="385" name="Net-(U39-Pad13)">
       <node ref="U39" pin="13"/>
+      <node ref="U41" pin="4"/>
     </net>
-    <net code="322" name="Net-(U39-Pad12)">
+    <net code="386" name="Net-(U39-Pad12)">
       <node ref="U39" pin="12"/>
       <node ref="U41" pin="5"/>
     </net>
-    <net code="323" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/n_TCD_1">
+    <net code="387" name="/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/n_TCD_1">
       <node ref="U39" pin="4"/>
       <node ref="U40" pin="13"/>
     </net>
-    <net code="324" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/n_TCU_1">
+    <net code="388" name="/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/n_TCU_1">
       <node ref="U40" pin="12"/>
       <node ref="U39" pin="5"/>
     </net>
-    <net code="325" name="Net-(U38-Pad12)">
+    <net code="389" name="Net-(U38-Pad12)">
       <node ref="U38" pin="12"/>
       <node ref="U40" pin="5"/>
     </net>
-    <net code="326" name="Net-(U38-Pad13)">
+    <net code="390" name="Net-(U38-Pad13)">
       <node ref="U38" pin="13"/>
       <node ref="U40" pin="4"/>
     </net>
-    <net code="327" name="Net-(U46-Pad12)">
+    <net code="391" name="Net-(U46-Pad12)">
       <node ref="U46" pin="12"/>
       <node ref="U48" pin="5"/>
     </net>
-    <net code="328" name="Net-(U46-Pad13)">
+    <net code="392" name="Net-(U46-Pad13)">
       <node ref="U46" pin="13"/>
       <node ref="U48" pin="4"/>
     </net>
-    <net code="329" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/n_TCD_1">
-      <node ref="U46" pin="4"/>
+    <net code="393" name="/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/n_TCD_1">
       <node ref="U47" pin="13"/>
+      <node ref="U46" pin="4"/>
     </net>
-    <net code="330" name="/VNH3SP30 Motor SS/16-bit UD Counter/Counter-16b/n_TCU_1">
+    <net code="394" name="/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/n_TCU_1">
       <node ref="U47" pin="12"/>
       <node ref="U46" pin="5"/>
     </net>
-    <net code="331" name="Net-(U45-Pad12)">
+    <net code="395" name="Net-(U45-Pad12)">
       <node ref="U45" pin="12"/>
       <node ref="U47" pin="5"/>
     </net>
-    <net code="332" name="Net-(U45-Pad13)">
-      <node ref="U47" pin="4"/>
+    <net code="396" name="Net-(U45-Pad13)">
       <node ref="U45" pin="13"/>
+      <node ref="U47" pin="4"/>
     </net>
-    <net code="333" name="Net-(U52-Pad12)">
-      <node ref="U54" pin="5"/>
-      <node ref="U52" pin="12"/>
-    </net>
-    <net code="334" name="Net-(U52-Pad13)">
-      <node ref="U52" pin="13"/>
-      <node ref="U54" pin="4"/>
-    </net>
-    <net code="335" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/n_TCU_1">
+    <net code="397" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/n_TCU_1">
       <node ref="U53" pin="5"/>
       <node ref="U54" pin="12"/>
     </net>
-    <net code="336" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/n_TCD_1">
-      <node ref="U53" pin="4"/>
-      <node ref="U54" pin="13"/>
+    <net code="398" name="Net-(U52-Pad13)">
+      <node ref="U54" pin="4"/>
+      <node ref="U52" pin="13"/>
     </net>
-    <net code="337" name="Net-(U53-Pad12)">
+    <net code="399" name="Net-(U52-Pad12)">
+      <node ref="U54" pin="5"/>
+      <node ref="U52" pin="12"/>
+    </net>
+    <net code="400" name="Net-(U53-Pad12)">
       <node ref="U55" pin="5"/>
       <node ref="U53" pin="12"/>
     </net>
-    <net code="338" name="Net-(U53-Pad13)">
+    <net code="401" name="Net-(U53-Pad13)">
       <node ref="U55" pin="4"/>
       <node ref="U53" pin="13"/>
+    </net>
+    <net code="402" name="/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/n_TCD_1">
+      <node ref="U54" pin="13"/>
+      <node ref="U53" pin="4"/>
     </net>
   </nets>
 </export>

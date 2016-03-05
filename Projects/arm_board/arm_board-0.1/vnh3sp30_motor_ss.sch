@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 23
+Sheet 21 23
 Title ""
 Date "30 jan 2016"
 Rev ""
@@ -122,11 +122,6 @@ F9 "S2" I L 5250 5400 60
 F10 "S3" I L 5250 5500 60 
 F11 "n_RESET" I L 5250 5000 60 
 $EndSheet
-Wire Wire Line
-	7700 3600 7550 3600
-Wire Wire Line
-	7550 3600 7550 3500
-Connection ~ 7550 3500
 Text Label 6750 3600 2    60   ~ 0
 DIR
 Text Label 6650 4050 2    60   ~ 0
@@ -207,18 +202,12 @@ Wire Wire Line
 Wire Wire Line
 	9700 5600 10400 5600
 Connection ~ 9700 4050
-Text Label 10150 5700 0    60   ~ 0
+Text Label 10200 5900 0    60   ~ 0
 QDC
-Wire Wire Line
-	10150 5700 10400 5700
-Text GLabel 10000 5800 0    60   Input ~ 0
+Text GLabel 10200 5700 0    60   Input ~ 0
 3.3V
-Wire Wire Line
-	10000 5800 10400 5800
-Text GLabel 9700 5900 0    60   Input ~ 0
+Text GLabel 10200 5800 0    60   Input ~ 0
 GND_3.3V
-Wire Wire Line
-	9700 5900 10400 5900
 Wire Wire Line
 	9400 3550 9800 3550
 Wire Wire Line
@@ -269,28 +258,24 @@ Wire Wire Line
 Wire Wire Line
 	6800 4050 6800 3850
 Connection ~ 6800 3850
-Wire Wire Line
-	7550 3500 7700 3500
 $Comp
 L R R23
 U 1 1 56C6696F
-P 7300 3500
+P 7450 3500
 AR Path="/56F5245F/56C6696F" Ref="R23"  Part="1" 
 AR Path="/56F544AF/56C6696F" Ref="R26"  Part="1" 
 AR Path="/56F55E0D/56C6696F" Ref="R29"  Part="1" 
 AR Path="/56F56B2F/56C6696F" Ref="R32"  Part="1" 
 AR Path="/56F53B7D/56C6696F" Ref="R38"  Part="1" 
-F 0 "R23" V 7380 3500 40  0000 C CNN
-F 1 "4.7k" V 7307 3501 40  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 7230 3500 30  0001 C CNN
-F 3 "" H 7300 3500 30  0000 C CNN
-	1    7300 3500
+F 0 "R23" V 7530 3500 40  0000 C CNN
+F 1 "4.7k" V 7457 3501 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 7380 3500 30  0001 C CNN
+F 3 "" H 7450 3500 30  0000 C CNN
+	1    7450 3500
 	0    1    1    0   
 $EndComp
-Text GLabel 7050 3250 1    60   Input ~ 0
+Text GLabel 7200 3300 1    60   Input ~ 0
 NOISE_5V
-Wire Wire Line
-	7050 3250 7050 3500
 $Comp
 L CONN_5 P1
 U 1 1 56CA7E11
@@ -322,7 +307,7 @@ AR Path="/56F55E0D/56CE991E" Ref="U42"  Part="1"
 AR Path="/56F56B2F/56CE991E" Ref="U44"  Part="1" 
 F 0 "U28" H 4250 4200 60  0000 C CNN
 F 1 "74HC08" H 4250 4350 60  0000 C CNN
-F 2 "SMD_Packages:SOIC-14_N" H 4250 4350 60  0001 C CNN
+F 2 "ArmFootprints:SOIC-14" H 4250 4350 60  0001 C CNN
 F 3 "" H 4250 4350 60  0000 C CNN
 	1    4250 4350
 	1    0    0    -1  
@@ -356,4 +341,29 @@ Wire Wire Line
 	5050 4300 5050 4800
 Wire Wire Line
 	5050 4800 5250 4800
+$Comp
+L R R53
+U 1 1 56E620A0
+P 7450 3600
+AR Path="/56F53B7D/56E620A0" Ref="R53"  Part="1" 
+AR Path="/56F5245F/56E620A0" Ref="R48"  Part="1" 
+AR Path="/56F544AF/56E620A0" Ref="R49"  Part="1" 
+AR Path="/56F55E0D/56E620A0" Ref="R50"  Part="1" 
+AR Path="/56F56B2F/56E620A0" Ref="R51"  Part="1" 
+F 0 "R48" V 7530 3600 40  0000 C CNN
+F 1 "4.7k" V 7457 3601 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 7380 3600 30  0001 C CNN
+F 3 "" H 7450 3600 30  0000 C CNN
+	1    7450 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7200 3300 7200 3600
+Connection ~ 7200 3500
+Wire Wire Line
+	10200 5800 10400 5800
+Wire Wire Line
+	10400 5700 10200 5700
+Wire Wire Line
+	10200 5900 10400 5900
 $EndSCHEMATC
