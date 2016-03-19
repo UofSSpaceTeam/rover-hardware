@@ -45,7 +45,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 11693 16535 portrait
 encoding utf-8
-Sheet 1 7
+Sheet 1 10
 Title "Rover Mainboard"
 Date "2015-11-08"
 Rev "1"
@@ -106,7 +106,7 @@ F13 "FM" I L 8050 10600 60
 $EndSheet
 $Sheet
 S 8100 5700 1100 1300
-U 567A38B6
+U 56ED5105
 F0 "Camera Module 1" 60
 F1 "CameraModule.sch" 60
 F2 "CP" I L 8100 5850 60 
@@ -734,4 +734,10 @@ Wire Wire Line
 	4750 4100 4900 4100
 Text Label 4900 4100 0    60   ~ 0
 GPIO31
+$Sheet
+S 8200 12650 950  300 
+U 56EDDFF0
+F0 "CANBoardStandalone" 60
+F1 "CANBoardStandalone.sch" 60
+$EndSheet
 $EndSCHEMATC
