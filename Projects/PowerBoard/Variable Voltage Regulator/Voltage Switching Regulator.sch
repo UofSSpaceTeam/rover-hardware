@@ -1,0 +1,289 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MAX17544 U1
+U 1 1 5650BD94
+P 5550 3100
+F 0 "U1" H 5350 2950 60  0000 C CNN
+F 1 "MAX17544" H 5500 3250 60  0000 C CNN
+F 2 "" H 5550 3300 60  0000 C CNN
+F 3 "" H 5550 3300 60  0000 C CNN
+	1    5550 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3000 4700 3150
+Wire Wire Line
+	4700 3150 4700 3300
+Connection ~ 4700 3150
+$Comp
+L C C1
+U 1 1 5650BDF8
+P 4000 3450
+F 0 "C1" H 4025 3550 50  0000 L CNN
+F 1 "4.7 nF" H 4025 3350 50  0000 L CNN
+F 2 "" H 4038 3300 30  0000 C CNN
+F 3 "" H 4000 3450 60  0000 C CNN
+	1    4000 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3300 4000 3300
+Wire Wire Line
+	4400 3600 4000 3600
+Wire Wire Line
+	4400 3450 4400 3600
+Wire Wire Line
+	4400 3450 4700 3450
+$Comp
+L C C2
+U 1 1 5650BE72
+P 5750 1800
+F 0 "C2" H 5775 1900 50  0000 L CNN
+F 1 "C" H 5775 1700 50  0000 L CNN
+F 2 "" H 5788 1650 30  0000 C CNN
+F 3 "" H 5750 1800 60  0000 C CNN
+	1    5750 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5750 2400 5750 2100
+Wire Wire Line
+	5750 2100 5900 2100
+Wire Wire Line
+	5900 2100 5900 1800
+Wire Wire Line
+	5600 1800 5600 2000
+Wire Wire Line
+	5600 2000 5600 2300
+Wire Wire Line
+	5600 2300 5600 2400
+Wire Wire Line
+	4400 2400 4700 2400
+Wire Wire Line
+	4700 2400 5250 2400
+Wire Wire Line
+	5250 2400 5450 2400
+Wire Wire Line
+	4700 2400 4700 2900
+Connection ~ 5250 2400
+Connection ~ 4700 2400
+$Comp
+L GND #PWR01
+U 1 1 5650BF40
+P 4400 2600
+F 0 "#PWR01" H 4400 2600 30  0001 C CNN
+F 1 "GND" H 4400 2530 30  0001 C CNN
+F 2 "" H 4400 2600 60  0000 C CNN
+F 3 "" H 4400 2600 60  0000 C CNN
+	1    4400 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2400 4400 2600
+Connection ~ 5450 3850
+Connection ~ 5250 3850
+Wire Wire Line
+	4700 3150 3800 3150
+Wire Wire Line
+	3800 3150 3800 4100
+Wire Wire Line
+	3800 4100 6400 4100
+$Comp
+L INDUCTOR L1
+U 1 1 5650C0F3
+P 6700 4100
+F 0 "L1" V 6650 4100 50  0000 C CNN
+F 1 "INDUCTOR" V 6800 4100 50  0000 C CNN
+F 2 "" H 6700 4100 60  0000 C CNN
+F 3 "" H 6700 4100 60  0000 C CNN
+	1    6700 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7000 4100 7000 3700
+$Comp
+L R R2
+U 1 1 5650C14F
+P 7000 3550
+F 0 "R2" V 7080 3550 50  0000 C CNN
+F 1 "R" V 7000 3550 50  0000 C CNN
+F 2 "" V 6930 3550 30  0000 C CNN
+F 3 "" H 7000 3550 30  0000 C CNN
+	1    7000 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 3400 7000 3000
+$Comp
+L R R1
+U 1 1 5650C19F
+P 7000 2850
+F 0 "R1" V 7080 2850 50  0000 C CNN
+F 1 "R" V 7000 2850 50  0000 C CNN
+F 2 "" V 6930 2850 30  0000 C CNN
+F 3 "" H 7000 2850 30  0000 C CNN
+	1    7000 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2700 7000 2300
+Wire Wire Line
+	5600 2300 7000 2300
+Wire Wire Line
+	7000 2300 7400 2300
+Wire Wire Line
+	7400 2300 7900 2300
+Connection ~ 5600 2300
+Connection ~ 5600 3850
+Wire Wire Line
+	5100 3850 5100 3950
+Wire Wire Line
+	6800 3950 5100 3950
+Wire Wire Line
+	6800 1600 6800 2000
+Wire Wire Line
+	6800 2000 6800 3950
+Connection ~ 5100 3850
+$Comp
+L C C4
+U 1 1 5650C244
+P 6650 2000
+F 0 "C4" H 6675 2100 50  0000 L CNN
+F 1 "10 uF" H 6675 1900 50  0000 L CNN
+F 2 "" H 6688 1850 30  0000 C CNN
+F 3 "" H 6650 2000 60  0000 C CNN
+	1    6650 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 2000 6200 2000
+Wire Wire Line
+	6200 2000 6500 2000
+Connection ~ 5600 2000
+Wire Wire Line
+	7000 3000 6400 3000
+Wire Wire Line
+	7400 4100 7400 3400
+$Comp
+L C C5
+U 1 1 5650C2FF
+P 7400 3250
+F 0 "C5" H 7425 3350 50  0000 L CNN
+F 1 "2.2 uF" H 7425 3150 50  0000 L CNN
+F 2 "" H 7438 3100 30  0000 C CNN
+F 3 "" H 7400 3250 60  0000 C CNN
+	1    7400 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 2300 7400 3100
+Connection ~ 7000 2300
+Wire Wire Line
+	7000 4100 7400 4100
+Wire Wire Line
+	7400 4100 7900 4100
+Connection ~ 6800 2000
+$Comp
+L C C3
+U 1 1 5650C459
+P 6650 1600
+F 0 "C3" H 6675 1700 50  0000 L CNN
+F 1 "0.82 uF" H 6675 1500 50  0000 L CNN
+F 2 "" H 6688 1450 30  0000 C CNN
+F 3 "" H 6650 1600 60  0000 C CNN
+	1    6650 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 1600 6200 1600
+Wire Wire Line
+	6200 1600 6200 2000
+Connection ~ 6200 2000
+Wire Wire Line
+	7900 2300 7900 3100
+Connection ~ 7400 2300
+$Comp
+L C C6
+U 1 1 5650C5C3
+P 7900 3250
+F 0 "C6" H 7925 3350 50  0000 L CNN
+F 1 "2.2 uF" H 7925 3150 50  0000 L CNN
+F 2 "" H 7938 3100 30  0000 C CNN
+F 3 "" H 7900 3250 60  0000 C CNN
+	1    7900 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 4100 7900 3400
+Connection ~ 7400 4100
+$Comp
+L +24V #PWR02
+U 1 1 5650CAD3
+P 4900 3850
+F 0 "#PWR02" H 4900 3800 20  0001 C CNN
+F 1 "+24V" H 4900 3950 30  0000 C CNN
+F 2 "" H 4900 3850 60  0000 C CNN
+F 3 "" H 4900 3850 60  0000 C CNN
+	1    4900 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4900 3850 5100 3850
+Wire Wire Line
+	5100 3850 5250 3850
+Wire Wire Line
+	5250 3850 5450 3850
+Wire Wire Line
+	5450 3850 5600 3850
+Wire Wire Line
+	5600 3850 5750 3850
+NoConn ~ 6400 2900
+NoConn ~ 6400 3150
+NoConn ~ 6400 3300
+NoConn ~ 6400 3450
+NoConn ~ 5950 2400
+NoConn ~ 5900 3850
+$EndSCHEMATC
