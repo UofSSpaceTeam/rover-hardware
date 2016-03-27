@@ -1,0 +1,145 @@
+
+(rules PCB arm_board
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 11480)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 3.2)
+    )
+    (layer_rule In1.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.7)
+    )
+    (layer_rule In2.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.4)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 2.5)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-3]_600:400_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-3]_600:400_um" "Via[0-3]_600:400_um" default
+  )
+  (via 
+    "Via[0-3]_600:400_um-kicad_default" "Via[0-3]_600:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-3]_600:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-3]_600:400_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    3.3V "Net-(DEMUX1-Pad9)" "GND_3.3V" "Net-(DEMUX1-Pad7)" /RST "/OIL_ss/S2" "/OIL_ss/S1" "/OIL_ss/S0"
+    "/vnh3sp30_motorLinac_ss/n_CNT_RESET" "/vnh3sp30_motorLinac_ss/Q_CNT" "/Q_CNT" "/vnh3sp30_motorLinac_ss/CNT_OVRFLW" /OVRFLW "/vnh3sp30_motorLinac_ss/CNT_UDRFLW" /UDRFLW "Net-(P1-Pad1)"
+    "Net-(P1-Pad2)" "Net-(P2-Pad1)" "Net-(P2-Pad2)" 12V "GND_12V" "Net-(P5-Pad1)" "Net-(P5-Pad2)" "Whiper_V++"
+    "Whiper_GND" "Net-(P6-Pad1)" "Net-(P6-Pad2)" "Net-(P7-Pad1)" "Net-(P7-Pad2)" "Net-(P8-Pad1)" "Net-(P8-Pad2)" "/vnh3sp30_motorLinac_ss/QDC"
+    "/vnh3sp30_motorLinac_ss/WPR" "Net-(P10-Pad1)" "Net-(P10-Pad2)" "/OIL_ss/MCU_PWM0" "Net-(R1-Pad2)" "/OIL_ss/MCU_PWM1" "Net-(R2-Pad2)" "/OIL_ss/MCU_PWM2"
+    "Net-(R3-Pad2)" "/OIL_ss/MCU_PWM3" "Net-(R4-Pad2)" "/OIL_ss/MCU_PWM4" "Net-(R5-Pad2)" "/OIL_ss/MCU_PWM5" "Net-(R6-Pad2)" "/OIL_ss/MCU_PWM6"
+    "Net-(R7-Pad2)" "/OIL_ss/MCU_PWM7" "Net-(R8-Pad2)" "/OIL_ss/Optoisolation SS/Q_4" "Net-(R9-Pad2)" "/OIL_ss/Optoisolation SS/Q_5" "Net-(R10-Pad2)" "/OIL_ss/Optoisolation SS/Q_6"
+    "Net-(R11-Pad2)" "/OIL_ss/Optoisolation SS/Q_7" "Net-(R12-Pad2)" "/OIL_ss/Optoisolation SS/Q_0" "Net-(R13-Pad2)" "/OIL_ss/Optoisolation SS/Q_1" "Net-(R14-Pad2)" "/OIL_ss/Optoisolation SS/Q_2"
+    "Net-(R15-Pad2)" "/OIL_ss/Optoisolation SS/Q_3" "Net-(R16-Pad2)" "Net-(R17-Pad1)" "NOISE_5V" "Net-(R18-Pad1)" "Net-(R19-Pad1)" "Net-(R20-Pad1)"
+    "Net-(R21-Pad1)" "Net-(R22-Pad1)" "Net-(R23-Pad1)" "Net-(R24-Pad1)" "Net-(R25-Pad1)" "Net-(R26-Pad1)" "Net-(R27-Pad1)" "Net-(R28-Pad1)"
+    "Net-(R29-Pad1)" "Net-(R30-Pad1)" "Net-(R31-Pad1)" "Net-(R32-Pad1)" "Net-(R33-Pad1)" "Net-(R34-Pad1)" "Net-(R35-Pad1)" "Net-(R36-Pad1)"
+    "/vnh3sp30_motorLinac_ss/DIR" "Net-(R37-Pad1)" "/vnh3sp30_motorLinac_ss/n_DIR" "Net-(R38-Pad1)" "Net-(R39-Pad1)" "Net-(R40-Pad1)" "/n_ADC_CS" "/MCU_FS"
+    "/n_ADC_CSTART" "Net-(U1-Pad9)" "/EOC_MCU" "/MCU_SCLK" "/MCU_SDO" "/MCU_SDI" "/OIL_ss/EN" "/OIL_ss/D"
+    "/OIL_ss/CLR" "/vnh3sp30_motorLinac_ss/PWM" "Net-(U13-Pad5)" "Net-(U13-Pad6)" "Net-(U13-Pad8)" "Net-(U13-Pad9)" "Net-(U13-Pad11)" "Net-(U13-Pad12)"
+    "Net-(U13-Pad13)" "Net-(U13-Pad10)" "Net-(U17-Pad13)" "Net-(U17-Pad12)" "Net-(U18-Pad13)" "Net-(U18-Pad12)" "Net-(U24-Pad13)" "Net-(U24-Pad12)"
+    "Net-(U25-Pad13)" "Net-(U25-Pad12)" "Net-(U31-Pad13)" "Net-(U31-Pad12)" "Net-(U32-Pad13)" "Net-(U32-Pad12)" "Net-(U38-Pad13)" "Net-(U38-Pad12)"
+    "Net-(U39-Pad13)" "Net-(U39-Pad12)" "Net-(U45-Pad13)" "Net-(U45-Pad12)" "Net-(U46-Pad13)" "Net-(U46-Pad12)" "/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q8" "/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q9"
+    "/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q10" "/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q11" "/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q12" "/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q13" "/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q14" "/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q15" "/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q7" "/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q6"
+    "/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q5" "/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q4" "/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q3" "/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q2" "/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q1" "/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/Q0" "Net-(U52-Pad13)" "Net-(U52-Pad12)"
+    "/vnh3sp30_motorLinac_ss/16-bit UD Counter/CNT_UP" "/vnh3sp30_motorLinac_ss/16-bit UD Counter/CNT_DWN" "Net-(U53-Pad13)" "Net-(U53-Pad12)" "/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/n_TCU_1" "/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/n_TCD_1" "/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/n_UDRFLW" "/vnh3sp30_motorLinac_ss/16-bit UD Counter/Counter-16b/n_OVRFLW"
+    "Net-(U16-Pad2)" "Net-(U16-Pad12)" "Net-(U23-Pad2)" "Net-(U23-Pad12)" "Net-(U30-Pad2)" "Net-(U30-Pad12)" "Net-(U37-Pad2)" "Net-(U37-Pad12)"
+    "Net-(U49-Pad2)" "Net-(U51-Pad2)" "Net-(U51-Pad12)" "Net-(U49-Pad12)" "/VNH3SP30 Motor SS 1/n_CNT_RESET" "/VNH3SP30 Motor SS 2/n_CNT_RESET" "/VNH3SP30 Motor SS 3/n_CNT_RESET" "/VNH3SP30 Motor SS 4/n_CNT_RESET"
+    "/VNH3SP30 Motor SS 5/n_CNT_RESET" "/VNH3SP30 Motor SS 1/Q_CNT" "/VNH3SP30 Motor SS 3/Q_CNT" "/VNH3SP30 Motor SS 5/Q_CNT" "/VNH3SP30 Motor SS 4/Q_CNT" "/VNH3SP30 Motor SS 2/Q_CNT" "/VNH3SP30 Motor SS 1/CNT_OVRFLW" "/VNH3SP30 Motor SS 3/CNT_OVRFLW"
+    "/VNH3SP30 Motor SS 5/CNT_OVRFLW" "/VNH3SP30 Motor SS 4/CNT_OVRFLW" "/VNH3SP30 Motor SS 2/CNT_OVRFLW" "/VNH3SP30 Motor SS 1/CNT_UDRFLW" "/VNH3SP30 Motor SS 3/CNT_UDRFLW" "/VNH3SP30 Motor SS 5/CNT_UDRFLW" "/VNH3SP30 Motor SS 4/CNT_UDRFLW" "/VNH3SP30 Motor SS 2/CNT_UDRFLW"
+    "/VNH3SP30 Motor SS 1/QDC" "/VNH3SP30 Motor SS 3/QDC" "/VNH3SP30 SS 1/WPR" "/VNH3SP30 SS 2/WPR" "/VNH3SP30 Motor SS 5/QDC" "/VNH3SP30 Motor SS 4/QDC" "/VNH3SP30 Motor SS 2/QDC" "/VNH3SP30 SS 1/DIR"
+    "/VNH3SP30 SS 1/n_DIR" "/VNH3SP30 SS 2/DIR" "/VNH3SP30 SS 2/n_DIR" "/VNH3SP30 Motor SS 1/DIR" "/VNH3SP30 Motor SS 1/n_DIR" "/VNH3SP30 Motor SS 3/DIR" "/VNH3SP30 Motor SS 3/n_DIR" "/VNH3SP30 Motor SS 5/DIR"
+    "/VNH3SP30 Motor SS 5/n_DIR" "/VNH3SP30 Motor SS 4/DIR" "/VNH3SP30 Motor SS 4/n_DIR" "/VNH3SP30 Motor SS 2/DIR" "/VNH3SP30 Motor SS 2/n_DIR" "/VNH3SP30 SS 2/PWM" "/VNH3SP30 SS 1/PWM" "/VNH3SP30 Motor SS 1/PWM"
+    "/VNH3SP30 Motor SS 3/PWM" "/VNH3SP30 Motor SS 2/PWM" "/VNH3SP30 Motor SS 5/PWM" "/VNH3SP30 Motor SS 4/PWM" "/VNH3SP30 Motor SS 1/16-bit UD Counter/CNT_DWN" "/VNH3SP30 Motor SS 1/16-bit UD Counter/CNT_UP" "/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q8" "/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q9"
+    "/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q10" "/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q11" "/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q12" "/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q13" "/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q14" "/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q15" "/VNH3SP30 Motor SS 1/CNT_S0" "/VNH3SP30 Motor SS 1/CNT_S1"
+    "/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q7" "/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q6" "/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q5" "/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q4" "/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q3" "/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q2" "/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q1" "/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/Q0"
+    "/VNH3SP30 Motor SS 1/CNT_S2" "/VNH3SP30 Motor SS 1/CNT_S3" "/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/n_UDRFLW" "/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/n_OVRFLW" "/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/n_TCU_1" "/VNH3SP30 Motor SS 1/16-bit UD Counter/Counter-16b/n_TCD_1" "/VNH3SP30 Motor SS 2/16-bit UD Counter/CNT_DWN" "/VNH3SP30 Motor SS 2/16-bit UD Counter/CNT_UP"
+    "/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q8" "/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q9" "/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q10" "/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q11" "/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q12" "/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q13" "/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q14" "/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q15"
+    "/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q7" "/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q6" "/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q5" "/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q4" "/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q3" "/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q2" "/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q1" "/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/Q0"
+    "/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/n_UDRFLW" "/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/n_OVRFLW" "/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q3" "/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q2" "/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q0" "/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q1" "/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q11" "/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q10"
+    "/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/n_TCU_1" "/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/n_TCD_1" "/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q8" "/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q9" "/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q7" "/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q6" "/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q4" "/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q5"
+    "/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/n_UDRFLW" "/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/n_OVRFLW" "/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q15" "/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q14" "/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q12" "/VNH3SP30 Motor SS 2/16-bit UD Counter/Counter-16b/Q13" "/VNH3SP30 Motor SS 3/16-bit UD Counter/CNT_DWN" "/VNH3SP30 Motor SS 3/16-bit UD Counter/CNT_UP"
+    "/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q8" "/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q9" "/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q10" "/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q11" "/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q12" "/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q13" "/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q14" "/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q15"
+    "/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q7" "/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q6" "/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q5" "/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q4" "/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q3" "/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q2" "/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q1" "/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/Q0"
+    "/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/n_UDRFLW" "/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/n_OVRFLW" "/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/n_TCU_1" "/VNH3SP30 Motor SS 3/16-bit UD Counter/Counter-16b/n_TCD_1" "/VNH3SP30 Motor SS 5/16-bit UD Counter/CNT_DWN" "/VNH3SP30 Motor SS 5/16-bit UD Counter/CNT_UP" "/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q8" "/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q9"
+    "/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q10" "/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q11" "/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q12" "/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q13" "/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q14" "/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q15" "/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q7" "/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q6"
+    "/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q5" "/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q4" "/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q3" "/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q2" "/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q1" "/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/Q0" "/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/n_UDRFLW" "/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/n_OVRFLW"
+    "/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/n_TCU_1" "/VNH3SP30 Motor SS 5/16-bit UD Counter/Counter-16b/n_TCD_1" "/VNH3SP30 Motor SS 4/16-bit UD Counter/CNT_DWN" "/VNH3SP30 Motor SS 4/16-bit UD Counter/CNT_UP" "/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/n_TCU_1" "/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/n_TCD_1" "Net-(U12-Pad5)" "Net-(U12-Pad6)"
+    "Net-(U12-Pad8)" "Net-(U12-Pad9)" "Net-(U12-Pad11)" "Net-(U12-Pad12)" "Net-(U12-Pad13)" "Net-(U12-Pad10)" "Net-(U14-Pad5)" "Net-(U14-Pad6)"
+    "Net-(U14-Pad8)" "Net-(U21-Pad5)" "Net-(U21-Pad6)" "Net-(U21-Pad8)" "Net-(U28-Pad8)" "Net-(U35-Pad8)" "Net-(U42-Pad8)" "Net-(U44-Pad8)"
+    "Net-(U57-Pad8)" "Net-(U57-Pad9)" "Net-(U57-Pad11)" "Net-(U57-Pad12)" "Net-(U57-Pad13)" "Net-(U57-Pad10)" "Net-(U58-Pad8)" "Net-(U58-Pad9)"
+    "Net-(U58-Pad11)" "Net-(U58-Pad12)" "Net-(U58-Pad13)" "Net-(U58-Pad10)" "Net-(U14-Pad9)" "Net-(U14-Pad11)" "Net-(U14-Pad12)" "Net-(U14-Pad13)"
+    "Net-(U14-Pad10)" "Net-(U21-Pad9)" "Net-(U21-Pad11)" "Net-(U21-Pad12)" "Net-(U21-Pad13)" "Net-(U21-Pad10)" "Net-(U28-Pad9)" "Net-(U28-Pad11)"
+    "Net-(U28-Pad12)" "Net-(U28-Pad13)" "Net-(U28-Pad10)" "Net-(U35-Pad9)" "Net-(U35-Pad11)" "Net-(U35-Pad12)" "Net-(U35-Pad13)" "Net-(U35-Pad10)"
+    "Net-(U42-Pad9)" "Net-(U42-Pad11)" "Net-(U42-Pad12)" "Net-(U42-Pad13)" "Net-(U42-Pad10)" "Net-(U44-Pad9)" "Net-(U44-Pad11)" "Net-(U44-Pad12)"
+    "Net-(U44-Pad13)" "Net-(U44-Pad10)" "Net-(MUX1-Pad2)" "Net-(MUX1-Pad7)" "Net-(MUX2-Pad2)" "Net-(MUX3-Pad2)" "Net-(P11-Pad1)" "Net-(P11-Pad2)"
+    "Net-(R42-Pad2)" "Net-(R43-Pad2)" "Net-(R46-Pad1)" "Net-(R47-Pad1)" "Net-(R48-Pad1)" "Net-(R49-Pad1)" "Net-(R50-Pad1)" "Net-(R51-Pad1)"
+    "Net-(R52-Pad1)" "Net-(R53-Pad1)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+)
