@@ -1,10 +1,6 @@
-update=22/05/2015 07:44:53
+update=2016-01-09 6:02:32 PM
 version=1
 last_client=kicad
-[general]
-version=1
-RootSch=
-BoardNm=
 [pcbnew]
 version=1
 LastNetListRead=
@@ -29,7 +25,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=
+LibDir=../../Parts/library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -60,3 +56,17 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=USSTComponents
+LibName31=w_analog
+LibName32=w_connectors
+LibName33=w_device
+LibName34=w_logic
+LibName35=w_memory
+LibName36=w_microcontrollers
+LibName37=w_opto
+LibName38=w_relay
+LibName39=w_rtx
+LibName40=w_transistor
+LibName41=w_vacuum
+[general]
+version=1

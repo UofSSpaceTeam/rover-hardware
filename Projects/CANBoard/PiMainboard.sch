@@ -29,23 +29,12 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:USSTComponents
-LIBS:w_analog
-LIBS:w_connectors
-LIBS:w_device
-LIBS:w_logic
-LIBS:w_memory
-LIBS:w_microcontrollers
-LIBS:w_opto
-LIBS:w_relay
-LIBS:w_rtx
-LIBS:w_transistor
-LIBS:w_vacuum
 LIBS:PiMainboard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 10
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -79,13 +68,13 @@ F5 "UART_RX0" I L 6750 3850 60
 F6 "UART_TX1" I L 6750 4000 60 
 F7 "UART_RX1" I L 6750 4100 60 
 F8 "GPIO17" I L 6750 4250 60 
-F9 "GPIO22" I L 6750 4350 60 
-F10 "GPIO24" I L 6750 4550 60 
-F11 "GPIO23" I L 6750 4450 60 
-F12 "FM" I L 6750 5050 60 
-F13 "PWM0" I L 6750 4800 60 
-F14 "PWM1" I L 6750 4900 60 
-F15 "GPIO21" I L 6750 4650 60 
+F9 "GPIO24" I L 6750 4550 60 
+F10 "FM" I L 6750 5050 60 
+F11 "PWM0" I L 6750 4800 60 
+F12 "PWM1" I L 6750 4900 60 
+F13 "GPIO21" I L 6750 4650 60 
+F14 "GPIO38" I L 6750 4350 60 
+F15 "GPIO39" I L 6750 4450 60 
 $EndSheet
 Text Notes 8000 4100 0    60   ~ 0
 UART0 may be 14/15 or 36/37\nUART1 may be only 14/15 on the Hasseb hardware
@@ -123,10 +112,10 @@ U 1 1 56EF3902
 P 1650 4400
 F 0 "J2" H 1650 5250 60  0000 C CNN
 F 1 "HEADER_16" H 1650 3550 60  0000 C CNN
-F 2 "" H 1650 4400 60  0000 C CNN
+F 2 "USSTPARTS:16PinSMDFemaleSocket" H 1650 4400 60  0001 C CNN
 F 3 "" H 1650 4400 60  0000 C CNN
 	1    1650 4400
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L HEADER_3 J3
@@ -134,7 +123,7 @@ U 1 1 56EF4729
 P 1700 5800
 F 0 "J3" H 1700 6000 60  0000 C CNN
 F 1 "HEADER_3" H 1700 5600 60  0000 C CNN
-F 2 "" H 1700 5800 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 1700 5800 60  0001 C CNN
 F 3 "" H 1700 5800 60  0000 C CNN
 	1    1700 5800
 	-1   0    0    1   
@@ -186,14 +175,14 @@ GPIO_24
 Text Label 4500 2050 0    60   ~ 0
 INT
 Text Label 1100 1550 0    60   ~ 0
-GPIO17
+GPIO_17
 $Comp
 L RasPI_IO_Header_B+ J1
 U 1 1 56EF40C7
 P 2800 2000
 F 0 "J1" H 2800 3050 60  0000 C CNN
 F 1 "RasPI_IO_Header_B+" H 2800 950 60  0000 C CNN
-F 2 "" H 2800 2350 60  0000 C CNN
+F 2 "USSTPARTS:40PinSMDFemaleSocket" H 2800 2350 60  0001 C CNN
 F 3 "" H 2800 2350 60  0000 C CNN
 	1    2800 2000
 	1    0    0    -1  
@@ -219,9 +208,9 @@ Wire Wire Line
 Wire Wire Line
 	3900 1450 4500 1450
 Text Label 4500 1350 0    60   ~ 0
-UART0_TX
+UART_TX0
 Text Label 4500 1450 0    60   ~ 0
-UART0_RX
+UART_RX0
 Wire Wire Line
 	3900 1550 4500 1550
 Text Label 4500 1550 0    60   ~ 0
@@ -246,22 +235,16 @@ Wire Wire Line
 	1700 2150 1100 2150
 Text Label 1100 2150 0    60   ~ 0
 SCLK
-Text Label 4300 2950 0    60   ~ 0
-GPIO21
 Text GLabel 1750 3650 2    60   Input ~ 0
 GND
 Wire Wire Line
 	1750 4150 1850 4150
 Text Label 1850 4150 0    60   ~ 0
 CLK16
-Wire Wire Line
-	1750 4550 1850 4550
-Wire Wire Line
-	1750 4650 1850 4650
-Text Label 1850 4550 0    60   ~ 0
-UART1_TX
 Text Label 1850 4650 0    60   ~ 0
-UART1_RX
+UART_TX1
+Text Label 1850 4750 0    60   ~ 0
+UART_RX1
 Wire Wire Line
 	6750 2500 6350 2500
 Text Label 6350 2500 0    60   ~ 0
@@ -301,19 +284,56 @@ UART_RX1
 Text Label 6250 4250 0    60   ~ 0
 GPIO_17
 Text Label 6250 4350 0    60   ~ 0
-GPIO_22
+GPIO_38
 Text Label 6250 4450 0    60   ~ 0
-GPIO_23
+GPIO_39
 Text Label 6250 4550 0    60   ~ 0
 GPIO_24
 Text Label 6250 4650 0    60   ~ 0
-GPIO_21
+GPIO_27
 Text Label 6250 4800 0    60   ~ 0
 PWM0
 Text Label 6250 4900 0    60   ~ 0
 PWM1
 Text Label 6250 5050 0    60   ~ 0
 FM
+Text GLabel 3900 1050 2    60   Input ~ 0
+5v0
+Text GLabel 3900 1150 2    60   Input ~ 0
+5v0
 Wire Wire Line
-	4300 2950 3900 2950
+	1700 1650 1100 1650
+Text Label 1100 1650 0    60   ~ 0
+GPIO_27
+Wire Wire Line
+	1750 4850 1850 4850
+Wire Wire Line
+	1750 4950 1850 4950
+Text Label 1850 4850 0    60   ~ 0
+GPIO_38
+Text Label 1850 4950 0    60   ~ 0
+GPIO_39
+Wire Wire Line
+	1750 4750 1850 4750
+Wire Wire Line
+	1750 4650 1850 4650
+Wire Wire Line
+	1750 3750 2100 3750
+Text GLabel 2100 3750 2    60   Input ~ 0
+5v0
+$Comp
+L CONN_01X02 P1
+U 1 1 56EE26AF
+P 1700 6500
+F 0 "P1" H 1700 6650 50  0000 C CNN
+F 1 "CONN_01X02" V 1800 6500 50  0000 C CNN
+F 2 "Connect:bornier2" H 1700 6500 50  0001 C CNN
+F 3 "" H 1700 6500 50  0000 C CNN
+	1    1700 6500
+	-1   0    0    1   
+$EndComp
+Text GLabel 1900 6450 2    60   Input ~ 0
+5v0
+Text GLabel 1900 6550 2    60   Input ~ 0
+GND
 $EndSCHEMATC
