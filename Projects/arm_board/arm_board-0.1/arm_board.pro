@@ -1,4 +1,4 @@
-update=Sat 30 Jan 2016 04:42:53 PM CST
+update=2016-04-19 7:36:56 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -20,8 +20,6 @@ SolderMaskMinWidth=0.000000000000
 DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=/home/carl/Kicad/arm_board/arm_board-0.1/library
@@ -64,3 +62,5 @@ LibName30=ArmComponentLibrary
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
