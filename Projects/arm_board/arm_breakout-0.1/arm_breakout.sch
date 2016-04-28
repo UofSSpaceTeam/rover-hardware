@@ -53,7 +53,7 @@ U 1 1 571BC6FC
 P 5300 4150
 F 0 "U3" H 4950 4500 60  0000 L CNN
 F 1 "MCP2561" H 4950 4400 60  0000 L CNN
-F 2 "" H 4750 4250 60  0000 C CNN
+F 2 "ArmFootprints:MCP2562" H 4750 4250 60  0001 C CNN
 F 3 "" H 4750 4250 60  0000 C CNN
 	1    5300 4150
 	1    0    0    -1  
@@ -64,7 +64,7 @@ U 1 1 571C18E0
 P 2100 3250
 F 0 "U1" H 2100 2200 60  0000 C CNN
 F 1 "2534-6002UB_34-pin_header" V 2100 3100 60  0000 C CNN
-F 2 "" H 2100 3250 60  0000 C CNN
+F 2 "ArmFootprints:34-pin_2534-6002UB" H 2100 3250 60  0001 C CNN
 F 3 "" H 2100 3250 60  0000 C CNN
 	1    2100 3250
 	1    0    0    -1  
@@ -173,7 +173,7 @@ U 3 1 57223FA1
 P 4400 2250
 F 0 "U2" H 4600 2500 60  0000 L CNN
 F 1 "Teensy3.1" H 4600 2400 60  0000 L CNN
-F 2 "" H 4400 2250 60  0000 C CNN
+F 2 "ArmFootprints:Teensy3.1" H 4400 2250 60  0001 C CNN
 F 3 "" H 4400 2250 60  0000 C CNN
 	3    4400 2250
 	1    0    0    -1  
@@ -184,7 +184,7 @@ U 2 1 572240B3
 P 4600 4950
 F 0 "U2" H 4800 5200 60  0000 L CNN
 F 1 "Teensy3.1" H 4800 5100 60  0000 L CNN
-F 2 "" H 4600 4950 60  0000 C CNN
+F 2 "ArmFootprints:Teensy3.1" H 4600 4950 60  0001 C CNN
 F 3 "" H 4600 4950 60  0000 C CNN
 	2    4600 4950
 	1    0    0    -1  
@@ -231,27 +231,10 @@ Text GLabel 4550 4150 0    60   Input ~ 0
 GND
 Text GLabel 3900 2250 0    60   Input ~ 0
 GND
-$Comp
-L CONN_3X2 P1
-U 1 1 57225D6F
-P 7750 4450
-F 0 "P1" H 7750 4700 50  0000 C CNN
-F 1 "CONN_3X2" V 7750 4500 40  0000 C CNN
-F 2 "" H 7750 4450 60  0000 C CNN
-F 3 "" H 7750 4450 60  0000 C CNN
-	1    7750 4450
-	1    0    0    -1  
-$EndComp
-Text GLabel 8150 4300 2    60   Input ~ 0
-5V
-Text GLabel 6900 4400 0    60   Input ~ 0
-GND
-Text Label 8950 4400 2    60   ~ 0
+Text Label 7150 4700 0    60   ~ 0
 WHIPER_GND
-Text Label 8950 4500 2    60   ~ 0
+Text Label 7100 4900 0    60   ~ 0
 WHIPER_V++
-Text Label 7000 4500 0    60   ~ 0
-CAN_H
 Wire Wire Line
 	1300 2550 1800 2550
 Wire Wire Line
@@ -408,18 +391,6 @@ Wire Wire Line
 	6200 2450 6200 4350
 Wire Wire Line
 	6200 4350 5850 4350
-Wire Wire Line
-	8950 4400 8150 4400
-Wire Wire Line
-	8950 4500 8150 4500
-Wire Wire Line
-	7000 4500 7350 4500
-Text Label 7000 4300 0    60   ~ 0
-CAN_L
-Wire Wire Line
-	7000 4300 7350 4300
-Wire Wire Line
-	6900 4400 7350 4400
 Text Label 6500 4250 2    60   ~ 0
 CAN_L
 Wire Wire Line
@@ -442,4 +413,46 @@ Wire Wire Line
 Wire Wire Line
 	6050 4050 6050 4350
 Connection ~ 6050 4350
+$Comp
+L CONN_4 P2
+U 1 1 57226EBC
+P 8300 3700
+F 0 "P2" V 8250 3700 50  0000 C CNN
+F 1 "CONN_4" V 8350 3700 50  0000 C CNN
+F 2 "ArmFootprints:4-pin_connector" H 8300 3700 60  0001 C CNN
+F 3 "" H 8300 3700 60  0000 C CNN
+	1    8300 3700
+	1    0    0    -1  
+$EndComp
+Text Label 7550 3550 0    60   ~ 0
+CAN_H
+Text Label 7550 3650 0    60   ~ 0
+CAN_L
+Text GLabel 7450 3750 0    60   Input ~ 0
+GND
+Text GLabel 7700 3850 0    60   Input ~ 0
+5V
+Wire Wire Line
+	7700 3850 7950 3850
+Wire Wire Line
+	7450 3750 7950 3750
+Wire Wire Line
+	7550 3650 7950 3650
+Wire Wire Line
+	7950 3550 7550 3550
+$Comp
+L CONN_2 P1
+U 1 1 57227184
+P 8250 4800
+F 0 "P1" V 8200 4800 40  0000 C CNN
+F 1 "CONN_2" V 8300 4800 40  0000 C CNN
+F 2 "ArmFootprints:2-pin-connector" H 8250 4800 60  0001 C CNN
+F 3 "" H 8250 4800 60  0000 C CNN
+	1    8250 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 4900 7100 4900
+Wire Wire Line
+	7150 4700 7900 4700
 $EndSCHEMATC
