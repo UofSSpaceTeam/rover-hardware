@@ -1,4 +1,4 @@
-update=2016-04-19 7:36:56 PM
+update=Sat 23 Apr 2016 01:33:03 PM CST
 version=1
 last_client=kicad
 [pcbnew]
@@ -20,14 +20,14 @@ SolderMaskMinWidth=0.000000000000
 DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
+[cvpcb]
+version=1
+NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=/home/carl/Kicad/arm_board/arm_board-0.1/library
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
+LibDir=../arm_board-0.1/library;../../../Parts/library;library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,9 +58,7 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=ArmComponentLibrary
-[cvpcb]
-version=1
-NetIExt=net
-[general]
-version=1
+LibName30=/home/carl/Programming/usst/rover-electrical/Parts/library/USSTComponents
+LibName31=library/arm_breakout
+LibName32=ArmComponentLibrary
+LibName33=/home/carl/Programming/usst/rover-electrical/Projects/arm_board/arm_board-0.1/arm_board-cache

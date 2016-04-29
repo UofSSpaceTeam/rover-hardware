@@ -33,7 +33,11 @@
       )
     )
     (boundary
+<<<<<<< HEAD
+      (rect pcb 16830 -24450 204827 -156313)
+=======
       (rect pcb 16730 -24350 204927 -156413)
+>>>>>>> master
     )
     (via "Via[0-3]_600:400_um")
     (rule
@@ -57,6 +61,8 @@
     (component "ArmFootprints:34-pin_2534-6002UB"
       (place U56 98806 -55753 front 180 (PN "2534-6002UB_34-pin_header"))
     )
+<<<<<<< HEAD
+=======
     (component "ArmFootprints:SFH6732-X007T"
       (place U11 68135.5 -43243.5 front 180 (PN TLP2160))
       (place U9 132461 -84709 front 0 (PN TLP2160))
@@ -67,6 +73,7 @@
       (place U4 133223 -100330 front 0 (PN TLP2160))
       (place U10 67310 -59309 front 180 (PN TLP2160))
     )
+>>>>>>> master
     (component ArmFootprints:MC7805CDTRKG
       (place U2 184912 -93599 front 270 (PN MC7805BDTRKG))
     )
@@ -198,6 +205,16 @@
       (place U43 165354 -83820 front 90 (PN 74HC4067))
       (place U50 165354 -102870 front 90 (PN 74HC4067))
     )
+    (component ArmFootprints:TLP2160
+      (place U4 133223 -100330 front 0 (PN TLP2160))
+      (place U5 127508 -115697 front 0 (PN TLP2160))
+      (place U6 77406.5 -110934 front 180 (PN TLP2160))
+      (place U7 75184 -94742 front 180 (PN TLP2160))
+      (place U8 128651 -68834 front 0 (PN TLP2160))
+      (place U9 132461 -84709 front 0 (PN TLP2160))
+      (place U10 67310 -59309 front 180 (PN TLP2160))
+      (place U11 68135.5 -43243.5 front 180 (PN TLP2160))
+    )
   )
   (library
     (image "ArmFootprints:VNH3SP30TR-E"
@@ -274,20 +291,6 @@
       (pin Round[A]Pad_1157_um 32 1270 -17780)
       (pin Round[A]Pad_1157_um 33 -1270 -20320)
       (pin Round[A]Pad_1157_um 34 1270 -20320)
-    )
-    (image "ArmFootprints:SFH6732-X007T"
-      (outline (path signal 150  -3500 5000  3500 5000))
-      (outline (path signal 150  3500 5000  3500 -5000))
-      (outline (path signal 150  3500 -5000  -3500 -5000))
-      (outline (path signal 150  -3500 -5000  -3500 5000))
-      (pin Rect[T]Pad_1520x1780_um 1 -4765 3920)
-      (pin Rect[T]Pad_1520x1780_um 2 -4765 1380)
-      (pin Rect[T]Pad_1520x1780_um 3 -4765 -1160)
-      (pin Rect[T]Pad_1520x1780_um 4 -4765 -3700)
-      (pin Rect[T]Pad_1520x1780_um 5 4755 -3700)
-      (pin Rect[T]Pad_1520x1780_um 6 4755 -1160)
-      (pin Rect[T]Pad_1520x1780_um 7 4755 1380)
-      (pin Rect[T]Pad_1520x1780_um 8 4755 3920)
     )
     (image ArmFootprints:MC7805CDTRKG
       (outline (path signal 150  -6500 3500  6000 3500))
@@ -410,6 +413,16 @@
       (pin Rect[T]Pad_550x1950_um 23 -5605 4700)
       (pin Rect[T]Pad_550x1950_um 24 -6875 4700)
     )
+    (image ArmFootprints:TLP2160
+      (pin Rect[T]Pad_1200x800_um 1 -3000 2000)
+      (pin Rect[T]Pad_1200x800_um 2 -3000 730)
+      (pin Rect[T]Pad_1200x800_um 3 -3000 -540)
+      (pin Rect[T]Pad_1200x800_um 4 -3000 -1810)
+      (pin Rect[T]Pad_1200x800_um 5 2500 2000)
+      (pin Rect[T]Pad_1200x800_um 6 2500 730)
+      (pin Rect[T]Pad_1200x800_um 7 2500 -540)
+      (pin Rect[T]Pad_1200x800_um 8 2500 -1810)
+    )
     (padstack Round[A]Pad_1157_um
       (shape (circle F.Cu 1157))
       (shape (circle In1.Cu 1157))
@@ -467,8 +480,8 @@
       (shape (rect F.Cu -590 -290 590 290))
       (attach off)
     )
-    (padstack Rect[T]Pad_1520x1780_um
-      (shape (rect F.Cu -760 -890 760 890))
+    (padstack Rect[T]Pad_1200x800_um
+      (shape (rect F.Cu -600 -400 600 400))
       (attach off)
     )
     (padstack "Via[0-3]_600:400_um"
@@ -493,24 +506,24 @@
       (pins DEMUX1-9 R44-2)
     )
     (net GND_3.3V
-      (pins U11-2 U11-3 U9-2 U9-3 U8-2 U8-3 U7-2 U7-3 U6-2 U6-3 U5-2 U5-3 U4-2 U4-3
-        P10-4 P8-4 P7-4 P4-2 P2-4 P1-4 U10-2 U10-3 DEMUX1-4 DEMUX1-5 DEMUX1-8 MUX1-6
-        MUX1-8 MUX2-6 MUX2-7 MUX2-8 MUX3-6 MUX3-7 MUX3-8 P9-4 R41-2 U1-11 U3-8 U15-12
-        U15-15 U16-6 U16-7 U16-8 U17-1 U17-8 U17-9 U17-10 U17-14 U17-15 U18-1 U18-8
-        U18-9 U18-10 U18-14 U18-15 U19-1 U19-8 U19-9 U19-10 U19-14 U19-15 U20-1 U20-8
-        U20-10 U20-14 U20-15 U22-12 U22-15 U23-6 U23-7 U23-8 U24-1 U24-8 U24-9 U24-10
-        U24-14 U24-15 U25-1 U25-8 U25-9 U25-10 U25-14 U25-15 U26-1 U26-8 U26-9 U26-10
-        U26-14 U26-15 U27-1 U27-8 U27-10 U27-14 U27-15 U28-7 U29-12 U29-15 U30-6 U30-7
-        U30-8 U31-1 U31-8 U31-9 U31-10 U31-14 U31-15 U32-1 U32-8 U32-9 U32-10 U32-14
-        U32-15 U33-1 U33-8 U33-9 U33-10 U33-14 U33-15 U34-1 U34-8 U34-10 U34-14 U34-15
-        U35-7 U36-12 U36-15 U37-6 U37-7 U37-8 U38-1 U38-8 U38-9 U38-10 U38-14 U38-15
-        U39-1 U39-8 U39-9 U39-10 U39-14 U39-15 U40-1 U40-8 U40-9 U40-10 U40-14 U40-15
-        U41-1 U41-8 U41-10 U41-14 U41-15 U42-7 U43-12 U43-15 U44-7 U45-1 U45-8 U45-9
-        U45-10 U45-14 U45-15 U46-1 U46-8 U46-9 U46-10 U46-14 U46-15 U47-1 U47-8 U47-9
-        U47-10 U47-14 U47-15 U48-1 U48-8 U48-10 U48-14 U48-15 U49-6 U49-7 U49-8 U50-12
-        U50-15 U51-6 U51-7 U51-8 U52-1 U52-8 U52-9 U52-10 U52-14 U52-15 U53-1 U53-8
-        U53-9 U53-10 U53-14 U53-15 U54-1 U54-8 U54-9 U54-10 U54-14 U54-15 U55-1 U55-8
-        U55-10 U55-14 U55-15 U57-7 U58-7)
+      (pins P10-4 P8-4 P7-4 P4-2 P2-4 P1-4 DEMUX1-4 DEMUX1-5 DEMUX1-8 MUX1-6 MUX1-8
+        MUX2-6 MUX2-7 MUX2-8 MUX3-6 MUX3-7 MUX3-8 P9-4 R41-2 U1-11 U3-8 U15-12 U15-15
+        U16-6 U16-7 U16-8 U17-1 U17-8 U17-9 U17-10 U17-14 U17-15 U18-1 U18-8 U18-9
+        U18-10 U18-14 U18-15 U19-1 U19-8 U19-9 U19-10 U19-14 U19-15 U20-1 U20-8 U20-10
+        U20-14 U20-15 U22-12 U22-15 U23-6 U23-7 U23-8 U24-1 U24-8 U24-9 U24-10 U24-14
+        U24-15 U25-1 U25-8 U25-9 U25-10 U25-14 U25-15 U26-1 U26-8 U26-9 U26-10 U26-14
+        U26-15 U27-1 U27-8 U27-10 U27-14 U27-15 U28-7 U29-12 U29-15 U30-6 U30-7 U30-8
+        U31-1 U31-8 U31-9 U31-10 U31-14 U31-15 U32-1 U32-8 U32-9 U32-10 U32-14 U32-15
+        U33-1 U33-8 U33-9 U33-10 U33-14 U33-15 U34-1 U34-8 U34-10 U34-14 U34-15 U35-7
+        U36-12 U36-15 U37-6 U37-7 U37-8 U38-1 U38-8 U38-9 U38-10 U38-14 U38-15 U39-1
+        U39-8 U39-9 U39-10 U39-14 U39-15 U40-1 U40-8 U40-9 U40-10 U40-14 U40-15 U41-1
+        U41-8 U41-10 U41-14 U41-15 U42-7 U43-12 U43-15 U44-7 U45-1 U45-8 U45-9 U45-10
+        U45-14 U45-15 U46-1 U46-8 U46-9 U46-10 U46-14 U46-15 U47-1 U47-8 U47-9 U47-10
+        U47-14 U47-15 U48-1 U48-8 U48-10 U48-14 U48-15 U49-6 U49-7 U49-8 U50-12 U50-15
+        U51-6 U51-7 U51-8 U52-1 U52-8 U52-9 U52-10 U52-14 U52-15 U53-1 U53-8 U53-9
+        U53-10 U53-14 U53-15 U54-1 U54-8 U54-9 U54-10 U54-14 U54-15 U55-1 U55-8 U55-10
+        U55-14 U55-15 U57-7 U58-7 U4-2 U4-3 U5-2 U5-3 U6-2 U6-3 U7-2 U7-3 U8-2 U8-3
+        U9-2 U9-3 U10-2 U10-3 U11-2 U11-3)
     )
     (net "Net-(DEMUX1-Pad7)"
       (pins DEMUX1-7 R45-2)
@@ -570,8 +583,8 @@
         VNH7-26 VNH7-27 VNH7-28 VNH6-18 VNH6-19 VNH6-20 VNH6-26 VNH6-27 VNH6-28 VNH5-18
         VNH5-19 VNH5-20 VNH5-26 VNH5-27 VNH5-28 VNH4-18 VNH4-19 VNH4-20 VNH4-26 VNH4-27
         VNH4-28 VNH3-18 VNH3-19 VNH3-20 VNH3-26 VNH3-27 VNH3-28 VNH2-18 VNH2-19 VNH2-20
-        VNH2-26 VNH2-27 VNH2-28 VNH1-18 VNH1-19 VNH1-20 VNH1-26 VNH1-27 VNH1-28 U11-5
-        U9-5 U8-5 U7-5 U6-5 U5-5 U4-5 U2-2 P3-2 U10-5 U12-7 U13-7 U14-7 U21-7)
+        VNH2-26 VNH2-27 VNH2-28 VNH1-18 VNH1-19 VNH1-20 VNH1-26 VNH1-27 VNH1-28 U2-2
+        P3-2 U12-7 U13-7 U14-7 U21-7 U4-5 U5-5 U6-5 U7-5 U8-5 U9-5 U10-5 U11-5)
     )
     (net "Net-(P5-Pad1)"
       (pins VNH1-1 VNH1-25 VNH1-30 P5-1)
@@ -619,49 +632,49 @@
       (pins U56-9 R14-1)
     )
     (net "Net-(R1-Pad2)"
-      (pins U4-1 R1-2)
+      (pins R1-2 U4-1)
     )
     (net /OIL_ss/MCU_PWM1
       (pins U56-11 R16-1)
     )
     (net "Net-(R2-Pad2)"
-      (pins U4-4 R2-2)
+      (pins R2-2 U4-4)
     )
     (net /OIL_ss/MCU_PWM2
       (pins U56-13 R10-1)
     )
     (net "Net-(R3-Pad2)"
-      (pins U5-1 R3-2)
+      (pins R3-2 U5-1)
     )
     (net /OIL_ss/MCU_PWM3
       (pins U56-15 R12-1)
     )
     (net "Net-(R4-Pad2)"
-      (pins U5-4 R4-2)
+      (pins R4-2 U5-4)
     )
     (net /OIL_ss/MCU_PWM4
       (pins U56-17 R2-1)
     )
     (net "Net-(R5-Pad2)"
-      (pins U6-1 R5-2)
+      (pins R5-2 U6-1)
     )
     (net /OIL_ss/MCU_PWM5
       (pins U56-19 R4-1)
     )
     (net "Net-(R6-Pad2)"
-      (pins U6-4 R6-2)
+      (pins R6-2 U6-4)
     )
     (net /OIL_ss/MCU_PWM6
       (pins U56-21 R6-1)
     )
     (net "Net-(R7-Pad2)"
-      (pins U7-1 R7-2)
+      (pins R7-2 U7-1)
     )
     (net /OIL_ss/MCU_PWM7
       (pins U56-23 R8-1)
     )
     (net "Net-(R8-Pad2)"
-      (pins U7-4 R8-2)
+      (pins R8-2 U7-4)
     )
     (net "/OIL_ss/Optoisolation SS/Q_4"
       (pins R1-1 U3-9)
@@ -679,45 +692,69 @@
       (pins R5-1 U3-11)
     )
     (net "Net-(R11-Pad2)"
+<<<<<<< HEAD
+      (pins R11-2 U11-1)
+=======
       (pins U11-1 R11-2)
+>>>>>>> master
     )
     (net "/OIL_ss/Optoisolation SS/Q_7"
       (pins R7-1 U3-12)
     )
     (net "Net-(R12-Pad2)"
+<<<<<<< HEAD
+      (pins R12-2 U11-4)
+=======
       (pins U11-4 R12-2)
+>>>>>>> master
     )
     (net "/OIL_ss/Optoisolation SS/Q_0"
       (pins R13-1 U3-4)
     )
     (net "Net-(R13-Pad2)"
+<<<<<<< HEAD
+      (pins R13-2 U8-1)
+=======
       (pins U8-1 R13-2)
+>>>>>>> master
     )
     (net "/OIL_ss/Optoisolation SS/Q_1"
       (pins R15-1 U3-5)
     )
     (net "Net-(R14-Pad2)"
+<<<<<<< HEAD
+      (pins R14-2 U8-4)
+=======
       (pins U8-4 R14-2)
+>>>>>>> master
     )
     (net "/OIL_ss/Optoisolation SS/Q_2"
       (pins R9-1 U3-6)
     )
     (net "Net-(R15-Pad2)"
+<<<<<<< HEAD
+      (pins R15-2 U9-1)
+=======
       (pins U9-1 R15-2)
+>>>>>>> master
     )
     (net "/OIL_ss/Optoisolation SS/Q_3"
       (pins R11-1 U3-7)
     )
     (net "Net-(R16-Pad2)"
+<<<<<<< HEAD
+      (pins R16-2 U9-4)
+=======
       (pins U9-4 R16-2)
+>>>>>>> master
     )
     (net "Net-(R17-Pad1)"
       (pins VNH1-6 R17-1)
     )
     (net NOISE_5V
-      (pins U11-8 U9-8 U8-8 U7-8 U6-8 U5-8 U4-8 U2-3 R38-2 R35-2 R32-2 R29-2 R26-2
-        R23-2 R20-2 R17-2 U10-8 R46-2 R47-2 R48-2 R49-2 R50-2 R51-2 R52-2 R53-2 U12-14
-        U13-14 U14-14 U21-14)
+      (pins U2-3 R38-2 R35-2 R32-2 R29-2 R26-2 R23-2 R20-2 R17-2 R46-2 R47-2 R48-2
+        R49-2 R50-2 R51-2 R52-2 R53-2 U12-14 U13-14 U14-14 U21-14 U4-8 U5-8 U6-8 U7-8
+        U8-8 U9-8 U10-8 U11-8)
     )
     (net "Net-(R18-Pad1)"
       (pins VNH1-5 R18-1)
@@ -777,7 +814,11 @@
       (pins VNH8-5 R36-1)
     )
     (net /vnh3sp30_motorLinac_ss/DIR
+<<<<<<< HEAD
+      (pins R36-2 U21-1 U57-1 U10-7)
+=======
       (pins R36-2 U10-7 U21-1 U57-1)
+>>>>>>> master
     )
     (net "Net-(R37-Pad1)"
       (pins VNH8-11 R37-1)
@@ -1110,43 +1151,55 @@
       (pins P10-5 U58-2 U58-4)
     )
     (net "/VNH3SP30 SS 1/DIR"
+<<<<<<< HEAD
+      (pins R18-2 U12-1 U8-7)
+=======
       (pins U8-7 R18-2 U12-1)
+>>>>>>> master
     )
     (net "/VNH3SP30 SS 1/n_DIR"
       (pins R19-2 U12-2)
     )
     (net "/VNH3SP30 SS 2/DIR"
+<<<<<<< HEAD
+      (pins R21-2 U12-3 U9-7)
+=======
       (pins U9-7 R21-2 U12-3)
+>>>>>>> master
     )
     (net "/VNH3SP30 SS 2/n_DIR"
       (pins R22-2 U12-4)
     )
     (net "/VNH3SP30 Motor SS 1/DIR"
+<<<<<<< HEAD
+      (pins R24-2 U21-3 U28-1 U11-7)
+=======
       (pins U11-7 R24-2 U21-3 U28-1)
+>>>>>>> master
     )
     (net "/VNH3SP30 Motor SS 1/n_DIR"
       (pins R25-2 U21-4 U28-5)
     )
     (net "/VNH3SP30 Motor SS 3/DIR"
-      (pins U5-7 R27-2 U13-3 U35-1)
+      (pins R27-2 U13-3 U35-1 U5-7)
     )
     (net "/VNH3SP30 Motor SS 3/n_DIR"
       (pins R28-2 U13-4 U35-5)
     )
     (net "/VNH3SP30 Motor SS 5/DIR"
-      (pins U7-7 R30-2 U14-3 U42-1)
+      (pins R30-2 U14-3 U42-1 U7-7)
     )
     (net "/VNH3SP30 Motor SS 5/n_DIR"
       (pins R31-2 U14-4 U42-5)
     )
     (net "/VNH3SP30 Motor SS 4/DIR"
-      (pins U6-7 R33-2 U14-1 U44-1)
+      (pins R33-2 U14-1 U44-1 U6-7)
     )
     (net "/VNH3SP30 Motor SS 4/n_DIR"
       (pins R34-2 U14-2 U44-5)
     )
     (net "/VNH3SP30 Motor SS 2/DIR"
-      (pins U4-7 R39-2 U13-1 U58-1)
+      (pins R39-2 U13-1 U58-1 U4-7)
     )
     (net "/VNH3SP30 Motor SS 2/n_DIR"
       (pins R40-2 U13-2 U58-5)
@@ -1889,6 +1942,43 @@
     )
   )
   (wiring
+<<<<<<< HEAD
+    (wire (path F.Cu 1000  184912 -90499  185091 -90499  189230 -86360  193040 -86360)(net 12V)(type protect))
+    (wire (path F.Cu 1000  184912 -90499  184912 -85598)(net 12V)(type protect))
+    (wire (path F.Cu 1000  186690 -83820  193040 -83820)(net 12V)(type protect))
+    (wire (path F.Cu 1000  184912 -85598  186690 -83820)(net 12V)(type protect))
+    (wire (path F.Cu 1000  184912 -90499  193040 -90499  193040 -90805)(net 12V)(type protect))
+    (wire (path F.Cu 400  115868 -47244  107569 -47244)(net 12V)(type protect))
+    (wire (path F.Cu 400  105410 -45085  105410 -25400)(net 12V)(type protect))
+    (wire (path F.Cu 400  107569 -47244  105410 -45085)(net 12V)(type protect))
+    (wire (path F.Cu 400  134068 -42244  131445 -42244  131445 -42545)(net 12V)(type protect))
+    (wire (path F.Cu 400  134068 -52244  131619 -52244)(net 12V)(type protect))
+    (wire (path F.Cu 400  129540 -32385  129540 -25400)(net 12V)(type protect))
+    (wire (path F.Cu 400  131445 -34290  129540 -32385)(net 12V)(type protect))
+    (wire (path F.Cu 400  131445 -52070  131445 -42545  131445 -34290)(net 12V)(type protect))
+    (wire (path F.Cu 400  131619 -52244  131445 -52070)(net 12V)(type protect))
+    (wire (path F.Cu 400  168065 -43387  170815 -43387  170815 -43815)(net 12V)(type protect))
+    (wire (path F.Cu 400  168065 -53387  170133 -53387)(net 12V)(type protect))
+    (wire (path F.Cu 400  169545 -33020  169545 -25400)(net 12V)(type protect))
+    (wire (path F.Cu 400  170815 -34290  169545 -33020)(net 12V)(type protect))
+    (wire (path F.Cu 400  170815 -52705  170815 -43815  170815 -34290)(net 12V)(type protect))
+    (wire (path F.Cu 400  170133 -53387  170815 -52705)(net 12V)(type protect))
+    (wire (path F.Cu 400  186265 -48387  203200 -48387  203200 -48260)(net 12V)(type protect))
+    (wire (path F.Cu 400  185249 -134239  193040 -134239  193040 -133985)(net 12V)(type protect))
+    (wire (path F.Cu 400  167049 -139239  169545 -139239  169545 -139065)(net 12V)(type protect))
+    (wire (path F.Cu 400  167049 -129239  168609 -129239)(net 12V)(type protect))
+    (wire (path F.Cu 400  169545 -130175  169545 -139065  169545 -154940)(net 12V)(type protect))
+    (wire (path F.Cu 400  168609 -129239  169545 -130175)(net 12V)(type protect))
+    (wire (path F.Cu 400  120650 -136525  120650 -135255)(net 12V)(type protect))
+    (wire (path F.Cu 400  120587 -135192  119488 -135192)(net 12V)(type protect))
+    (wire (path F.Cu 400  120650 -135255  120587 -135192)(net 12V)(type protect))
+    (wire (path F.Cu 400  120650 -136399  120650 -136525  120650 -154940)(net 12V)(type protect))
+    (wire (path F.Cu 400  137688 -140192  135255 -140192  135255 -140335)(net 12V)(type protect))
+    (wire (path F.Cu 400  135255 -154940  135255 -142875)(net 12V)(type protect))
+    (wire (path F.Cu 400  135873 -130192  135255 -130810  135255 -140335  135255 -142875)(net 12V)(type protect))
+    (wire (path F.Cu 400  135873 -130192  137688 -130192)(net 12V)(type protect))
+    (wire (path F.Cu 400  98508 -133731  96774 -133731)(net 12V)(type protect))
+=======
     (wire (path In2.Cu 250  173355 -149937  170953 -152339  132958 -152339  130937 -150318)(net 3.3V)(type protect))
     (wire (path B.Cu 250  70899.3 -101219  69984 -101219)(net 3.3V)(type protect))
     (wire (path B.Cu 250  72169.3 -99949  70899.3 -101219)(net 3.3V)(type protect))
@@ -3181,17 +3271,46 @@
     (wire (path F.Cu 400  120587 -135192  119488 -135192)(net 12V)(type protect))
     (wire (path F.Cu 400  120650 -135255  120587 -135192)(net 12V)(type protect))
     (wire (path F.Cu 400  120650 -136399  120650 -135255)(net 12V)(type protect))
+>>>>>>> master
     (wire (path F.Cu 400  93345 -149860  93345 -154940)(net 12V)(type protect))
     (wire (path F.Cu 400  96520 -146685  93345 -149860)(net 12V)(type protect))
     (wire (path F.Cu 400  96520 -133985  96520 -146685)(net 12V)(type protect))
     (wire (path F.Cu 400  96774 -133731  96520 -133985)(net 12V)(type protect))
+<<<<<<< HEAD
+    (wire (path F.Cu 400  81915 -138731  81915 -154940)(net 12V)(type protect))
+    (wire (path F.Cu 400  80308 -128731  82376 -128731)(net 12V)(type protect))
+    (wire (path F.Cu 400  82249 -138731  81915 -138731  80308 -138731)(net 12V)(type protect))
+    (wire (path F.Cu 400  82550 -138430  82249 -138731)(net 12V)(type protect))
+    (wire (path F.Cu 400  82550 -128905  82550 -138430)(net 12V)(type protect))
+    (wire (path F.Cu 400  82376 -128731  82550 -128905)(net 12V)(type protect))
+    (wire (path F.Cu 400  42818.5 -137144  41275 -137144  41275 -137160)(net 12V)(type protect))
+    (wire (path F.Cu 400  42818.5 -127144  41131 -127144)(net 12V)(type protect))
+    (wire (path F.Cu 400  41275 -127288  41275 -137160  41275 -154940)(net 12V)(type protect))
+    (wire (path F.Cu 400  41131 -127144  41275 -127288)(net 12V)(type protect))
+    (wire (path F.Cu 400  24618.5 -132144  20320 -132144  20320 -132080)(net 12V)(type protect))
+    (wire (path F.Cu 400  48260 -64135  49530 -62865)(net 12V)(type protect))
+=======
     (wire (path F.Cu 400  98508 -133731  96774 -133731)(net 12V)(type protect))
     (wire (path F.Cu 400  81915 -138731  81915 -154940)(net 12V)(type protect))
+>>>>>>> master
     (wire (path B.Cu 400  48942 -56562  50375 -56562)(net 12V)(type protect))
     (wire (path B.Cu 400  48895 -56515  48942 -56562)(net 12V)(type protect))
     (wire (path B.Cu 400  48895 -60325  48895 -56515)(net 12V)(type protect))
     (wire (path B.Cu 400  49530 -60960  48895 -60325)(net 12V)(type protect))
     (wire (path F.Cu 400  49530 -62865  49530 -60960)(net 12V)(type protect))
+<<<<<<< HEAD
+    (wire (path F.Cu 400  38100 -64135  48260 -64135)(net 12V)(type protect))
+    (wire (path F.Cu 400  48370.5 -64245.5  48370.5 -66059.5)(net 12V)(type protect))
+    (wire (path F.Cu 400  48260 -64135  48370.5 -64245.5)(net 12V)(type protect))
+    (wire (path F.Cu 400  20320 -74930  30480 -64770)(net 12V)(type protect))
+    (wire (path F.Cu 400  38370.5 -64405.5  38370.5 -66059.5)(net 12V)(type protect))
+    (wire (path F.Cu 400  38100 -64135  38370.5 -64405.5)(net 12V)(type protect))
+    (wire (path F.Cu 400  31115 -64135  38100 -64135)(net 12V)(type protect))
+    (wire (path F.Cu 400  30480 -64770  31115 -64135)(net 12V)(type protect))
+    (wire (path F.Cu 400  48260 -33655  45720 -33655)(net 12V)(type protect))
+    (wire (path F.Cu 400  43370.5 -36004.5  43370.5 -47859.5)(net 12V)(type protect))
+    (wire (path F.Cu 400  45720 -33655  43370.5 -36004.5)(net 12V)(type protect))
+=======
     (wire (path F.Cu 400  48260 -64135  49530 -62865)(net 12V)(type protect))
     (wire (path F.Cu 400  38100 -64135  48260 -64135)(net 12V)(type protect))
     (wire (path F.Cu 400  48370.5 -64245.5  48370.5 -66059.5)(net 12V)(type protect))
@@ -3203,15 +3322,104 @@
     (wire (path F.Cu 400  43370.5 -36004.5  43370.5 -47859.5)(net 12V)(type protect))
     (wire (path F.Cu 400  45720 -33655  43370.5 -36004.5)(net 12V)(type protect))
     (wire (path F.Cu 400  48260 -33655  45720 -33655)(net 12V)(type protect))
+>>>>>>> master
     (wire (path F.Cu 400  48260 -25400  48260 -33655)(net 12V)(type protect))
     (wire (path B.Cu 400  49102 -46562  50375 -46562)(net 12V)(type protect))
     (wire (path B.Cu 400  48895 -46355  49102 -46562)(net 12V)(type protect))
     (wire (path B.Cu 400  48895 -34290  48895 -46355)(net 12V)(type protect))
     (wire (path B.Cu 400  48260 -33655  48895 -34290)(net 12V)(type protect))
+<<<<<<< HEAD
+    (wire (path F.Cu 400  24130 -34290  26670 -36830)(net 12V)(type protect))
+=======
+>>>>>>> master
     (wire (path B.Cu 400  29337 -51562  32175 -51562)(net 12V)(type protect))
     (wire (path B.Cu 400  29210 -51435  29337 -51562)(net 12V)(type protect))
     (wire (path F.Cu 400  26670 -48895  29210 -51435)(net 12V)(type protect))
     (wire (path F.Cu 400  26670 -36830  26670 -48895)(net 12V)(type protect))
+<<<<<<< HEAD
+    (wire (path F.Cu 1500  199009 -78188  196132 -78188  193040 -81280  193040 -83820)(net 12V)(type protect))
+    (wire (path F.Cu 1500  187960 -154940  169545 -154940  168910 -154940  135255 -154940
+            120650 -154940  93345 -154940  81915 -154940)(net 12V)(type protect))
+    (wire (path F.Cu 1500  193040 -149860  187960 -154940)(net 12V)(type protect))
+    (wire (path F.Cu 1500  193040 -83820  193040 -86360  193040 -90805  193040 -133985
+            193040 -149860)(net 12V)(type protect))
+    (wire (path F.Cu 1500  199942 -78188  199009 -78188)(net 12V)(type protect))
+    (wire (path F.Cu 1500  203200 -74930  199942 -78188)(net 12V)(type protect))
+    (wire (path F.Cu 1500  203200 -25400  203200 -48260  203200 -74930)(net 12V)(type protect))
+    (wire (path F.Cu 1500  191770 -25400  203200 -25400)(net 12V)(type protect))
+    (wire (path F.Cu 1500  72390 -25400  105410 -25400  129540 -25400  169545 -25400
+            191770 -25400)(net 12V)(type protect))
+    (wire (path F.Cu 1500  33020 -25400  48260 -25400  72390 -25400)(net 12V)(type protect))
+    (wire (path F.Cu 1500  17780 -40640  24130 -34290  33020 -25400)(net 12V)(type protect))
+    (wire (path F.Cu 1500  17780 -72390  17780 -40640)(net 12V)(type protect))
+    (wire (path F.Cu 1500  20320 -74930  17780 -72390)(net 12V)(type protect))
+    (wire (path F.Cu 1500  20320 -151130  20320 -132080  20320 -74930)(net 12V)(type protect))
+    (wire (path F.Cu 1500  24130 -154940  20320 -151130)(net 12V)(type protect))
+    (wire (path F.Cu 1500  81915 -154940  41275 -154940  24130 -154940)(net 12V)(type protect))
+    (wire (path F.Cu 1000  187197 -97679  187197 -100202)(net GND_12V)(type protect))
+    (wire (path B.Cu 1000  188595 -101600  193040 -101600)(net GND_12V)(type protect))
+    (wire (path F.Cu 1000  187197 -100202  188595 -101600)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  115868 -44244  115868 -44241  114871 -43244)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  115868 -42244  115868 -42247  114871 -43244)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  115868 -43244  114871 -43244  109919 -43244)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  109855 -43180  109855 -42545)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  109919 -43244  109855 -43180)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  115868 -50244  114856 -50244  113665 -51435)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  115868 -51244  113856 -51244  113665 -51435)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  115868 -52244  114474 -52244)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  109855 -47625  109855 -42545  109855 -25400)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  113665 -51435  109855 -47625)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  114474 -52244  113665 -51435)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  186265 -43387  187532 -43387  188595 -44450  186328 -44450
+            186265 -44387)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  186265 -45387  187658 -45387)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  189865 -43180  203200 -43180)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  188595 -44450  189865 -43180)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  187658 -45387  188595 -44450)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  186265 -51387  187277 -51387  188595 -52705)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  186265 -52387  188277 -52387  188595 -52705)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  186265 -53387  187913 -53387)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  191135 -55245  203200 -55245)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  188595 -52705  191135 -55245)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  187913 -53387  188595 -52705)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  185249 -137239  185499 -137239  186690 -138430)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  185249 -138239  186499 -138239  186690 -138430  187325 -139065)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  187151 -139239  187325 -139065)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  185249 -139239  187151 -139239)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  187325 -139065  193040 -139065)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  185249 -131239  185626 -131239  186626 -130239)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  185249 -130239  186626 -130239  187261 -130239  187960 -129540)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  185249 -129239  187626 -129239)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  193040 -129540  191135 -129540)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  187960 -129540  193040 -129540)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  187927 -129540  187960 -129540)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  187626 -129239  187927 -129540)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  119488 -140192  119488 -139192  119488 -138192  109458 -138192
+            107950 -139700)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  118110 -131192  107568 -131192)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  106680 -132080  106680 -137795)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  107568 -131192  106680 -132080)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  119488 -131192  118110 -131192  118110 -131445)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  119488 -130192  118728 -130192)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  118110 -131445  118857 -132192)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  118110 -130810  118110 -131445)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  118728 -130192  118110 -130810)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  118857 -132192  119488 -132192)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  100330 -137795  99695 -138430  98809 -138430  98508 -138731)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  100330 -137795  98572 -137795  98508 -137731)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  107950 -143510  107950 -139700  107950 -139065  106680 -137795)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  107950 -149860  107950 -147320)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  107950 -146050  107950 -143510)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  107950 -147320  107950 -146050)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  99266 -136731  98508 -136731)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  100330 -137795  99266 -136731)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  106680 -137795  100330 -137795)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  98508 -130731  97234 -130731)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  97155 -130652  97155 -128905)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  97234 -130731  97155 -130652)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  98508 -129731  97981 -129731  97155 -128905)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  98508 -128731  97329 -128731)(net GND_12V)(type protect))
+=======
     (wire (path F.Cu 400  24130 -34290  26670 -36830)(net 12V)(type protect))
     (wire (path F.Cu 1500  193040 -81280  193040 -83820)(net 12V)(type protect))
     (wire (path F.Cu 1500  196132 -78188  193040 -81280)(net 12V)(type protect))
@@ -3334,11 +3542,84 @@
     (wire (path F.Cu 400  98508 -130731  97234 -130731)(net GND_12V)(type protect))
     (wire (path F.Cu 400  97981 -129731  97155 -128905)(net GND_12V)(type protect))
     (wire (path F.Cu 400  98508 -129731  97981 -129731)(net GND_12V)(type protect))
+>>>>>>> master
     (wire (path B.Cu 400  94615 -146685  94615 -154940)(net GND_12V)(type protect))
     (wire (path B.Cu 400  95885 -145415  94615 -146685)(net GND_12V)(type protect))
     (wire (path B.Cu 400  95885 -130175  95885 -145415)(net GND_12V)(type protect))
     (wire (path B.Cu 400  97155 -128905  95885 -130175)(net GND_12V)(type protect))
     (wire (path F.Cu 400  97329 -128731  97155 -128905)(net GND_12V)(type protect))
+<<<<<<< HEAD
+    (wire (path F.Cu 400  24618.5 -136144  22225 -136144  22225 -135890)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  22225 -135255  22225 -135890  22225 -136525)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  22844 -137144  24618.5 -137144)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  22225 -136525  22844 -137144)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  24618.5 -135144  22336 -135144)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  22225 -135255  20320 -135255)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  22336 -135144  22225 -135255)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  24618.5 -128144  22860 -128144  22860 -128270)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  22860 -127000  22860 -128270  22860 -128905)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  23099 -129144  24618.5 -129144)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  22860 -128905  23099 -129144)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  24618.5 -127144  23004 -127144)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  22860 -127000  20320 -127000)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  23004 -127144  22860 -127000)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  47370.5 -47859.5  47370.5 -46355  47625 -46355)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  46370.5 -46355  47625 -46355  48260 -46355)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  48370.5 -46465.5  48370.5 -47859.5)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  48260 -46355  48370.5 -46465.5)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  48260 -25400  48260 -31750)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  46370.5 -34940.5  46370.5 -46355  46370.5 -47859.5)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  46355 -34925  46370.5 -34940.5)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  46355 -33655  46355 -34925)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  48260 -31750  46355 -33655)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  38370.5 -47859.5  38370.5 -46355  38100 -46355)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  39370.5 -47859.5  39370.5 -46355  39370 -46355)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  32175 -46562  34083 -46562)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  40370.5 -46720.5  40370.5 -47859.5)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  40005 -46355  40370.5 -46720.5)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  34290 -46355  38100 -46355  39370 -46355  40005 -46355)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  34083 -46562  34290 -46355)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  32175 -55562  31115 -55562  31115 -55245)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  31115 -54562  31115 -55245  31115 -56515)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  31162 -56562  32175 -56562)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  31115 -56515  31162 -56562)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  26670 -45720  26670 -53975)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  27257 -54562  31115 -54562  32175 -54562)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  26670 -53975  27257 -54562)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  31115 -47625  32112 -47625  32175 -47562)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  31115 -46562  31115 -47625  31115 -48260)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  31417 -48562  32175 -48562)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  31115 -48260  31417 -48562)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  24130 -34290  26670 -36830)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  27512 -46562  31115 -46562  32175 -46562)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  26670 -45720  27512 -46562)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  26670 -36830  26670 -45720)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  148590 -30480  148590 -34290)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  148590 -34290  148590 -35560)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  62230 -149860  62230 -147320)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  62230 -147320  62230 -146050)(net GND_12V)(type protect))
+    (wire (path B.Cu 400  152400 -148590  152400 -144780)(net GND_12V)(type protect))
+    (wire (path F.Cu 400  152400 -144780  152400 -143510)(net GND_12V)(type protect))
+    (wire (path B.Cu 1500  101600 -154940  94615 -154940  68580 -154940)(net GND_12V)(type protect))
+    (wire (path B.Cu 1500  196552 -72688  193040 -76200  193040 -101600  193040 -139065
+            193040 -149860  187960 -154940  158750 -154940  152400 -148590
+            146050 -154940  114300 -154940  109220 -149860  107950 -149860
+            106680 -149860  101600 -154940)(net GND_12V)(type protect))
+    (wire (path B.Cu 1500  199009 -72688  196552 -72688)(net GND_12V)(type protect))
+    (wire (path B.Cu 1500  203200 -68497  199009 -72688)(net GND_12V)(type protect))
+    (wire (path B.Cu 1500  203200 -29210  203200 -43180  203200 -55245  203200 -68497)(net GND_12V)(type protect))
+    (wire (path B.Cu 1500  199390 -25400  203200 -29210)(net GND_12V)(type protect))
+    (wire (path B.Cu 1500  153670 -25400  199390 -25400)(net GND_12V)(type protect))
+    (wire (path B.Cu 1500  148590 -30480  153670 -25400)(net GND_12V)(type protect))
+    (wire (path B.Cu 1500  146050 -30480  148590 -30480)(net GND_12V)(type protect))
+    (wire (path B.Cu 1500  140970 -25400  146050 -30480)(net GND_12V)(type protect))
+    (wire (path B.Cu 1500  81280 -25400  109855 -25400  140970 -25400)(net GND_12V)(type protect))
+    (wire (path B.Cu 1500  77470 -29210  81280 -25400)(net GND_12V)(type protect))
+    (wire (path B.Cu 1500  66040 -29210  77470 -29210)(net GND_12V)(type protect))
+    (wire (path B.Cu 1500  62230 -25400  66040 -29210)(net GND_12V)(type protect))
+    (wire (path B.Cu 1500  33020 -25400  48260 -25400  62230 -25400)(net GND_12V)(type protect))
+    (wire (path B.Cu 1500  17780 -40640  24130 -34290  24765 -33655  33020 -25400)(net GND_12V)(type protect))
+=======
     (wire (path F.Cu 400  98508 -128731  97329 -128731)(net GND_12V)(type protect))
     (wire (path B.Cu 400  22225 -135255  20320 -135255)(net GND_12V)(type protect))
     (wire (path F.Cu 400  22336 -135144  22225 -135255)(net GND_12V)(type protect))
@@ -3407,10 +3688,19 @@
     (wire (path B.Cu 1500  62230 -149860  60960 -149860)(net GND_12V)(type protect))
     (wire (path B.Cu 1500  20320 -135255  20320 -127000)(net GND_12V)(type protect))
     (wire (path B.Cu 1500  17780 -40640  24130 -34290)(net GND_12V)(type protect))
+>>>>>>> master
     (wire (path B.Cu 1500  17780 -72390  17780 -40640)(net GND_12V)(type protect))
     (wire (path B.Cu 1500  24130 -78740  17780 -72390)(net GND_12V)(type protect))
     (wire (path B.Cu 1500  24130 -81280  24130 -78740)(net GND_12V)(type protect))
     (wire (path B.Cu 1500  20320 -85090  24130 -81280)(net GND_12V)(type protect))
+<<<<<<< HEAD
+    (wire (path B.Cu 1500  20320 -151130  20320 -135255  20320 -127000  20320 -85090)(net GND_12V)(type protect))
+    (wire (path B.Cu 1500  24130 -154940  20320 -151130)(net GND_12V)(type protect))
+    (wire (path B.Cu 1500  55880 -154940  24130 -154940)(net GND_12V)(type protect))
+    (wire (path B.Cu 1500  60960 -149860  55880 -154940)(net GND_12V)(type protect))
+    (wire (path B.Cu 1500  63500 -149860  62230 -149860  60960 -149860)(net GND_12V)(type protect))
+    (wire (path B.Cu 1500  68580 -154940  63500 -149860)(net GND_12V)(type protect))
+=======
     (wire (path B.Cu 1500  20320 -127000  20320 -85090)(net GND_12V)(type protect))
     (wire (path B.Cu 1500  33020 -25400  48260 -25400)(net GND_12V)(type protect))
     (wire (path B.Cu 1500  24130 -34290  33020 -25400)(net GND_12V)(type protect))
@@ -6561,6 +6851,7 @@
     (via "Via[0-3]_600:400_um"  132872 -40226.9 (net "Net-(P1-Pad2)")(type protect))
     (via "Via[0-3]_600:400_um"  136523 -142382 (net "Net-(P2-Pad1)")(type protect))
     (via "Via[0-3]_600:400_um"  115956 -137287 (net "Net-(P2-Pad1)")(type protect))
+>>>>>>> master
     (via "Via[0-3]_600:400_um"  49530 -60960 (net 12V)(type protect))
     (via "Via[0-3]_600:400_um"  48260 -33655 (net 12V)(type protect))
     (via "Via[0-3]_600:400_um"  29210 -51435 (net 12V)(type protect))
@@ -6577,6 +6868,11 @@
     (via "Via[0-3]_600:400_um"  22860 -127000 (net GND_12V)(type protect))
     (via "Via[0-3]_600:400_um"  46355 -34925 (net GND_12V)(type protect))
     (via "Via[0-3]_600:400_um"  34290 -46355 (net GND_12V)(type protect))
+<<<<<<< HEAD
+    (via "Via[0-3]_600:400_um"  148590 -34290 (net GND_12V)(type protect))
+    (via "Via[0-3]_600:400_um"  62230 -147320 (net GND_12V)(type protect))
+    (via "Via[0-3]_600:400_um"  152400 -144780 (net GND_12V)(type protect))
+=======
     (via "Via[0-3]_600:400_um"  62230 -147320 (net GND_12V)(type protect))
     (via "Via[0-3]_600:400_um"  152400 -144780 (net GND_12V)(type protect))
     (via "Via[0-3]_600:400_um"  65301.9 -116823 (net GND_12V)(type protect))
@@ -7194,5 +7490,6 @@
     (via "Via[0-3]_600:400_um"  28771.5 -132660 (net "/VNH3SP30 Motor SS 4/16-bit UD Counter/Counter-16b/n_TCD_1")
       (type protect))
     (via "Via[0-3]_600:400_um"  187859 -46187.1 (net "Net-(P11-Pad1)")(type protect))
+>>>>>>> master
   )
 )

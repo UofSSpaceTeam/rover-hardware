@@ -125,6 +125,67 @@ F 3 "~" H 2450 1850 30  0000 C CNN
 	1    2450 1850
 	0    -1   -1   0   
 $EndComp
+<<<<<<< HEAD
+Wire Wire Line
+	1350 1100 2700 1100
+Wire Wire Line
+	1350 1100 1350 1650
+Connection ~ 1350 1300
+Wire Wire Line
+	2700 1200 2600 1200
+Wire Wire Line
+	2600 1200 2600 1100
+Connection ~ 2600 1100
+Wire Wire Line
+	1350 1650 2700 1650
+Wire Wire Line
+	2700 1750 2650 1750
+Wire Wire Line
+	2650 1750 2650 1650
+Connection ~ 2650 1650
+Wire Wire Line
+	3600 1550 4200 1550
+Wire Wire Line
+	3600 1300 4250 1300
+Wire Wire Line
+	3600 1100 4650 1100
+Wire Wire Line
+	4550 1100 4550 1000
+Wire Wire Line
+	4550 1000 5450 1000
+Connection ~ 4550 1100
+Wire Wire Line
+	3600 1650 4650 1650
+Connection ~ 4600 1650
+Wire Wire Line
+	5450 1000 5450 1250
+Wire Wire Line
+	3600 1850 5450 1850
+Wire Wire Line
+	4250 1300 4250 2100
+Connection ~ 4250 1850
+Wire Wire Line
+	3600 1750 4650 1750
+Wire Wire Line
+	3600 1200 4650 1200
+Wire Wire Line
+	4600 1650 4600 1450
+Wire Wire Line
+	4600 1450 5450 1450
+Wire Wire Line
+	4250 2100 3750 2100
+Wire Wire Line
+	3600 750  6850 750 
+Wire Wire Line
+	6850 750  6850 1250
+Wire Wire Line
+	4100 1000 4100 750 
+Connection ~ 4100 750 
+Wire Wire Line
+	4200 1550 4200 750 
+Connection ~ 4200 750 
+=======
+>>>>>>> master
 Text HLabel 2200 2650 0    60   Input ~ 0
 Q_2
 Text HLabel 2200 3200 0    60   Input ~ 0
@@ -206,6 +267,67 @@ F 3 "~" H 2450 3500 30  0000 C CNN
 	1    2450 3500
 	0    -1   -1   0   
 $EndComp
+<<<<<<< HEAD
+Wire Wire Line
+	1350 2750 2700 2750
+Wire Wire Line
+	1350 2750 1350 3300
+Connection ~ 1350 2950
+Wire Wire Line
+	2700 2850 2600 2850
+Wire Wire Line
+	2600 2850 2600 2750
+Connection ~ 2600 2750
+Wire Wire Line
+	1350 3300 2700 3300
+Wire Wire Line
+	2700 3400 2650 3400
+Wire Wire Line
+	2650 3400 2650 3300
+Connection ~ 2650 3300
+Wire Wire Line
+	3600 3200 4200 3200
+Wire Wire Line
+	3600 2950 4250 2950
+Wire Wire Line
+	3600 2750 4650 2750
+Wire Wire Line
+	4550 2750 4550 2650
+Wire Wire Line
+	4550 2650 5450 2650
+Connection ~ 4550 2750
+Wire Wire Line
+	3600 3300 4650 3300
+Connection ~ 4600 3300
+Wire Wire Line
+	5450 2650 5450 2900
+Wire Wire Line
+	3600 3500 5450 3500
+Wire Wire Line
+	4250 2950 4250 3750
+Connection ~ 4250 3500
+Wire Wire Line
+	3600 3400 4650 3400
+Wire Wire Line
+	3600 2850 4650 2850
+Wire Wire Line
+	4600 3300 4600 3100
+Wire Wire Line
+	4600 3100 5450 3100
+Wire Wire Line
+	4250 3750 3750 3750
+Wire Wire Line
+	3600 2400 6850 2400
+Wire Wire Line
+	6850 2400 6850 2900
+Wire Wire Line
+	4100 2650 4100 2400
+Connection ~ 4100 2400
+Wire Wire Line
+	4200 3200 4200 2400
+Connection ~ 4200 2400
+=======
+>>>>>>> master
 Text HLabel 2100 4200 0    60   Input ~ 0
 Q_4
 Text HLabel 2100 4750 0    60   Input ~ 0
@@ -287,6 +409,67 @@ F 3 "~" H 2350 5050 30  0000 C CNN
 	1    2350 5050
 	0    -1   -1   0   
 $EndComp
+<<<<<<< HEAD
+Wire Wire Line
+	1250 4300 2600 4300
+Wire Wire Line
+	1250 4300 1250 4850
+Connection ~ 1250 4500
+Wire Wire Line
+	2600 4400 2500 4400
+Wire Wire Line
+	2500 4400 2500 4300
+Connection ~ 2500 4300
+Wire Wire Line
+	1250 4850 2600 4850
+Wire Wire Line
+	2600 4950 2550 4950
+Wire Wire Line
+	2550 4950 2550 4850
+Connection ~ 2550 4850
+Wire Wire Line
+	3500 4750 4100 4750
+Wire Wire Line
+	3500 4500 4150 4500
+Wire Wire Line
+	3500 4300 4550 4300
+Wire Wire Line
+	4450 4300 4450 4200
+Wire Wire Line
+	4450 4200 5350 4200
+Connection ~ 4450 4300
+Wire Wire Line
+	3500 4850 4550 4850
+Connection ~ 4500 4850
+Wire Wire Line
+	5350 4200 5350 4450
+Wire Wire Line
+	3500 5050 5350 5050
+Wire Wire Line
+	4150 4500 4150 5300
+Connection ~ 4150 5050
+Wire Wire Line
+	3500 4950 4550 4950
+Wire Wire Line
+	3500 4400 4550 4400
+Wire Wire Line
+	4500 4850 4500 4650
+Wire Wire Line
+	4500 4650 5350 4650
+Wire Wire Line
+	4150 5300 3650 5300
+Wire Wire Line
+	3500 3950 6750 3950
+Wire Wire Line
+	6750 3950 6750 4450
+Wire Wire Line
+	4000 4200 4000 3950
+Connection ~ 4000 3950
+Wire Wire Line
+	4100 4750 4100 3950
+Connection ~ 4100 3950
+=======
+>>>>>>> master
 Text HLabel 2100 5850 0    60   Input ~ 0
 Q_6
 Text HLabel 2100 6400 0    60   Input ~ 0
@@ -688,6 +871,97 @@ Connection ~ 4000 5600
 Wire Wire Line
 	4100 6400 4100 5600
 Connection ~ 4100 5600
+<<<<<<< HEAD
+$Comp
+L TLP2160 U8
+U 1 1 570C1CCE
+P 3150 1250
+F 0 "U8" H 3150 1100 60  0000 C CNN
+F 1 "TLP2160" H 3150 1600 60  0000 C CNN
+F 2 "ArmFootprints:TLP2160" H 3150 1250 60  0001 C CNN
+F 3 "" H 3150 1250 60  0000 C CNN
+	1    3150 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP2160 U9
+U 1 1 570C27B0
+P 3150 1800
+F 0 "U9" H 3150 1650 60  0000 C CNN
+F 1 "TLP2160" H 3150 2150 60  0000 C CNN
+F 2 "ArmFootprints:TLP2160" H 3150 1800 60  0001 C CNN
+F 3 "" H 3150 1800 60  0000 C CNN
+	1    3150 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP2160 U10
+U 1 1 570C296A
+P 3150 2900
+F 0 "U10" H 3150 2750 60  0000 C CNN
+F 1 "TLP2160" H 3150 3250 60  0000 C CNN
+F 2 "ArmFootprints:TLP2160" H 3150 2900 60  0001 C CNN
+F 3 "" H 3150 2900 60  0000 C CNN
+	1    3150 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP2160 U11
+U 1 1 570C2B36
+P 3150 3450
+F 0 "U11" H 3150 3300 60  0000 C CNN
+F 1 "TLP2160" H 3150 3800 60  0000 C CNN
+F 2 "ArmFootprints:TLP2160" H 3150 3450 60  0001 C CNN
+F 3 "" H 3150 3450 60  0000 C CNN
+	1    3150 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP2160 U4
+U 1 1 570C2DFA
+P 3050 4450
+F 0 "U4" H 3050 4300 60  0000 C CNN
+F 1 "TLP2160" H 3050 4800 60  0000 C CNN
+F 2 "ArmFootprints:TLP2160" H 3050 4450 60  0001 C CNN
+F 3 "" H 3050 4450 60  0000 C CNN
+	1    3050 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP2160 U5
+U 1 1 570C2E79
+P 3050 5000
+F 0 "U5" H 3050 4850 60  0000 C CNN
+F 1 "TLP2160" H 3050 5350 60  0000 C CNN
+F 2 "ArmFootprints:TLP2160" H 3050 5000 60  0001 C CNN
+F 3 "" H 3050 5000 60  0000 C CNN
+	1    3050 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP2160 U6
+U 1 1 570C3159
+P 3050 6100
+F 0 "U6" H 3050 5950 60  0000 C CNN
+F 1 "TLP2160" H 3050 6450 60  0000 C CNN
+F 2 "ArmFootprints:TLP2160" H 3050 6100 60  0001 C CNN
+F 3 "" H 3050 6100 60  0000 C CNN
+	1    3050 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP2160 U7
+U 1 1 570C320B
+P 3050 6650
+F 0 "U7" H 3050 6500 60  0000 C CNN
+F 1 "TLP2160" H 3050 7000 60  0000 C CNN
+F 2 "ArmFootprints:TLP2160" H 3050 6650 60  0001 C CNN
+F 3 "" H 3050 6650 60  0000 C CNN
+	1    3050 6650
+	1    0    0    -1  
+$EndComp
+=======
+>>>>>>> master
 Wire Wire Line
 	4100 1000 3600 1000
 Wire Wire Line

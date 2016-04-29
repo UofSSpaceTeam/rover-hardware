@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name ArmFootprints)(type KiCad)(uri "$(KIPRJMOD)/library/ArmFootprints.pretty")(options "")(descr ""))
+  (lib (name USSTPARTS)(type KiCad)(uri /home/carl/Programming/usst/rover-electrical/Parts/modules/USSTPARTS.pretty)(options "")(descr ""))
+)
