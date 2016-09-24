@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Diode_STKY_GEN
+F http://www.diodes.com/_files/datasheets/ds23001.pdf
+$ENDCMP
+#
+#End Doc Library
