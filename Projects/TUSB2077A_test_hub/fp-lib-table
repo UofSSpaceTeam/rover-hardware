@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name apro_lib)(type KiCad)(uri /home/carl/Kicad/e_apro-master_/apro_lib)(options "")(descr ""))
+)
