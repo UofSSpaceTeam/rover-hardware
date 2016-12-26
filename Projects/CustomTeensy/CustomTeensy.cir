@@ -1,0 +1,35 @@
+* /home/carl/Kicad/CustomTeensy/CustomTeensy.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Tue 20 Dec 2016 09:51:22 PM CST
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+U1  ? ? +3.3V GND Net-_R3-Pad2_ Net-_R2-Pad2_ +3.3V ? ? ? ? ? +3.3V VREFH GND GND Net-_C10-Pad1_ /A14 ? ? +3.3V /JTAG_TCLK /JTAG_TDI /JTAG_TDO /JTAG_TMS ? ? /D3 /D4 +3.3V GND Net-_C11-Pad1_ Net-_C12-Pad1_ /Reset /D16 /D17 /D19 /D18 /D0 /D1 ? ? /D15 /D22 /D23 /D9 GND +3.3V /D10 /D13 /D11 /D12 ? ? ? ? /D2 /D14 /D7 /D8 /D6 /D20 /D21 /D5 mk20dx256vlh7		
+U2  ? ? +3.3V ? ? GND ? /Reset ? /JTAG_TDI ? ? ? ? /JTAG_TMS /JTAG_TCLK /JTAG_TDO /Prog ? ? ? ? ? ? /Reset ? ? ? ? ? ? ? MKL04Z32_TQFP32		
+U3  VUSB +3.3V GND LP38691		
+C10  Net-_C10-Pad1_ GND 0.1uF		
+C2  +3.3V GND 2.2uF		
+C1  VUSB GND 2.2uF		
+C6  +3.3V GND 2.2uF		
+C5  +3.3V GND 0.1uF		
+C4  +3.3V GND 0.1uF		
+C3  +3.3V GND 0.1uF		
+C8  VREFH GND 0.1uF		
+R4  +3.3V VREFH 470		
+CON1  VUSB Net-_CON1-Pad2_ Net-_CON1-Pad3_ /JTAG_TDI GND GND GND GND GND USB-MINI-B		
+R2  Net-_CON1-Pad2_ Net-_R2-Pad2_ 33		
+R3  Net-_CON1-Pad3_ Net-_R3-Pad2_ 33		
+SW1  /Prog GND SW_PUSH		
+C7  VUSB GND 2.2uF		
+P1  GND /D0 /D1 /D2 /D3 /D4 /D5 /D6 /D7 /D8 /D9 /D10 /D11 /D12 CONN_14		
+P3  /D13 /D14 /D15 /D16 /D17 /D18 /D19 /D20 /D21 /D22 /D23 +3.3V GND VUSB CONN_14		
+D1  /D13 Net-_D1-Pad2_ LED		
+R1  Net-_D1-Pad2_ GND 470		
+X1  Net-_C11-Pad1_ Net-_C12-Pad1_ CRYSTAL		
+C11  Net-_C11-Pad1_ GND 10pF		
+C12  Net-_C12-Pad1_ GND 10pF		
+P2  /A14 /Prog GND +3.3V CONN_4		
+
+.end
