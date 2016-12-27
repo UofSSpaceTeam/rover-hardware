@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name "RH025.1")(type Legacy)(uri "C:/Users/Austin/Desktop/KiCad_USB/RH025.1.mod")(options "")(descr ""))
+  (lib (name RH025.1)(type Legacy)(uri C:/Users/Austin/Desktop/KiCad_USB/RH025.1.mod)(options "")(descr ""))
+  (lib (name FE1)(type KiCad)(uri "$(KIPRJMOD)\\FE1.pretty")(options "")(descr ""))
 )

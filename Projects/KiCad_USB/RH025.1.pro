@@ -1,4 +1,4 @@
-update=2016-09-24 12:33:16
+update=12/27/2016 3:24:16 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,10 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[eeschema]
-version=1
-LibDir=
-[eeschema/libraries]
-LibName1=RH025.1
 [general]
 version=1
+[eeschema]
+version=1
+LibDir=../../../Kicad-symbols
+[eeschema/libraries]
+LibName1=RH025.1
+LibName2=USST-parts
