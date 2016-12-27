@@ -639,6 +639,17 @@ F 3 "" H 4600 7650 60  0000 C CNN
 	1    4600 7650
 	-1   0    0    -1  
 $EndComp
+$Comp
+L GND #GND?
+U 1 1 586383BE
+P 6650 6950
+F 0 "#GND?" H 6650 6950 45  0001 L BNN
+F 1 "GND" H 6600 6775 45  0000 L BNN
+F 2 "" H 6650 6950 60  0001 C CNN
+F 3 "" H 6650 6950 60  0001 C CNN
+	1    6650 6950
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	5300 5150 5250 5150
 Wire Wire Line
@@ -720,7 +731,7 @@ Connection ~ 6650 6850
 Connection ~ 7050 6850
 Connection ~ 7450 6850
 Wire Wire Line
-	7650 5200 7650 5350
+	7650 5350 7650 5250
 Wire Wire Line
 	5550 8350 5550 8100
 Wire Wire Line
@@ -882,15 +893,4 @@ Wire Wire Line
 Connection ~ 7750 6750
 Connection ~ 7350 6750
 Connection ~ 8150 6750
-$Comp
-L GND #GND?
-U 1 1 586383BE
-P 6650 6950
-F 0 "#GND?" H 6650 6950 45  0001 L BNN
-F 1 "GND" H 6600 6775 45  0000 L BNN
-F 2 "" H 6650 6950 60  0001 C CNN
-F 3 "" H 6650 6950 60  0001 C CNN
-	1    6650 6950
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
