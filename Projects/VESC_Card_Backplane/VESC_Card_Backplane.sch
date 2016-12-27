@@ -28,11 +28,12 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:VESC_Card_Backplane-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -43,9 +44,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 8200 2300 1500 1250
-U 5862D71B
-F0 "FE11s_USB_Hub" 60
-F1 "FE11s_USB_Hub.sch" 60
+S 6450 2050 1300 1000
+U 58633435
+F0 "usb_hub" 60
+F1 "usb_hub.sch" 60
 $EndSheet
+Text HLabel 8550 2250 0    60   Input ~ 0
+test1
 $EndSCHEMATC
