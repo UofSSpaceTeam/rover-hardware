@@ -1,41 +1,88 @@
 EESchema Schematic File Version 2
-LIBS:BLDC_4-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
+LIBS:USST-parts
+LIBS:74xgxx
 LIBS:74xx
-LIBS:cmos4000
+LIBS:ac-dc
+LIBS:actel
 LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
+LIBS:Altera
+LIBS:analog_devices
 LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
 LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:cmos4000
+LIBS:conn
 LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:diode
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:Lattice
+LIBS:linear
+LIBS:logo
+LIBS:maxim
+LIBS:memory
+LIBS:microchip
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:microcontrollers
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:Power_Management
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:ttl_ieee
 LIBS:valves
-LIBS:crf_1
+LIBS:video
+LIBS:Xicor
+LIBS:xilinx
+LIBS:Zilog
 LIBS:BLDC_4-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 2 8
 Title "BLDC Driver 4.11"
 Date "21 aug 2015"
 Rev "4.12"
@@ -46,7 +93,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L R-RESCUE-BLDC_4 R46
+L R R46
 U 1 1 53F8E60B
 P 7850 4050
 F 0 "R46" V 7950 4050 50  0000 C CNN
@@ -57,7 +104,7 @@ F 3 "" H 7850 4050 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R-RESCUE-BLDC_4 R30
+L R R30
 U 1 1 53F8E612
 P 4700 4050
 F 0 "R30" V 4800 4050 50  0000 C CNN
@@ -68,7 +115,7 @@ F 3 "" H 4700 4050 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MOSFET_N Q1
+L NFET Q1
 U 1 1 53F8E63D
 P 4950 2800
 F 0 "Q1" H 4960 2970 60  0000 R CNN
@@ -79,7 +126,7 @@ F 3 "" H 4950 2800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOSFET_N Q2
+L NFET Q2
 U 1 1 53F8E644
 P 4950 3750
 F 0 "Q2" H 4960 3920 60  0000 R CNN
@@ -90,7 +137,7 @@ F 3 "" H 4950 3750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-BLDC_4 R29
+L R R29
 U 1 1 53F8E64B
 P 4400 3750
 F 0 "R29" V 4500 3750 50  0000 C CNN
@@ -101,7 +148,7 @@ F 3 "" H 4400 3750 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R-RESCUE-BLDC_4 R28
+L R R28
 U 1 1 53F8E652
 P 4400 2800
 F 0 "R28" V 4500 2800 50  0000 C CNN
@@ -112,7 +159,7 @@ F 3 "" H 4400 2800 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R-RESCUE-BLDC_4 R34
+L R R34
 U 1 1 53F8E65E
 P 5950 2800
 F 0 "R34" V 6050 2800 50  0000 C CNN
@@ -123,7 +170,7 @@ F 3 "" H 5950 2800 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R-RESCUE-BLDC_4 R35
+L R R35
 U 1 1 53F8E665
 P 5950 3750
 F 0 "R35" V 6050 3750 50  0000 C CNN
@@ -134,7 +181,7 @@ F 3 "" H 5950 3750 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MOSFET_N Q4
+L NFET Q4
 U 1 1 53F8E66C
 P 6500 3750
 F 0 "Q4" H 6510 3920 60  0000 R CNN
@@ -145,7 +192,7 @@ F 3 "" H 6500 3750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOSFET_N Q3
+L NFET Q3
 U 1 1 53F8E673
 P 6500 2800
 F 0 "Q3" H 6510 2970 60  0000 R CNN
@@ -156,7 +203,7 @@ F 3 "" H 6500 2800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOSFET_N Q5
+L NFET Q5
 U 1 1 53F8E67A
 P 8100 2800
 F 0 "Q5" H 8110 2970 60  0000 R CNN
@@ -167,7 +214,7 @@ F 3 "" H 8100 2800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOSFET_N Q6
+L NFET Q6
 U 1 1 53F8E681
 P 8100 3750
 F 0 "Q6" H 8110 3920 60  0000 R CNN
@@ -178,7 +225,7 @@ F 3 "" H 8100 3750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-BLDC_4 R43
+L R R43
 U 1 1 53F8E688
 P 7550 3750
 F 0 "R43" V 7650 3750 50  0000 C CNN
@@ -189,7 +236,7 @@ F 3 "" H 7550 3750 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R-RESCUE-BLDC_4 R42
+L R R42
 U 1 1 53F8E68F
 P 7550 2800
 F 0 "R42" V 7650 2800 50  0000 C CNN
@@ -200,7 +247,7 @@ F 3 "" H 7550 2800 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R-RESCUE-BLDC_4 R36
+L R R36
 U 1 1 53F8E69C
 P 5950 4050
 F 0 "R36" V 5850 4050 50  0000 C CNN
@@ -210,83 +257,8 @@ F 3 "" H 5950 4050 60  0001 C CNN
 	1    5950 4050
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	8100 4050 8200 4050
-Wire Wire Line
-	4950 4050 5700 4050
-Wire Wire Line
-	7250 3750 7300 3750
-Wire Wire Line
-	4050 3750 4150 3750
-Wire Wire Line
-	5650 3750 5700 3750
-Wire Wire Line
-	5600 2800 5700 2800
-Wire Wire Line
-	7200 2800 7300 2800
-Wire Wire Line
-	5050 3950 5050 4500
-Connection ~ 6600 2450
-Wire Wire Line
-	8200 2450 8200 2600
-Wire Wire Line
-	8200 3950 8200 4500
-Wire Wire Line
-	8200 3000 8200 3550
-Wire Wire Line
-	7800 2800 7900 2800
-Wire Wire Line
-	7800 3750 7900 3750
-Wire Wire Line
-	8100 3300 8350 3300
-Connection ~ 8200 3300
-Connection ~ 6600 3300
-Wire Wire Line
-	6500 3300 6750 3300
-Wire Wire Line
-	6200 3750 6300 3750
-Wire Wire Line
-	6200 2800 6300 2800
-Wire Wire Line
-	6600 3000 6600 3550
-Wire Wire Line
-	6600 2450 6600 2600
-Wire Wire Line
-	5050 3000 5050 3550
-Wire Wire Line
-	4650 2800 4750 2800
-Wire Wire Line
-	4650 3750 4750 3750
-Wire Wire Line
-	4950 3300 5200 3300
-Connection ~ 5050 3300
-Wire Wire Line
-	5050 2300 5050 2600
-Connection ~ 5050 2450
-Wire Wire Line
-	4050 2800 4150 2800
-Wire Wire Line
-	5050 2450 8200 2450
-Wire Wire Line
-	7850 3750 7850 3900
-Wire Wire Line
-	7850 3900 7450 3900
-Wire Wire Line
-	7450 3900 7450 4050
-Wire Wire Line
-	7450 4050 7600 4050
-Connection ~ 7850 3750
-Connection ~ 8200 4050
-Connection ~ 5050 4050
-Connection ~ 6250 3750
-Wire Wire Line
-	6200 4050 6250 4050
-Wire Wire Line
-	6250 4050 6250 3750
-Text GLabel 5050 2300 2    60   Input ~ 0
+Text GLabel 5150 2300 2    60   Input ~ 0
 V_SUPPLY
-Wire Wire Line
-	6600 3950 6600 4500
 Text HLabel 4050 2800 0    60   Input ~ 0
 M_H1
 Text HLabel 4050 3750 0    60   Input ~ 0
@@ -1272,9 +1244,84 @@ D1 68 34 2C CB CE CF CF 8B 33 95 10 D2 DC DC DC DE DE 5E 53 53 23 BE D4 E2 E2 E2
 A2 DB A5 0E 1C 38 E0 16 C0 12 58 96 15 77 F6 0A 4F DD 5E 07 00 58 7B 10 AB 00 00 00 41 83 79 AB 
 00 00 00 41 83 58 05 00 00 08 1A C4 2A 00 00 40 D0 20 56 01 00 00 82 06 B1 0A 00 00 10 34 88 55 
 00 00 80 A0 41 AC 02 00 00 04 CD FF 03 15 B2 0E 9E 1D 9F E2 F2 00 00 00 00 49 45 4E 44 AE 42 60 
-82 
+82 45 
 EndData
 $EndBitmap
+Wire Wire Line
+	8000 4050 8200 4050
+Wire Wire Line
+	4850 4050 5800 4050
+Wire Wire Line
+	7250 3750 7400 3750
+Wire Wire Line
+	4050 3750 4250 3750
+Wire Wire Line
+	5650 3750 5800 3750
+Wire Wire Line
+	5600 2800 5800 2800
+Wire Wire Line
+	7200 2800 7400 2800
+Wire Wire Line
+	5050 3950 5050 4500
+Connection ~ 6600 2450
+Wire Wire Line
+	8200 2450 8200 2600
+Wire Wire Line
+	8200 3950 8200 4500
+Wire Wire Line
+	8200 3000 8200 3550
+Wire Wire Line
+	7700 2800 7900 2800
+Wire Wire Line
+	7700 3750 7900 3750
+Wire Wire Line
+	8100 3300 8350 3300
+Connection ~ 8200 3300
+Connection ~ 6600 3300
+Wire Wire Line
+	6500 3300 6750 3300
+Wire Wire Line
+	6100 3750 6300 3750
+Wire Wire Line
+	6100 2800 6300 2800
+Wire Wire Line
+	6600 3000 6600 3550
+Wire Wire Line
+	6600 2450 6600 2600
+Wire Wire Line
+	5050 3000 5050 3550
+Wire Wire Line
+	4550 2800 4750 2800
+Wire Wire Line
+	4550 3750 4750 3750
+Wire Wire Line
+	4950 3300 5200 3300
+Connection ~ 5050 3300
+Wire Wire Line
+	5050 2300 5050 2600
+Connection ~ 5050 2450
+Wire Wire Line
+	4050 2800 4250 2800
+Wire Wire Line
+	5050 2450 8200 2450
+Wire Wire Line
+	7850 3750 7850 3900
+Wire Wire Line
+	7850 3900 7450 3900
+Wire Wire Line
+	7450 3900 7450 4050
+Wire Wire Line
+	7450 4050 7700 4050
+Connection ~ 7850 3750
+Connection ~ 8200 4050
+Connection ~ 5050 4050
+Connection ~ 6250 3750
+Wire Wire Line
+	6100 4050 6250 4050
+Wire Wire Line
+	6250 4050 6250 3750
+Wire Wire Line
+	6600 3950 6600 4500
 Connection ~ 4700 3750
 Wire Wire Line
 	4700 3750 4700 3900
@@ -1283,5 +1330,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 3900 4350 4050
 Wire Wire Line
-	4350 4050 4450 4050
+	4350 4050 4550 4050
+Wire Wire Line
+	5150 2300 5050 2300
 $EndSCHEMATC

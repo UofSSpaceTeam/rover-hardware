@@ -1,41 +1,88 @@
 EESchema Schematic File Version 2
-LIBS:BLDC_4-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
+LIBS:USST-parts
+LIBS:74xgxx
 LIBS:74xx
-LIBS:cmos4000
+LIBS:ac-dc
+LIBS:actel
 LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
+LIBS:Altera
+LIBS:analog_devices
 LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
 LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:cmos4000
+LIBS:conn
 LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:diode
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:Lattice
+LIBS:linear
+LIBS:logo
+LIBS:maxim
+LIBS:memory
+LIBS:microchip
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:microcontrollers
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:Power_Management
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:ttl_ieee
 LIBS:valves
-LIBS:crf_1
+LIBS:video
+LIBS:Xicor
+LIBS:xilinx
+LIBS:Zilog
 LIBS:BLDC_4-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 4 8
 Title "BLDC Driver 4.11"
 Date "21 aug 2015"
 Rev "4.12"
@@ -46,21 +93,21 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCP2551-I/SN-RESCUE-BLDC_4 U401
+L MCP2551-I/SN U401
 U 1 1 53F59F90
 P 5850 4050
-F 0 "U401" H 5600 4350 40  0000 C CNN
-F 1 "SN65HVD232" H 6100 3750 40  0000 C CNN
+F 0 "U401" H 5700 4400 40  0000 C CNN
+F 1 "SN65HVD232" H 6150 3700 40  0000 C CNN
 F 2 "CRF1:SOIC-8-W" H 5850 4050 35  0001 C CIN
 F 3 "" H 5850 4050 60  0000 C CNN
 	1    5850 4050
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-BLDC_4 #PWR26
+L GND #PWR018
 U 1 1 53F59F97
 P 5850 4450
-F 0 "#PWR26" H 5850 4450 30  0001 C CNN
+F 0 "#PWR018" H 5850 4450 30  0001 C CNN
 F 1 "GND" H 5850 4380 30  0001 C CNN
 F 2 "" H 5850 4450 60  0000 C CNN
 F 3 "" H 5850 4450 60  0000 C CNN
@@ -68,10 +115,10 @@ F 3 "" H 5850 4450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR25
+L VCC #PWR019
 U 1 1 53F59F9D
 P 5850 3650
-F 0 "#PWR25" H 5850 3750 30  0001 C CNN
+F 0 "#PWR019" H 5850 3750 30  0001 C CNN
 F 1 "VCC" H 5850 3750 30  0000 C CNN
 F 2 "" H 5850 3650 60  0001 C CNN
 F 3 "" H 5850 3650 60  0001 C CNN
@@ -79,7 +126,7 @@ F 3 "" H 5850 3650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-BLDC_4 C401
+L C C401
 U 1 1 53F59FA3
 P 6150 3400
 F 0 "C401" H 6150 3500 40  0000 L CNN
@@ -90,10 +137,10 @@ F 3 "" H 6150 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR27
+L VCC #PWR020
 U 1 1 53F59FAA
 P 6150 3200
-F 0 "#PWR27" H 6150 3300 30  0001 C CNN
+F 0 "#PWR020" H 6150 3300 30  0001 C CNN
 F 1 "VCC" H 6150 3300 30  0000 C CNN
 F 2 "" H 6150 3200 60  0001 C CNN
 F 3 "" H 6150 3200 60  0001 C CNN
@@ -101,10 +148,10 @@ F 3 "" H 6150 3200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-BLDC_4 #PWR28
+L GND #PWR021
 U 1 1 53F59FB0
 P 6150 3600
-F 0 "#PWR28" H 6150 3600 30  0001 C CNN
+F 0 "#PWR021" H 6150 3600 30  0001 C CNN
 F 1 "GND" H 6150 3530 30  0001 C CNN
 F 2 "" H 6150 3600 60  0000 C CNN
 F 3 "" H 6150 3600 60  0000 C CNN
@@ -1434,15 +1481,15 @@ D6 11 00 80 DF 8F BF 64 C3 E0 79 0A 00 EC 0E 79 0A 00 EC 0E 79 0A 00 EC 0E 79 0A
 00 EC 0E 79 0A 00 EC 0E 79 0A 00 EC 0E 79 0A 00 EC 0E 79 0A 00 EC 0E 79 0A 00 EC 0E 79 0A 00 EC 
 0E 79 0A 00 EC 0E 79 0A 00 EC EE D9 FC E8 EC DF DF E2 F1 78 9F 82 01 00 E8 E0 D9 E4 09 6C 06 C8 
 3E 46 03 00 20 08 82 61 18 8A E5 1F A2 FF C1 6C 53 00 60 73 A8 4F 01 80 DD FD 0F 13 C8 C1 C2 DB 
-BF 08 98 00 00 00 00 49 45 4E 44 AE 42 60 82 
+BF 08 98 00 00 00 00 49 45 4E 44 AE 42 60 82 00 
 EndData
 $EndBitmap
-Text HLabel 6300 3850 2    60   Output ~ 0
+Text HLabel 6350 3850 2    60   Output ~ 0
 CAN_RX
-Text HLabel 6300 3950 2    60   Input ~ 0
+Text HLabel 6350 3950 2    60   Input ~ 0
 CAN_TX
 $Comp
-L R-RESCUE-BLDC_4 R401
+L R R401
 U 1 1 540030A8
 P 4900 4050
 F 0 "R401" V 4980 4050 40  0000 C CNN
@@ -1460,19 +1507,15 @@ Wire Wire Line
 	4650 4300 5150 4300
 Wire Wire Line
 	5150 4300 5150 4150
-Wire Wire Line
-	5150 4150 5400 4150
 Connection ~ 4900 4300
-Wire Wire Line
-	5400 3950 5150 3950
 Wire Wire Line
 	5150 3950 5150 3800
 Wire Wire Line
 	5150 3800 4650 3800
 Connection ~ 4900 3800
-NoConn ~ 6300 4100
+NoConn ~ 6350 4150
 $Comp
-L R-RESCUE-BLDC_4 R402
+L R R402
 U 1 1 54003136
 P 6400 4600
 F 0 "R402" H 6550 4600 40  0000 C CNN
@@ -1482,15 +1525,11 @@ F 3 "" H 6400 4600 30  0000 C CNN
 	1    6400 4600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6400 4350 6400 4250
-Wire Wire Line
-	6400 4250 6300 4250
 $Comp
-L GND-RESCUE-BLDC_4 #PWR29
+L GND #PWR022
 U 1 1 5400318B
 P 6400 4850
-F 0 "#PWR29" H 6400 4850 30  0001 C CNN
+F 0 "#PWR022" H 6400 4850 30  0001 C CNN
 F 1 "GND" H 6400 4780 30  0001 C CNN
 F 2 "" H 6400 4850 60  0000 C CNN
 F 3 "" H 6400 4850 60  0000 C CNN
@@ -1499,4 +1538,22 @@ F 3 "" H 6400 4850 60  0000 C CNN
 $EndComp
 Text Notes 6450 4750 0    40   ~ 0
 Propagation delay\nresistor
+Wire Wire Line
+	6350 4250 6400 4250
+Wire Wire Line
+	6400 4250 6400 4450
+Wire Wire Line
+	6400 4750 6400 4850
+Wire Wire Line
+	5350 3950 5150 3950
+Wire Wire Line
+	5150 4150 5350 4150
+Wire Wire Line
+	4900 3800 4900 3900
+Wire Wire Line
+	4900 4200 4900 4300
+Wire Wire Line
+	6150 3600 6150 3550
+Wire Wire Line
+	6150 3250 6150 3200
 $EndSCHEMATC
