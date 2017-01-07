@@ -1,4 +1,4 @@
-update=1/7/2017 2:54:37 PM
+update=07/01/2017 4:07:20 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../../../Kicad-symbols
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,4 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=C:/Users/usstpc-one/Documents/GitHub/Kicad-symbols/USST-parts
+LibName30=C:/Users/LCC/GitHub/Kicad-symbols/USST-parts

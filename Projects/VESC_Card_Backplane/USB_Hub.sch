@@ -242,17 +242,6 @@ F 3 "" H 5250 4300 60  0001 C CNN
 	1    5250 4300
 	1    0    0    -1  
 $EndComp
-$Comp
-L +5V #U$07
-U 1 1 57E6D8D3
-P 8450 6350
-F 0 "#U$07" H 8375 6450 60  0001 L BNN
-F 1 "+5V" H 8350 6500 60  0000 L BNN
-F 2 "" H 8450 6350 60  0001 C CNN
-F 3 "" H 8450 6350 60  0001 C CNN
-	1    8450 6350
-	1    0    0    -1  
-$EndComp
 Text Label 5300 5450 2    10   ~ 0
 3V3
 Text Label 5300 5150 2    10   ~ 0
@@ -292,14 +281,6 @@ GND
 Text GLabel 4450 6800 3    10   UnSpc ~ 0
 GND
 Text GLabel 4650 6800 3    10   UnSpc ~ 0
-GND
-Text GLabel 6650 5550 3    10   UnSpc ~ 0
-GND
-Text GLabel 6650 6950 1    10   UnSpc ~ 0
-GND
-Text GLabel 7050 5850 3    10   UnSpc ~ 0
-GND
-Text GLabel 7450 6150 3    10   UnSpc ~ 0
 GND
 Text Label 4750 5850 0    10   ~ 0
 N$1
@@ -401,13 +382,7 @@ Text Label 4600 4550 0    10   ~ 0
 VBUS
 Text Label 4600 4750 0    10   ~ 0
 VBUS
-Text Label 6950 5550 3    10   ~ 0
-VBUS
-Text Label 7750 6150 3    10   ~ 0
-VBUS
 Text Label 7350 5850 3    10   ~ 0
-VBUS
-Text Label 8450 6350 3    10   ~ 0
 VBUS
 $Comp
 L FE1.1S M?
@@ -443,39 +418,6 @@ F 3 "" H 4400 4750 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L USB-TYPA USB?
-U 1 1 58632E73
-P 7600 5900
-F 0 "USB?" H 7600 6150 45  0000 C CNN
-F 1 "USB-TYPA" V 7700 5900 45  0000 C CNN
-F 2 "USB-A-F-PTH" H 7600 5600 20  0001 C CNN
-F 3 "" H 7600 5900 60  0000 C CNN
-	1    7600 5900
-	0    1    -1   0   
-$EndComp
-$Comp
-L USB-TYPA USB?
-U 1 1 586331D9
-P 6800 5300
-F 0 "USB?" H 6800 5550 45  0000 C CNN
-F 1 "USB-TYPA" V 6900 5300 45  0000 C CNN
-F 2 "USB-A-F-PTH" H 6800 5000 20  0001 C CNN
-F 3 "" H 6800 5300 60  0000 C CNN
-	1    6800 5300
-	0    1    -1   0   
-$EndComp
-$Comp
-L USB-TYPA USB?
-U 1 1 58633244
-P 7200 5600
-F 0 "USB?" H 7200 5850 45  0000 C CNN
-F 1 "USB-TYPA" V 7300 5600 45  0000 C CNN
-F 2 "USB-A-F-PTH" H 7200 5300 20  0001 C CNN
-F 3 "" H 7200 5600 60  0000 C CNN
-	1    7200 5600
-	0    1    -1   0   
-$EndComp
-$Comp
 L XTAL_1 XL1
 U 1 1 57E6DDE7
 P 5100 4800
@@ -486,17 +428,65 @@ F 3 "" H 5100 4800 60  0001 C CNN
 	1    5100 4800
 	0    1    -1   0   
 $EndComp
+Text HLabel 4850 7600 0    60   Input ~ 0
+DM_U
+Text HLabel 4850 7700 0    60   Input ~ 0
+DP_U
+Text Notes 4900 7850 0    60   ~ 0
+Upstream USB Connection
 $Comp
-L GND #GND?
-U 1 1 586383BE
-P 6650 6950
-F 0 "#GND?" H 6650 6950 45  0001 L BNN
-F 1 "GND" H 6600 6775 45  0000 L BNN
-F 2 "" H 6650 6950 60  0001 C CNN
-F 3 "" H 6650 6950 60  0001 C CNN
-	1    6650 6950
+L VDD #PWR?
+U 1 1 58718D88
+P 4850 5350
+F 0 "#PWR?" H 4850 5200 50  0001 C CNN
+F 1 "VDD" H 4850 5500 50  0000 C CNN
+F 2 "" H 4850 5350 50  0000 C CNN
+F 3 "" H 4850 5350 50  0000 C CNN
+	1    4850 5350
 	1    0    0    -1  
 $EndComp
+Text HLabel 8050 6450 1    60   Input ~ 0
+DM_4
+Text HLabel 7950 6450 1    60   Input ~ 0
+DP_4
+Text HLabel 7650 6150 1    60   Input ~ 0
+DM_3
+Text HLabel 7550 6150 1    60   Input ~ 0
+DP_3
+Text HLabel 7250 5850 1    60   Input ~ 0
+DM_2
+Text HLabel 7150 5850 1    60   Input ~ 0
+DP_2
+Text HLabel 6850 5550 1    60   Input ~ 0
+DM_1
+Text HLabel 6750 5550 1    60   Input ~ 0
+DP_1
+$Comp
+L GND #PWR?
+U 1 1 5871A6C2
+P 2250 6775
+F 0 "#PWR?" H 2250 6525 50  0001 C CNN
+F 1 "GND" H 2250 6625 50  0000 C CNN
+F 2 "" H 2250 6775 50  0000 C CNN
+F 3 "" H 2250 6775 50  0000 C CNN
+	1    2250 6775
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5871A6FC
+P 2175 5325
+F 0 "#PWR?" H 2175 5175 50  0001 C CNN
+F 1 "+5V" H 2175 5465 50  0000 C CNN
+F 2 "" H 2175 5325 50  0000 C CNN
+F 3 "" H 2175 5325 50  0000 C CNN
+	1    2175 5325
+	1    0    0    -1  
+$EndComp
+Text HLabel 2250 6575 1    60   Input ~ 0
+GND
+Text HLabel 2175 5600 3    60   Input ~ 0
++5V
 Wire Wire Line
 	5300 5150 5250 5150
 Wire Wire Line
@@ -509,8 +499,6 @@ Wire Wire Line
 	4650 6250 5300 6250
 Wire Wire Line
 	4850 6350 5300 6350
-Wire Wire Line
-	5250 6350 5250 6250
 Wire Wire Line
 	4850 6350 4850 6450
 Wire Wire Line
@@ -565,16 +553,7 @@ Connection ~ 4100 4550
 Connection ~ 4450 6850
 Connection ~ 4650 6850
 Wire Wire Line
-	6650 5550 6650 6950
-Wire Wire Line
-	7050 5850 7050 6850
-Wire Wire Line
-	7450 6850 7450 6150
-Connection ~ 6650 6850
-Connection ~ 7050 6850
-Connection ~ 7450 6850
-Wire Wire Line
-	7650 5350 7650 5250
+	7650 5200 7650 5350
 Wire Wire Line
 	4700 5850 5300 5850
 Wire Wire Line
@@ -702,38 +681,9 @@ Connection ~ 5250 4550
 Connection ~ 4700 4550
 Connection ~ 4700 4750
 Wire Wire Line
-	6950 5550 6950 6750
+	5250 6350 5250 6250
 Wire Wire Line
-	7750 6750 7750 6150
+	2175 5325 2175 5600
 Wire Wire Line
-	6950 6750 8450 6750
-Wire Wire Line
-	7350 5850 7350 6750
-Wire Wire Line
-	8450 6750 8450 6350
-Connection ~ 7750 6750
-Connection ~ 7350 6750
-Text HLabel 4850 7600 0    60   Input ~ 0
-DM_U
-Text HLabel 4850 7700 0    60   Input ~ 0
-DP_U
-Text Notes 4900 7850 0    60   ~ 0
-Upstream USB Connection
-$Comp
-L VDD #PWR?
-U 1 1 58718D88
-P 4850 5350
-F 0 "#PWR?" H 4850 5200 50  0001 C CNN
-F 1 "VDD" H 4850 5500 50  0000 C CNN
-F 2 "" H 4850 5350 50  0000 C CNN
-F 3 "" H 4850 5350 50  0000 C CNN
-	1    4850 5350
-	1    0    0    -1  
-$EndComp
-Text HLabel 8050 6450 1    60   Input ~ 0
-DM_4
-Text HLabel 7950 6450 1    60   Input ~ 0
-DP_4
-Wire Wire Line
-	6650 6850 7450 6850
+	2250 6575 2250 6775
 $EndSCHEMATC
