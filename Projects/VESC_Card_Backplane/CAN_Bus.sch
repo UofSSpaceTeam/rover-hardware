@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -44,4 +44,82 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	4850 3550 5225 3550
+Wire Wire Line
+	5225 3650 4900 3650
+$Comp
+L R R6
+U 1 1 58788FC5
+P 4675 3600
+F 0 "R6" V 4755 3600 50  0000 C CNN
+F 1 "120" V 4675 3600 50  0000 C CNN
+F 2 "" V 4605 3600 50  0000 C CNN
+F 3 "" H 4675 3600 50  0000 C CNN
+	1    4675 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3450 4850 3550
+Wire Wire Line
+	4450 3450 4675 3450
+Wire Wire Line
+	4675 3450 4850 3450
+Wire Wire Line
+	4900 3650 4900 3750
+Wire Wire Line
+	4900 3750 4675 3750
+Wire Wire Line
+	4675 3750 4450 3750
+Connection ~ 4675 3750
+Connection ~ 4675 3450
+Text HLabel 4450 3450 0    60   Input ~ 0
+CANH
+Text HLabel 4450 3750 0    60   Input ~ 0
+CANL
+$Comp
+L CONN_01X04 P4
+U 1 1 58789187
+P 5425 3600
+F 0 "P4" H 5425 3850 50  0000 C CNN
+F 1 "CONN_01X04" V 5525 3600 50  0000 C CNN
+F 2 "" H 5425 3600 50  0000 C CNN
+F 3 "" H 5425 3600 50  0000 C CNN
+	1    5425 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5225 3450 5075 3450
+Wire Wire Line
+	5075 3450 5075 3250
+Wire Wire Line
+	5075 3250 4450 3250
+Wire Wire Line
+	5225 3750 5100 3750
+Wire Wire Line
+	5100 3750 5100 3925
+Wire Wire Line
+	5100 3925 4450 3925
+$Comp
+L +5V #PWR8
+U 1 1 587891D5
+P 4450 3250
+F 0 "#PWR8" H 4450 3100 50  0001 C CNN
+F 1 "+5V" H 4450 3390 50  0000 C CNN
+F 2 "" H 4450 3250 50  0000 C CNN
+F 3 "" H 4450 3250 50  0000 C CNN
+	1    4450 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR9
+U 1 1 587891FF
+P 4450 3925
+F 0 "#PWR9" H 4450 3675 50  0001 C CNN
+F 1 "GNDD" H 4450 3775 50  0000 C CNN
+F 2 "" H 4450 3925 50  0000 C CNN
+F 3 "" H 4450 3925 50  0000 C CNN
+	1    4450 3925
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
