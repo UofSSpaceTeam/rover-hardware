@@ -1,11 +1,6 @@
-update=1/7/2017 1:15:39 AM
+update=1/13/2017 12:03:28 AM
 version=1
 last_client=kicad
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -110,3 +105,6 @@ LibName77=xilinx
 LibName78=Zilog
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
