@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 6
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
@@ -215,71 +215,27 @@ F 3 "" H 2700 3025 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4800 3175 4800 3250
+	4800 3250 4800 3175
 Wire Wire Line
-	2400 3250 2700 3250
-Wire Wire Line
-	2700 3250 3050 3250
-Wire Wire Line
-	3050 3250 3400 3250
-Wire Wire Line
-	3400 3250 3750 3250
-Wire Wire Line
-	3750 3250 4100 3250
-Wire Wire Line
-	4100 3250 4450 3250
-Wire Wire Line
-	4450 3250 4800 3250
-Wire Wire Line
-	4800 3250 5200 3250
-Wire Wire Line
-	5200 3250 5575 3250
-Wire Wire Line
-	5575 3250 5875 3250
+	2400 3250 5875 3250
 Wire Wire Line
 	5875 3250 5875 3075
 Wire Wire Line
 	4800 2800 4800 2875
 Wire Wire Line
-	2425 2800 2700 2800
-Wire Wire Line
-	2700 2800 3050 2800
-Wire Wire Line
-	3050 2800 3400 2800
-Wire Wire Line
-	3400 2800 3750 2800
-Wire Wire Line
-	3750 2800 4100 2800
-Wire Wire Line
-	4100 2800 4450 2800
-Wire Wire Line
-	4450 2800 4800 2800
-Wire Wire Line
-	4800 2800 5200 2800
-Wire Wire Line
-	5200 2800 5575 2800
-Wire Wire Line
-	5575 2800 5875 2800
+	2425 2800 5875 2800
 Wire Wire Line
 	5875 2800 5875 2975
 Wire Wire Line
 	4800 4025 4800 3950
 Wire Wire Line
-	3800 4025 4050 4025
-Wire Wire Line
-	4050 4025 4800 4025
-Wire Wire Line
-	4800 4025 5875 4025
+	3800 4025 5875 4025
 Wire Wire Line
 	5875 4025 5875 3850
 Wire Wire Line
 	4800 3575 4800 3650
 Wire Wire Line
-	3800 3575 4050 3575
-Wire Wire Line
-	4050 3575 4800 3575
-Wire Wire Line
-	4800 3575 5875 3575
+	3800 3575 5875 3575
 Wire Wire Line
 	5875 3575 5875 3750
 Connection ~ 4800 2800
