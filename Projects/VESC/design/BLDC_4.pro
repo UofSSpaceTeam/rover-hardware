@@ -1,4 +1,4 @@
-update=1/13/2017 12:03:28 AM
+update=1/13/2017 3:10:37 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -103,8 +103,8 @@ LibName75=video
 LibName76=Xicor
 LibName77=xilinx
 LibName78=Zilog
-[general]
-version=1
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
