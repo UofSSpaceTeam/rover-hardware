@@ -1,4 +1,4 @@
-update=07/01/2017 4:07:20 PM
+update=1/13/2017 6:16:49 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../../Kicad-symbols
@@ -59,3 +57,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=C:/Users/LCC/GitHub/Kicad-symbols/USST-parts
+[general]
+version=1
