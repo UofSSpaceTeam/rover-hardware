@@ -138,15 +138,15 @@ F 3 "" V 4100 3025 50  0000 C CNN
 	1    4150 3125
 	0    -1   -1   0   
 $EndComp
-Text Label 2725 3600 0    60   ~ 0
+Text Label 2900 3600 0    60   ~ 0
 USB_DP_2
-Text Label 2725 3700 0    60   ~ 0
+Text Label 2900 3700 0    60   ~ 0
 USB_DM_2
-Text Label 6125 2975 0    60   ~ 0
-USB_DP_2
 Text Label 6125 3075 0    60   ~ 0
+USB_DP_2
+Text Label 6125 2975 0    60   ~ 0
 USB_DM_2
-Text Label 2725 5325 0    60   ~ 0
+Text Label 2825 5325 0    60   ~ 0
 USB_DP_3
 Text Label 4825 3725 2    60   ~ 0
 USB_DP_3
@@ -160,12 +160,8 @@ Text Label 2725 3075 0    60   ~ 0
 VBAT
 Text Label 2725 4800 0    60   ~ 0
 VBAT
-Text Label 2725 5425 0    60   ~ 0
+Text Label 2825 5425 0    60   ~ 0
 USB_DM_3
-Text Label 2750 2075 0    60   ~ 0
-GNDD
-Text Label 2725 3850 0    60   ~ 0
-GNDD
 Text Label 2725 5575 0    60   ~ 0
 GNDD
 Text Label 6125 3550 0    60   ~ 0
@@ -203,6 +199,23 @@ Text Label 4725 4375 2    60   ~ 0
 DM_4
 Text Label 4725 4475 2    60   ~ 0
 DP_4
+NoConn ~ 4450 3025
+Text Label 4550 5425 2    60   ~ 0
+CANH
+Text Label 2725 5075 0    60   ~ 0
+CANH
+Text Label 2725 3350 0    60   ~ 0
+CANH
+Text Label 2750 1575 0    60   ~ 0
+CANH
+Text Label 4725 4275 2    60   ~ 0
+5V
+Text Label 4725 4575 2    60   ~ 0
+GNDD
+Text Label 4200 3600 0    60   ~ 0
+5V
+Text Label 4350 2550 2    60   ~ 0
+GNDD
 Wire Wire Line
 	2750 1825 2925 1825
 Wire Wire Line
@@ -234,21 +247,48 @@ Wire Wire Line
 	4700 3125 4825 3125
 Wire Wire Line
 	3775 1700 3775 5575
-NoConn ~ 4450 3025
-Text Label 4550 5425 2    60   ~ 0
-CANH
-Text Label 2725 5075 0    60   ~ 0
-CANH
-Text Label 2725 3350 0    60   ~ 0
-CANH
-Text Label 2750 1575 0    60   ~ 0
-CANH
-Text Label 4725 4275 2    60   ~ 0
-5V
-Text Label 4725 4575 2    60   ~ 0
-GNDD
-Text Label 4450 3325 0    60   ~ 0
-5V
 Wire Wire Line
 	2750 1700 3775 1700
+Wire Wire Line
+	4450 2800 4450 2550
+Wire Wire Line
+	4450 2550 4350 2550
+Connection ~ 4450 2800
+$Comp
+L Jumper_NO_Small JP2
+U 1 1 5882581A
+P 4400 3450
+F 0 "JP2" H 4400 3530 50  0000 C CNN
+F 1 "J" H 4410 3390 50  0000 C CNN
+F 2 "USST-footprints:J_0603" H 4400 3450 50  0001 C CNN
+F 3 "" H 4400 3450 50  0000 C CNN
+	1    4400 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3325 4550 3325
+Wire Wire Line
+	4550 3325 4550 3450
+Wire Wire Line
+	4550 3450 4500 3450
+Wire Wire Line
+	4300 3450 4200 3450
+Wire Wire Line
+	4200 3450 4200 3600
+Wire Wire Line
+	2900 3600 2725 3600
+Wire Wire Line
+	2900 3700 2725 3700
+Wire Wire Line
+	2825 5325 2725 5325
+Wire Wire Line
+	2825 5425 2725 5425
+Text Label 2800 3850 0    60   ~ 0
+PGND
+Wire Wire Line
+	2800 3850 2725 3850
+Text Label 2750 2075 0    60   ~ 0
+PGND
+Text Notes 850  2600 0    60   ~ 0
+Note: Due to layout constraints, pgnd = gndd for A and B\n
 $EndSCHEMATC

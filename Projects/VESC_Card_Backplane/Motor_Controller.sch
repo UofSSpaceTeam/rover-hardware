@@ -58,7 +58,6 @@ F 3 "" H 5175 3325 60  0000 C CNN
 	1    5025 3325
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4525 4575
 $Comp
 L EC90_Flat P2
 U 1 1 5871BA09
@@ -102,13 +101,13 @@ VBAT
 Text HLabel 4525 3475 0    60   Input ~ 0
 PGND
 $Comp
-L +5V #PWR010
+L +5V #PWR07
 U 1 1 5871CFED
 P 3350 3375
-AR Path="/5871DA4F/5871CFED" Ref="#PWR010"  Part="1" 
-AR Path="/5878CF59/5871CFED" Ref="#PWR016"  Part="1" 
-AR Path="/5878D5C8/5871CFED" Ref="#PWR018"  Part="1" 
-F 0 "#PWR018" H 3350 3225 50  0001 C CNN
+AR Path="/5871DA4F/5871CFED" Ref="#PWR07"  Part="1" 
+AR Path="/5878CF59/5871CFED" Ref="#PWR013"  Part="1" 
+AR Path="/5878D5C8/5871CFED" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 3350 3225 50  0001 C CNN
 F 1 "+5V" H 3350 3515 50  0000 C CNN
 F 2 "" H 3350 3375 50  0000 C CNN
 F 3 "" H 3350 3375 50  0000 C CNN
@@ -116,13 +115,13 @@ F 3 "" H 3350 3375 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +5V #PWR011
+L +5V #PWR08
 U 1 1 5871D005
 P 3350 3675
-AR Path="/5871DA4F/5871D005" Ref="#PWR011"  Part="1" 
-AR Path="/5878CF59/5871D005" Ref="#PWR017"  Part="1" 
-AR Path="/5878D5C8/5871D005" Ref="#PWR019"  Part="1" 
-F 0 "#PWR019" H 3350 3525 50  0001 C CNN
+AR Path="/5871DA4F/5871D005" Ref="#PWR08"  Part="1" 
+AR Path="/5878CF59/5871D005" Ref="#PWR014"  Part="1" 
+AR Path="/5878D5C8/5871D005" Ref="#PWR016"  Part="1" 
+F 0 "#PWR016" H 3350 3525 50  0001 C CNN
 F 1 "+5V" H 3350 3815 50  0000 C CNN
 F 2 "" H 3350 3675 50  0000 C CNN
 F 3 "" H 3350 3675 50  0000 C CNN
@@ -133,6 +132,38 @@ Text HLabel 4525 3875 0    60   Input ~ 0
 CANH/TX
 Text HLabel 4525 3975 0    60   Input ~ 0
 CANL/RX
+Text HLabel 5625 3875 2    60   Input ~ 0
+USBDP
+Text HLabel 5625 3975 2    60   Input ~ 0
+USBDM
+Text Label 5625 3075 0    60   ~ 0
+W
+Text Label 5625 3175 0    60   ~ 0
+X
+Text Label 5625 3275 0    60   ~ 0
+Y
+Text HLabel 5625 3375 2    60   Input ~ 0
+VBAT
+Text HLabel 5625 3475 2    60   Input ~ 0
+PGND
+Text HLabel 5625 3675 2    60   Input ~ 0
+GNDD
+Text HLabel 5625 3775 2    60   Input ~ 0
+GNDD
+$Comp
+L CONN_01X06 P4
+U 1 1 5871D4B0
+P 6225 4325
+AR Path="/5871DA4F/5871D4B0" Ref="P4"  Part="1" 
+AR Path="/5878CF59/5871D4B0" Ref="P8"  Part="1" 
+AR Path="/5878D5C8/5871D4B0" Ref="P11"  Part="1" 
+F 0 "P11" H 6225 4675 50  0000 C CNN
+F 1 "CONN_01X06" V 6325 4325 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_2x03_Pitch2.54mm" H 6225 4325 50  0001 C CNN
+F 3 "" H 6225 4325 50  0000 C CNN
+	1    6225 4325
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	4525 4275 4350 4275
 Wire Wire Line
@@ -175,48 +206,65 @@ Wire Wire Line
 	4100 3375 4100 3675
 Wire Wire Line
 	4100 3675 4525 3675
-Text HLabel 5625 3875 2    60   Input ~ 0
-USBDP
-Text HLabel 5625 3975 2    60   Input ~ 0
-USBDM
-Text Label 5625 3075 0    60   ~ 0
-W
-Text Label 5625 3175 0    60   ~ 0
-X
-Text Label 5625 3275 0    60   ~ 0
-Y
-Text HLabel 5625 3375 2    60   Input ~ 0
-VBAT
-Text HLabel 5625 3475 2    60   Input ~ 0
-PGND
-Text HLabel 5625 3675 2    60   Input ~ 0
-GNDD
-Text HLabel 5625 3775 2    60   Input ~ 0
-GNDD
-$Comp
-L CONN_01X06 P4
-U 1 1 5871D4B0
-P 6225 4325
-AR Path="/5871DA4F/5871D4B0" Ref="P4"  Part="1" 
-AR Path="/5878CF59/5871D4B0" Ref="P8"  Part="1" 
-AR Path="/5878D5C8/5871D4B0" Ref="P11"  Part="1" 
-F 0 "P11" H 6225 4675 50  0000 C CNN
-F 1 "CONN_01X06" V 6325 4325 50  0000 C CNN
-F 2 "USST-footprints:Molex_39502_1006R" H 6225 4325 50  0001 C CNN
-F 3 "" H 6225 4325 50  0000 C CNN
-	1    6225 4325
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6025 4075 5625 4075
-Wire Wire Line
-	5625 4175 6025 4175
 Wire Wire Line
 	6025 4275 5625 4275
 Wire Wire Line
 	5625 4375 6025 4375
 Wire Wire Line
-	6025 4475 5625 4475
+	5625 4475 5725 4475
 Wire Wire Line
-	5625 4575 6025 4575
+	5725 4475 5725 4075
+Wire Wire Line
+	5725 4075 6025 4075
+Wire Wire Line
+	5625 4075 5675 4075
+Wire Wire Line
+	5675 4075 5675 4125
+Wire Wire Line
+	5675 4125 6000 4125
+Wire Wire Line
+	5900 4125 5900 4575
+Wire Wire Line
+	5625 4575 5800 4575
+Wire Wire Line
+	5800 4575 5800 4175
+Wire Wire Line
+	5800 4175 6025 4175
+Wire Wire Line
+	5625 4175 5675 4175
+Wire Wire Line
+	5675 4175 5675 4225
+Wire Wire Line
+	5675 4225 5850 4225
+Wire Wire Line
+	5900 4575 6025 4575
+Wire Wire Line
+	5850 4225 5850 4475
+Wire Wire Line
+	5850 4475 6025 4475
+$Comp
+L CONN_01X02 P12
+U 1 1 588448BA
+P 4125 4625
+AR Path="/5871DA4F/588448BA" Ref="P12"  Part="1" 
+AR Path="/5878CF59/588448BA" Ref="P13"  Part="1" 
+AR Path="/5878D5C8/588448BA" Ref="P14"  Part="1" 
+F 0 "P14" H 4125 4775 50  0000 C CNN
+F 1 "CONN_01X02" V 4225 4625 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch1.27mm" H 4125 4625 50  0001 C CNN
+F 3 "" H 4125 4625 50  0000 C CNN
+	1    4125 4625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4325 4575 4525 4575
+Wire Wire Line
+	6000 4125 6000 3800
+Wire Wire Line
+	6000 3800 6300 3800
+Connection ~ 5900 4125
+Text Label 6300 3800 0    60   ~ 0
+GND_AUX
+Text Label 4325 4675 0    60   ~ 0
+GND_AUX
 $EndSCHEMATC

@@ -318,40 +318,12 @@ Text Label 5300 4850 2    10   ~ 0
 N$9
 Text Label 5100 5000 3    10   ~ 0
 N$9
-Text Label 6500 5650 0    10   ~ 0
-N$11
-Text Label 6750 5550 3    10   ~ 0
-N$11
-Text Label 6500 5750 0    10   ~ 0
-N$12
-Text Label 6850 5550 3    10   ~ 0
-N$12
 Text Label 4700 5350 3    10   ~ 0
 N$13
 Text Label 5300 5550 2    10   ~ 0
 N$13
 Text Label 4600 5550 0    10   ~ 0
 N$13
-Text Label 6500 5950 0    10   ~ 0
-N$14
-Text Label 7150 5850 3    10   ~ 0
-N$14
-Text Label 6500 6050 0    10   ~ 0
-N$15
-Text Label 7250 5850 3    10   ~ 0
-N$15
-Text Label 7550 6150 3    10   ~ 0
-N$16
-Text Label 6500 6250 0    10   ~ 0
-N$16
-Text Label 6500 6350 0    10   ~ 0
-N$17
-Text Label 7650 6150 3    10   ~ 0
-N$17
-Text Label 6500 6550 0    10   ~ 0
-N$18
-Text Label 6500 6650 0    10   ~ 0
-N$19
 Text Label 7050 4600 0    10   ~ 0
 N$20
 Text Label 7150 4550 2    10   ~ 0
@@ -391,8 +363,6 @@ VBUS
 Text Label 4600 4550 0    10   ~ 0
 VBUS
 Text Label 4600 4750 0    10   ~ 0
-VBUS
-Text Label 7350 5850 3    10   ~ 0
 VBUS
 $Comp
 L FE1.1S M1
@@ -696,74 +666,4 @@ F 3 "" H 3350 5350 60  0001 C CNN
 	1    3350 5350
 	1    0    0    -1  
 $EndComp
-$Comp
-L LP38693 U1
-U 1 1 58783463
-P 10100 5400
-F 0 "U1" H 10250 5100 60  0000 C CNN
-F 1 "LP38693" H 10100 5700 60  0000 C CNN
-F 2 "USST-footprints:SOT-223_5-pin" H 10100 5400 60  0001 C CNN
-F 3 "" H 10100 5400 60  0001 C CNN
-	1    10100 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L VDD #PWR07
-U 1 1 587837CA
-P 10900 5350
-F 0 "#PWR07" H 10900 5200 50  0001 C CNN
-F 1 "VDD" H 10900 5500 50  0000 C CNN
-F 2 "" H 10900 5350 50  0000 C CNN
-F 3 "" H 10900 5350 50  0000 C CNN
-	1    10900 5350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10900 5350 10900 5400
-Wire Wire Line
-	10900 5400 10550 5400
-Wire Wire Line
-	9650 5400 9150 5400
-Wire Wire Line
-	9150 5400 9150 5350
-$Comp
-L +5V #U$08
-U 1 1 58783B06
-P 9150 5350
-F 0 "#U$08" H 9075 5450 60  0001 L BNN
-F 1 "+5V" H 9050 5550 60  0000 L BNN
-F 2 "" H 9150 5350 60  0001 C CNN
-F 3 "" H 9150 5350 60  0001 C CNN
-	1    9150 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L GNDD #GND09
-U 1 1 58784370
-P 10100 5900
-F 0 "#GND09" H 10000 5900 60  0001 L BNN
-F 1 "GNDD" H 10025 5725 60  0000 L BNN
-F 2 "" H 10100 5900 60  0001 C CNN
-F 3 "" H 10100 5900 60  0001 C CNN
-	1    10100 5900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10100 5800 10100 5900
-$Comp
-L Jumper_NC_Small JP1
-U 1 1 5878491B
-P 9550 5300
-F 0 "JP1" H 9550 5380 50  0000 C CNN
-F 1 "Jumper_NC_Small" H 9560 5240 50  0001 C CNN
-F 2 "USST-footprints:J_0603" H 9550 5300 50  0001 C CNN
-F 3 "" H 9550 5300 50  0000 C CNN
-	1    9550 5300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9450 5300 9350 5300
-Wire Wire Line
-	9350 5300 9350 5400
-Connection ~ 9350 5400
 $EndSCHEMATC
