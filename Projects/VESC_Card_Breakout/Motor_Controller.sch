@@ -29,12 +29,12 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:USST-parts
-LIBS:VESC_Card_Backplane-cache
+LIBS:VESC_Card_Breakout-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 7
+Sheet 2 2
 Title ""
 Date ""
 Rev ""
@@ -45,13 +45,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L AMP17614426-2_EDGE P3
+L AMP17614426-2_EDGE P6
 U 1 1 5871B697
 P 5025 3325
-AR Path="/5871DA4F/5871B697" Ref="P3"  Part="1" 
-AR Path="/5878CF59/5871B697" Ref="P7"  Part="1" 
-AR Path="/5878D5C8/5871B697" Ref="P10"  Part="1" 
-F 0 "P10" H 5025 3775 60  0000 C CNN
+F 0 "P6" H 5075 3750 60  0000 C CNN
 F 1 "AMP17614426-2_EDGE" H 5075 1875 60  0000 C CNN
 F 2 "USST-footprints:TE2007088-1_Backplane" H 5175 3325 60  0001 C CNN
 F 3 "" H 5175 3325 60  0000 C CNN
@@ -59,13 +56,10 @@ F 3 "" H 5175 3325 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EC90_Flat P2
+L EC90_Flat P4
 U 1 1 5871BA09
 P 3325 4325
-AR Path="/5871DA4F/5871BA09" Ref="P2"  Part="1" 
-AR Path="/5878CF59/5871BA09" Ref="P6"  Part="1" 
-AR Path="/5878D5C8/5871BA09" Ref="P9"  Part="1" 
-F 0 "P9" H 3325 4575 50  0000 C CNN
+F 0 "P4" H 3325 4575 50  0000 C CNN
 F 1 "EC90_Flat" H 3325 4075 50  0000 C CNN
 F 2 "USST-footprints:Molex_MiniFit-JR-5569-08A2_2x04x4.20mm_Angled_Overhang" H 3325 3125 50  0001 C CNN
 F 3 "" H 3325 3125 50  0000 C CNN
@@ -100,34 +94,6 @@ Text HLabel 4525 3375 0    60   Input ~ 0
 VBAT
 Text HLabel 4525 3475 0    60   Input ~ 0
 PGND
-$Comp
-L +5V #PWR07
-U 1 1 5871CFED
-P 3350 3375
-AR Path="/5871DA4F/5871CFED" Ref="#PWR07"  Part="1" 
-AR Path="/5878CF59/5871CFED" Ref="#PWR013"  Part="1" 
-AR Path="/5878D5C8/5871CFED" Ref="#PWR015"  Part="1" 
-F 0 "#PWR015" H 3350 3225 50  0001 C CNN
-F 1 "+5V" H 3350 3515 50  0000 C CNN
-F 2 "" H 3350 3375 50  0000 C CNN
-F 3 "" H 3350 3375 50  0000 C CNN
-	1    3350 3375
-	0    -1   -1   0   
-$EndComp
-$Comp
-L +5V #PWR08
-U 1 1 5871D005
-P 3350 3675
-AR Path="/5871DA4F/5871D005" Ref="#PWR08"  Part="1" 
-AR Path="/5878CF59/5871D005" Ref="#PWR014"  Part="1" 
-AR Path="/5878D5C8/5871D005" Ref="#PWR016"  Part="1" 
-F 0 "#PWR016" H 3350 3525 50  0001 C CNN
-F 1 "+5V" H 3350 3815 50  0000 C CNN
-F 2 "" H 3350 3675 50  0000 C CNN
-F 3 "" H 3350 3675 50  0000 C CNN
-	1    3350 3675
-	0    -1   -1   0   
-$EndComp
 Text HLabel 4525 3875 0    60   Input ~ 0
 CANH/TX
 Text HLabel 4525 3975 0    60   Input ~ 0
@@ -151,13 +117,10 @@ GNDD
 Text HLabel 5625 3775 2    60   Input ~ 0
 GNDD
 $Comp
-L CONN_01X06 P4
+L CONN_01X06 P7
 U 1 1 5871D4B0
 P 6225 4325
-AR Path="/5871DA4F/5871D4B0" Ref="P4"  Part="1" 
-AR Path="/5878CF59/5871D4B0" Ref="P8"  Part="1" 
-AR Path="/5878D5C8/5871D4B0" Ref="P11"  Part="1" 
-F 0 "P11" H 6225 4675 50  0000 C CNN
+F 0 "P7" H 6225 4675 50  0000 C CNN
 F 1 "CONN_01X06" V 6325 4325 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Angled_2x03_Pitch2.54mm" H 6225 4325 50  0001 C CNN
 F 3 "" H 6225 4325 50  0000 C CNN
@@ -197,9 +160,9 @@ Wire Wire Line
 Wire Wire Line
 	3350 3375 4100 3375
 Wire Wire Line
-	3350 3675 3925 3675
+	3350 3525 3925 3525
 Wire Wire Line
-	3925 3675 3925 3775
+	3925 3525 3925 3775
 Wire Wire Line
 	3925 3775 4525 3775
 Wire Wire Line
@@ -221,9 +184,7 @@ Wire Wire Line
 Wire Wire Line
 	5675 4075 5675 4125
 Wire Wire Line
-	5675 4125 5900 4125
-Wire Wire Line
-	5900 4125 6000 4125
+	5675 4125 6025 4125
 Wire Wire Line
 	5900 4125 5900 4575
 Wire Wire Line
@@ -245,28 +206,35 @@ Wire Wire Line
 Wire Wire Line
 	5850 4475 6025 4475
 $Comp
-L CONN_01X02 P12
+L CONN_01X02 P5
 U 1 1 588448BA
-P 3925 4625
-AR Path="/5871DA4F/588448BA" Ref="P12"  Part="1" 
-AR Path="/5878CF59/588448BA" Ref="P13"  Part="1" 
-AR Path="/5878D5C8/588448BA" Ref="P14"  Part="1" 
-F 0 "P14" H 3925 4775 50  0000 C CNN
-F 1 "CONN_01X02" V 4025 4625 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch1.27mm" H 3925 4625 50  0001 C CNN
-F 3 "" H 3925 4625 50  0000 C CNN
-	1    3925 4625
+P 3925 5025
+F 0 "P5" H 3925 5175 50  0000 C CNN
+F 1 "CONN_01X02" V 4025 5025 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch1.27mm" H 3925 5025 50  0001 C CNN
+F 3 "" H 3925 5025 50  0000 C CNN
+	1    3925 5025
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4125 4575 4525 4575
-Wire Wire Line
-	6000 4125 6000 3800
-Wire Wire Line
-	6000 3800 6300 3800
 Connection ~ 5900 4125
-Text Label 6300 3800 0    60   ~ 0
+Text Label 6350 3925 0    60   ~ 0
 GND_AUX
-Text Label 4125 4675 3    60   ~ 0
+Text Label 4225 5075 0    60   ~ 0
 GND_AUX
+Wire Wire Line
+	4125 4975 4275 4975
+Wire Wire Line
+	4275 4975 4275 4575
+Wire Wire Line
+	4275 4575 4525 4575
+Wire Wire Line
+	4225 5075 4125 5075
+Wire Wire Line
+	6025 4125 6025 3925
+Wire Wire Line
+	6025 3925 6350 3925
+Text HLabel 3350 3375 0    60   Input ~ 0
+5v0
+Text HLabel 3350 3525 0    60   Input ~ 0
+5v0
 $EndSCHEMATC
