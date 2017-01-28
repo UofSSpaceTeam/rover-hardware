@@ -79,7 +79,7 @@ U 1 1 56F7574E
 P 3950 3300
 F 0 "R1" V 4030 3300 50  0000 C CNN
 F 1 "2k" V 3950 3300 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 3880 3300 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3880 3300 50  0001 C CNN
 F 3 "" H 3950 3300 50  0000 C CNN
 	1    3950 3300
 	0    1    1    0   
@@ -90,7 +90,7 @@ U 1 1 56F7582B
 P 4200 3500
 F 0 "R2" V 4280 3500 50  0000 C CNN
 F 1 "10k" V 4200 3500 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 4130 3500 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4130 3500 50  0001 C CNN
 F 3 "" H 4200 3500 50  0000 C CNN
 	1    4200 3500
 	1    0    0    -1  
@@ -120,7 +120,7 @@ U 1 1 56F76F2E
 P 6900 3650
 F 0 "R5" V 6980 3650 50  0000 C CNN
 F 1 "886k" V 6900 3650 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 6830 3650 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6830 3650 50  0001 C CNN
 F 3 "" H 6900 3650 50  0000 C CNN
 	1    6900 3650
 	0    1    1    0   
@@ -131,7 +131,7 @@ U 1 1 56F77091
 P 6900 3850
 F 0 "R6" V 6980 3850 50  0000 C CNN
 F 1 "870k" V 6900 3850 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 6830 3850 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6830 3850 50  0001 C CNN
 F 3 "" H 6900 3850 50  0000 C CNN
 	1    6900 3850
 	0    1    1    0   
@@ -142,7 +142,7 @@ U 1 1 56F770F6
 P 6900 4050
 F 0 "R7" V 6980 4050 50  0000 C CNN
 F 1 "848k" V 6900 4050 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 6830 4050 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6830 4050 50  0001 C CNN
 F 3 "" H 6900 4050 50  0000 C CNN
 	1    6900 4050
 	0    1    1    0   
@@ -153,7 +153,7 @@ U 1 1 56F77129
 P 6900 4250
 F 0 "R8" V 6980 4250 50  0000 C CNN
 F 1 "818k" V 6900 4250 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 6830 4250 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6830 4250 50  0001 C CNN
 F 3 "" H 6900 4250 50  0000 C CNN
 	1    6900 4250
 	0    1    1    0   
@@ -164,7 +164,7 @@ U 1 1 56F7717C
 P 6900 4450
 F 0 "R9" V 6980 4450 50  0000 C CNN
 F 1 "773k" V 6900 4450 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 6830 4450 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6830 4450 50  0001 C CNN
 F 3 "" H 6900 4450 50  0000 C CNN
 	1    6900 4450
 	0    1    1    0   
@@ -175,7 +175,7 @@ U 1 1 56F771D2
 P 6900 4650
 F 0 "R10" V 6980 4650 50  0000 C CNN
 F 1 "697k" V 6900 4650 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 6830 4650 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6830 4650 50  0001 C CNN
 F 3 "" H 6900 4650 50  0000 C CNN
 	1    6900 4650
 	0    1    1    0   
@@ -186,7 +186,7 @@ U 1 1 56F77227
 P 6900 4850
 F 0 "R11" V 6980 4850 50  0000 C CNN
 F 1 "545k" V 6900 4850 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 6830 4850 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6830 4850 50  0001 C CNN
 F 3 "" H 6900 4850 50  0000 C CNN
 	1    6900 4850
 	0    1    1    0   
@@ -197,7 +197,7 @@ U 1 1 56F7727A
 P 6900 5050
 F 0 "R12" V 6980 5050 50  0000 C CNN
 F 1 "90.9k" V 6900 5050 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 6830 5050 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6830 5050 50  0001 C CNN
 F 3 "" H 6900 5050 50  0000 C CNN
 	1    6900 5050
 	0    1    1    0   
@@ -208,7 +208,7 @@ U 1 1 56F775B2
 P 7200 5250
 F 0 "R13" V 7280 5250 50  0000 C CNN
 F 1 "909k" V 7200 5250 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7130 5250 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7130 5250 50  0001 C CNN
 F 3 "" H 7200 5250 50  0000 C CNN
 	1    7200 5250
 	1    0    0    -1  
@@ -219,7 +219,7 @@ U 1 1 56F775B8
 P 7400 5250
 F 0 "R14" V 7480 5250 50  0000 C CNN
 F 1 "455k" V 7400 5250 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7330 5250 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7330 5250 50  0001 C CNN
 F 3 "" H 7400 5250 50  0000 C CNN
 	1    7400 5250
 	1    0    0    -1  
@@ -230,7 +230,7 @@ U 1 1 56F775BE
 P 7600 5250
 F 0 "R15" V 7680 5250 50  0000 C CNN
 F 1 "303k" V 7600 5250 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7530 5250 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7530 5250 50  0001 C CNN
 F 3 "" H 7600 5250 50  0000 C CNN
 	1    7600 5250
 	1    0    0    -1  
@@ -241,7 +241,7 @@ U 1 1 56F775C4
 P 7800 5250
 F 0 "R16" V 7880 5250 50  0000 C CNN
 F 1 "227k" V 7800 5250 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7730 5250 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7730 5250 50  0001 C CNN
 F 3 "" H 7800 5250 50  0000 C CNN
 	1    7800 5250
 	1    0    0    -1  
@@ -252,7 +252,7 @@ U 1 1 56F775CA
 P 8000 5250
 F 0 "R17" V 8080 5250 50  0000 C CNN
 F 1 "182k" V 8000 5250 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7930 5250 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7930 5250 50  0001 C CNN
 F 3 "" H 8000 5250 50  0000 C CNN
 	1    8000 5250
 	1    0    0    -1  
@@ -263,7 +263,7 @@ U 1 1 56F775D0
 P 8200 5250
 F 0 "R18" V 8280 5250 50  0000 C CNN
 F 1 "152k" V 8200 5250 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 8130 5250 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8130 5250 50  0001 C CNN
 F 3 "" H 8200 5250 50  0000 C CNN
 	1    8200 5250
 	1    0    0    -1  
@@ -274,7 +274,7 @@ U 1 1 56F775D6
 P 8400 5250
 F 0 "R19" V 8480 5250 50  0000 C CNN
 F 1 "130k" V 8400 5250 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 8330 5250 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8330 5250 50  0001 C CNN
 F 3 "" H 8400 5250 50  0000 C CNN
 	1    8400 5250
 	1    0    0    -1  
@@ -285,7 +285,7 @@ U 1 1 56F775DC
 P 8600 5250
 F 0 "R20" V 8680 5250 50  0000 C CNN
 F 1 "114k" V 8600 5250 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 8530 5250 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8530 5250 50  0001 C CNN
 F 3 "" H 8600 5250 50  0000 C CNN
 	1    8600 5250
 	1    0    0    -1  
@@ -592,7 +592,7 @@ U 1 1 56F83327
 P 3900 4450
 F 0 "R3" V 3980 4450 50  0000 C CNN
 F 1 "2k" V 3900 4450 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 3830 4450 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3830 4450 50  0001 C CNN
 F 3 "" H 3900 4450 50  0000 C CNN
 	1    3900 4450
 	0    1    1    0   
@@ -603,7 +603,7 @@ U 1 1 56F8332D
 P 4150 4650
 F 0 "R4" V 4230 4650 50  0000 C CNN
 F 1 "10k" V 4150 4650 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 4080 4650 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4080 4650 50  0001 C CNN
 F 3 "" H 4150 4650 50  0000 C CNN
 	1    4150 4650
 	1    0    0    -1  

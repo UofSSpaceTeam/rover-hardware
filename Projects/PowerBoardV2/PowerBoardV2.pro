@@ -1,4 +1,4 @@
-update=2016-03-26 9:40:31 PM
+update=28/01/2017 2:13:52 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../../Parts/library
+LibDir=../../Parts/library;../../../Kicad-symbols
 [eeschema/libraries]
 LibName1=PowerBoardV2-rescue
 LibName2=C:/Users/Austin/Documents/GitHub/rover-electrical/Parts/library/USSTComponents
@@ -60,3 +60,4 @@ LibName28=opto
 LibName29=atmel
 LibName30=contrib
 LibName31=valves
+LibName32=C:/Users/LCC/GitHub/Kicad-symbols/USST-parts
