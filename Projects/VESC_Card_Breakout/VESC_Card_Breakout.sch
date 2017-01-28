@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:VESC_Card_Breakout-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -51,11 +52,11 @@ F0 "Motor_Controller" 60
 F1 "Motor_Controller.sch" 60
 F2 "VBAT" I L 5200 3350 60 
 F3 "PGND" I L 5200 3450 60 
-F4 "CANH/TX" I L 5200 3850 60 
+F4 "CANH/TX" I L 5200 3750 60 
 F5 "CANL/RX" I L 5200 3950 60 
 F6 "USBDP" I L 5200 4175 60 
 F7 "USBDM" I L 5200 4275 60 
-F8 "GNDD" I L 5200 3750 60 
+F8 "GNDD" I L 5200 3850 60 
 F9 "5v0" I L 5200 3650 60 
 $EndSheet
 $Comp
@@ -148,7 +149,7 @@ Wire Wire Line
 	5125 3750 5125 4050
 Wire Wire Line
 	5125 4050 4850 4050
-Text Label 4850 4050 0    60   ~ 0
+Text Label 4850 3850 0    60   ~ 0
 GNDD
 Text Label 4850 3750 0    60   ~ 0
 5v0
