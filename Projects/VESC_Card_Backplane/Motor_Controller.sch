@@ -221,9 +221,7 @@ Wire Wire Line
 Wire Wire Line
 	5675 4075 5675 4125
 Wire Wire Line
-	5675 4125 5900 4125
-Wire Wire Line
-	5900 4125 6000 4125
+	5675 4125 6000 4125
 Wire Wire Line
 	5900 4125 5900 4575
 Wire Wire Line
