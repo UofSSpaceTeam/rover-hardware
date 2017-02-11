@@ -51,12 +51,12 @@ Wire Wire Line
 $Comp
 L R R6
 U 1 1 58788FC5
-P 4675 3600
-F 0 "R6" V 4755 3600 50  0000 C CNN
-F 1 "120" V 4675 3600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 4605 3600 50  0001 C CNN
-F 3 "" H 4675 3600 50  0000 C CNN
-	1    4675 3600
+P 4675 3900
+F 0 "R6" H 4755 3900 50  0000 C CNN
+F 1 "120" V 4675 3900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4605 3900 50  0001 C CNN
+F 3 "" H 4675 3900 50  0000 C CNN
+	1    4675 3900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -64,12 +64,11 @@ Wire Wire Line
 Wire Wire Line
 	4450 3450 4850 3450
 Wire Wire Line
-	4900 3650 4900 3750
+	4900 3750 4900 3650
 Wire Wire Line
-	4900 3750 4450 3750
+	4450 3750 4900 3750
 Connection ~ 4675 3750
-Connection ~ 4675 3450
-Text HLabel 4450 3925 0    60   Input ~ 0
+Text HLabel 4450 4050 0    60   Input ~ 0
 CANH
 Text HLabel 4450 3750 0    60   Input ~ 0
 CANL
@@ -93,9 +92,9 @@ Wire Wire Line
 Wire Wire Line
 	5225 3750 5100 3750
 Wire Wire Line
-	5100 3750 5100 3925
+	5100 3750 5100 4050
 Wire Wire Line
-	5100 3925 4450 3925
+	5100 4050 4450 4050
 $Comp
 L +5V #PWR011
 U 1 1 587891D5
@@ -118,4 +117,5 @@ F 3 "" H 4450 3450 50  0000 C CNN
 	1    4450 3450
 	0    1    1    0   
 $EndComp
+Connection ~ 4675 4050
 $EndSCHEMATC

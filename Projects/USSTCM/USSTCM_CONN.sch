@@ -1,6 +1,7 @@
 EESchema Schematic File Version 2
 LIBS:USSTCM
 LIBS:TEST
+LIBS:USST-parts
 LIBS:USSTCM-cache
 EELAYER 25 0
 EELAYER END

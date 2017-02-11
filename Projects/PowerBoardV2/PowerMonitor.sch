@@ -1,6 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:PowerBoardV2-rescue
-LIBS:USSTComponents
 LIBS:power
 LIBS:device
 LIBS:transistors

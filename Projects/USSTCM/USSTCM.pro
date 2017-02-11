@@ -1,4 +1,4 @@
-update=8/12/2016 12:43:58 AM
+update=2017-01-28 18:14:17
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,8 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../../../Kicad-symbols
 [eeschema/libraries]
 LibName1=USSTCM
 LibName2=TEST
+LibName3=USST-parts
