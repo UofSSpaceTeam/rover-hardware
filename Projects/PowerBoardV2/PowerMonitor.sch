@@ -766,4 +766,61 @@ F 3 "" H 8550 1700 60  0000 C CNN
 	1    8550 1700
 	1    0    0    -1  
 $EndComp
+$Comp
+L Thermistor_NTC TH1
+U 1 1 589F7A12
+P 2425 1600
+F 0 "TH1" V 2250 1600 50  0000 C CNN
+F 1 "NTC-10k" V 2550 1600 50  0000 C CNN
+F 2 "" H 2425 1650 50  0001 C CNN
+F 3 "" H 2425 1650 50  0001 C CNN
+	1    2425 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 589F84C3
+P 2425 2000
+F 0 "R?" V 2505 2000 50  0000 C CNN
+F 1 "10k" V 2425 2000 50  0000 C CNN
+F 2 "" V 2355 2000 50  0000 C CNN
+F 3 "" H 2425 2000 50  0000 C CNN
+	1    2425 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2425 1750 2425 1850
+Wire Wire Line
+	2425 1450 2425 1250
+Wire Wire Line
+	2425 2150 2425 2375
+Text Label 2425 1250 0    60   ~ 0
+3v3
+Text HLabel 2425 2375 3    60   Input ~ 0
+GND
+Wire Wire Line
+	2175 1800 2675 1800
+Wire Wire Line
+	2175 1800 2175 1900
+Connection ~ 2425 1800
+Wire Wire Line
+	2175 2325 2425 2325
+Wire Wire Line
+	2175 2200 2175 2325
+Connection ~ 2425 2325
+$Comp
+L C C?
+U 1 1 589FA449
+P 2175 2050
+F 0 "C?" H 2200 2150 50  0000 L CNN
+F 1 "100n" H 2200 1950 50  0000 L CNN
+F 2 "" H 2213 1900 50  0000 C CNN
+F 3 "" H 2175 2050 50  0000 C CNN
+	1    2175 2050
+	1    0    0    -1  
+$EndComp
+Text Label 2675 1800 0    60   ~ 0
+Temp
+Text Notes 8425 1175 0    60   ~ 0
+Edit this to have the additional analog pins\n
 $EndSCHEMATC
