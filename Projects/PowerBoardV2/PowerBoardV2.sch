@@ -493,7 +493,7 @@ Wire Wire Line
 Wire Wire Line
 	8100 5650 8200 5650
 Text GLabel 8200 5450 2    60   Input ~ 0
-VBAT_IN
+VBAT
 Text GLabel 8200 5650 2    60   Input ~ 0
 GND
 Wire Wire Line
@@ -524,7 +524,7 @@ GND_REG
 Wire Wire Line
 	9000 2700 8850 2700
 Text GLabel 8850 2700 0    60   Input ~ 0
-VBAT_IN
+VBAT
 Wire Wire Line
 	9000 2850 8850 2850
 Text GLabel 8850 2850 0    60   Input ~ 0
