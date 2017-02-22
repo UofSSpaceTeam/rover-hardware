@@ -823,4 +823,10 @@ Text Label 2675 1800 0    60   ~ 0
 Temp
 Text Notes 8425 1175 0    60   ~ 0
 Edit this to have the additional analog pins\n
+Text HLabel 8400 3100 3    60   Input ~ 0
+Temp
+Text HLabel 8500 3100 3    60   Input ~ 0
+Temp
+Text HLabel 8600 3100 3    60   Input ~ 0
+Temp
 $EndSCHEMATC
