@@ -64,9 +64,9 @@ Wire Wire Line
 Wire Wire Line
 	4450 3450 4850 3450
 Wire Wire Line
-	4900 3750 4900 3650
+	4900 3650 4900 3750
 Wire Wire Line
-	4450 3750 4900 3750
+	4900 3750 4450 3750
 Connection ~ 4675 3750
 Text HLabel 4450 4050 0    60   Input ~ 0
 CANH
