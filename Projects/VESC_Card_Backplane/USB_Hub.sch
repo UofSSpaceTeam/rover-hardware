@@ -541,15 +541,13 @@ Wire Wire Line
 Wire Wire Line
 	5250 4750 5300 4750
 Wire Wire Line
-	4950 6050 5300 6050
-Wire Wire Line
 	4450 6150 5300 6150
 Wire Wire Line
 	5250 6150 5250 6050
 Wire Wire Line
 	4450 6150 4450 6450
 Wire Wire Line
-	5250 6050 4250 6050
+	4250 6050 5300 6050
 Wire Wire Line
 	4250 6050 4250 6450
 Connection ~ 5250 6050

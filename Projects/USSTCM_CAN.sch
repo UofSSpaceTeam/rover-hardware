@@ -1,41 +1,13 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:USST-parts
 LIBS:USSTCM
+LIBS:TEST
+LIBS:USST-parts
 LIBS:USSTCM-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 4 4
 Title ""
 Date ""
 Rev ""
@@ -101,7 +73,7 @@ F 3 "" H 5275 6625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #GND054
+L SUPPLY1_GND #GND054
 U 1 1 5795A698
 P 4475 2025
 F 0 "#GND054" H 4375 1925 70  0001 L BNN
@@ -112,9 +84,13 @@ F 3 "" H 4475 2025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4475 925  4475 2025
+	4475 925  4475 1925
+Text GLabel 4475 1925 1    10   UnSpc ~ 0
+GND
+Text GLabel 4475 1825 3    10   UnSpc ~ 0
+GND
 $Comp
-L GND #GND055
+L SUPPLY1_GND #GND055
 U 1 1 5795AA69
 P 4475 3825
 F 0 "#GND055" H 4375 3725 70  0001 L BNN
@@ -125,9 +101,13 @@ F 3 "" H 4475 3825 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4475 2725 4475 3825
+	4475 2725 4475 3725
+Text GLabel 4475 3725 1    10   UnSpc ~ 0
+GND
+Text GLabel 4475 3625 3    10   UnSpc ~ 0
+GND
 $Comp
-L GND #GND056
+L SUPPLY1_GND #GND056
 U 1 1 5795AAF8
 P 4575 5675
 F 0 "#GND056" H 4475 5575 70  0001 L BNN
@@ -138,9 +118,13 @@ F 3 "" H 4575 5675 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4575 4525 4575 5675
+	4575 4525 4575 5575
+Text GLabel 4575 5575 1    10   UnSpc ~ 0
+GND
+Text GLabel 4575 5475 3    10   UnSpc ~ 0
+GND
 $Comp
-L GND #GND057
+L SUPPLY1_GND #GND057
 U 1 1 5795AB18
 P 4625 7525
 F 0 "#GND057" H 4525 7425 70  0001 L BNN
@@ -151,7 +135,11 @@ F 3 "" H 4625 7525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4625 6375 4625 7525
+	4625 6375 4625 7425
+Text GLabel 4625 7425 1    10   UnSpc ~ 0
+GND
+Text GLabel 4625 7325 3    10   UnSpc ~ 0
+GND
 Wire Wire Line
 	4575 1025 3875 1025
 Wire Wire Line
@@ -240,7 +228,7 @@ Wire Wire Line
 	4475 925  4575 925 
 Connection ~ 4475 1225
 $Comp
-L GND #GND058
+L SUPPLY1_GND #GND058
 U 1 1 57955C59
 P 5975 1975
 F 0 "#GND058" H 5875 1875 70  0001 L BNN
@@ -250,8 +238,10 @@ F 3 "" H 5975 1975 60  0001 C CNN
 	1    5975 1975
 	1    0    0    -1  
 $EndComp
+Text GLabel 5975 1875 1    10   UnSpc ~ 0
+GND
 $Comp
-L GND #GND059
+L SUPPLY1_GND #GND059
 U 1 1 57955CE8
 P 6025 3775
 F 0 "#GND059" H 5925 3675 70  0001 L BNN
@@ -261,8 +251,10 @@ F 3 "" H 6025 3775 60  0001 C CNN
 	1    6025 3775
 	1    0    0    -1  
 $EndComp
+Text GLabel 6025 3675 1    10   UnSpc ~ 0
+GND
 $Comp
-L GND #GND060
+L SUPPLY1_GND #GND060
 U 1 1 57955ED4
 P 6075 5575
 F 0 "#GND060" H 5975 5475 70  0001 L BNN
@@ -272,8 +264,10 @@ F 3 "" H 6075 5575 60  0001 C CNN
 	1    6075 5575
 	1    0    0    -1  
 $EndComp
+Text GLabel 6075 5475 1    10   UnSpc ~ 0
+GND
 $Comp
-L GND #GND061
+L SUPPLY1_GND #GND061
 U 1 1 57955F30
 P 6075 7525
 F 0 "#GND061" H 5975 7425 70  0001 L BNN
@@ -283,10 +277,12 @@ F 3 "" H 6075 7525 60  0001 C CNN
 	1    6075 7525
 	1    0    0    -1  
 $EndComp
+Text GLabel 6075 7425 1    10   UnSpc ~ 0
+GND
 Wire Wire Line
 	5925 6575 6075 6575
 Wire Wire Line
-	6075 6575 6075 7525
+	6075 6575 6075 7425
 Wire Wire Line
 	5925 6675 6075 6675
 Connection ~ 6075 6675
@@ -294,7 +290,7 @@ Wire Wire Line
 	5925 6775 6075 6775
 Connection ~ 6075 6775
 Wire Wire Line
-	6075 4725 6075 5575
+	6075 4725 6075 5475
 Wire Wire Line
 	6075 4725 5875 4725
 Wire Wire Line
@@ -304,7 +300,7 @@ Wire Wire Line
 	5875 4925 6075 4925
 Connection ~ 6075 4925
 Wire Wire Line
-	6025 2925 6025 3775
+	6025 3675 6025 2925
 Wire Wire Line
 	6025 2925 5825 2925
 Wire Wire Line
@@ -316,12 +312,12 @@ Connection ~ 6025 3125
 $Comp
 L MCP2562 U7
 U 1 1 57958284
-P 2125 2925
-F 0 "U7" H 2325 3525 60  0000 C CNN
-F 1 "MCP2562" H 2125 2825 60  0000 C CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 2075 2875 60  0001 C CNN
-F 3 "" H 2075 2875 60  0000 C CNN
-	1    2125 2925
+P 2225 3175
+F 0 "U7" H 2425 3775 60  0000 C CNN
+F 1 "MCP2562" H 2225 3075 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 2175 3125 60  0001 C CNN
+F 3 "" H 2175 3125 60  0000 C CNN
+	1    2225 3175
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -333,7 +329,7 @@ Wire Wire Line
 Wire Wire Line
 	1225 2775 1625 2775
 $Comp
-L GND #GND062
+L SUPPLY1_GND #GND062
 U 1 1 57959409
 P 1525 3525
 F 0 "#GND062" H 1425 3425 70  0001 L BNN
@@ -343,8 +339,12 @@ F 3 "" H 1525 3525 60  0001 C CNN
 	1    1525 3525
 	1    0    0    -1  
 $EndComp
+Text GLabel 1525 3425 1    10   UnSpc ~ 0
+GND
+Text GLabel 1525 3325 3    10   UnSpc ~ 0
+GND
 $Comp
-L GND #GND063
+L SUPPLY1_GND #GND063
 U 1 1 57959418
 P 2975 3525
 F 0 "#GND063" H 2875 3425 70  0001 L BNN
@@ -354,16 +354,18 @@ F 3 "" H 2975 3525 60  0001 C CNN
 	1    2975 3525
 	1    0    0    -1  
 $EndComp
+Text GLabel 2975 3425 1    10   UnSpc ~ 0
+GND
 Wire Wire Line
-	1525 2875 1525 3525
+	1525 3325 1525 2875
 Wire Wire Line
 	1525 2875 1625 2875
 Wire Wire Line
-	2625 2775 2975 2775
+	2825 2775 2975 2775
 Wire Wire Line
-	2975 2775 2975 3525
+	2975 2775 2975 3425
 $Comp
-L GND #GND064
+L SUPPLY1_GND #GND064
 U 1 1 5795965E
 P 1525 2375
 F 0 "#GND064" H 1425 2275 70  0001 L BNN
@@ -373,14 +375,16 @@ F 3 "" H 1525 2375 60  0001 C CNN
 	1    1525 2375
 	1    0    0    -1  
 $EndComp
+Text GLabel 1525 2275 1    10   UnSpc ~ 0
+GND
 Wire Wire Line
 	1625 1825 1525 1825
 Wire Wire Line
-	1525 1825 1525 2375
+	1525 1825 1525 2275
 Wire Wire Line
 	5775 1125 5975 1125
 Wire Wire Line
-	5975 1125 5975 1975
+	5975 1125 5975 1875
 Wire Wire Line
 	5775 1225 5975 1225
 Connection ~ 5975 1225
@@ -388,9 +392,9 @@ Wire Wire Line
 	5775 1325 5975 1325
 Connection ~ 5975 1325
 Wire Wire Line
-	2625 2875 3175 2875
+	2825 2875 3175 2875
 Wire Wire Line
-	2625 2975 3175 2975
+	2825 2975 3175 2975
 Text Label 3175 2875 0    60   ~ 0
 CANH_MAIN
 Text Label 3175 2975 0    60   ~ 0
@@ -434,21 +438,20 @@ Wire Wire Line
 Wire Wire Line
 	1025 2975 1625 2975
 Wire Wire Line
-	1025 2425 1025 2975
+	1025 2525 1025 2975
 Wire Wire Line
-	2625 3075 3075 3075
+	3075 3075 2825 3075
 Wire Wire Line
-	3075 3075 3075 925 
+	3075 925  3075 3075
 Wire Wire Line
 	3075 1025 2825 1025
 Connection ~ 3075 1025
 $Comp
-L +5V #P+?
+L SUPPLY1_+5V #P+?
 U 1 1 5795BCE3
 P 6625 1725
 AR Path="/5795BCE3" Ref="#P+?"  Part="1" 
 AR Path="/57954C58/5795BCE3" Ref="#P+065"  Part="1" 
-AR Path="/58D5B8C6/5795BCE3" Ref="#P+065"  Part="1" 
 F 0 "#P+065" V 6526 1525 70  0001 L BNN
 F 1 "+5V" V 6526 1525 70  0000 L BNN
 F 2 "" H 6625 1725 60  0001 C CNN
@@ -457,14 +460,15 @@ F 3 "" H 6625 1725 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6125 1725 6625 1725
+	6125 1725 6525 1725
+Text GLabel 6525 1725 0    10   UnSpc ~ 0
++5V
 $Comp
-L +5V #P+?
+L SUPPLY1_+5V #P+?
 U 1 1 5795BCFD
 P 1025 2425
 AR Path="/5795BCFD" Ref="#P+?"  Part="1" 
 AR Path="/57954C58/5795BCFD" Ref="#P+066"  Part="1" 
-AR Path="/58D5B8C6/5795BCFD" Ref="#P+066"  Part="1" 
 F 0 "#P+066" V 926 2225 70  0001 L BNN
 F 1 "+5V" V 926 2225 70  0000 L BNN
 F 2 "" H 1025 2425 60  0001 C CNN
@@ -472,17 +476,18 @@ F 3 "" H 1025 2425 60  0001 C CNN
 	1    1025 2425
 	1    0    0    -1  
 $EndComp
+Text GLabel 1025 2525 3    10   UnSpc ~ 0
++5V
 Wire Wire Line
 	5775 1625 6125 1625
 Wire Wire Line
 	6125 1625 6125 1725
 $Comp
-L +5V #P+?
+L SUPPLY1_+5V #P+?
 U 1 1 5795BE61
 P 6675 3525
 AR Path="/5795BE61" Ref="#P+?"  Part="1" 
 AR Path="/57954C58/5795BE61" Ref="#P+067"  Part="1" 
-AR Path="/58D5B8C6/5795BE61" Ref="#P+067"  Part="1" 
 F 0 "#P+067" V 6576 3325 70  0001 L BNN
 F 1 "+5V" V 6576 3325 70  0000 L BNN
 F 2 "" H 6675 3525 60  0001 C CNN
@@ -491,18 +496,19 @@ F 3 "" H 6675 3525 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6175 3525 6675 3525
+	6175 3525 6575 3525
+Text GLabel 6575 3525 0    10   UnSpc ~ 0
++5V
 Wire Wire Line
 	5825 3425 6175 3425
 Wire Wire Line
 	6175 3425 6175 3525
 $Comp
-L +5V #P+?
+L SUPPLY1_+5V #P+?
 U 1 1 5795BEBB
 P 6725 5325
 AR Path="/5795BEBB" Ref="#P+?"  Part="1" 
 AR Path="/57954C58/5795BEBB" Ref="#P+068"  Part="1" 
-AR Path="/58D5B8C6/5795BEBB" Ref="#P+068"  Part="1" 
 F 0 "#P+068" V 6626 5125 70  0001 L BNN
 F 1 "+5V" V 6626 5125 70  0000 L BNN
 F 2 "" H 6725 5325 60  0001 C CNN
@@ -511,18 +517,19 @@ F 3 "" H 6725 5325 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6225 5325 6725 5325
+	6225 5325 6625 5325
+Text GLabel 6625 5325 0    10   UnSpc ~ 0
++5V
 Wire Wire Line
 	5875 5225 6225 5225
 Wire Wire Line
 	6225 5225 6225 5325
 $Comp
-L +5V #P+?
+L SUPPLY1_+5V #P+?
 U 1 1 5795BEFD
 P 6775 7175
 AR Path="/5795BEFD" Ref="#P+?"  Part="1" 
 AR Path="/57954C58/5795BEFD" Ref="#P+069"  Part="1" 
-AR Path="/58D5B8C6/5795BEFD" Ref="#P+069"  Part="1" 
 F 0 "#P+069" V 6676 6975 70  0001 L BNN
 F 1 "+5V" V 6676 6975 70  0000 L BNN
 F 2 "" H 6775 7175 60  0001 C CNN
@@ -531,7 +538,9 @@ F 3 "" H 6775 7175 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6275 7175 6775 7175
+	6275 7175 6675 7175
+Text GLabel 6675 7175 0    10   UnSpc ~ 0
++5V
 Wire Wire Line
 	5925 7075 6275 7075
 Wire Wire Line
@@ -539,5 +548,7 @@ Wire Wire Line
 Wire Wire Line
 	3075 925  3275 925 
 Text Label 3275 925  0    65   ~ 0
+3V3/2.2D
+Text GLabel 3075 925  2    10   UnSpc ~ 0
 3V3
 $EndSCHEMATC

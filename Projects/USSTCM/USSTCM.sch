@@ -1,13 +1,39 @@
 EESchema Schematic File Version 2
-LIBS:USSTCM
-LIBS:TEST
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
 LIBS:USST-parts
-LIBS:USSTCM-cache
 EELAYER 25 0
 EELAYER END
-$Descr A2 23386 16535
+$Descr A3 11693 16535 portrait
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title "USSTCM.sch"
 Date "9 JUN 2016"
 Rev ""
@@ -18,1666 +44,1234 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LED_LEDCHIP-LED0603 ACT55
+L LED ACT55
 U 1 1 575A2FF7
-P 11225 2800
-F 0 "ACT55" V 11365 2620 70  0000 L BNN
-F 1 "~" H 11215 2690 65  0001 L TNN
-F 2 "USSTCM:LED_CHIP-LED0603" H 11215 2590 65  0001 L TNN
-F 3 "" H 11225 2800 60  0001 C CNN
-	1    11225 2800
-	1    0    0    -1  
+P 8850 1875
+F 0 "ACT55" V 8990 1695 70  0000 L BNN
+F 1 "~" H 8840 1765 65  0001 L TNN
+F 2 "USSTCM:LED_CHIP-LED0603" H 8840 1665 65  0001 L TNN
+F 3 "" H 8850 1875 60  0001 C CNN
+	1    8850 1875
+	0    -1   -1   0   
 $EndComp
 $Comp
-L RCL_C-EUC0805 C9
+L C C9
 U 1 1 575A3187
-P 3825 4300
-F 0 "C9" H 3885 4314 70  0000 L BNN
-F 1 "10u" H 3884 4115 70  0000 L BNN
-F 2 "USSTCM:RCL_C0805" H 3815 4090 65  0001 L TNN
-F 3 "" H 3825 4300 60  0001 C CNN
-	1    3825 4300
+P 1450 3425
+F 0 "C9" H 1510 3439 70  0000 L BNN
+F 1 "10u" H 1509 3240 70  0000 L BNN
+F 2 "USSTCM:RCL_C0805" H 1440 3215 65  0001 L TNN
+F 3 "" H 1450 3425 60  0001 C CNN
+	1    1450 3425
 	1    0    0    -1  
 $EndComp
 $Comp
-L RCL_C-EUC0805 C10
+L C C10
 U 1 1 575A324F
-P 4625 4700
-F 0 "C10" H 4685 4714 70  0000 L BNN
-F 1 "10u" H 4684 4515 70  0000 L BNN
-F 2 "USSTCM:RCL_C0805" H 4615 4490 65  0001 L TNN
-F 3 "" H 4625 4700 60  0001 C CNN
-	1    4625 4700
+P 2250 3825
+F 0 "C10" H 2310 3839 70  0000 L BNN
+F 1 "10u" H 2309 3640 70  0000 L BNN
+F 2 "USSTCM:RCL_C0805" H 2240 3615 65  0001 L TNN
+F 3 "" H 2250 3825 60  0001 C CNN
+	1    2250 3825
 	1    0    0    -1  
 $EndComp
 $Comp
-L RCL_C-EUC0603 C15
+L C C15
 U 1 1 575A3317
-P 4425 11200
-F 0 "C15" H 4485 11214 70  0000 L BNN
-F 1 "20p" H 4484 11015 70  0000 L BNN
-F 2 "USSTCM:RCL_C0603" H 4415 10990 65  0001 L TNN
-F 3 "" H 4425 11200 60  0001 C CNN
-	1    4425 11200
+P 2050 10325
+F 0 "C15" H 2110 10339 70  0000 L BNN
+F 1 "20p" H 2109 10140 70  0000 L BNN
+F 2 "USSTCM:RCL_C0603" H 2040 10115 65  0001 L TNN
+F 3 "" H 2050 10325 60  0001 C CNN
+	1    2050 10325
 	1    0    0    -1  
 $EndComp
 $Comp
-L SUPPLY1_GND #GND01
+L GND #GND01
 U 1 1 575A388F
-P 5725 13100
-F 0 "#GND01" H 5625 13000 70  0001 L BNN
-F 1 "GND" H 5625 13000 70  0000 L BNN
-F 2 "" H 5725 13100 60  0001 C CNN
-F 3 "" H 5725 13100 60  0001 C CNN
-	1    5725 13100
+P 3350 12075
+F 0 "#GND01" H 3250 11975 70  0001 L BNN
+F 1 "GND" H 3250 11975 70  0000 L BNN
+F 2 "" H 3350 12075 60  0001 C CNN
+F 3 "" H 3350 12075 60  0001 C CNN
+	1    3350 12075
 	1    0    0    -1  
 $EndComp
 $Comp
-L SUPPLY1_GND #GND02
+L GND #GND02
 U 1 1 575A38F3
-P 8325 12800
-F 0 "#GND02" H 8225 12700 70  0001 L BNN
-F 1 "GND" H 8225 12700 70  0000 L BNN
-F 2 "" H 8325 12800 60  0001 C CNN
-F 3 "" H 8325 12800 60  0001 C CNN
-	1    8325 12800
+P 5950 11775
+F 0 "#GND02" H 5850 11675 70  0001 L BNN
+F 1 "GND" H 5850 11675 70  0000 L BNN
+F 2 "" H 5950 11775 60  0001 C CNN
+F 3 "" H 5950 11775 60  0001 C CNN
+	1    5950 11775
 	1    0    0    -1  
 $EndComp
 $Comp
-L SUPPLY1_GND #GND03
+L GND #GND03
 U 1 1 575A3957
-P 10125 3100
-F 0 "#GND03" H 10025 3000 70  0001 L BNN
-F 1 "GND" H 10025 3000 70  0000 L BNN
-F 2 "" H 10125 3100 60  0001 C CNN
-F 3 "" H 10125 3100 60  0001 C CNN
-	1    10125 3100
+P 7750 2075
+F 0 "#GND03" H 7650 1975 70  0001 L BNN
+F 1 "GND" H 7650 1975 70  0000 L BNN
+F 2 "" H 7750 2075 60  0001 C CNN
+F 3 "" H 7750 2075 60  0001 C CNN
+	1    7750 2075
 	1    0    0    -1  
 $EndComp
 $Comp
-L SUPPLY1_GND #GND04
+L GND #GND04
 U 1 1 575A39BB
-P 10925 3800
-F 0 "#GND04" H 10825 3700 70  0001 L BNN
-F 1 "GND" H 10825 3700 70  0000 L BNN
-F 2 "" H 10925 3800 60  0001 C CNN
-F 3 "" H 10925 3800 60  0001 C CNN
-	1    10925 3800
+P 8550 2775
+F 0 "#GND04" H 8450 2675 70  0001 L BNN
+F 1 "GND" H 8450 2675 70  0000 L BNN
+F 2 "" H 8550 2775 60  0001 C CNN
+F 3 "" H 8550 2775 60  0001 C CNN
+	1    8550 2775
 	1    0    0    -1  
 $EndComp
 $Comp
-L SUPPLY1_GND #GND05
+L GND #GND05
 U 1 1 575A3A1F
-P 6925 12900
-F 0 "#GND05" H 6825 12800 70  0001 L BNN
-F 1 "GND" H 6825 12800 70  0000 L BNN
-F 2 "" H 6925 12900 60  0001 C CNN
-F 3 "" H 6925 12900 60  0001 C CNN
-	1    6925 12900
+P 4600 11950
+F 0 "#GND05" H 4500 11850 70  0001 L BNN
+F 1 "GND" H 4500 11850 70  0000 L BNN
+F 2 "" H 4600 11950 60  0001 C CNN
+F 3 "" H 4600 11950 60  0001 C CNN
+	1    4600 11950
 	1    0    0    -1  
 $EndComp
 $Comp
-L SUPPLY1_GND #GND06
+L GND #GND06
 U 1 1 575A3A83
-P 9625 4400
-F 0 "#GND06" H 9525 4300 70  0001 L BNN
-F 1 "GND" H 9525 4300 70  0000 L BNN
-F 2 "" H 9625 4400 60  0001 C CNN
-F 3 "" H 9625 4400 60  0001 C CNN
-	1    9625 4400
+P 7250 3375
+F 0 "#GND06" H 7150 3275 70  0001 L BNN
+F 1 "GND" H 7150 3275 70  0000 L BNN
+F 2 "" H 7250 3375 60  0001 C CNN
+F 3 "" H 7250 3375 60  0001 C CNN
+	1    7250 3375
 	1    0    0    -1  
 $EndComp
 $Comp
-L SUPPLY1_GND #GND07
+L GND #GND07
 U 1 1 575A3AE7
-P 9325 5800
-F 0 "#GND07" H 9225 5700 70  0001 L BNN
-F 1 "GND" H 9225 5700 70  0000 L BNN
-F 2 "" H 9325 5800 60  0001 C CNN
-F 3 "" H 9325 5800 60  0001 C CNN
-	1    9325 5800
+P 6950 4975
+F 0 "#GND07" H 6850 4875 70  0001 L BNN
+F 1 "GND" H 6850 4875 70  0000 L BNN
+F 2 "" H 6950 4975 60  0001 C CNN
+F 3 "" H 6950 4975 60  0001 C CNN
+	1    6950 4975
 	-1   0    0    1   
 $EndComp
 $Comp
-L SUPPLY1_GND #GND08
+L GND #GND08
 U 1 1 575A3B4B
-P 4625 5200
-F 0 "#GND08" H 4525 5100 70  0001 L BNN
-F 1 "GND" H 4525 5100 70  0000 L BNN
-F 2 "" H 4625 5200 60  0001 C CNN
-F 3 "" H 4625 5200 60  0001 C CNN
-	1    4625 5200
+P 2250 4175
+F 0 "#GND08" H 2150 4075 70  0001 L BNN
+F 1 "GND" H 2150 4075 70  0000 L BNN
+F 2 "" H 2250 4175 60  0001 C CNN
+F 3 "" H 2250 4175 60  0001 C CNN
+	1    2250 4175
 	1    0    0    -1  
 $EndComp
 $Comp
-L SUPPLY1_GND #GND09
+L GND #GND09
 U 1 1 575A3BAF
-P 4425 11500
-F 0 "#GND09" H 4325 11400 70  0001 L BNN
-F 1 "GND" H 4325 11400 70  0000 L BNN
-F 2 "" H 4425 11500 60  0001 C CNN
-F 3 "" H 4425 11500 60  0001 C CNN
-	1    4425 11500
+P 2050 10475
+F 0 "#GND09" H 1950 10375 70  0001 L BNN
+F 1 "GND" H 1950 10275 70  0000 L BNN
+F 2 "" H 2050 10475 60  0001 C CNN
+F 3 "" H 2050 10475 60  0001 C CNN
+	1    2050 10475
 	1    0    0    -1  
 $EndComp
 $Comp
-L SUPPLY1_+5V #P+010
+L +5V #P+010
 U 1 1 575A3E07
-P 8625 12300
-F 0 "#P+010" V 8526 12100 70  0001 L BNN
-F 1 "+5V" V 8526 12100 70  0000 L BNN
-F 2 "" H 8625 12300 60  0001 C CNN
-F 3 "" H 8625 12300 60  0001 C CNN
-	1    8625 12300
+P 6250 11375
+F 0 "#P+010" V 6151 11175 70  0001 L BNN
+F 1 "+5V" V 6250 11500 70  0000 L BNN
+F 2 "" H 6250 11375 60  0001 C CNN
+F 3 "" H 6250 11375 60  0001 C CNN
+	1    6250 11375
 	0    1    1    0   
 $EndComp
 $Comp
-L SUPPLY1_+5V #P+011
+L +5V #P+011
 U 1 1 575A3E6B
-P 4925 12400
-F 0 "#P+011" V 4825 12200 70  0001 L BNN
-F 1 "+5V" V 4825 12200 70  0000 L BNN
-F 2 "" H 4925 12400 60  0001 C CNN
-F 3 "" H 4925 12400 60  0001 C CNN
-	1    4925 12400
-	0    -1   -1   0   
+P 2650 11325
+F 0 "#P+011" V 2550 11125 70  0001 L BNN
+F 1 "+5V" V 2550 11125 70  0000 L BNN
+F 2 "" H 2650 11325 60  0001 C CNN
+F 3 "" H 2650 11325 60  0001 C CNN
+	1    2650 11325
+	1    0    0    -1  
 $EndComp
 $Comp
-L TRANSISTOR-FET_BSA223SP Q1
+L Q_PMOS_GDS Q1
 U 1 1 575A3F97
-P 10825 2300
-F 0 "Q1" H 10375 2250 70  0000 L BNN
-F 1 "DMG1012T" H 10375 2150 70  0000 L BNN
-F 2 "USSTCM:TRANSISTOR-FET_SC75_INFINEON" H 10815 2090 65  0001 L TNN
-F 3 "" H 10825 2300 60  0001 C CNN
-	1    10825 2300
+P 8450 1375
+F 0 "Q1" H 8000 1325 70  0000 L BNN
+F 1 "DMG1012T" H 8000 1225 70  0000 L BNN
+F 2 "USSTCM:TRANSISTOR-FET_SC75_INFINEON" H 8440 1165 65  0001 L TNN
+F 3 "" H 8450 1375 60  0001 C CNN
+	1    8450 1375
 	1    0    0    1   
 $EndComp
 $Comp
-L TRANSISTOR-FET_BSA223SP Q2
+L Q_PMOS_GDS Q2
 U 1 1 575A405F
-P 10825 3400
-F 0 "Q2" H 10375 3350 70  0000 L BNN
-F 1 "DMG1012T" H 10375 3250 70  0000 L BNN
-F 2 "USSTCM:TRANSISTOR-FET_SC75_INFINEON" H 10815 3190 65  0001 L TNN
-F 3 "" H 10825 3400 60  0001 C CNN
-	1    10825 3400
+P 8450 2475
+F 0 "Q2" H 8000 2425 70  0000 L BNN
+F 1 "DMG1012T" H 8000 2325 70  0000 L BNN
+F 2 "USSTCM:TRANSISTOR-FET_SC75_INFINEON" H 8440 2265 65  0001 L TNN
+F 3 "" H 8450 2475 60  0001 C CNN
+	1    8450 2475
 	1    0    0    1   
 $EndComp
 $Comp
-L RCL_R-EU_R0603 R1
+L R R1
 U 1 1 575A4127
-P 10125 2700
-F 0 "R1" H 9975 2759 70  0000 L BNN
-F 1 "47k" H 9975 2570 70  0000 L BNN
-F 2 "USSTCM:RCL_R0603" H 10115 2490 65  0001 L TNN
-F 3 "" H 10125 2700 60  0001 C CNN
-	1    10125 2700
+P 7750 1775
+F 0 "R1" H 7600 1834 70  0000 L BNN
+F 1 "47k" H 7600 1645 70  0000 L BNN
+F 2 "USSTCM:RCL_R0603" H 7740 1565 65  0001 L TNN
+F 3 "" H 7750 1775 60  0001 C CNN
+	1    7750 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 575A41EF
+P 7875 2475
+F 0 "R2" H 7725 2533 70  0000 L BNN
+F 1 "47k" H 7725 2345 70  0000 L BNN
+F 2 "USSTCM:RCL_R0603" H 7865 2265 65  0001 L TNN
+F 3 "" H 7875 2475 60  0001 C CNN
+	1    7875 2475
 	0    -1   -1   0   
 $EndComp
 $Comp
-L RCL_R-EU_R0603 R2
-U 1 1 575A41EF
-P 10225 3500
-F 0 "R2" H 10075 3558 70  0000 L BNN
-F 1 "47k" H 10075 3370 70  0000 L BNN
-F 2 "USSTCM:RCL_R0603" H 10215 3290 65  0001 L TNN
-F 3 "" H 10225 3500 60  0001 C CNN
-	1    10225 3500
+L R R3
+U 1 1 575A42B7
+P 6950 2975
+F 0 "R3" H 6800 3033 70  0000 L BNN
+F 1 "100k" H 6801 2845 70  0000 L BNN
+F 2 "USSTCM:RCL_R0603" H 6940 2765 65  0001 L TNN
+F 3 "" H 6950 2975 60  0001 C CNN
+	1    6950 2975
 	-1   0    0    1   
 $EndComp
 $Comp
-L RCL_R-EU_R0603 R3
-U 1 1 575A42B7
-P 9325 3900
-F 0 "R3" H 9175 3958 70  0000 L BNN
-F 1 "100k" H 9176 3770 70  0000 L BNN
-F 2 "USSTCM:RCL_R0603" H 9315 3690 65  0001 L TNN
-F 3 "" H 9325 3900 60  0001 C CNN
-	1    9325 3900
-	0    1    1    0   
-$EndComp
-$Comp
-L RCL_R-EU_R0603 R4
+L R R4
 U 1 1 575A437F
-P 9625 3900
-F 0 "R4" H 9475 3958 70  0000 L BNN
-F 1 "100k" H 9476 3770 70  0000 L BNN
-F 2 "USSTCM:RCL_R0603" H 9615 3690 65  0001 L TNN
-F 3 "" H 9625 3900 60  0001 C CNN
-	1    9625 3900
-	0    1    1    0   
+P 7250 2975
+F 0 "R4" H 7100 3033 70  0000 L BNN
+F 1 "100k" H 7101 2845 70  0000 L BNN
+F 2 "USSTCM:RCL_R0603" H 7240 2765 65  0001 L TNN
+F 3 "" H 7250 2975 60  0001 C CNN
+	1    7250 2975
+	-1   0    0    1   
 $EndComp
 $Comp
-L RCL_R-EU_R0603 R5
+L R R5
 U 1 1 575A4447
-P 9325 6200
-F 0 "R5" H 9175 6259 70  0000 L BNN
-F 1 "100k" H 9175 6070 70  0000 L BNN
-F 2 "USSTCM:RCL_R0603" H 9315 5990 65  0001 L TNN
-F 3 "" H 9325 6200 60  0001 C CNN
-	1    9325 6200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L RCL_R-EU_R0603 R35
-U 1 1 575A482F
-P 11225 2400
-F 0 "R35" H 11075 2459 70  0000 L BNN
-F 1 "1k8" H 11075 2270 70  0000 L BNN
-F 2 "USSTCM:RCL_R0603" H 11215 2190 65  0001 L TNN
-F 3 "" H 11225 2400 60  0001 C CNN
-	1    11225 2400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L RASPI_RASPI U1
-U 1 1 575A48F7
-P 7025 7000
-F 0 "U1" H 6126 12000 70  0000 L BNN
-F 1 "RASPI" H 7015 6890 65  0001 L TNN
-F 2 "USSTCM:RASPI_SO-DIMM" H 7015 6790 65  0001 L TNN
-F 3 "" H 7025 7000 60  0001 C CNN
-	1    7025 7000
+P 6950 5275
+F 0 "R5" H 6800 5334 70  0000 L BNN
+F 1 "100k" H 6800 5145 70  0000 L BNN
+F 2 "USSTCM:RCL_R0603" H 6940 5065 65  0001 L TNN
+F 3 "" H 6950 5275 60  0001 C CNN
+	1    6950 5275
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5825 12300 5225 12300
-Wire Wire Line
-	5225 12300 5225 12400
-Wire Wire Line
-	5025 12400 5825 12400
-Connection ~ 5225 12400
-Wire Wire Line
-	8225 12300 8525 12300
-Wire Wire Line
-	8425 12300 8425 12400
-Wire Wire Line
-	8425 12400 8225 12400
-Connection ~ 8425 12300
-Wire Wire Line
-	5825 11700 5125 11700
-Wire Wire Line
-	5125 11700 5125 11600
-Wire Wire Line
-	5125 11600 5825 11600
-Text Label 5125 11650 2    65   ~ 0
-1V8/2.8B
-Wire Wire Line
-	8225 11600 8425 11600
-Wire Wire Line
-	8425 11600 8425 11700
-Wire Wire Line
-	8425 11700 8225 11700
-Text Label 8425 11650 0    65   ~ 0
-1V8/2.8B
-Wire Wire Line
-	10025 3500 9925 3500
-Text Label 9925 3500 3    65   ~ 0
-1V8/2.8B
-Wire Wire Line
-	5825 12000 5525 12000
-Wire Wire Line
-	5525 12000 5525 12100
-Wire Wire Line
-	5525 12100 5825 12100
-Text Label 5525 12050 2    65   ~ 0
-3V3/2.2D
-Wire Wire Line
-	8225 12000 8425 12000
-Wire Wire Line
-	8425 12000 8425 12100
-Wire Wire Line
-	8425 12100 8225 12100
-Text Label 8425 12050 0    65   ~ 0
-3V3/2.2D
-Wire Wire Line
-	3825 4100 5825 4100
-Wire Wire Line
-	3825 4100 3825 4200
-Wire Wire Line
-	8225 4100 8425 4100
-Wire Wire Line
-	8425 4100 8425 4200
-Wire Wire Line
-	8425 4200 4825 4200
-Wire Wire Line
-	4825 4200 4825 4100
-Connection ~ 4825 4100
-Text Label 3825 4100 2    65   ~ 0
-3V3/2.2D
-Wire Wire Line
-	4625 4500 5825 4500
-Wire Wire Line
-	4625 4500 4625 4600
-Wire Wire Line
-	8225 4500 8425 4500
-Wire Wire Line
-	8425 4500 8425 4400
-Wire Wire Line
-	8425 4400 4825 4400
-Wire Wire Line
-	4825 4400 4825 4500
-Connection ~ 4825 4500
-Text Label 4625 4500 2    65   ~ 0
-3V3/2.2D
-Wire Wire Line
-	11225 2200 11225 2100
-Text Label 11225 2100 1    65   ~ 0
-3V3/2.2D
-Wire Wire Line
-	5825 11900 5525 11900
-Text Label 5525 11900 2    65   ~ 0
-3V3/2.2D
-Wire Wire Line
-	8225 11900 8425 11900
-Text Label 8425 11900 0    65   ~ 0
-3V3/2.2D
-Wire Wire Line
-	8225 9600 8425 9600
-Wire Wire Line
-	8225 9500 8425 9500
-Text Label 8425 9500 0    65   ~ 0
-CAM0_C_P/3.4A
-Wire Wire Line
-	8225 9300 8425 9300
-Text Label 8425 9300 0    65   ~ 0
-CAM0_D0_N/3.4A
-Wire Wire Line
-	8225 9200 8425 9200
-Text Label 8425 9200 0    65   ~ 0
-CAM0_D0_P/3.4A
-Wire Wire Line
-	8225 9900 8425 9900
-Text Label 8425 9900 0    65   ~ 0
-CAM0_D1_N/3.4A
-Wire Wire Line
-	8225 9800 8425 9800
-Text Label 8425 9800 0    65   ~ 0
-CAM0_D1_P/3.4A
-Wire Wire Line
-	5825 9900 5625 9900
-Text Label 5625 9900 2    65   ~ 0
-CAM1_C_N/3.4C
-Wire Wire Line
-	5825 9800 5625 9800
-Text Label 5625 9800 2    65   ~ 0
-CAM1_C_P/3.4C
-Wire Wire Line
-	5825 10500 5625 10500
-Text Label 5625 10500 2    65   ~ 0
-CAM1_D0_N/3.4B
-Wire Wire Line
-	5825 10400 5625 10400
-Text Label 5625 10400 2    65   ~ 0
-CAM1_D0_P/3.4B
-Wire Wire Line
-	5825 10200 5625 10200
-Text Label 5625 10200 2    65   ~ 0
-CAM1_D1_N/3.4C
-Wire Wire Line
-	5825 10100 5625 10100
-Text Label 5625 10100 2    65   ~ 0
-CAM1_D1_P/3.4C
-Wire Wire Line
-	5825 12200 5725 12200
-Wire Wire Line
-	5725 2200 5725 13000
-Wire Wire Line
-	5825 11800 5725 11800
-Wire Wire Line
-	5825 11500 5725 11500
-Wire Wire Line
-	5825 2200 5725 2200
-Wire Wire Line
-	5725 2500 5825 2500
-Wire Wire Line
-	5825 2800 5725 2800
-Wire Wire Line
-	5825 3100 5725 3100
-Wire Wire Line
-	5825 3400 5725 3400
-Wire Wire Line
-	5825 3700 5725 3700
-Wire Wire Line
-	5825 4000 5725 4000
-Wire Wire Line
-	5825 4600 5725 4600
-Wire Wire Line
-	5825 4900 5725 4900
-Wire Wire Line
-	5825 5200 5725 5200
-Wire Wire Line
-	5825 5500 5725 5500
-Wire Wire Line
-	5825 5800 5725 5800
-Wire Wire Line
-	5825 6100 5725 6100
-Wire Wire Line
-	5825 6400 5725 6400
-Wire Wire Line
-	5825 6700 5725 6700
-Wire Wire Line
-	5825 7000 5725 7000
-Wire Wire Line
-	5825 7300 5725 7300
-Wire Wire Line
-	5825 7600 5725 7600
-Wire Wire Line
-	5825 7900 5725 7900
-Wire Wire Line
-	5825 8200 5725 8200
-Wire Wire Line
-	5825 8500 5725 8500
-Wire Wire Line
-	5825 8800 5725 8800
-Wire Wire Line
-	5825 9100 5725 9100
-Wire Wire Line
-	5825 9400 5725 9400
-Wire Wire Line
-	5825 9700 5725 9700
-Wire Wire Line
-	5825 10000 5725 10000
-Wire Wire Line
-	5825 10300 5725 10300
-Wire Wire Line
-	5825 10600 5725 10600
-Wire Wire Line
-	5825 10900 5725 10900
-Connection ~ 5725 12200
-Connection ~ 5725 11800
-Connection ~ 5725 2500
-Connection ~ 5725 2800
-Connection ~ 5725 3100
-Connection ~ 5725 3400
-Connection ~ 5725 3700
-Connection ~ 5725 4000
-Connection ~ 5725 4600
-Connection ~ 5725 4900
-Connection ~ 5725 5200
-Connection ~ 5725 5500
-Connection ~ 5725 5800
-Connection ~ 5725 6100
-Connection ~ 5725 6400
-Connection ~ 5725 6700
-Connection ~ 5725 7000
-Connection ~ 5725 7300
-Connection ~ 5725 7600
-Connection ~ 5725 7900
-Connection ~ 5725 8200
-Connection ~ 5725 8500
-Connection ~ 5725 8800
-Connection ~ 5725 9100
-Connection ~ 5725 9400
-Connection ~ 5725 9700
-Connection ~ 5725 10000
-Connection ~ 5725 10300
-Connection ~ 5725 10600
-Connection ~ 5725 10900
-Connection ~ 5725 11500
-Wire Wire Line
-	8225 12200 8325 12200
-Wire Wire Line
-	8325 3400 8325 12700
-Wire Wire Line
-	8225 11800 8325 11800
-Wire Wire Line
-	8225 11500 8325 11500
-Wire Wire Line
-	8225 10900 8325 10900
-Wire Wire Line
-	8225 10600 8325 10600
-Wire Wire Line
-	8225 10000 8325 10000
-Wire Wire Line
-	8225 9700 8325 9700
-Wire Wire Line
-	8225 9400 8325 9400
-Wire Wire Line
-	8225 9100 8325 9100
-Wire Wire Line
-	8225 8500 8325 8500
-Wire Wire Line
-	8225 8200 8325 8200
-Wire Wire Line
-	8225 7900 8325 7900
-Wire Wire Line
-	8225 7600 8325 7600
-Wire Wire Line
-	8225 7300 8325 7300
-Wire Wire Line
-	8225 7000 8325 7000
-Wire Wire Line
-	8225 6700 8325 6700
-Wire Wire Line
-	8225 6400 8325 6400
-Wire Wire Line
-	8225 6100 8325 6100
-Wire Wire Line
-	8225 5800 8325 5800
-Wire Wire Line
-	8225 5500 8325 5500
-Wire Wire Line
-	8225 5200 8325 5200
-Wire Wire Line
-	8225 4900 8325 4900
-Wire Wire Line
-	8225 4600 8325 4600
-Wire Wire Line
-	8225 4000 8325 4000
-Wire Wire Line
-	8225 3700 8325 3700
-Wire Wire Line
-	8225 3400 8325 3400
-Wire Wire Line
-	8225 10800 8325 10800
-Connection ~ 8325 12200
-Connection ~ 8325 11800
-Connection ~ 8325 11500
-Connection ~ 8325 10900
-Connection ~ 8325 10600
-Connection ~ 8325 10000
-Connection ~ 8325 9700
-Connection ~ 8325 9400
-Connection ~ 8325 9100
-Connection ~ 8325 8500
-Connection ~ 8325 8200
-Connection ~ 8325 7900
-Connection ~ 8325 7600
-Connection ~ 8325 7300
-Connection ~ 8325 7000
-Connection ~ 8325 6700
-Connection ~ 8325 6400
-Connection ~ 8325 6100
-Connection ~ 8325 5800
-Connection ~ 8325 5500
-Connection ~ 8325 5200
-Connection ~ 8325 4900
-Connection ~ 8325 4600
-Connection ~ 8325 4000
-Connection ~ 8325 3700
-Connection ~ 8325 10800
-Wire Wire Line
-	10125 3000 10125 2900
-Wire Wire Line
-	10925 3600 10925 3700
-Wire Wire Line
-	6925 12300 6925 12800
-Wire Wire Line
-	6925 12700 7125 12700
-Wire Wire Line
-	7125 12700 7125 12300
-Connection ~ 6925 12700
-Wire Wire Line
-	9625 4100 9625 4300
-Wire Wire Line
-	9625 4200 9325 4200
-Wire Wire Line
-	9325 4200 9325 4100
-Connection ~ 9625 4200
-Wire Wire Line
-	9325 5900 9325 6000
-Wire Wire Line
-	4625 4900 4625 5100
-Wire Wire Line
-	4625 5000 3825 5000
-Wire Wire Line
-	3825 5000 3825 4500
-Connection ~ 4625 5000
-Wire Wire Line
-	5825 2300 5625 2300
-Text Label 5625 2300 2    65   ~ 0
-GPIO0/3.2C
-Wire Wire Line
-	5825 2400 5625 2400
-Text Label 5625 2400 2    65   ~ 0
-GPIO1/3.2B
-Wire Wire Line
-	5825 2600 5625 2600
-Text Label 5625 2600 2    65   ~ 0
-GPIO2/3.1C
-Wire Wire Line
-	5825 2700 5625 2700
-Text Label 5625 2700 2    65   ~ 0
-GPIO3/3.1B
-Wire Wire Line
-	5825 2900 5625 2900
-Text Label 5625 2900 2    65   ~ 0
-GPIO4/3.1B
-Wire Wire Line
-	5825 3000 5625 3000
-Text Label 5625 3000 2    65   ~ 0
-GPIO5/3.1B
-Wire Wire Line
-	5825 3200 5625 3200
-Text Label 5625 3200 2    65   ~ 0
-GPIO6/2.6D
-Wire Wire Line
-	5825 3300 5625 3300
-Text Label 5625 3300 2    65   ~ 0
-GPIO7/3.2B
-Wire Wire Line
-	5825 3500 5625 3500
-Text Label 5625 3500 2    65   ~ 0
-GPIO8/3.2B
-Wire Wire Line
-	5825 3600 5625 3600
-Text Label 5625 3600 2    65   ~ 0
-GPIO9/3.2A
-Wire Wire Line
-	5825 3800 5625 3800
-Text Label 5625 3800 2    65   ~ 0
-GPIO10/3.2A
-Wire Wire Line
-	5825 3900 5625 3900
-Text Label 5625 3900 2    65   ~ 0
-GPIO11/3.2A
-Wire Wire Line
-	5825 4700 5625 4700
-Text Label 5625 4700 2    65   ~ 0
-GPIO12/3.1B
-Wire Wire Line
-	5825 4800 5625 4800
-Text Label 5625 4800 2    65   ~ 0
-GPIO13/3.1B
-Wire Wire Line
-	5825 5000 5625 5000
-Text Label 5625 5000 2    65   ~ 0
-GPIO14/3.2B
-Wire Wire Line
-	5825 5100 5625 5100
-Text Label 5625 5100 2    65   ~ 0
-GPIO15/3.2B
-Wire Wire Line
-	5825 5300 5625 5300
-Text Label 5625 5300 2    65   ~ 0
-GPIO16/3.1B
-Wire Wire Line
-	5825 5400 5625 5400
-Text Label 5625 5400 2    65   ~ 0
-GPIO17/3.1A
-Wire Wire Line
-	5825 5600 5625 5600
-Text Label 5625 5600 2    65   ~ 0
-GPIO18/3.1A
-Wire Wire Line
-	5825 5700 5625 5700
-Text Label 5625 5700 2    65   ~ 0
-GPIO19/3.1B
-Wire Wire Line
-	5825 5900 5625 5900
-Text Label 5625 5900 2    65   ~ 0
-GPIO20/3.1B
-Wire Wire Line
-	5825 6000 5625 6000
-Text Label 5625 6000 2    65   ~ 0
-GPIO21/3.1B
-Wire Wire Line
-	5825 6200 5625 6200
-Text Label 5625 6200 2    65   ~ 0
-GPIO22/3.1B
-Wire Wire Line
-	5825 6300 5625 6300
-Text Label 5625 6300 2    65   ~ 0
-GPIO23/3.1B
-Wire Wire Line
-	5825 6500 5625 6500
-Text Label 5625 6500 2    65   ~ 0
-GPIO24/3.1B
-Wire Wire Line
-	5825 6600 5625 6600
-Text Label 5625 6600 2    65   ~ 0
-GPIO25/3.1B
-Wire Wire Line
-	5825 6800 5625 6800
-Text Label 5625 6800 2    65   ~ 0
-GPIO26/3.1B
-Wire Wire Line
-	5825 6900 5625 6900
-Text Label 5625 6900 2    65   ~ 0
-GPIO27/3.1A
-Wire Wire Line
-	8225 3500 9625 3500
-Wire Wire Line
-	9625 3500 9625 3700
-Text Label 9625 3500 1    65   ~ 0
-GPIO28/3.3B
-Wire Wire Line
-	8225 3600 9325 3600
-Wire Wire Line
-	9325 3600 9325 3700
-Text Label 9325 3600 1    65   ~ 0
-GPIO29/3.3A
-Wire Wire Line
-	8225 3800 8425 3800
-Text Label 8425 3800 0    65   ~ 0
-GPIO30/3.4A
-Wire Wire Line
-	8225 3900 8425 3900
-Text Label 8425 3900 0    65   ~ 0
-GPIO31/3.4A
-Wire Wire Line
-	8225 4700 8425 4700
-Text Label 8425 4700 0    65   ~ 0
-GPIO32
-Wire Wire Line
-	8225 4800 8425 4800
-Text Label 8425 4800 0    65   ~ 0
-GPIO33
-Wire Wire Line
-	8225 5000 8425 5000
-Text Label 8425 5000 0    65   ~ 0
-GPIO34
-Wire Wire Line
-	8225 5100 8425 5100
-Text Label 8425 5100 0    65   ~ 0
-GPIO35
-Wire Wire Line
-	8225 5300 8425 5300
-Text Label 8425 5300 0    65   ~ 0
-GPIO36/3.2E
-Wire Wire Line
-	8225 5400 8425 5400
-Text Label 8425 5400 0    65   ~ 0
-GPIO37/3.2E
-Wire Wire Line
-	8225 5600 8425 5600
-Text Label 8425 5600 0    65   ~ 0
-GPIO38/3.2E
-Wire Wire Line
-	8225 5700 8425 5700
-Text Label 8425 5700 0    65   ~ 0
-GPIO39/3.2E
-Wire Wire Line
-	8225 5900 8425 5900
-Text Label 8425 5900 0    65   ~ 0
-GPIO40
-Wire Wire Line
-	8225 6000 8425 6000
-Text Label 8425 6000 0    65   ~ 0
-GPIO41/3.2E
-Wire Wire Line
-	8225 6200 8425 6200
-Text Label 8425 6200 0    65   ~ 0
-GPIO42/3.2D
-Wire Wire Line
-	8225 6300 8425 6300
-Text Label 8425 6300 0    65   ~ 0
-GPIO43/3.2D
-Wire Wire Line
-	8225 6500 9325 6500
-Wire Wire Line
-	9325 6500 9325 6400
-Text Label 9325 6500 0    65   ~ 0
-GPIO44
-Wire Wire Line
-	8225 6600 9825 6600
-Text Label 9825 6600 0    65   ~ 0
-GPIO45
-Wire Wire Line
-	8225 6800 8425 6800
-Text Label 8425 6800 0    65   ~ 0
-GPIO46/2.8B
-Wire Wire Line
-	4325 11000 5825 11000
-Wire Wire Line
-	4425 11100 4425 11000
-Connection ~ 4425 11000
-Text Label 4265 11049 2    65   ~ 0
-HDMI_CEC/2.7A
-Wire Wire Line
-	5825 8000 5625 8000
-Text Label 5625 8000 2    65   ~ 0
-HDMI_CK_N/2.7A
-Wire Wire Line
-	5825 8100 5625 8100
-Text Label 5625 8100 2    65   ~ 0
-HDMI_CK_P/2.7A
-Wire Wire Line
-	5825 8300 5625 8300
-Text Label 5625 8300 2    65   ~ 0
-HDMI_D0_N/2.7A
-Wire Wire Line
-	5825 8400 5625 8400
-Text Label 5625 8400 2    65   ~ 0
-HDMI_D0_P/2.7A
-Wire Wire Line
-	5825 8600 5625 8600
-Text Label 5625 8600 2    65   ~ 0
-HDMI_D1_N/2.7A
-Wire Wire Line
-	5825 8700 5625 8700
-Text Label 5625 8700 2    65   ~ 0
-HDMI_D1_P/2.7A
-Wire Wire Line
-	5825 8900 5625 8900
-Text Label 5625 8900 2    65   ~ 0
-HDMI_D2_N/2.7A
-Wire Wire Line
-	5825 9000 5625 9000
-Text Label 5625 9000 2    65   ~ 0
-HDMI_D2_P/2.7A
-Wire Wire Line
-	5825 11200 5625 11200
-Text Label 5625 11200 2    65   ~ 0
-HDMI_SCL/2.7A
-Wire Wire Line
-	5825 11100 5625 11100
-Text Label 5625 11100 2    65   ~ 0
-HDMI_SDA/2.7A
-Wire Wire Line
-	8225 2200 8325 2200
-Wire Wire Line
-	8325 2200 8325 2000
-Wire Wire Line
-	8325 2000 10925 2000
-Wire Wire Line
-	10925 2000 10925 2100
-Wire Wire Line
-	11225 2700 11225 2600
-Wire Wire Line
-	10925 2500 10925 3200
-Wire Wire Line
-	11225 3000 11225 3100
-Wire Wire Line
-	11225 3100 10925 3100
-Connection ~ 10925 3100
-Wire Wire Line
-	8225 6900 10625 6900
-Wire Wire Line
-	10625 6900 10625 3500
-Wire Wire Line
-	10425 3500 10725 3500
-Connection ~ 10625 3500
-Wire Wire Line
-	5825 10800 5625 10800
-Text Label 5625 10800 2    65   ~ 0
-USBD_N/2.3D
-Wire Wire Line
-	5825 10700 5625 10700
-Text Label 5625 10700 2    65   ~ 0
-USBD_P/2.3D
-Wire Wire Line
-	10125 2400 10125 2500
-Wire Wire Line
-	10125 2400 10725 2400
-Text Label 10065 2449 2    65   ~ 0
-VUSB_BOOT/2.4D
-Text GLabel 5825 12300 0    10   UnSpc ~ 0
-+5V
-Text GLabel 5825 12400 0    10   UnSpc ~ 0
-+5V
-Text GLabel 5025 12400 2    10   UnSpc ~ 0
-+5V
-Text GLabel 8225 12300 2    10   UnSpc ~ 0
-+5V
-Text GLabel 8225 12400 2    10   UnSpc ~ 0
-+5V
-Text GLabel 8525 12300 0    10   UnSpc ~ 0
-+5V
-Text GLabel 5825 11700 0    10   UnSpc ~ 0
+$Comp
+L R R35
+U 1 1 575A482F
+P 8850 1475
+F 0 "R35" H 8700 1534 70  0000 L BNN
+F 1 "1k8" H 8700 1345 70  0000 L BNN
+F 2 "USSTCM:RCL_R0603" H 8840 1265 65  0001 L TNN
+F 3 "" H 8850 1475 60  0001 C CNN
+	1    8850 1475
+	1    0    0    -1  
+$EndComp
+Text Label 2750 10725 2    65   ~ 0
 1V8
-Text GLabel 5825 11600 0    10   UnSpc ~ 0
+Text Label 6050 10725 0    65   ~ 0
 1V8
-Text GLabel 8225 11600 2    10   UnSpc ~ 0
+Text Label 7550 2475 3    65   ~ 0
 1V8
-Text GLabel 8225 11700 2    10   UnSpc ~ 0
-1V8
-Text GLabel 10025 3500 0    10   UnSpc ~ 0
-1V8
-Text GLabel 5825 12000 0    10   UnSpc ~ 0
+Text Label 3150 11125 2    65   ~ 0
 3V3
-Text GLabel 5825 12100 0    10   UnSpc ~ 0
+Text Label 6050 11125 0    65   ~ 0
 3V3
-Text GLabel 8225 12000 2    10   UnSpc ~ 0
+Text Label 1450 3175 2    65   ~ 0
 3V3
-Text GLabel 8225 12100 2    10   UnSpc ~ 0
+Text Label 2250 3575 2    65   ~ 0
 3V3
-Text GLabel 5825 4100 0    10   UnSpc ~ 0
+Text Label 8850 1175 1    65   ~ 0
 3V3
-Text GLabel 3825 4200 1    10   UnSpc ~ 0
+Text Label 3150 10975 2    65   ~ 0
 3V3
-Text GLabel 8225 4100 2    10   UnSpc ~ 0
+Text Label 6050 10975 0    65   ~ 0
 3V3
-Text GLabel 5825 4500 0    10   UnSpc ~ 0
-3V3
-Text GLabel 4625 4600 1    10   UnSpc ~ 0
-3V3
-Text GLabel 8225 4500 2    10   UnSpc ~ 0
-3V3
-Text GLabel 11225 2200 1    10   UnSpc ~ 0
-3V3
-Text GLabel 5825 11900 0    10   UnSpc ~ 0
-3V3
-Text GLabel 8225 11900 2    10   UnSpc ~ 0
-3V3
-Text GLabel 8225 9600 2    10   UnSpc ~ 0
-CAM0_C_N
-Text GLabel 8225 9500 2    10   UnSpc ~ 0
+Text Label 6050 8575 0    65   ~ 0
 CAM0_C_P
-Text GLabel 8225 9300 2    10   UnSpc ~ 0
+Text Label 6050 8375 0    65   ~ 0
 CAM0_D0_N
-Text GLabel 8225 9200 2    10   UnSpc ~ 0
+Text Label 6050 8275 0    65   ~ 0
 CAM0_D0_P
-Text GLabel 8225 9900 2    10   UnSpc ~ 0
+Text Label 6050 8975 0    65   ~ 0
 CAM0_D1_N
-Text GLabel 8225 9800 2    10   UnSpc ~ 0
+Text Label 6050 8875 0    65   ~ 0
 CAM0_D1_P
-Text GLabel 5825 9900 0    10   UnSpc ~ 0
+Text Label 3250 8975 2    65   ~ 0
 CAM1_C_N
-Text GLabel 5825 9800 0    10   UnSpc ~ 0
+Text Label 3250 8875 2    65   ~ 0
 CAM1_C_P
-Text GLabel 5825 10500 0    10   UnSpc ~ 0
+Text Label 3250 9575 2    65   ~ 0
 CAM1_D0_N
-Text GLabel 5825 10400 0    10   UnSpc ~ 0
+Text Label 3250 9475 2    65   ~ 0
 CAM1_D0_P
-Text GLabel 5825 10200 0    10   UnSpc ~ 0
+Text Label 3250 9275 2    65   ~ 0
 CAM1_D1_N
-Text GLabel 5825 10100 0    10   UnSpc ~ 0
+Text Label 3250 9175 2    65   ~ 0
 CAM1_D1_P
-Text GLabel 5825 12200 0    10   UnSpc ~ 0
-GND
-Text GLabel 5725 13000 1    10   UnSpc ~ 0
-GND
-Text GLabel 5825 11800 0    10   UnSpc ~ 0
-GND
-Text GLabel 5825 11500 0    10   UnSpc ~ 0
-GND
-Text GLabel 5825 2200 0    10   UnSpc ~ 0
-GND
-Text GLabel 5825 2500 0    10   UnSpc ~ 0
-GND
-Text GLabel 5825 2800 0    10   UnSpc ~ 0
-GND
-Text GLabel 5825 3100 0    10   UnSpc ~ 0
-GND
-Text GLabel 5825 3400 0    10   UnSpc ~ 0
-GND
-Text GLabel 5825 3700 0    10   UnSpc ~ 0
-GND
-Text GLabel 5825 4000 0    10   UnSpc ~ 0
-GND
-Text GLabel 5825 4600 0    10   UnSpc ~ 0
-GND
-Text GLabel 5825 4900 0    10   UnSpc ~ 0
-GND
-Text GLabel 5825 5200 0    10   UnSpc ~ 0
-GND
-Text GLabel 5825 5500 0    10   UnSpc ~ 0
-GND
-Text GLabel 5825 5800 0    10   UnSpc ~ 0
-GND
-Text GLabel 5825 6100 0    10   UnSpc ~ 0
-GND
-Text GLabel 5825 6400 0    10   UnSpc ~ 0
-GND
-Text GLabel 5825 6700 0    10   UnSpc ~ 0
-GND
-Text GLabel 5825 7000 0    10   UnSpc ~ 0
-GND
-Text GLabel 5825 7300 0    10   UnSpc ~ 0
-GND
-Text GLabel 5825 7600 0    10   UnSpc ~ 0
-GND
-Text GLabel 5825 7900 0    10   UnSpc ~ 0
-GND
-Text GLabel 5825 8200 0    10   UnSpc ~ 0
-GND
-Text GLabel 5825 8500 0    10   UnSpc ~ 0
-GND
-Text GLabel 5825 8800 0    10   UnSpc ~ 0
-GND
-Text GLabel 5825 9100 0    10   UnSpc ~ 0
-GND
-Text GLabel 5825 9400 0    10   UnSpc ~ 0
-GND
-Text GLabel 5825 9700 0    10   UnSpc ~ 0
-GND
-Text GLabel 5825 10000 0    10   UnSpc ~ 0
-GND
-Text GLabel 5825 10300 0    10   UnSpc ~ 0
-GND
-Text GLabel 5825 10600 0    10   UnSpc ~ 0
-GND
-Text GLabel 5825 10900 0    10   UnSpc ~ 0
-GND
-Text GLabel 8225 12200 2    10   UnSpc ~ 0
-GND
-Text GLabel 8325 12700 1    10   UnSpc ~ 0
-GND
-Text GLabel 8225 11800 2    10   UnSpc ~ 0
-GND
-Text GLabel 8225 11500 2    10   UnSpc ~ 0
-GND
-Text GLabel 8225 10900 2    10   UnSpc ~ 0
-GND
-Text GLabel 8225 10600 2    10   UnSpc ~ 0
-GND
-Text GLabel 8225 10000 2    10   UnSpc ~ 0
-GND
-Text GLabel 8225 9700 2    10   UnSpc ~ 0
-GND
-Text GLabel 8225 9400 2    10   UnSpc ~ 0
-GND
-Text GLabel 8225 9100 2    10   UnSpc ~ 0
-GND
-Text GLabel 8225 8500 2    10   UnSpc ~ 0
-GND
-Text GLabel 8225 8200 2    10   UnSpc ~ 0
-GND
-Text GLabel 8225 7900 2    10   UnSpc ~ 0
-GND
-Text GLabel 8225 7600 2    10   UnSpc ~ 0
-GND
-Text GLabel 8225 7300 2    10   UnSpc ~ 0
-GND
-Text GLabel 8225 7000 2    10   UnSpc ~ 0
-GND
-Text GLabel 8225 6700 2    10   UnSpc ~ 0
-GND
-Text GLabel 8225 6400 2    10   UnSpc ~ 0
-GND
-Text GLabel 8225 6100 2    10   UnSpc ~ 0
-GND
-Text GLabel 8225 5800 2    10   UnSpc ~ 0
-GND
-Text GLabel 8225 5500 2    10   UnSpc ~ 0
-GND
-Text GLabel 8225 5200 2    10   UnSpc ~ 0
-GND
-Text GLabel 8225 4900 2    10   UnSpc ~ 0
-GND
-Text GLabel 8225 4600 2    10   UnSpc ~ 0
-GND
-Text GLabel 8225 4000 2    10   UnSpc ~ 0
-GND
-Text GLabel 8225 3700 2    10   UnSpc ~ 0
-GND
-Text GLabel 8225 3400 2    10   UnSpc ~ 0
-GND
-Text GLabel 8225 10800 2    10   UnSpc ~ 0
-GND
-Text GLabel 10125 2900 3    10   UnSpc ~ 0
-GND
-Text GLabel 10125 3000 1    10   UnSpc ~ 0
-GND
-Text GLabel 10925 3600 3    10   UnSpc ~ 0
-GND
-Text GLabel 10925 3700 1    10   UnSpc ~ 0
-GND
-Text GLabel 6925 12800 1    10   UnSpc ~ 0
-GND
-Text GLabel 7125 12300 1    10   UnSpc ~ 0
-GND
-Text GLabel 6925 12300 1    10   UnSpc ~ 0
-GND
-Text GLabel 9625 4100 3    10   UnSpc ~ 0
-GND
-Text GLabel 9625 4300 1    10   UnSpc ~ 0
-GND
-Text GLabel 9325 4100 3    10   UnSpc ~ 0
-GND
-Text GLabel 9325 5900 3    10   UnSpc ~ 0
-GND
-Text GLabel 9325 6000 1    10   UnSpc ~ 0
-GND
-Text GLabel 4625 4900 3    10   UnSpc ~ 0
-GND
-Text GLabel 4625 5100 1    10   UnSpc ~ 0
-GND
-Text GLabel 3825 4500 3    10   UnSpc ~ 0
-GND
-Text GLabel 4425 11400 3    10   UnSpc ~ 0
-GND
-Text GLabel 4425 11400 1    10   UnSpc ~ 0
-GND
-Text GLabel 5825 2300 0    10   UnSpc ~ 0
+Text Label 3250 1375 2    65   ~ 0
 GPIO0
-Text GLabel 5825 2400 0    10   UnSpc ~ 0
+Text Label 3250 1475 2    65   ~ 0
 GPIO1
-Text GLabel 5825 2600 0    10   UnSpc ~ 0
+Text Label 3250 1675 2    65   ~ 0
 GPIO2
-Text GLabel 5825 2700 0    10   UnSpc ~ 0
+Text Label 3250 1775 2    65   ~ 0
 GPIO3
-Text GLabel 5825 2900 0    10   UnSpc ~ 0
+Text Label 3250 1975 2    65   ~ 0
 GPIO4
-Text GLabel 5825 3000 0    10   UnSpc ~ 0
+Text Label 3250 2075 2    65   ~ 0
 GPIO5
-Text GLabel 5825 3200 0    10   UnSpc ~ 0
+Text Label 3250 2275 2    65   ~ 0
 GPIO6
-Text GLabel 5825 3300 0    10   UnSpc ~ 0
+Text Label 3250 2375 2    65   ~ 0
 GPIO7
-Text GLabel 5825 3500 0    10   UnSpc ~ 0
+Text Label 3250 2575 2    65   ~ 0
 GPIO8
-Text GLabel 5825 3600 0    10   UnSpc ~ 0
+Text Label 3250 2675 2    65   ~ 0
 GPIO9
-Text GLabel 5825 3800 0    10   UnSpc ~ 0
+Text Label 3250 2875 2    65   ~ 0
 GPIO10
-Text GLabel 5825 3900 0    10   UnSpc ~ 0
+Text Label 3250 2975 2    65   ~ 0
 GPIO11
-Text GLabel 5825 4700 0    10   UnSpc ~ 0
+Text Label 3250 3775 2    65   ~ 0
 GPIO12
-Text GLabel 5825 4800 0    10   UnSpc ~ 0
+Text Label 3250 3875 2    65   ~ 0
 GPIO13
-Text GLabel 5825 5000 0    10   UnSpc ~ 0
+Text Label 3250 4075 2    65   ~ 0
 GPIO14
-Text GLabel 5825 5100 0    10   UnSpc ~ 0
+Text Label 3250 4175 2    65   ~ 0
 GPIO15
-Text GLabel 5825 5300 0    10   UnSpc ~ 0
+Text Label 3250 4375 2    65   ~ 0
 GPIO16
-Text GLabel 5825 5400 0    10   UnSpc ~ 0
+Text Label 3250 4475 2    65   ~ 0
 GPIO17
-Text GLabel 5825 5600 0    10   UnSpc ~ 0
+Text Label 3250 4675 2    65   ~ 0
 GPIO18
-Text GLabel 5825 5700 0    10   UnSpc ~ 0
+Text Label 3250 4775 2    65   ~ 0
 GPIO19
-Text GLabel 5825 5900 0    10   UnSpc ~ 0
+Text Label 3250 4975 2    65   ~ 0
 GPIO20
-Text GLabel 5825 6000 0    10   UnSpc ~ 0
+Text Label 3250 5075 2    65   ~ 0
 GPIO21
-Text GLabel 5825 6200 0    10   UnSpc ~ 0
+Text Label 3250 5275 2    65   ~ 0
 GPIO22
-Text GLabel 5825 6300 0    10   UnSpc ~ 0
+Text Label 3250 5375 2    65   ~ 0
 GPIO23
-Text GLabel 5825 6500 0    10   UnSpc ~ 0
+Text Label 3250 5575 2    65   ~ 0
 GPIO24
-Text GLabel 5825 6600 0    10   UnSpc ~ 0
+Text Label 3250 5675 2    65   ~ 0
 GPIO25
-Text GLabel 5825 6800 0    10   UnSpc ~ 0
+Text Label 3250 5875 2    65   ~ 0
 GPIO26
-Text GLabel 5825 6900 0    10   UnSpc ~ 0
+Text Label 3250 5975 2    65   ~ 0
 GPIO27
-Text GLabel 8225 3500 2    10   UnSpc ~ 0
+Text Label 7250 2575 1    65   ~ 0
 GPIO28
-Text GLabel 9625 3700 1    10   UnSpc ~ 0
-GPIO28
-Text GLabel 8225 3600 2    10   UnSpc ~ 0
+Text Label 6950 2675 1    65   ~ 0
 GPIO29
-Text GLabel 9325 3700 1    10   UnSpc ~ 0
-GPIO29
-Text GLabel 8225 3800 2    10   UnSpc ~ 0
+Text Label 6050 2875 0    65   ~ 0
 GPIO30
-Text GLabel 8225 3900 2    10   UnSpc ~ 0
+Text Label 6050 2975 0    65   ~ 0
 GPIO31
-Text Label 8225 4700 0    10   ~ 0
+Text Label 6050 3775 0    65   ~ 0
 GPIO32
-Text Label 8225 4800 0    10   ~ 0
+Text Label 6050 3875 0    65   ~ 0
 GPIO33
-Text Label 8225 5000 0    10   ~ 0
+Text Label 6050 4075 0    65   ~ 0
 GPIO34
-Text Label 8225 5100 0    10   ~ 0
+Text Label 6050 4175 0    65   ~ 0
 GPIO35
-Text GLabel 8225 5300 2    10   UnSpc ~ 0
+Text Label 6050 4375 0    65   ~ 0
 GPIO36
-Text GLabel 8225 5400 2    10   UnSpc ~ 0
+Text Label 6050 4475 0    65   ~ 0
 GPIO37
-Text GLabel 8225 5600 2    10   UnSpc ~ 0
+Text Label 6050 4675 0    65   ~ 0
 GPIO38
-Text GLabel 8225 5700 2    10   UnSpc ~ 0
+Text Label 6050 4775 0    65   ~ 0
 GPIO39
-Text Label 8225 5900 0    10   ~ 0
+Text Label 6050 4975 0    65   ~ 0
 GPIO40
-Text GLabel 8225 6000 2    10   UnSpc ~ 0
+Text Label 6050 5075 0    65   ~ 0
 GPIO41
-Text GLabel 8225 6200 2    10   UnSpc ~ 0
+Text Label 6050 5275 0    65   ~ 0
 GPIO42
-Text GLabel 8225 6300 2    10   UnSpc ~ 0
+Text Label 6050 5375 0    65   ~ 0
 GPIO43
-Text Label 8225 6500 0    10   ~ 0
+Text Label 6950 5575 0    65   ~ 0
 GPIO44
-Text Label 9325 6400 3    10   ~ 0
-GPIO44
-Text Label 8225 6600 0    10   ~ 0
+Text Label 7450 5675 0    65   ~ 0
 GPIO45
-Text GLabel 8225 6800 2    10   UnSpc ~ 0
+Text Label 6050 5875 0    65   ~ 0
 GPIO46
-Text GLabel 5825 11000 0    10   UnSpc ~ 0
+Text Label 1950 10075 2    65   ~ 0
 HDMI_CEC
-Text GLabel 4425 11100 1    10   UnSpc ~ 0
-HDMI_CEC
-Text GLabel 5825 8000 0    10   UnSpc ~ 0
+Text Label 3250 7075 2    65   ~ 0
 HDMI_CK_N
-Text GLabel 5825 8100 0    10   UnSpc ~ 0
+Text Label 3250 7175 2    65   ~ 0
 HDMI_CK_P
-Text GLabel 5825 8300 0    10   UnSpc ~ 0
+Text Label 3250 7375 2    65   ~ 0
 HDMI_D0_N
-Text GLabel 5825 8400 0    10   UnSpc ~ 0
+Text Label 3250 7475 2    65   ~ 0
 HDMI_D0_P
-Text GLabel 5825 8600 0    10   UnSpc ~ 0
+Text Label 3250 7675 2    65   ~ 0
 HDMI_D1_N
-Text GLabel 5825 8700 0    10   UnSpc ~ 0
+Text Label 3250 7775 2    65   ~ 0
 HDMI_D1_P
-Text GLabel 5825 8900 0    10   UnSpc ~ 0
+Text Label 3250 7975 2    65   ~ 0
 HDMI_D2_N
-Text GLabel 5825 9000 0    10   UnSpc ~ 0
+Text Label 3250 8075 2    65   ~ 0
 HDMI_D2_P
-Text GLabel 5825 11200 0    10   UnSpc ~ 0
+Text Label 3250 10275 2    65   ~ 0
 HDMI_SCL
-Text GLabel 5825 11100 0    10   UnSpc ~ 0
+Text Label 3250 10175 2    65   ~ 0
 HDMI_SDA
-Text Label 8225 2200 0    10   ~ 0
-N$3
-Text Label 10925 2100 1    10   ~ 0
-N$3
-Text Label 11225 2700 1    10   ~ 0
-N$4
-Text Label 11225 2600 3    10   ~ 0
-N$4
-Text Label 10925 2500 3    10   ~ 0
-N$5
-Text Label 10925 3200 1    10   ~ 0
-N$5
-Text Label 11225 3000 3    10   ~ 0
-N$5
-Text Label 8225 6900 0    10   ~ 0
-N$6
-Text Label 10725 3500 2    10   ~ 0
-N$6
-Text Label 10425 3500 0    10   ~ 0
-N$6
-Text GLabel 5825 10800 0    10   UnSpc ~ 0
+Text Label 3250 9875 2    65   ~ 0
 USBD_N
-Text GLabel 5825 10700 0    10   UnSpc ~ 0
+Text Label 3250 9775 2    65   ~ 0
 USBD_P
-Text GLabel 10125 2500 1    10   UnSpc ~ 0
-VUSB_BOOT
-Text GLabel 10725 2400 0    10   UnSpc ~ 0
-VUSB_BOOT
-Text Label 8425 9600 0    65   ~ 0
-CAM0_C_N/3.4A
+Text Label 5850 3775 0    10   ~ 0
+GPIO32
+Text Label 5850 3875 0    10   ~ 0
+GPIO33
+Text Label 5850 4075 0    10   ~ 0
+GPIO34
+Text Label 5850 4175 0    10   ~ 0
+GPIO35
+Text Label 5850 4975 0    10   ~ 0
+GPIO40
+Text Label 6050 8675 0    65   ~ 0
+CAM0_C_N
 $Sheet
-S 13445 5200 800  800 
+S 8420 9375 800  800 
 U 5782BC69
 F0 "USSTCM LAN" 60
 F1 "USSTCM_LAN.sch" 60
 $EndSheet
 $Sheet
-S 13445 4125 800  800 
+S 8420 8300 800  800 
 U 5782BC6B
 F0 "USSTCM CONN" 60
 F1 "USSTCM_CONN.sch" 60
 $EndSheet
 $Comp
-L RCL_C-EUC0805 C?
+L C C?
 U 1 1 57962A85
-P 13025 8125
+P 8000 12350
 AR Path="/5782BC69/57962A85" Ref="C?"  Part="1" 
 AR Path="/57962A85" Ref="C1"  Part="1" 
-F 0 "C1" H 13085 8139 70  0000 L BNN
-F 1 "10u" H 13084 7940 70  0000 L BNN
-F 2 "USSTCM:RCL_C0805" H 13015 7915 65  0001 L TNN
-F 3 "" H 13025 8125 60  0001 C CNN
-	1    13025 8125
+F 0 "C1" H 8060 12364 70  0000 L BNN
+F 1 "10u" H 8059 12165 70  0000 L BNN
+F 2 "USSTCM:RCL_C0805" H 7990 12140 65  0001 L TNN
+F 3 "" H 8000 12350 60  0001 C CNN
+	1    8000 12350
 	1    0    0    -1  
 $EndComp
 $Comp
-L RCL_C-EUC0805 C?
+L C C?
 U 1 1 57962A8C
-P 14825 8125
+P 9800 12350
 AR Path="/5782BC69/57962A8C" Ref="C?"  Part="1" 
 AR Path="/57962A8C" Ref="C19"  Part="1" 
-F 0 "C19" H 14885 8139 70  0000 L BNN
-F 1 "10u" H 14884 7940 70  0000 L BNN
-F 2 "USSTCM:RCL_C0805" H 14815 7915 65  0001 L TNN
-F 3 "" H 14825 8125 60  0001 C CNN
-	1    14825 8125
+F 0 "C19" H 9860 12364 70  0000 L BNN
+F 1 "10u" H 9859 12165 70  0000 L BNN
+F 2 "USSTCM:RCL_C0805" H 9790 12140 65  0001 L TNN
+F 3 "" H 9800 12350 60  0001 C CNN
+	1    9800 12350
 	1    0    0    -1  
 $EndComp
 $Comp
-L RCL_CPOL-EU153CLV-0605 C?
+L CP C?
 U 1 1 57962A93
-P 14225 8125
+P 9200 12350
 AR Path="/5782BC69/57962A93" Ref="C?"  Part="1" 
 AR Path="/57962A93" Ref="C6"  Part="1" 
-F 0 "C6" H 14270 8143 70  0000 L BNN
-F 1 "~" H 14215 8015 65  0001 L TNN
-F 2 "USSTCM:RCL_153CLV-0605" H 14215 7915 65  0001 L TNN
-F 3 "" H 14225 8125 60  0001 C CNN
-	1    14225 8125
+F 0 "C6" H 9245 12368 70  0000 L BNN
+F 1 "~" H 9190 12240 65  0001 L TNN
+F 2 "USSTCM:RCL_153CLV-0605" H 9190 12140 65  0001 L TNN
+F 3 "" H 9200 12350 60  0001 C CNN
+	1    9200 12350
 	1    0    0    -1  
 $EndComp
 $Comp
-L RCL_C-EUC0805 C?
+L C C?
 U 1 1 57962A9A
-P 14525 8125
+P 9500 12350
 AR Path="/5782BC69/57962A9A" Ref="C?"  Part="1" 
 AR Path="/57962A9A" Ref="C17"  Part="1" 
-F 0 "C17" H 14585 8139 70  0000 L BNN
-F 1 "10u" H 14584 7940 70  0000 L BNN
-F 2 "USSTCM:RCL_C0805" H 14515 7915 65  0001 L TNN
-F 3 "" H 14525 8125 60  0001 C CNN
-	1    14525 8125
+F 0 "C17" H 9560 12364 70  0000 L BNN
+F 1 "10u" H 9559 12165 70  0000 L BNN
+F 2 "USSTCM:RCL_C0805" H 9490 12140 65  0001 L TNN
+F 3 "" H 9500 12350 60  0001 C CNN
+	1    9500 12350
 	1    0    0    -1  
 $EndComp
 $Comp
-L SUPPLY1_GND #GND?
+L GND #GND?
 U 1 1 57962AA1
-P 13625 8725
+P 8600 12800
 AR Path="/5782BC69/57962AA1" Ref="#GND?"  Part="1" 
 AR Path="/57962AA1" Ref="#GND012"  Part="1" 
-F 0 "#GND012" H 13525 8625 70  0001 L BNN
-F 1 "GND" H 13525 8625 70  0000 L BNN
-F 2 "" H 13625 8725 60  0001 C CNN
-F 3 "" H 13625 8725 60  0001 C CNN
-	1    13625 8725
+F 0 "#GND012" H 8500 12700 70  0001 L BNN
+F 1 "GND" H 8500 12700 70  0000 L BNN
+F 2 "" H 8600 12800 60  0001 C CNN
+F 3 "" H 8600 12800 60  0001 C CNN
+	1    8600 12800
 	1    0    0    -1  
 $EndComp
 $Comp
-L BURR-BROWN_REG1117 IC?
+L REG1117 IC?
 U 1 1 57962AA7
-P 13625 7925
+P 8600 12100
 AR Path="/5782BC69/57962AA7" Ref="IC?"  Part="1" 
 AR Path="/57962AA7" Ref="IC1"  Part="1" 
-F 0 "IC1" H 13325 8150 70  0000 L BNN
-F 1 "REG1117" H 13425 8025 70  0000 L BNN
-F 2 "USSTCM:BURR-BROWN_SOT223" H 13615 7715 65  0001 L TNN
-F 3 "" H 13625 7925 60  0001 C CNN
-	1    13625 7925
+F 0 "IC1" H 8300 12325 70  0000 L BNN
+F 1 "REG1117" H 8400 12200 70  0000 L BNN
+F 2 "USSTCM:BURR-BROWN_SOT223" H 8590 11890 65  0001 L TNN
+F 3 "" H 8600 12100 60  0001 C CNN
+	1    8600 12100
 	1    0    0    -1  
 $EndComp
 $Comp
-L SUPPLY1_+5V #P+?
+L +5V #P+?
 U 1 1 57962AAE
-P 13025 7725
+P 8000 12000
 AR Path="/5782BC69/57962AAE" Ref="#P+?"  Part="1" 
 AR Path="/57962AAE" Ref="#P+013"  Part="1" 
-F 0 "#P+013" V 12925 7525 70  0001 L BNN
-F 1 "+5V" V 12925 7525 70  0000 L BNN
-F 2 "" H 13025 7725 60  0001 C CNN
-F 3 "" H 13025 7725 60  0001 C CNN
-	1    13025 7725
+F 0 "#P+013" V 7900 11800 70  0001 L BNN
+F 1 "+5V" V 7900 11800 70  0000 L BNN
+F 2 "" H 8000 12000 60  0001 C CNN
+F 3 "" H 8000 12000 60  0001 C CNN
+	1    8000 12000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13025 7825 13025 8025
-Wire Wire Line
-	13025 7925 13125 7925
-Connection ~ 13025 7925
-Wire Wire Line
-	14125 7925 14825 7925
-Wire Wire Line
-	14825 7925 14825 8025
-Wire Wire Line
-	14225 8025 14225 7925
-Wire Wire Line
-	14525 8025 14525 7925
-Connection ~ 14225 7925
-Connection ~ 14525 7925
-Text Label 14825 7925 0    65   ~ 0
-1V8/1.7A
-Wire Wire Line
-	13625 8425 13625 8625
-Wire Wire Line
-	13025 8325 13025 8525
-Wire Wire Line
-	13025 8525 14825 8525
-Wire Wire Line
-	14825 8525 14825 8325
-Wire Wire Line
-	14225 8325 14225 8525
-Wire Wire Line
-	14525 8325 14525 8525
-Connection ~ 13625 8525
-Connection ~ 14225 8525
-Connection ~ 14525 8525
-Text GLabel 13025 7825 3    10   UnSpc ~ 0
-+5V
-Text GLabel 13025 8025 1    10   UnSpc ~ 0
-+5V
-Text GLabel 13125 7925 0    10   UnSpc ~ 0
-+5V
-Text GLabel 14125 7925 2    10   UnSpc ~ 0
+Text Label 9800 12100 0    65   ~ 0
 1V8
-Text GLabel 14825 8025 1    10   UnSpc ~ 0
-1V8
-Text GLabel 14225 8025 1    10   UnSpc ~ 0
-1V8
-Text GLabel 14525 8025 1    10   UnSpc ~ 0
-1V8
-Text GLabel 13625 8425 3    10   UnSpc ~ 0
-GND
-Text GLabel 13625 8625 1    10   UnSpc ~ 0
-GND
-Text GLabel 13025 8325 3    10   UnSpc ~ 0
-GND
-Text GLabel 14825 8325 3    10   UnSpc ~ 0
-GND
-Text GLabel 14225 8325 3    10   UnSpc ~ 0
-GND
-Text GLabel 14525 8325 3    10   UnSpc ~ 0
-GND
 $Comp
-L RCL_C-EUC0805 C?
+L C C?
 U 1 1 57963EA9
-P 13025 9450
+P 8000 13675
 AR Path="/5782BC69/57963EA9" Ref="C?"  Part="1" 
 AR Path="/57963EA9" Ref="C2"  Part="1" 
-F 0 "C2" H 13085 9464 70  0000 L BNN
-F 1 "10u" H 13084 9265 70  0000 L BNN
-F 2 "USSTCM:RCL_C0805" H 13015 9240 65  0001 L TNN
-F 3 "" H 13025 9450 60  0001 C CNN
-	1    13025 9450
+F 0 "C2" H 8060 13689 70  0000 L BNN
+F 1 "10u" H 8059 13490 70  0000 L BNN
+F 2 "USSTCM:RCL_C0805" H 7990 13465 65  0001 L TNN
+F 3 "" H 8000 13675 60  0001 C CNN
+	1    8000 13675
 	1    0    0    -1  
 $EndComp
 $Comp
-L RCL_C-EUC0805 C?
+L C C?
 U 1 1 57963EB0
-P 14825 9450
+P 9800 13675
 AR Path="/5782BC69/57963EB0" Ref="C?"  Part="1" 
 AR Path="/57963EB0" Ref="C20"  Part="1" 
-F 0 "C20" H 14885 9464 70  0000 L BNN
-F 1 "10u" H 14884 9265 70  0000 L BNN
-F 2 "USSTCM:RCL_C0805" H 14815 9240 65  0001 L TNN
-F 3 "" H 14825 9450 60  0001 C CNN
-	1    14825 9450
+F 0 "C20" H 9860 13689 70  0000 L BNN
+F 1 "10u" H 9859 13490 70  0000 L BNN
+F 2 "USSTCM:RCL_C0805" H 9790 13465 65  0001 L TNN
+F 3 "" H 9800 13675 60  0001 C CNN
+	1    9800 13675
 	1    0    0    -1  
 $EndComp
 $Comp
-L RCL_CPOL-EU153CLV-0605 C?
+L CP C?
 U 1 1 57963EB7
-P 14225 9450
+P 9200 13675
 AR Path="/5782BC69/57963EB7" Ref="C?"  Part="1" 
 AR Path="/57963EB7" Ref="C8"  Part="1" 
-F 0 "C8" H 14270 9468 70  0000 L BNN
-F 1 "~" H 14215 9340 65  0001 L TNN
-F 2 "USSTCM:RCL_153CLV-0605" H 14215 9240 65  0001 L TNN
-F 3 "" H 14225 9450 60  0001 C CNN
-	1    14225 9450
+F 0 "C8" H 9245 13693 70  0000 L BNN
+F 1 "~" H 9190 13565 65  0001 L TNN
+F 2 "USSTCM:RCL_153CLV-0605" H 9190 13465 65  0001 L TNN
+F 3 "" H 9200 13675 60  0001 C CNN
+	1    9200 13675
 	1    0    0    -1  
 $EndComp
 $Comp
-L RCL_C-EUC0805 C?
+L C C?
 U 1 1 57963EBE
-P 14525 9450
+P 9500 13675
 AR Path="/5782BC69/57963EBE" Ref="C?"  Part="1" 
 AR Path="/57963EBE" Ref="C18"  Part="1" 
-F 0 "C18" H 14585 9464 70  0000 L BNN
-F 1 "10u" H 14584 9265 70  0000 L BNN
-F 2 "USSTCM:RCL_C0805" H 14515 9240 65  0001 L TNN
-F 3 "" H 14525 9450 60  0001 C CNN
-	1    14525 9450
+F 0 "C18" H 9560 13689 70  0000 L BNN
+F 1 "10u" H 9559 13490 70  0000 L BNN
+F 2 "USSTCM:RCL_C0805" H 9490 13465 65  0001 L TNN
+F 3 "" H 9500 13675 60  0001 C CNN
+	1    9500 13675
 	1    0    0    -1  
 $EndComp
 $Comp
-L RCL_C-EUC0805 C?
+L C C?
 U 1 1 57963EC5
-P 15125 9450
+P 10100 13675
 AR Path="/5782BC69/57963EC5" Ref="C?"  Part="1" 
 AR Path="/57963EC5" Ref="C46"  Part="1" 
-F 0 "C46" H 15185 9464 70  0000 L BNN
-F 1 "10u" H 15184 9265 70  0000 L BNN
-F 2 "USSTCM:RCL_C0805" H 15115 9240 65  0001 L TNN
-F 3 "" H 15125 9450 60  0001 C CNN
-	1    15125 9450
+F 0 "C46" H 10160 13689 70  0000 L BNN
+F 1 "10u" H 10159 13490 70  0000 L BNN
+F 2 "USSTCM:RCL_C0805" H 10090 13465 65  0001 L TNN
+F 3 "" H 10100 13675 60  0001 C CNN
+	1    10100 13675
 	1    0    0    -1  
 $EndComp
 $Comp
-L SUPPLY1_GND #GND?
+L GND #GND?
 U 1 1 57963ECC
-P 13625 10050
+P 8600 14125
 AR Path="/5782BC69/57963ECC" Ref="#GND?"  Part="1" 
 AR Path="/57963ECC" Ref="#GND014"  Part="1" 
-F 0 "#GND014" H 13525 9950 70  0001 L BNN
-F 1 "GND" H 13525 9950 70  0000 L BNN
-F 2 "" H 13625 10050 60  0001 C CNN
-F 3 "" H 13625 10050 60  0001 C CNN
-	1    13625 10050
+F 0 "#GND014" H 8500 14025 70  0001 L BNN
+F 1 "GND" H 8500 14025 70  0000 L BNN
+F 2 "" H 8600 14125 60  0001 C CNN
+F 3 "" H 8600 14125 60  0001 C CNN
+	1    8600 14125
 	1    0    0    -1  
 $EndComp
 $Comp
-L SUPPLY1_GND #GND?
+L GND #GND?
 U 1 1 57963ED2
-P 15325 8850
+P 10200 13075
 AR Path="/5782BC69/57963ED2" Ref="#GND?"  Part="1" 
 AR Path="/57963ED2" Ref="#GND015"  Part="1" 
-F 0 "#GND015" H 15225 8750 70  0001 L BNN
-F 1 "GND" H 15225 8750 70  0000 L BNN
-F 2 "" H 15325 8850 60  0001 C CNN
-F 3 "" H 15325 8850 60  0001 C CNN
-	1    15325 8850
-	0    -1   -1   0   
+F 0 "#GND015" H 10100 12975 70  0001 L BNN
+F 1 "GND" H 10100 12975 70  0000 L BNN
+F 2 "" H 10200 13075 60  0001 C CNN
+F 3 "" H 10200 13075 60  0001 C CNN
+	1    10200 13075
+	1    0    0    -1  
 $EndComp
 $Comp
-L BURR-BROWN_REG1117 IC?
+L REG1117 IC?
 U 1 1 57963ED8
-P 13625 9250
+P 8600 13425
 AR Path="/5782BC69/57963ED8" Ref="IC?"  Part="1" 
 AR Path="/57963ED8" Ref="IC2"  Part="1" 
-F 0 "IC2" H 13325 9475 70  0000 L BNN
-F 1 "REG1117" H 13425 9350 70  0000 L BNN
-F 2 "USSTCM:BURR-BROWN_SOT223" H 13615 9040 65  0001 L TNN
-F 3 "" H 13625 9250 60  0001 C CNN
-	1    13625 9250
+F 0 "IC2" H 8300 13650 70  0000 L BNN
+F 1 "REG1117" H 8400 13525 70  0000 L BNN
+F 2 "USSTCM:BURR-BROWN_SOT223" H 8590 13215 65  0001 L TNN
+F 3 "" H 8600 13425 60  0001 C CNN
+	1    8600 13425
 	1    0    0    -1  
 $EndComp
 $Comp
-L SUPPLY1_+5V #P+?
+L +5V #P+?
 U 1 1 57963EDF
-P 13025 9050
+P 8000 13325
 AR Path="/5782BC69/57963EDF" Ref="#P+?"  Part="1" 
 AR Path="/57963EDF" Ref="#P+016"  Part="1" 
-F 0 "#P+016" V 12925 8850 70  0001 L BNN
-F 1 "+5V" V 12925 8850 70  0000 L BNN
-F 2 "" H 13025 9050 60  0001 C CNN
-F 3 "" H 13025 9050 60  0001 C CNN
-	1    13025 9050
+F 0 "#P+016" V 7900 13125 70  0001 L BNN
+F 1 "+5V" V 7900 13125 70  0000 L BNN
+F 2 "" H 8000 13325 60  0001 C CNN
+F 3 "" H 8000 13325 60  0001 C CNN
+	1    8000 13325
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_LEDCHIP-LED0603 PWR?
+L LED PWR?
 U 1 1 57963EE5
-P 14925 8850
+P 9950 13025
 AR Path="/5782BC69/57963EE5" Ref="PWR?"  Part="1" 
 AR Path="/57963EE5" Ref="PWR1"  Part="1" 
-F 0 "PWR1" V 15065 8670 70  0000 L BNN
-F 1 "~" H 14915 8740 65  0001 L TNN
-F 2 "USSTCM:LED_CHIP-LED0603" H 14915 8640 65  0001 L TNN
-F 3 "" H 14925 8850 60  0001 C CNN
-	1    14925 8850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L RCL_R-EU_R0603 R?
-U 1 1 57963EEC
-P 14525 8850
-AR Path="/5782BC69/57963EEC" Ref="R?"  Part="1" 
-AR Path="/57963EEC" Ref="R21"  Part="1" 
-F 0 "R21" H 14375 8908 70  0000 L BNN
-F 1 "1k8" H 14375 8720 70  0000 L BNN
-F 2 "USSTCM:RCL_R0603" H 14515 8640 65  0001 L TNN
-F 3 "" H 14525 8850 60  0001 C CNN
-	1    14525 8850
+F 0 "PWR1" V 10090 12845 70  0000 L BNN
+F 1 "~" H 9940 12915 65  0001 L TNN
+F 2 "USSTCM:LED_CHIP-LED0603" H 9940 12815 65  0001 L TNN
+F 3 "" H 9950 13025 60  0001 C CNN
+	1    9950 13025
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	13025 9150 13025 9350
-Wire Wire Line
-	13125 9250 13025 9250
-Connection ~ 13025 9250
-Wire Wire Line
-	14125 9250 15125 9250
-Wire Wire Line
-	14825 9250 14825 9350
-Wire Wire Line
-	14225 8850 14225 9350
-Wire Wire Line
-	14525 9350 14525 9250
-Wire Wire Line
-	14325 8850 14225 8850
-Wire Wire Line
-	15125 9250 15125 9350
-Connection ~ 14225 9250
-Connection ~ 14525 9250
-Connection ~ 14825 9250
-Text Label 15125 9250 0    65   ~ 0
-3V3/3.1C
-Wire Wire Line
-	13625 9750 13625 9950
-Wire Wire Line
-	13025 9850 15125 9850
-Wire Wire Line
-	13025 9850 13025 9650
-Wire Wire Line
-	14825 9850 14825 9650
-Wire Wire Line
-	14225 9650 14225 9850
-Wire Wire Line
-	14525 9650 14525 9850
-Wire Wire Line
-	15125 9850 15125 9650
-Connection ~ 13625 9850
-Connection ~ 14225 9850
-Connection ~ 14525 9850
-Connection ~ 14825 9850
-Wire Wire Line
-	15225 8850 15125 8850
-Wire Wire Line
-	14825 8850 14725 8850
-Text GLabel 13025 9150 3    10   UnSpc ~ 0
-+5V
-Text GLabel 13025 9350 1    10   UnSpc ~ 0
-+5V
-Text GLabel 13125 9250 0    10   UnSpc ~ 0
-+5V
-Text GLabel 14125 9250 2    10   UnSpc ~ 0
+$Comp
+L R R?
+U 1 1 57963EEC
+P 9500 13025
+AR Path="/5782BC69/57963EEC" Ref="R?"  Part="1" 
+AR Path="/57963EEC" Ref="R21"  Part="1" 
+F 0 "R21" H 9350 13083 70  0000 L BNN
+F 1 "1k8" H 9350 12895 70  0000 L BNN
+F 2 "USSTCM:RCL_R0603" H 9490 12815 65  0001 L TNN
+F 3 "" H 9500 13025 60  0001 C CNN
+	1    9500 13025
+	0    -1   -1   0   
+$EndComp
+Text Label 10100 13425 0    65   ~ 0
 3V3
-Text GLabel 14825 9350 1    10   UnSpc ~ 0
-3V3
-Text GLabel 14225 9350 1    10   UnSpc ~ 0
-3V3
-Text GLabel 14525 9350 1    10   UnSpc ~ 0
-3V3
-Text GLabel 14325 8850 0    10   UnSpc ~ 0
-3V3
-Text GLabel 15125 9350 1    10   UnSpc ~ 0
-3V3
-Text GLabel 13625 9750 3    10   UnSpc ~ 0
-GND
-Text GLabel 13625 9950 1    10   UnSpc ~ 0
-GND
-Text GLabel 13025 9650 3    10   UnSpc ~ 0
-GND
-Text GLabel 14825 9650 3    10   UnSpc ~ 0
-GND
-Text GLabel 14225 9650 3    10   UnSpc ~ 0
-GND
-Text GLabel 14525 9650 3    10   UnSpc ~ 0
-GND
-Text GLabel 15125 9650 3    10   UnSpc ~ 0
-GND
-Text GLabel 15125 8850 2    10   UnSpc ~ 0
-GND
-Text GLabel 15225 8850 0    10   UnSpc ~ 0
-GND
-Text Label 14725 8850 0    10   ~ 0
-N$1
-Text Label 14825 8850 2    10   ~ 0
-N$1
 $Sheet
-S 13425 2800 950  900 
-U 57954C58
-F0 "USSTCM CAN" 60
-F1 "USSTCM_CAN.sch" 60
+S 8425 6825 800  825 
+U 58D1B576
+F0 "USSTCM_CAN_LITE" 60
+F1 "USSTCM_CAN_LITE.sch" 60
 $EndSheet
+$Comp
+L RASPI_CM U1
+U 1 1 575A48F7
+P 4650 6075
+F 0 "U1" H 3750 11075 45  0000 L BNN
+F 1 "RASPI" H 3950 11075 45  0000 L BNN
+F 2 "USSTCM:RASPI_SO-DIMM" H 4050 11025 20  0001 C CNN
+F 3 "" H 4650 6075 60  0000 C CNN
+	1    4650 6075
+	1    0    0    -1  
+$EndComp
+Text Label 7750 1375 2    60   ~ 0
+VUSB_BOOT
+Wire Wire Line
+	3450 11375 2850 11375
+Wire Wire Line
+	2850 11375 2850 11475
+Wire Wire Line
+	2650 11475 3450 11475
+Connection ~ 2850 11475
+Wire Wire Line
+	5850 11375 6250 11375
+Wire Wire Line
+	6050 11375 6050 11475
+Wire Wire Line
+	6050 11475 5850 11475
+Connection ~ 6050 11375
+Wire Wire Line
+	3450 10775 2750 10775
+Wire Wire Line
+	2750 10775 2750 10675
+Wire Wire Line
+	2750 10675 3450 10675
+Wire Wire Line
+	5850 10675 6050 10675
+Wire Wire Line
+	6050 10675 6050 10775
+Wire Wire Line
+	6050 10775 5850 10775
+Wire Wire Line
+	7550 2475 7725 2475
+Wire Wire Line
+	3450 11075 3150 11075
+Wire Wire Line
+	3150 11075 3150 11175
+Wire Wire Line
+	3150 11175 3450 11175
+Wire Wire Line
+	5850 11075 6050 11075
+Wire Wire Line
+	6050 11075 6050 11175
+Wire Wire Line
+	6050 11175 5850 11175
+Wire Wire Line
+	1450 3175 3450 3175
+Wire Wire Line
+	1450 3175 1450 3275
+Wire Wire Line
+	5850 3175 6050 3175
+Wire Wire Line
+	6050 3175 6050 3275
+Wire Wire Line
+	6050 3275 2450 3275
+Wire Wire Line
+	2450 3275 2450 3175
+Connection ~ 2450 3175
+Wire Wire Line
+	2250 3575 3450 3575
+Wire Wire Line
+	2250 3575 2250 3675
+Wire Wire Line
+	5850 3575 6050 3575
+Wire Wire Line
+	6050 3575 6050 3475
+Wire Wire Line
+	6050 3475 2450 3475
+Wire Wire Line
+	2450 3475 2450 3575
+Connection ~ 2450 3575
+Wire Wire Line
+	8850 1175 8850 1325
+Wire Wire Line
+	3450 10975 3150 10975
+Wire Wire Line
+	5850 10975 6050 10975
+Wire Wire Line
+	5850 8675 6050 8675
+Wire Wire Line
+	5850 8575 6050 8575
+Wire Wire Line
+	5850 8375 6050 8375
+Wire Wire Line
+	5850 8275 6050 8275
+Wire Wire Line
+	5850 8975 6050 8975
+Wire Wire Line
+	5850 8875 6050 8875
+Wire Wire Line
+	3450 8975 3250 8975
+Wire Wire Line
+	3450 8875 3250 8875
+Wire Wire Line
+	3450 9575 3250 9575
+Wire Wire Line
+	3450 9475 3250 9475
+Wire Wire Line
+	3450 9275 3250 9275
+Wire Wire Line
+	3450 9175 3250 9175
+Wire Wire Line
+	3350 11275 3450 11275
+Wire Wire Line
+	3350 1275 3350 12075
+Wire Wire Line
+	3450 10875 3350 10875
+Wire Wire Line
+	3450 10575 3350 10575
+Wire Wire Line
+	3450 1275 3350 1275
+Wire Wire Line
+	3350 1575 3450 1575
+Wire Wire Line
+	3450 1875 3350 1875
+Wire Wire Line
+	3450 2175 3350 2175
+Wire Wire Line
+	3450 2475 3350 2475
+Wire Wire Line
+	3450 2775 3350 2775
+Wire Wire Line
+	3450 3075 3350 3075
+Wire Wire Line
+	3450 3675 3350 3675
+Wire Wire Line
+	3450 3975 3350 3975
+Wire Wire Line
+	3450 4275 3350 4275
+Wire Wire Line
+	3450 4575 3350 4575
+Wire Wire Line
+	3450 4875 3350 4875
+Wire Wire Line
+	3450 5175 3350 5175
+Wire Wire Line
+	3450 5475 3350 5475
+Wire Wire Line
+	3450 5775 3350 5775
+Wire Wire Line
+	3450 6075 3350 6075
+Wire Wire Line
+	3450 6375 3350 6375
+Wire Wire Line
+	3450 6675 3350 6675
+Wire Wire Line
+	3450 6975 3350 6975
+Wire Wire Line
+	3450 7275 3350 7275
+Wire Wire Line
+	3450 7575 3350 7575
+Wire Wire Line
+	3450 7875 3350 7875
+Wire Wire Line
+	3450 8175 3350 8175
+Wire Wire Line
+	3450 8475 3350 8475
+Wire Wire Line
+	3450 8775 3350 8775
+Wire Wire Line
+	3450 9075 3350 9075
+Wire Wire Line
+	3450 9375 3350 9375
+Wire Wire Line
+	3450 9675 3350 9675
+Wire Wire Line
+	3450 9975 3350 9975
+Connection ~ 3350 11275
+Connection ~ 3350 10875
+Connection ~ 3350 1575
+Connection ~ 3350 1875
+Connection ~ 3350 2175
+Connection ~ 3350 2475
+Connection ~ 3350 2775
+Connection ~ 3350 3075
+Connection ~ 3350 3675
+Connection ~ 3350 3975
+Connection ~ 3350 4275
+Connection ~ 3350 4575
+Connection ~ 3350 4875
+Connection ~ 3350 5175
+Connection ~ 3350 5475
+Connection ~ 3350 5775
+Connection ~ 3350 6075
+Connection ~ 3350 6375
+Connection ~ 3350 6675
+Connection ~ 3350 6975
+Connection ~ 3350 7275
+Connection ~ 3350 7575
+Connection ~ 3350 7875
+Connection ~ 3350 8175
+Connection ~ 3350 8475
+Connection ~ 3350 8775
+Connection ~ 3350 9075
+Connection ~ 3350 9375
+Connection ~ 3350 9675
+Connection ~ 3350 9975
+Connection ~ 3350 10575
+Wire Wire Line
+	5950 11275 5850 11275
+Wire Wire Line
+	5950 2475 5950 11775
+Wire Wire Line
+	5850 10875 5950 10875
+Wire Wire Line
+	5850 10575 5950 10575
+Wire Wire Line
+	5850 9975 5950 9975
+Wire Wire Line
+	5850 9675 5950 9675
+Wire Wire Line
+	5850 9075 5950 9075
+Wire Wire Line
+	5850 8775 5950 8775
+Wire Wire Line
+	5850 8475 5950 8475
+Wire Wire Line
+	5850 8175 5950 8175
+Wire Wire Line
+	5850 7575 5950 7575
+Wire Wire Line
+	5850 7275 5950 7275
+Wire Wire Line
+	5850 6975 5950 6975
+Wire Wire Line
+	5850 6675 5950 6675
+Wire Wire Line
+	5850 6375 5950 6375
+Wire Wire Line
+	5850 6075 5950 6075
+Wire Wire Line
+	5850 5775 5950 5775
+Wire Wire Line
+	5850 5475 5950 5475
+Wire Wire Line
+	5850 5175 5950 5175
+Wire Wire Line
+	5850 4875 5950 4875
+Wire Wire Line
+	5850 4575 5950 4575
+Wire Wire Line
+	5850 4275 5950 4275
+Wire Wire Line
+	5850 3975 5950 3975
+Wire Wire Line
+	5850 3675 5950 3675
+Wire Wire Line
+	5850 3075 5950 3075
+Wire Wire Line
+	5850 2775 5950 2775
+Wire Wire Line
+	5850 2475 5950 2475
+Wire Wire Line
+	5850 9875 5950 9875
+Connection ~ 5950 11275
+Connection ~ 5950 10875
+Connection ~ 5950 10575
+Connection ~ 5950 9975
+Connection ~ 5950 9675
+Connection ~ 5950 9075
+Connection ~ 5950 8775
+Connection ~ 5950 8475
+Connection ~ 5950 8175
+Connection ~ 5950 7575
+Connection ~ 5950 7275
+Connection ~ 5950 6975
+Connection ~ 5950 6675
+Connection ~ 5950 6375
+Connection ~ 5950 6075
+Connection ~ 5950 5775
+Connection ~ 5950 5475
+Connection ~ 5950 5175
+Connection ~ 5950 4875
+Connection ~ 5950 4575
+Connection ~ 5950 4275
+Connection ~ 5950 3975
+Connection ~ 5950 3675
+Connection ~ 5950 3075
+Connection ~ 5950 2775
+Connection ~ 5950 9875
+Wire Wire Line
+	7750 1925 7750 2075
+Wire Wire Line
+	8550 2675 8550 2775
+Wire Wire Line
+	7250 3125 7250 3375
+Wire Wire Line
+	6950 3275 7250 3275
+Wire Wire Line
+	6950 3125 6950 3275
+Connection ~ 7250 3275
+Wire Wire Line
+	6950 4975 6950 5125
+Wire Wire Line
+	2250 3975 2250 4175
+Wire Wire Line
+	2250 4075 1450 4075
+Wire Wire Line
+	1450 4075 1450 3575
+Connection ~ 2250 4075
+Wire Wire Line
+	3450 1375 3250 1375
+Wire Wire Line
+	3450 1475 3250 1475
+Wire Wire Line
+	3450 1675 3250 1675
+Wire Wire Line
+	3450 1775 3250 1775
+Wire Wire Line
+	3450 1975 3250 1975
+Wire Wire Line
+	3450 2075 3250 2075
+Wire Wire Line
+	3450 2275 3250 2275
+Wire Wire Line
+	3450 2375 3250 2375
+Wire Wire Line
+	3450 2575 3250 2575
+Wire Wire Line
+	3450 2675 3250 2675
+Wire Wire Line
+	3450 2875 3250 2875
+Wire Wire Line
+	3450 2975 3250 2975
+Wire Wire Line
+	3450 3775 3250 3775
+Wire Wire Line
+	3450 3875 3250 3875
+Wire Wire Line
+	3450 4075 3250 4075
+Wire Wire Line
+	3450 4175 3250 4175
+Wire Wire Line
+	3450 4375 3250 4375
+Wire Wire Line
+	3450 4475 3250 4475
+Wire Wire Line
+	3450 4675 3250 4675
+Wire Wire Line
+	3450 4775 3250 4775
+Wire Wire Line
+	3450 4975 3250 4975
+Wire Wire Line
+	3450 5075 3250 5075
+Wire Wire Line
+	3450 5275 3250 5275
+Wire Wire Line
+	3450 5375 3250 5375
+Wire Wire Line
+	3450 5575 3250 5575
+Wire Wire Line
+	3450 5675 3250 5675
+Wire Wire Line
+	3450 5875 3250 5875
+Wire Wire Line
+	3450 5975 3250 5975
+Wire Wire Line
+	5850 2575 7250 2575
+Wire Wire Line
+	7250 2575 7250 2825
+Wire Wire Line
+	5850 2675 6950 2675
+Wire Wire Line
+	6950 2675 6950 2825
+Wire Wire Line
+	5850 2875 6050 2875
+Wire Wire Line
+	5850 2975 6050 2975
+Wire Wire Line
+	5850 3775 6050 3775
+Wire Wire Line
+	5850 3875 6050 3875
+Wire Wire Line
+	5850 4075 6050 4075
+Wire Wire Line
+	5850 4175 6050 4175
+Wire Wire Line
+	5850 4375 6050 4375
+Wire Wire Line
+	5850 4475 6050 4475
+Wire Wire Line
+	5850 4675 6050 4675
+Wire Wire Line
+	5850 4775 6050 4775
+Wire Wire Line
+	5850 4975 6050 4975
+Wire Wire Line
+	5850 5075 6050 5075
+Wire Wire Line
+	5850 5275 6050 5275
+Wire Wire Line
+	5850 5375 6050 5375
+Wire Wire Line
+	6950 5575 5850 5575
+Wire Wire Line
+	6950 5425 6950 5575
+Wire Wire Line
+	5850 5675 7450 5675
+Wire Wire Line
+	5850 5875 6050 5875
+Wire Wire Line
+	1950 10075 3450 10075
+Wire Wire Line
+	2050 10175 2050 10075
+Connection ~ 2050 10075
+Wire Wire Line
+	3450 7075 3250 7075
+Wire Wire Line
+	3450 7175 3250 7175
+Wire Wire Line
+	3450 7375 3250 7375
+Wire Wire Line
+	3450 7475 3250 7475
+Wire Wire Line
+	3450 7675 3250 7675
+Wire Wire Line
+	3450 7775 3250 7775
+Wire Wire Line
+	3450 7975 3250 7975
+Wire Wire Line
+	3450 8075 3250 8075
+Wire Wire Line
+	3450 10275 3250 10275
+Wire Wire Line
+	3450 10175 3250 10175
+Wire Wire Line
+	5850 1275 5950 1275
+Wire Wire Line
+	5950 1275 5950 1075
+Wire Wire Line
+	5950 1075 8550 1075
+Wire Wire Line
+	8550 1075 8550 1175
+Wire Wire Line
+	8550 1575 8550 2275
+Wire Wire Line
+	8850 2075 8850 2175
+Wire Wire Line
+	8850 2175 8550 2175
+Connection ~ 8550 2175
+Wire Wire Line
+	5850 5975 8250 5975
+Wire Wire Line
+	8250 5975 8250 2475
+Wire Wire Line
+	8250 2475 8025 2475
+Connection ~ 8250 2475
+Wire Wire Line
+	3450 9875 3250 9875
+Wire Wire Line
+	3450 9775 3250 9775
+Wire Wire Line
+	7750 1375 7750 1625
+Wire Wire Line
+	7750 1375 8250 1375
+Wire Wire Line
+	8000 12000 8000 12200
+Wire Wire Line
+	8000 12100 8100 12100
+Connection ~ 8000 12100
+Wire Wire Line
+	9100 12100 9800 12100
+Wire Wire Line
+	9800 12100 9800 12200
+Wire Wire Line
+	9200 12200 9200 12100
+Wire Wire Line
+	9500 12200 9500 12100
+Connection ~ 9200 12100
+Connection ~ 9500 12100
+Wire Wire Line
+	8600 12600 8600 12800
+Wire Wire Line
+	8000 12500 8000 12700
+Wire Wire Line
+	8000 12700 9800 12700
+Wire Wire Line
+	9800 12700 9800 12500
+Wire Wire Line
+	9200 12500 9200 12700
+Wire Wire Line
+	9500 12500 9500 12700
+Connection ~ 8600 12700
+Connection ~ 9200 12700
+Connection ~ 9500 12700
+Wire Wire Line
+	8000 13325 8000 13525
+Wire Wire Line
+	8100 13425 8000 13425
+Connection ~ 8000 13425
+Wire Wire Line
+	9100 13425 10100 13425
+Wire Wire Line
+	9800 13425 9800 13525
+Wire Wire Line
+	9200 13025 9200 13525
+Wire Wire Line
+	9500 13525 9500 13425
+Wire Wire Line
+	9200 13025 9350 13025
+Wire Wire Line
+	10100 13425 10100 13525
+Connection ~ 9200 13425
+Connection ~ 9500 13425
+Connection ~ 9800 13425
+Wire Wire Line
+	8600 13925 8600 14125
+Wire Wire Line
+	8000 14025 10100 14025
+Wire Wire Line
+	8000 14025 8000 13825
+Wire Wire Line
+	9800 14025 9800 13825
+Wire Wire Line
+	9200 13825 9200 14025
+Wire Wire Line
+	9500 13825 9500 14025
+Wire Wire Line
+	10100 14025 10100 13825
+Connection ~ 8600 14025
+Connection ~ 9200 14025
+Connection ~ 9500 14025
+Connection ~ 9800 14025
+Wire Wire Line
+	10200 13025 10150 13025
+Wire Wire Line
+	9650 13025 9750 13025
+Wire Wire Line
+	8850 1625 8850 1675
+Wire Wire Line
+	2650 11325 2650 11475
+Wire Wire Line
+	10200 13075 10200 13025
+Wire Wire Line
+	4600 11775 4600 11950
+Wire Wire Line
+	4600 11875 4700 11875
+Wire Wire Line
+	4700 11875 4700 11775
+Connection ~ 4600 11875
 $EndSCHEMATC

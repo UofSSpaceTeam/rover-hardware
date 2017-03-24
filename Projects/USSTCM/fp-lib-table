@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name USSTCM)(type Legacy)(uri C:\Users\Austin\Desktop\KiCadBoard/USSTCM.mod)(options "")(descr ""))
+  (lib (name USSTCM)(type Legacy)(uri "$(KIPRJMOD)\\USSTCM.mod")(options "")(descr ""))
   (lib (name USSTCM2)(type KiCad)(uri "$(KIPRJMOD)\\USSTCM.pretty")(options "")(descr ""))
 )
