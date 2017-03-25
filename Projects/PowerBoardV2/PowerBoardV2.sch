@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:PowerBoardV2-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -267,7 +268,7 @@ $EndComp
 Wire Wire Line
 	5150 3250 5150 3500
 Wire Wire Line
-	5150 3500 7050 3500
+	4150 3500 7050 3500
 Wire Wire Line
 	6500 3500 6500 3250
 Wire Wire Line
@@ -279,7 +280,7 @@ Connection ~ 5600 3500
 Wire Wire Line
 	5350 3250 5350 3400
 Wire Wire Line
-	5350 3400 7050 3400
+	4350 3400 7050 3400
 Wire Wire Line
 	5800 3400 5800 3250
 Wire Wire Line
@@ -537,4 +538,38 @@ Wire Wire Line
 	9000 3450 8850 3450
 Text GLabel 8850 3450 0    60   Input ~ 0
 VLOG
+$Comp
+L CONN_2 P22
+U 1 1 58AE4A1E
+P 4750 2900
+F 0 "P22" V 4700 2900 40  0000 C CNN
+F 1 "CONN_2" V 4800 2900 40  0000 C CNN
+F 2 "USST-footprints:Molex_39531_1002" H 4750 2900 60  0001 C CNN
+F 3 "" H 4750 2900 60  0000 C CNN
+	1    4750 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_2 P21
+U 1 1 58AE4AF3
+P 4250 2900
+F 0 "P21" V 4200 2900 40  0000 C CNN
+F 1 "CONN_2" V 4300 2900 40  0000 C CNN
+F 2 "USST-footprints:Molex_39531_1002" H 4250 2900 60  0001 C CNN
+F 3 "" H 4250 2900 60  0000 C CNN
+	1    4250 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4850 3250 4850 3400
+Connection ~ 5350 3400
+Wire Wire Line
+	4350 3250 4350 3400
+Connection ~ 4850 3400
+Wire Wire Line
+	4150 3500 4150 3250
+Connection ~ 5150 3500
+Wire Wire Line
+	4650 3250 4650 3500
+Connection ~ 4650 3500
 $EndSCHEMATC
