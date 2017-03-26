@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:PowerBoardV2-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -756,9 +757,11 @@ Wire Wire Line
 Wire Wire Line
 	6300 4550 6300 4450
 $Comp
-L Teensy3 M1
+L Teensy3-RESCUE-PowerBoardV2 M1
 U 1 1 56F8FB22
 P 8550 1700
+AR Path="/56F8FB22" Ref="M1"  Part="1" 
+AR Path="/56F72A99/56F8FB22" Ref="M1"  Part="1" 
 F 0 "M1" H 8300 2150 60  0000 C CNN
 F 1 "Teensy3" H 8700 2150 60  0000 C CNN
 F 2 "USST-footprints:Teensy_3.2_NoTail" H 8550 1700 60  0001 C CNN
@@ -823,10 +826,6 @@ Text Label 2675 1800 0    60   ~ 0
 Temp
 Text Notes 8425 1175 0    60   ~ 0
 Edit this to have the additional analog pins\n
-Text HLabel 8400 3100 3    60   Input ~ 0
-Temp
-Text HLabel 8500 3100 3    60   Input ~ 0
-Temp
-Text HLabel 8600 3100 3    60   Input ~ 0
+Text Label 8400 3100 3    60   ~ 0
 Temp
 $EndSCHEMATC

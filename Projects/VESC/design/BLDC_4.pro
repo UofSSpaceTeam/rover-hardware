@@ -1,4 +1,4 @@
-update=1/13/2017 3:10:37 PM
+update=2017-03-14 15:14:23
 version=1
 last_client=kicad
 [pcbnew]
@@ -108,3 +108,13 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
