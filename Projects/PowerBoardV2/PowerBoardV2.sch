@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -572,4 +572,10 @@ Connection ~ 5150 3500
 Wire Wire Line
 	4650 3250 4650 3500
 Connection ~ 4650 3500
+$Sheet
+S 2050 4500 1350 1300
+U 58E049CD
+F0 "ACS712" 60
+F1 "ACS712.sch" 60
+$EndSheet
 $EndSCHEMATC
