@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 2
 Title ""
 Date ""
 Rev ""
@@ -449,32 +449,28 @@ Text Label 8800 3850 0    60   ~ 0
 7+
 Text Label 8800 3650 0    60   ~ 0
 8+
-Text Label 9450 2650 0    60   ~ 0
+Text Label 9450 2550 0    60   ~ 0
 I_SENSE1
-Text Label 9450 1750 0    60   ~ 0
+Text Label 9450 2350 0    60   ~ 0
 1+
-Text Label 9450 1850 0    60   ~ 0
+Text Label 9450 2250 0    60   ~ 0
 2+
-Text Label 9450 1950 0    60   ~ 0
+Text Label 9450 2150 0    60   ~ 0
 3+
 Text Label 9450 2050 0    60   ~ 0
 4+
-Text Label 9450 2150 0    60   ~ 0
+Text Label 9450 1950 0    60   ~ 0
 5+
-Text Label 9450 2250 0    60   ~ 0
+Text Label 9450 1850 0    60   ~ 0
 6+
-Text Label 9450 2350 0    60   ~ 0
+Text Label 9450 1750 0    60   ~ 0
 7+
-Text Label 9450 2450 0    60   ~ 0
+Text Label 8400 3100 3    60   ~ 0
 8+
 Wire Wire Line
-	7750 1850 8050 1850
+	7650 1850 8050 1850
 Wire Wire Line
-	7750 1950 8050 1950
-Wire Wire Line
-	9050 1650 9450 1650
-Text Label 9450 1650 0    60   ~ 0
-3v3
+	7650 1950 8050 1950
 $Comp
 L MCP2562 U2
 U 1 1 56F7B673
@@ -491,13 +487,13 @@ Wire Wire Line
 Wire Wire Line
 	6200 1850 6200 1450
 Wire Wire Line
-	6200 1450 7750 1450
+	6200 1450 7650 1450
 Wire Wire Line
-	7750 1450 7750 1850
+	7650 1450 7650 1850
 Wire Wire Line
-	7750 1950 7750 2550
+	7650 1950 7650 2550
 Wire Wire Line
-	7750 2550 6200 2550
+	7650 2550 6200 2550
 Wire Wire Line
 	6200 2550 6200 2150
 Wire Wire Line
@@ -684,7 +680,7 @@ Wire Wire Line
 Connection ~ 4150 4850
 Wire Wire Line
 	9050 2550 9450 2550
-Text Label 9450 2550 0    60   ~ 0
+Text Label 9450 2450 0    60   ~ 0
 I_SENSE2
 $Comp
 L CONN_4 P19
@@ -786,7 +782,7 @@ U 1 1 589F84C3
 P 2425 2000
 F 0 "R21" V 2505 2000 50  0000 C CNN
 F 1 "10k" V 2425 2000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 2355 2000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2355 2000 50  0001 C CNN
 F 3 "" H 2425 2000 50  0000 C CNN
 	1    2425 2000
 	1    0    0    -1  
@@ -817,15 +813,58 @@ U 1 1 589FA449
 P 2175 2050
 F 0 "C6" H 2200 2150 50  0000 L CNN
 F 1 "100n" H 2200 1950 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2213 1900 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2213 1900 50  0001 C CNN
 F 3 "" H 2175 2050 50  0000 C CNN
 	1    2175 2050
 	1    0    0    -1  
 $EndComp
 Text Label 2675 1800 0    60   ~ 0
 Temp
-Text Notes 8425 1175 0    60   ~ 0
-Edit this to have the additional analog pins\n
-Text Label 8400 3100 3    60   ~ 0
+Text Label 9450 2650 0    60   ~ 0
 Temp
+Text HLabel 7350 1850 2    60   Input ~ 0
+GND
+$Comp
+L CONN_8 P26
+U 1 1 590DEDB6
+P 10750 2150
+F 0 "P26" V 10700 2150 60  0000 C CNN
+F 1 "CONN_8" V 10800 2150 60  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x08_Pitch2.54mm" H 10750 2150 60  0001 C CNN
+F 3 "" H 10750 2150 60  0001 C CNN
+	1    10750 2150
+	1    0    0    -1  
+$EndComp
+Text Label 8050 2050 2    60   ~ 0
+AUX1
+Text Label 8050 2150 2    60   ~ 0
+AUX2
+Text Label 8050 2250 2    60   ~ 0
+AUX3
+Text Label 8050 2350 2    60   ~ 0
+AUX4
+Text Label 8050 2450 2    60   ~ 0
+AUX5
+Text Label 8050 2550 2    60   ~ 0
+AUX6
+Text Label 8050 2650 2    60   ~ 0
+AUX7
+Text Label 8050 2750 2    60   ~ 0
+AUX8
+Text Label 10400 1800 2    60   ~ 0
+AUX1
+Text Label 10400 1900 2    60   ~ 0
+AUX2
+Text Label 10400 2000 2    60   ~ 0
+AUX3
+Text Label 10400 2100 2    60   ~ 0
+AUX4
+Text Label 10400 2200 2    60   ~ 0
+AUX5
+Text Label 10400 2300 2    60   ~ 0
+AUX6
+Text Label 10400 2400 2    60   ~ 0
+AUX7
+Text Label 10400 2500 2    60   ~ 0
+AUX8
 $EndSCHEMATC

@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -56,8 +56,6 @@ F 3 "" V 2400 2600 60  0000 C CNN
 	1    2500 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1650 2300 2050 2300
 $Comp
 L CONN_2 P2
 U 1 1 56EE3E29
@@ -73,70 +71,18 @@ Text GLabel 2750 1500 2    60   Input ~ 0
 VLOG
 Text GLabel 2750 1300 2    60   Input ~ 0
 GND
-Wire Wire Line
-	1500 2500 2050 2500
-Wire Wire Line
-	1650 2700 2050 2700
-Connection ~ 1650 2500
-Wire Wire Line
-	3300 2700 2950 2700
-Wire Wire Line
-	3300 2300 3300 2700
-Wire Wire Line
-	2950 2500 3450 2500
-Wire Wire Line
-	2950 2400 3300 2400
-Connection ~ 3300 2500
-Wire Wire Line
-	2950 2300 3300 2300
-Connection ~ 3300 2400
 Text GLabel 1500 2500 0    60   Input ~ 0
 GND_REG
 Text GLabel 3450 2500 2    60   Input ~ 0
 GND_REG
-Wire Wire Line
-	2050 2800 1650 2800
-Wire Wire Line
-	1650 2800 1650 3150
-Wire Wire Line
-	1500 2900 2050 2900
-Wire Wire Line
-	3000 2900 2950 2900
-Wire Wire Line
-	3000 2900 3000 3150
-Wire Wire Line
-	3000 3150 1650 3150
-Connection ~ 1650 2900
 Text GLabel 1500 2900 0    60   Input ~ 0
 3v3
-Wire Wire Line
-	2950 2800 3300 2800
 Text GLabel 3300 2800 2    60   Input ~ 0
 -12v
-Wire Wire Line
-	1750 2600 2050 2600
-Wire Wire Line
-	1750 2350 1750 2600
-Wire Wire Line
-	1750 2400 2050 2400
-Wire Wire Line
-	3300 2100 2950 2100
-Wire Wire Line
-	3300 2000 3300 2100
-Wire Wire Line
-	3300 2000 2950 2000
-Wire Wire Line
-	1750 2350 1500 2350
-Connection ~ 1750 2400
 Text GLabel 1500 2350 0    60   Input ~ 0
 5v0
-Wire Wire Line
-	3300 2050 3450 2050
-Connection ~ 3300 2050
 Text GLabel 3450 2050 2    60   Input ~ 0
 5v0
-Wire Wire Line
-	2050 2000 1650 2000
 Text GLabel 1650 2000 0    60   Input ~ 0
 +12v
 $Comp
@@ -183,44 +129,10 @@ F 3 "" H 6600 1950 60  0000 C CNN
 	1    6600 1950
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5150 2300 5150 2550
-Wire Wire Line
-	5150 2550 7050 2550
-Wire Wire Line
-	6500 2550 6500 2300
-Wire Wire Line
-	6050 2300 6050 2550
-Connection ~ 6050 2550
-Wire Wire Line
-	5600 2300 5600 2550
-Connection ~ 5600 2550
-Wire Wire Line
-	5350 2300 5350 2450
-Wire Wire Line
-	5350 2450 7050 2450
-Wire Wire Line
-	5800 2450 5800 2300
-Wire Wire Line
-	6250 2450 6250 2300
-Connection ~ 5800 2450
-Wire Wire Line
-	6700 2450 6700 2300
-Connection ~ 6250 2450
-Connection ~ 6500 2550
-Connection ~ 6700 2450
 Text GLabel 7100 2400 2    60   Input ~ 0
 +12v
 Text GLabel 7100 2600 2    60   Input ~ 0
 GND_REG
-Wire Wire Line
-	7050 2450 7050 2400
-Wire Wire Line
-	7050 2400 7100 2400
-Wire Wire Line
-	7050 2550 7050 2600
-Wire Wire Line
-	7050 2600 7100 2600
 $Comp
 L CONN_2 P4
 U 1 1 56EE4ADD
@@ -265,124 +177,50 @@ F 3 "" H 6600 2900 60  0000 C CNN
 	1    6600 2900
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5150 3250 5150 3500
-Wire Wire Line
-	4150 3500 7050 3500
-Wire Wire Line
-	6500 3500 6500 3250
-Wire Wire Line
-	6050 3250 6050 3500
-Connection ~ 6050 3500
-Wire Wire Line
-	5600 3250 5600 3500
-Connection ~ 5600 3500
-Wire Wire Line
-	5350 3250 5350 3400
-Wire Wire Line
-	4350 3400 7050 3400
-Wire Wire Line
-	5800 3400 5800 3250
-Wire Wire Line
-	6250 3400 6250 3250
-Connection ~ 5800 3400
-Wire Wire Line
-	6700 3400 6700 3250
-Connection ~ 6250 3400
-Connection ~ 6500 3500
-Connection ~ 6700 3400
 Text GLabel 7100 3350 2    60   Input ~ 0
 5v0
 Text GLabel 7100 3550 2    60   Input ~ 0
 GND_REG
-Wire Wire Line
-	7050 3400 7050 3350
-Wire Wire Line
-	7050 3350 7100 3350
-Wire Wire Line
-	7050 3500 7050 3550
-Wire Wire Line
-	7050 3550 7100 3550
 $Comp
 L CONN_2 P5
 U 1 1 56EE4C1B
-P 5250 3850
-F 0 "P5" V 5200 3850 40  0000 C CNN
-F 1 "CONN_2" V 5300 3850 40  0000 C CNN
-F 2 "USST-footprints:Molex_39531_1002" H 5250 3850 60  0001 C CNN
-F 3 "" H 5250 3850 60  0000 C CNN
-	1    5250 3850
+P 4850 3850
+F 0 "P5" V 4800 3850 40  0000 C CNN
+F 1 "CONN_2" V 4900 3850 40  0000 C CNN
+F 2 "USST-footprints:Molex_39531_1002" H 4850 3850 60  0001 C CNN
+F 3 "" H 4850 3850 60  0000 C CNN
+	1    4850 3850
 	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_2 P12
 U 1 1 56EE4C27
-P 6150 3850
-F 0 "P12" V 6100 3850 40  0000 C CNN
-F 1 "CONN_2" V 6200 3850 40  0000 C CNN
-F 2 "USST-footprints:Molex_39531_1002" H 6150 3850 60  0001 C CNN
-F 3 "" H 6150 3850 60  0000 C CNN
-	1    6150 3850
+P 6350 3850
+F 0 "P12" V 6300 3850 40  0000 C CNN
+F 1 "CONN_2" V 6400 3850 40  0000 C CNN
+F 2 "USST-footprints:Molex_39531_1002" H 6350 3850 60  0001 C CNN
+F 3 "" H 6350 3850 60  0000 C CNN
+	1    6350 3850
 	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_2 P16
 U 1 1 56EE4C2D
-P 6600 3850
-F 0 "P16" V 6550 3850 40  0000 C CNN
-F 1 "CONN_2" V 6650 3850 40  0000 C CNN
-F 2 "USST-footprints:Molex_39531_1002" H 6600 3850 60  0001 C CNN
-F 3 "" H 6600 3850 60  0000 C CNN
-	1    6600 3850
+P 6800 3850
+F 0 "P16" V 6750 3850 40  0000 C CNN
+F 1 "CONN_2" V 6850 3850 40  0000 C CNN
+F 2 "USST-footprints:Molex_39531_1002" H 6800 3850 60  0001 C CNN
+F 3 "" H 6800 3850 60  0000 C CNN
+	1    6800 3850
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5150 4200 5150 4450
-Wire Wire Line
-	6500 4450 6500 4200
-Wire Wire Line
-	6050 4200 6050 4450
-Connection ~ 6050 4450
-Wire Wire Line
-	5350 4200 5350 4350
-Wire Wire Line
-	6250 4350 6250 4200
-Wire Wire Line
-	6700 4350 6700 4200
-Connection ~ 6250 4350
-Connection ~ 6500 4450
-Connection ~ 6700 4350
-Text GLabel 7100 4300 2    60   Input ~ 0
+Text GLabel 7300 4300 2    60   Input ~ 0
 3v3
-Text GLabel 7100 4500 2    60   Input ~ 0
+Text GLabel 7300 4500 2    60   Input ~ 0
 GND_REG
-Wire Wire Line
-	7050 4350 7050 4300
-Wire Wire Line
-	7050 4300 7100 4300
-Wire Wire Line
-	7050 4450 7050 4500
-Wire Wire Line
-	7050 4500 7100 4500
-Wire Wire Line
-	6250 4350 7050 4350
-Wire Wire Line
-	6050 4450 7050 4450
-Wire Wire Line
-	5150 4450 5500 4450
-Wire Wire Line
-	5350 4350 5500 4350
-Wire Wire Line
-	5500 4350 5500 4300
-Wire Wire Line
-	5500 4300 5600 4300
-Wire Wire Line
-	5500 4450 5500 4500
-Wire Wire Line
-	5500 4500 5600 4500
-Text GLabel 5600 4300 2    60   Input ~ 0
+Text GLabel 5200 4300 2    60   Input ~ 0
 -12v
-Text GLabel 5600 4500 2    60   Input ~ 0
+Text GLabel 5200 4500 2    60   Input ~ 0
 GND_REG
 $Comp
 L CONN_2 P6
@@ -428,6 +266,255 @@ F 3 "" H 6650 5000 60  0000 C CNN
 	1    6650 5000
 	0    -1   -1   0   
 $EndComp
+Text GLabel 7150 5450 2    60   Input ~ 0
+VBAT
+Text GLabel 7150 5650 2    60   Input ~ 0
+GND
+$Comp
+L CONN_2 P18
+U 1 1 56EE5FAC
+P 7850 5000
+F 0 "P18" V 7800 5000 40  0000 C CNN
+F 1 "CONN_2" V 7900 5000 40  0000 C CNN
+F 2 "USST-footprints:Phoenix_Contact_1770539" H 7850 5000 60  0001 C CNN
+F 3 "" H 7850 5000 60  0000 C CNN
+	1    7850 5000
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8200 5450 2    60   Input ~ 0
+VBAT
+Text GLabel 8200 5650 2    60   Input ~ 0
+GND
+$Sheet
+S 9000 2450 1350 1400
+U 56F72A99
+F0 "PowerMonitor" 60
+F1 "PowerMonitor.sch" 60
+F2 "ALL_I+" I L 9000 2700 60 
+F3 "ALL_I-" I L 9000 2850 60 
+F4 "VCC" I L 9000 3000 60 
+F5 "GND" I L 9000 3150 60 
+F6 "DIGITAL_I+" I L 9000 3300 60 
+F7 "DIGITAL_I-" I L 9000 3450 60 
+$EndSheet
+Text GLabel 8850 3000 0    60   Input ~ 0
+5v0
+Text GLabel 8850 3150 0    60   Input ~ 0
+GND_REG
+Text GLabel 8850 2700 0    60   Input ~ 0
+VBAT
+Text GLabel 8850 2850 0    60   Input ~ 0
+VBAT
+Text GLabel 8850 3300 0    60   Input ~ 0
+VBAT
+Text GLabel 8850 3450 0    60   Input ~ 0
+VLOG
+$Comp
+L CONN_2 P22
+U 1 1 58AE4A1E
+P 4750 2900
+F 0 "P22" V 4700 2900 40  0000 C CNN
+F 1 "CONN_2" V 4800 2900 40  0000 C CNN
+F 2 "USST-footprints:Molex_39531_1002" H 4750 2900 60  0001 C CNN
+F 3 "" H 4750 2900 60  0000 C CNN
+	1    4750 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_2 P21
+U 1 1 58AE4AF3
+P 4250 2900
+F 0 "P21" V 4200 2900 40  0000 C CNN
+F 1 "CONN_2" V 4300 2900 40  0000 C CNN
+F 2 "USST-footprints:Molex_39531_1002" H 4250 2900 60  0001 C CNN
+F 3 "" H 4250 2900 60  0000 C CNN
+	1    4250 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_2 P24
+U 1 1 590DDDEA
+P 4800 1950
+F 0 "P24" V 4750 1950 40  0000 C CNN
+F 1 "CONN_2" V 4850 1950 40  0000 C CNN
+F 2 "USST-footprints:Molex_39531_1002" H 4800 1950 60  0001 C CNN
+F 3 "" H 4800 1950 60  0000 C CNN
+	1    4800 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_2 P23
+U 1 1 590DE1FB
+P 4350 3850
+F 0 "P23" V 4300 3850 40  0000 C CNN
+F 1 "CONN_2" V 4400 3850 40  0000 C CNN
+F 2 "USST-footprints:Molex_39531_1002" H 4350 3850 60  0001 C CNN
+F 3 "" H 4350 3850 60  0000 C CNN
+	1    4350 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1650 2300 2050 2300
+Wire Wire Line
+	1500 2500 2050 2500
+Wire Wire Line
+	1650 2700 2050 2700
+Connection ~ 1650 2500
+Wire Wire Line
+	3300 2700 2950 2700
+Wire Wire Line
+	3300 2300 3300 2700
+Wire Wire Line
+	2950 2500 3450 2500
+Wire Wire Line
+	2950 2400 3300 2400
+Connection ~ 3300 2500
+Wire Wire Line
+	2950 2300 3300 2300
+Connection ~ 3300 2400
+Wire Wire Line
+	2050 2800 1650 2800
+Wire Wire Line
+	1650 2800 1650 3150
+Wire Wire Line
+	1500 2900 2050 2900
+Wire Wire Line
+	3000 2900 2950 2900
+Wire Wire Line
+	3000 2900 3000 3150
+Wire Wire Line
+	3000 3150 1650 3150
+Connection ~ 1650 2900
+Wire Wire Line
+	2950 2800 3300 2800
+Wire Wire Line
+	1750 2600 2050 2600
+Wire Wire Line
+	1750 2350 1750 2600
+Wire Wire Line
+	1750 2400 2050 2400
+Wire Wire Line
+	3300 2100 2950 2100
+Wire Wire Line
+	3300 2000 3300 2100
+Wire Wire Line
+	3300 2000 2950 2000
+Wire Wire Line
+	1750 2350 1500 2350
+Connection ~ 1750 2400
+Wire Wire Line
+	3300 2050 3450 2050
+Connection ~ 3300 2050
+Wire Wire Line
+	2050 2000 1650 2000
+Wire Wire Line
+	5150 2300 5150 2550
+Wire Wire Line
+	4700 2550 7050 2550
+Wire Wire Line
+	6500 2550 6500 2300
+Wire Wire Line
+	6050 2300 6050 2550
+Connection ~ 6050 2550
+Wire Wire Line
+	5600 2300 5600 2550
+Connection ~ 5600 2550
+Wire Wire Line
+	5350 2300 5350 2450
+Wire Wire Line
+	4900 2450 7050 2450
+Wire Wire Line
+	5800 2450 5800 2300
+Wire Wire Line
+	6250 2450 6250 2300
+Connection ~ 5800 2450
+Wire Wire Line
+	6700 2450 6700 2300
+Connection ~ 6250 2450
+Connection ~ 6500 2550
+Connection ~ 6700 2450
+Wire Wire Line
+	7050 2450 7050 2400
+Wire Wire Line
+	7050 2400 7100 2400
+Wire Wire Line
+	7050 2550 7050 2600
+Wire Wire Line
+	7050 2600 7100 2600
+Wire Wire Line
+	5150 3250 5150 3500
+Wire Wire Line
+	4150 3500 7050 3500
+Wire Wire Line
+	6500 3500 6500 3250
+Wire Wire Line
+	6050 3250 6050 3500
+Connection ~ 6050 3500
+Wire Wire Line
+	5600 3250 5600 3500
+Connection ~ 5600 3500
+Wire Wire Line
+	5350 3250 5350 3400
+Wire Wire Line
+	4350 3400 7050 3400
+Wire Wire Line
+	5800 3400 5800 3250
+Wire Wire Line
+	6250 3400 6250 3250
+Connection ~ 5800 3400
+Wire Wire Line
+	6700 3400 6700 3250
+Connection ~ 6250 3400
+Connection ~ 6500 3500
+Connection ~ 6700 3400
+Wire Wire Line
+	7050 3400 7050 3350
+Wire Wire Line
+	7050 3350 7100 3350
+Wire Wire Line
+	7050 3500 7050 3550
+Wire Wire Line
+	7050 3550 7100 3550
+Wire Wire Line
+	4750 4200 4750 4450
+Wire Wire Line
+	6700 4450 6700 4200
+Wire Wire Line
+	6250 4200 6250 4450
+Connection ~ 6250 4450
+Wire Wire Line
+	4950 4200 4950 4350
+Wire Wire Line
+	6450 4350 6450 4200
+Wire Wire Line
+	6900 4350 6900 4200
+Connection ~ 6450 4350
+Connection ~ 6700 4450
+Connection ~ 6900 4350
+Wire Wire Line
+	7250 4350 7250 4300
+Wire Wire Line
+	7250 4300 7300 4300
+Wire Wire Line
+	7250 4450 7250 4500
+Wire Wire Line
+	7250 4500 7300 4500
+Wire Wire Line
+	6000 4350 7250 4350
+Wire Wire Line
+	5800 4450 7250 4450
+Wire Wire Line
+	4250 4450 5100 4450
+Wire Wire Line
+	4450 4350 5100 4350
+Wire Wire Line
+	5100 4350 5100 4300
+Wire Wire Line
+	5100 4300 5200 4300
+Wire Wire Line
+	5100 4450 5100 4500
+Wire Wire Line
+	5100 4500 5200 4500
 Wire Wire Line
 	5200 5350 5200 5600
 Wire Wire Line
@@ -454,10 +541,6 @@ Wire Wire Line
 Connection ~ 6300 5500
 Connection ~ 6550 5600
 Connection ~ 6750 5500
-Text GLabel 7150 5450 2    60   Input ~ 0
-VBAT
-Text GLabel 7150 5650 2    60   Input ~ 0
-GND
 Wire Wire Line
 	7100 5500 7100 5450
 Wire Wire Line
@@ -466,17 +549,6 @@ Wire Wire Line
 	7100 5600 7100 5650
 Wire Wire Line
 	7100 5650 7150 5650
-$Comp
-L CONN_2 P18
-U 1 1 56EE5FAC
-P 7850 5000
-F 0 "P18" V 7800 5000 40  0000 C CNN
-F 1 "CONN_2" V 7900 5000 40  0000 C CNN
-F 2 "USST-footprints:Phoenix_Contact_1770539" H 7850 5000 60  0001 C CNN
-F 3 "" H 7850 5000 60  0000 C CNN
-	1    7850 5000
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	7750 5350 7750 5600
 Wire Wire Line
@@ -493,73 +565,23 @@ Wire Wire Line
 	8100 5600 8100 5650
 Wire Wire Line
 	8100 5650 8200 5650
-Text GLabel 8200 5450 2    60   Input ~ 0
-VBAT
-Text GLabel 8200 5650 2    60   Input ~ 0
-GND
 Wire Wire Line
 	1650 2300 1650 2700
 Wire Wire Line
 	2950 2600 3300 2600
 Connection ~ 3300 2600
-$Sheet
-S 9000 2450 1350 1400
-U 56F72A99
-F0 "PowerMonitor" 60
-F1 "PowerMonitor.sch" 60
-F2 "ALL_I+" I L 9000 2700 60 
-F3 "ALL_I-" I L 9000 2850 60 
-F4 "VCC" I L 9000 3000 60 
-F5 "GND" I L 9000 3150 60 
-F6 "DIGITAL_I+" I L 9000 3300 60 
-F7 "DIGITAL_I-" I L 9000 3450 60 
-$EndSheet
 Wire Wire Line
 	9000 3000 8850 3000
 Wire Wire Line
 	9000 3150 8850 3150
-Text GLabel 8850 3000 0    60   Input ~ 0
-5v0
-Text GLabel 8850 3150 0    60   Input ~ 0
-GND_REG
 Wire Wire Line
 	9000 2700 8850 2700
-Text GLabel 8850 2700 0    60   Input ~ 0
-VBAT
 Wire Wire Line
 	9000 2850 8850 2850
-Text GLabel 8850 2850 0    60   Input ~ 0
-VBAT
 Wire Wire Line
 	9000 3300 8850 3300
-Text GLabel 8850 3300 0    60   Input ~ 0
-VBAT
 Wire Wire Line
 	9000 3450 8850 3450
-Text GLabel 8850 3450 0    60   Input ~ 0
-VLOG
-$Comp
-L CONN_2 P22
-U 1 1 58AE4A1E
-P 4750 2900
-F 0 "P22" V 4700 2900 40  0000 C CNN
-F 1 "CONN_2" V 4800 2900 40  0000 C CNN
-F 2 "USST-footprints:Molex_39531_1002" H 4750 2900 60  0001 C CNN
-F 3 "" H 4750 2900 60  0000 C CNN
-	1    4750 2900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CONN_2 P21
-U 1 1 58AE4AF3
-P 4250 2900
-F 0 "P21" V 4200 2900 40  0000 C CNN
-F 1 "CONN_2" V 4300 2900 40  0000 C CNN
-F 2 "USST-footprints:Molex_39531_1002" H 4250 2900 60  0001 C CNN
-F 3 "" H 4250 2900 60  0000 C CNN
-	1    4250 2900
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	4850 3250 4850 3400
 Connection ~ 5350 3400
@@ -572,10 +594,31 @@ Connection ~ 5150 3500
 Wire Wire Line
 	4650 3250 4650 3500
 Connection ~ 4650 3500
-$Sheet
-S 2050 4500 1350 1300
-U 58E049CD
-F0 "ACS712" 60
-F1 "ACS712.sch" 60
-$EndSheet
+Wire Wire Line
+	4900 2300 4900 2450
+Connection ~ 5350 2450
+Wire Wire Line
+	4700 2550 4700 2300
+Connection ~ 5150 2550
+Wire Wire Line
+	4450 4200 4450 4350
+Connection ~ 4950 4350
+Wire Wire Line
+	4250 4450 4250 4200
+Connection ~ 4750 4450
+$Comp
+L CONN_2 P25
+U 1 1 590DE4D4
+P 5900 3850
+F 0 "P25" V 5850 3850 40  0000 C CNN
+F 1 "CONN_2" V 5950 3850 40  0000 C CNN
+F 2 "USST-footprints:Molex_39531_1002" H 5900 3850 60  0001 C CNN
+F 3 "" H 5900 3850 60  0000 C CNN
+	1    5900 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 4200 5800 4450
+Wire Wire Line
+	6000 4200 6000 4350
 $EndSCHEMATC
