@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.4-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.5)
 
   (general
-    (links 0)
+    (links 185)
     (no_connects 0)
-    (area 38.424999 34.924999 224.575001 152.575001)
+    (area 32.490457 27.8 237.564286 154.2274)
     (thickness 1.6)
     (drawings 177)
     (tracks 583)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 5.08)
+    (last_trace_width 0.1524)
     (user_trace_width 0.1524)
     (user_trace_width 0.254)
     (user_trace_width 0.381)
@@ -72,12 +72,12 @@
     (aux_axis_origin 31.877 177.038)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x00000_00000001)
+      (layerselection 0x010f0_80000001)
       (usegerberextensions false)
       (excludeedgelayer false)
       (linewidth 0.100000)
       (plotframeref false)
-      (viasonmask false)
+      (viasonmask true)
       (mode 1)
       (useauxorigin true)
       (hpglpennumber 1)
@@ -95,7 +95,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory gerber/))
   )
 
   (net 0 "")
