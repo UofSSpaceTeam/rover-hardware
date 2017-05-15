@@ -1,0 +1,315 @@
+Cmp-Mod V01 Created by PcbNew   date = 2017-05-14 15:37:31
+
+BeginCmp
+TimeStamp = 5913BB2E
+Path = 
+Reference = REF**;
+ValeurCmp = MountingHole_3.2mm_M3;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5913BB28
+Path = 
+Reference = REF**;
+ValeurCmp = MountingHole_3.2mm_M3;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5907DA1D
+Path = /590D547A/57E6C5AF
+Reference = ACT1;
+ValeurCmp = ~;
+IdModule  = LEDs:LED_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5907DA2F
+Path = /590D547A/57E6C8CF
+Reference = C3;
+ValeurCmp = 10uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5907DA35
+Path = /590D547A/57E6C997
+Reference = C4;
+ValeurCmp = 10uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5907DA3B
+Path = /590D547A/57E6CA5F
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5907DA41
+Path = /590D547A/57E6C807
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5907DA47
+Path = /590D547A/57E6C73F
+Reference = C7;
+ValeurCmp = 10uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5907DA4D
+Path = /590D547A/57E6C677
+Reference = C8;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5907DA6D
+Path = /590D547A/5862FDC9
+Reference = M1;
+ValeurCmp = FE1.1S;
+IdModule  = USST-footprints:FE1.1S_SSOP-28;
+EndCmp
+
+BeginCmp
+TimeStamp = 5907DACA
+Path = /590E0EC7
+Reference = P8;
+ValeurCmp = POWER_IN;
+IdModule  = Connect:bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5907DAD0
+Path = /590E149F
+Reference = P9;
+ValeurCmp = M1;
+IdModule  = Connect:bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5907DAD6
+Path = /590E1522
+Reference = P10;
+ValeurCmp = M2;
+IdModule  = Connect:bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5907DADC
+Path = /590E15A2
+Reference = P11;
+ValeurCmp = M3;
+IdModule  = Connect:bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5907DAE2
+Path = /590D547A/57E6CFD7
+Reference = PORT1;
+ValeurCmp = ~;
+IdModule  = LEDs:LED_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5907DAE8
+Path = /590D547A/57E6D167
+Reference = PORT2;
+ValeurCmp = ~;
+IdModule  = LEDs:LED_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5907DAEE
+Path = /590D547A/57E6D09F
+Reference = PORT3;
+ValeurCmp = ~;
+IdModule  = LEDs:LED_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5907DAF4
+Path = /590D547A/57E6D22F
+Reference = PORT4;
+ValeurCmp = ~;
+IdModule  = LEDs:LED_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5907DAFA
+Path = /590D547A/57E6D2F7
+Reference = R1;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5907DB00
+Path = /590D547A/57E6D3BF
+Reference = R2;
+ValeurCmp = 47K;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5907DB06
+Path = /590D547A/57E6D487
+Reference = R3;
+ValeurCmp = 330;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5907DB0C
+Path = /590D547A/57E6D54F
+Reference = R4;
+ValeurCmp = 330;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5907DB12
+Path = /590D547A/57E6D617
+Reference = R5;
+ValeurCmp = 330;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5907DB18
+Path = /590D547A/57E6D6DF
+Reference = REXT1;
+ValeurCmp = 2.7K;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5908FB22
+Path = /590EEC91
+Reference = P1;
+ValeurCmp = USB_OTG_M1;
+IdModule  = USST-footprints:USB3150_Micro_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5908FB37
+Path = /590D907B
+Reference = P2;
+ValeurCmp = USB_OTG_M2;
+IdModule  = USST-footprints:USB3150_Micro_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5908FB4C
+Path = /590D9177
+Reference = P3;
+ValeurCmp = USB_OTG_M3;
+IdModule  = USST-footprints:USB3150_Micro_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5909191C
+Path = /590D7E3A
+Reference = P5;
+ValeurCmp = USB_DS;
+IdModule  = USST-footprints:WRCOM_USB_A_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5909192F
+Path = /5909329C
+Reference = P6;
+ValeurCmp = USB_OTG_UP;
+IdModule  = USST-footprints:WRCOM_MINI_USB_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = 59091939
+Path = /59091179
+Reference = P7;
+ValeurCmp = USB_DS;
+IdModule  = Connect:USB_A;
+EndCmp
+
+BeginCmp
+TimeStamp = 59091D59
+Path = /590D8361
+Reference = P4;
+ValeurCmp = USB_OTG_UP;
+IdModule  = Connect:USB_Mini-B;
+EndCmp
+
+BeginCmp
+TimeStamp = 590930FF
+Path = /590E6D3F
+Reference = C1;
+ValeurCmp = 2000u;
+IdModule  = Capacitors_ThroughHole:C_Axial_L17.0mm_D7.0mm_P25.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 59093104
+Path = /590E6DD4
+Reference = C2;
+ValeurCmp = 2000u;
+IdModule  = Capacitors_ThroughHole:C_Axial_L17.0mm_D7.0mm_P20.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 59093109
+Path = /590D547A/57E6DDE7
+Reference = XL1;
+ValeurCmp = 12MHz;
+IdModule  = Crystals:Crystal_SMD_2012-2pin_2.0x1.2mm_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 590D164E
+Path = 
+Reference = REF**;
+ValeurCmp = MountingHole_3.2mm_M3;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 590D164F
+Path = 
+Reference = REF**;
+ValeurCmp = MountingHole_3.2mm_M3;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 590D1650
+Path = 
+Reference = REF**;
+ValeurCmp = MountingHole_3.2mm_M3;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 590D1651
+Path = 
+Reference = REF**;
+ValeurCmp = MountingHole_3.2mm_M3;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 590D1D04
+Path = 
+Reference = G***;
+ValeurCmp = LOGO;
+IdModule  = USST-footprints:USSTLOGO;
+EndCmp
+
+EndListe
