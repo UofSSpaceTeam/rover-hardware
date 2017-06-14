@@ -323,7 +323,7 @@ Wire Wire Line
 	4600 4100 4600 4250
 Connection ~ 4600 4250
 Wire Wire Line
-	4750 4100 4750 4250
+	4750 4250 4750 4100
 Connection ~ 4750 4250
 Wire Wire Line
 	4500 1800 4500 2500
@@ -348,7 +348,7 @@ Connection ~ 3250 3450
 Wire Wire Line
 	3600 3650 3700 3650
 Wire Wire Line
-	4750 4250 4000 4250
+	3650 4250 4750 4250
 Wire Wire Line
 	1050 2700 1200 2700
 Wire Wire Line
@@ -429,4 +429,7 @@ Wire Wire Line
 	6150 3900 6300 3900
 Text Label 6300 3900 0    60   ~ 0
 SDA
+Wire Wire Line
+	3650 3650 3650 4250
+Connection ~ 3650 3650
 $EndSCHEMATC
