@@ -1,0 +1,339 @@
+Cmp-Mod V01 Created by PcbNew   date = 2017-01-20 00:18:31
+
+BeginCmp
+TimeStamp = 58797C47
+Path = /5871DA4F/5871B697
+Reference = P3;
+ValeurCmp = AMP17614426-2_EDGE;
+IdModule  = USST-footprints:TE2007088-1_Backplane;
+EndCmp
+
+BeginCmp
+TimeStamp = 58797CB3
+Path = /5878D5C8/5871B697
+Reference = P10;
+ValeurCmp = AMP17614426-2_EDGE;
+IdModule  = USST-footprints:TE2007088-1_Backplane;
+EndCmp
+
+BeginCmp
+TimeStamp = 58796E27
+Path = /5871A1CF/57E6D54F
+Reference = R4;
+ValeurCmp = 330;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 58796DFD
+Path = /5871A1CF/57E6CFD7
+Reference = PORT1;
+ValeurCmp = ~;
+IdModule  = LEDs:LED_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 58796E39
+Path = /5871A1CF/57E6D6DF
+Reference = REXT1;
+ValeurCmp = 2.7K;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 58796CA8
+Path = /5871A1CF/57E6C677
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 58796C84
+Path = /5871A1CF/57E6C5AF
+Reference = ACT1;
+ValeurCmp = ~;
+IdModule  = LEDs:LED_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 58796E21
+Path = /5871A1CF/57E6D487
+Reference = R3;
+ValeurCmp = 330;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 58796C90
+Path = /5871A1CF/57E6C997
+Reference = C2;
+ValeurCmp = 10uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 58796E09
+Path = /5871A1CF/57E6D167
+Reference = PORT3;
+ValeurCmp = ~;
+IdModule  = LEDs:LED_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 58796C9C
+Path = /5871A1CF/57E6C807
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 58796E1B
+Path = /5871A1CF/57E6D3BF
+Reference = R2;
+ValeurCmp = 47K;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 58796C96
+Path = /5871A1CF/57E6CA5F
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 58796E0F
+Path = /5871A1CF/57E6D22F
+Reference = PORT4;
+ValeurCmp = ~;
+IdModule  = LEDs:LED_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 58796E15
+Path = /5871A1CF/57E6D2F7
+Reference = R1;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 58796E03
+Path = /5871A1CF/57E6D09F
+Reference = PORT2;
+ValeurCmp = ~;
+IdModule  = LEDs:LED_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 58796E52
+Path = /5871A1CF/57E6DDE7
+Reference = XL1;
+ValeurCmp = 12MHz;
+IdModule  = USST-footprints:HC49UP_SMT_Crystal;
+EndCmp
+
+BeginCmp
+TimeStamp = 58796CEA
+Path = /5871A1CF/5862FDC9
+Reference = M1;
+ValeurCmp = FE1.1S;
+IdModule  = USST-footprints:FE1.1S_SSOP-28;
+EndCmp
+
+BeginCmp
+TimeStamp = 58796CA2
+Path = /5871A1CF/57E6C73F
+Reference = C5;
+ValeurCmp = 10uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 58796C8A
+Path = /5871A1CF/57E6C8CF
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 58796E2D
+Path = /5871A1CF/57E6D617
+Reference = R5;
+ValeurCmp = 330;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 58796CAE
+Path = /5871DB4E/587195B7
+Reference = C13;
+ValeurCmp = 2200u;
+IdModule  = Capacitors_THT:CP_Radial_D16.0mm_P7.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58796CBA
+Path = /5871DB4E/58719845
+Reference = C15;
+ValeurCmp = 2200u;
+IdModule  = Capacitors_THT:CP_Radial_D16.0mm_P7.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58796CC0
+Path = /5871DB4E/587198A7
+Reference = C16;
+ValeurCmp = 2200u;
+IdModule  = Capacitors_THT:CP_Radial_D16.0mm_P7.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58796CF9
+Path = /58790821
+Reference = P1;
+ValeurCmp = USB_OTG;
+IdModule  = Connectors:USB_Mini-B;
+EndCmp
+
+BeginCmp
+TimeStamp = 58796D4F
+Path = /5871E13C/58789187
+Reference = P5;
+ValeurCmp = CONN_01X04;
+IdModule  = USST-footprints:Molex_39502_1004R;
+EndCmp
+
+BeginCmp
+TimeStamp = 58796D55
+Path = /5871DB4E/58719738
+Reference = P5V1;
+ValeurCmp = CONN_01X02;
+IdModule  = USST-footprints:Molex_39531_1002;
+EndCmp
+
+BeginCmp
+TimeStamp = 58796E33
+Path = /5871E13C/58788FC5
+Reference = R6;
+ValeurCmp = 120;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 58796E4C
+Path = /5878FC25
+Reference = USB1;
+ValeurCmp = USB-TYPA;
+IdModule  = USST-footprints:USB_A_PTH_AMP787616-1;
+EndCmp
+
+BeginCmp
+TimeStamp = 58797C7D
+Path = /5878CF59/5871B697
+Reference = P7;
+ValeurCmp = AMP17614426-2_EDGE;
+IdModule  = USST-footprints:TE2007088-1_Backplane;
+EndCmp
+
+BeginCmp
+TimeStamp = 587AC48A
+Path = /5871DB4E/58719731
+Reference = C14;
+ValeurCmp = 100u;
+IdModule  = Capacitors_ThroughHole:CP_Radial_D8.0mm_P3.80mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 588179EA
+Path = /5871DA4F/5871D4B0
+Reference = P4;
+ValeurCmp = CONN_01X06;
+IdModule  = Pin_Headers:Pin_Header_Angled_2x03_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58817A3C
+Path = /5878CF59/5871D4B0
+Reference = P8;
+ValeurCmp = CONN_01X06;
+IdModule  = Pin_Headers:Pin_Header_Angled_2x03_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58817A8E
+Path = /5878D5C8/5871D4B0
+Reference = P11;
+ValeurCmp = CONN_01X06;
+IdModule  = Pin_Headers:Pin_Header_Angled_2x03_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58819AE6
+Path = /5882581A
+Reference = JP2;
+ValeurCmp = J;
+IdModule  = USST-footprints:J_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5881AF5E
+Path = /5871DB4E/587195FA
+Reference = PBAT1;
+ValeurCmp = CONN_01X02;
+IdModule  = USST-footprints:Phoenix_Contact_PLA5;
+EndCmp
+
+BeginCmp
+TimeStamp = 5881BC2A
+Path = /5871DA4F/588448BA
+Reference = P12;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x01_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5881BC40
+Path = /5878CF59/588448BA
+Reference = P13;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x01_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5881BC56
+Path = /5878D5C8/588448BA
+Reference = P14;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x01_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58796D07
+Path = /5871DA4F/5871BA09
+Reference = P2;
+ValeurCmp = EC90_Flat;
+IdModule  = USST-footprints:Molex_MiniFit-JR-5569-08A2_2x04x4.20mm_Angled_Overhang;
+EndCmp
+
+BeginCmp
+TimeStamp = 58796D63
+Path = /5878CF59/5871BA09
+Reference = P6;
+ValeurCmp = EC90_Flat;
+IdModule  = USST-footprints:Molex_MiniFit-JR-5569-08A2_2x04x4.20mm_Angled_Overhang;
+EndCmp
+
+BeginCmp
+TimeStamp = 58796DB1
+Path = /5878D5C8/5871BA09
+Reference = P9;
+ValeurCmp = EC90_Flat;
+IdModule  = USST-footprints:Molex_MiniFit-JR-5569-08A2_2x04x4.20mm_Angled_Overhang;
+EndCmp
+
+EndListe
