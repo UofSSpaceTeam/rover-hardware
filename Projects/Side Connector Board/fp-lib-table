@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name USB2_Modified)(type KiCad)(uri "$(KIPRJMOD)/USB2_Modified.pretty")(options "")(descr ""))
+)
