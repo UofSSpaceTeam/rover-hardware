@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATSAMD21G
+D Atmel SAMD21 in 48-Pin (G) Package. ARM Cortex M0+ with USB bootloader. Used in Arduino Zero.
+K SAMD21, Arduino Zero, Cortex M0+, ARM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001884A.pdf
+$ENDCMP
+#
+$CMP BMI160
+D Bosch BMI160
+K IMU, Compatible with LSM6DS3
+F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMI160-DS000-07.pdf
+$ENDCMP
+#
+$CMP BMP280
+D Bosh BMP280 Pressure Sensor
+K Barometer, Pressure
+F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001-18.pdf
+$ENDCMP
+#
+$CMP LSM6DS3
+D ST iNEMO Inertial Module
+K IMU, Compatible with BMI160
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/a3/f5/4f/ae/8e/44/41/d7/DM00133076.pdf/files/DM00133076.pdf/jcr:content/translations/en.DM00133076.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IP4234CZ6
+D USB ESD Protection IC
+K USB, ESD, TVS, IEC 61000-4-2, Nexperia, SOT-457
+F https://assets.nexperia.com/documents/data-sheet/IP4234CZ6.pdf
+$ENDCMP
+#
+$CMP SWD_CONN
+D SWD connector for ARM Cortex-M debug access
+K CONN
+$ENDCMP
+#
+#End Doc Library
