@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/Tyrel/rover-hardware/Projects/BNO055/BNO055.sch</source>
+    <date>2017-06-19 8:20:09 PM</date>
+    <tool>Eeschema 4.0.4-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>BNO055.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="M1">
+      <value>Teensy3</value>
+      <footprint>USST-footprints:Teensy_3.2_NoTail</footprint>
+      <libsource lib="USST-parts" part="Teensy3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5939FE82</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>BNO055</value>
+      <footprint>BNO055:LGA28R50P4X10_380X520X100</footprint>
+      <datasheet>BNO055 9-axis Absolute Orientation Sensor %28 SiP %29 w/Sensors and Sensor Fusion</datasheet>
+      <fields>
+        <field name="MP">BNO055</field>
+        <field name="Availability">Good</field>
+        <field name="Price">8.19 USD</field>
+        <field name="MF">Bosch</field>
+        <field name="Package">LGA-28 Bosch</field>
+      </fields>
+      <libsource lib="BNO055" part="BNO055"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593A16A2</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593A1D9F</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>2.7k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593A26D4</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>3.3k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593A2705</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593A2C06</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593A3289</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593A32D0</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>120nF</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593A4DEA</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>6.8nF</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593A4E3A</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_NC_Small</value>
+      <footprint>USST-footprints:J_0603</footprint>
+      <libsource lib="device" part="Jumper_NC_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593DDD12</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumper_NO_Small</value>
+      <footprint>USST-footprints:J_0603</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593DDD61</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="BNO055" part="BNO055">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BNO055</field>
+        <field name="Footprint">LGA28R50P4X10_380X520X100</field>
+        <field name="Datasheet">BNO055 9-axis Absolute Orientation Sensor %28 SiP %29 w/Sensors and Sensor Fusion</field>
+        <field name="MP">BNO055</field>
+        <field name="Availability">Good</field>
+        <field name="Price">8.19 USD</field>
+        <field name="MF">Bosch</field>
+        <field name="Package">LGA-28 Bosch</field>
+      </fields>
+      <pins>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="VDD" type="input"/>
+        <pin num="4" name="NBOOT_LOAD_PIN" type="BiDi"/>
+        <pin num="5" name="PS1" type="input"/>
+        <pin num="6" name="PS0" type="input"/>
+        <pin num="9" name="CAP" type="passive"/>
+        <pin num="10" name="PIN10" type="input"/>
+        <pin num="11" name="NRESET" type="input"/>
+        <pin num="14" name="INT" type="output"/>
+        <pin num="15" name="PIN15" type="input"/>
+        <pin num="16" name="PIN16" type="input"/>
+        <pin num="17" name="COM3" type="BiDi"/>
+        <pin num="18" name="COM2" type="BiDi"/>
+        <pin num="19" name="COM1" type="BiDi"/>
+        <pin num="20" name="COM0" type="BiDi"/>
+        <pin num="25" name="GNDIO" type="input"/>
+        <pin num="26" name="XOUT32" type="output"/>
+        <pin num="27" name="XIN32" type="input"/>
+        <pin num="28" name="VDDIO" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Jumper_NC_Small">
+      <description>Jumper normally close</description>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NC_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Jumper_NO_Small">
+      <description>Jumper normally open</description>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NO_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="USST-parts" part="Teensy3">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Teensy3</field>
+      </fields>
+      <pins>
+        <pin num="0" name="0" type="input"/>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+        <pin num="5" name="5" type="input"/>
+        <pin num="6" name="6" type="input"/>
+        <pin num="7" name="7" type="input"/>
+        <pin num="8" name="8" type="input"/>
+        <pin num="9" name="9" type="input"/>
+        <pin num="10" name="10" type="input"/>
+        <pin num="11" name="11" type="input"/>
+        <pin num="12" name="12" type="input"/>
+        <pin num="13" name="13" type="input"/>
+        <pin num="14" name="14" type="input"/>
+        <pin num="15" name="15" type="input"/>
+        <pin num="16" name="16" type="input"/>
+        <pin num="17" name="17" type="input"/>
+        <pin num="18" name="18" type="input"/>
+        <pin num="19" name="19" type="input"/>
+        <pin num="20" name="20" type="input"/>
+        <pin num="21" name="21" type="input"/>
+        <pin num="22" name="22" type="input"/>
+        <pin num="23" name="23" type="input"/>
+        <pin num="3v3" name="3v3" type="input"/>
+        <pin num="AGND" name="AGND" type="input"/>
+        <pin num="GND" name="GND" type="input"/>
+        <pin num="VIN" name="VIN" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="BNO055">
+      <uri>C:\Users\Tyrel\rover-hardware\Projects\BNO055\Library\BNO055.lib</uri>
+    </library>
+    <library logical="USST-parts">
+      <uri>C:\Users\Tyrel\Kicad-symbols\USST-parts.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="U1" pin="10"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="M1" pin="GND"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="18"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U1" pin="16"/>
+      <node ref="U1" pin="25"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="2" name="Net-(R11-Pad1)">
+      <node ref="U1" pin="11"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="3" name="Net-(R4-Pad1)">
+      <node ref="U1" pin="4"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="4" name="Net-(M1-PadVIN)">
+      <node ref="M1" pin="VIN"/>
+    </net>
+    <net code="5" name="/SDA">
+      <node ref="M1" pin="18"/>
+      <node ref="U1" pin="20"/>
+      <node ref="JP2" pin="2"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="6" name="/SCL">
+      <node ref="R19" pin="2"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="U1" pin="19"/>
+      <node ref="M1" pin="19"/>
+    </net>
+    <net code="7" name="Net-(JP1-Pad1)">
+      <node ref="JP1" pin="1"/>
+      <node ref="JP2" pin="1"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="8" name="Net-(M1-Pad3)">
+      <node ref="M1" pin="3"/>
+    </net>
+    <net code="9" name="Net-(M1-Pad11)">
+      <node ref="M1" pin="11"/>
+    </net>
+    <net code="10" name="Net-(M1-PadAGND)">
+      <node ref="M1" pin="AGND"/>
+    </net>
+    <net code="11" name="Net-(M1-Pad23)">
+      <node ref="M1" pin="23"/>
+    </net>
+    <net code="12" name="Net-(M1-Pad22)">
+      <node ref="M1" pin="22"/>
+    </net>
+    <net code="13" name="Net-(M1-Pad21)">
+      <node ref="M1" pin="21"/>
+    </net>
+    <net code="14" name="Net-(M1-Pad17)">
+      <node ref="M1" pin="17"/>
+    </net>
+    <net code="15" name="Net-(M1-Pad16)">
+      <node ref="M1" pin="16"/>
+    </net>
+    <net code="16" name="Net-(M1-Pad15)">
+      <node ref="M1" pin="15"/>
+    </net>
+    <net code="17" name="Net-(M1-Pad14)">
+      <node ref="M1" pin="14"/>
+    </net>
+    <net code="18" name="Net-(M1-Pad13)">
+      <node ref="M1" pin="13"/>
+    </net>
+    <net code="19" name="Net-(M1-Pad12)">
+      <node ref="M1" pin="12"/>
+    </net>
+    <net code="20" name="/INT">
+      <node ref="M1" pin="20"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="21" name="Net-(M1-Pad10)">
+      <node ref="M1" pin="10"/>
+    </net>
+    <net code="22" name="Net-(M1-Pad9)">
+      <node ref="M1" pin="9"/>
+    </net>
+    <net code="23" name="Net-(M1-Pad8)">
+      <node ref="M1" pin="8"/>
+    </net>
+    <net code="24" name="Net-(M1-Pad7)">
+      <node ref="M1" pin="7"/>
+    </net>
+    <net code="25" name="Net-(M1-Pad6)">
+      <node ref="M1" pin="6"/>
+    </net>
+    <net code="26" name="Net-(M1-Pad5)">
+      <node ref="M1" pin="5"/>
+    </net>
+    <net code="27" name="Net-(M1-Pad4)">
+      <node ref="M1" pin="4"/>
+    </net>
+    <net code="28" name="Net-(M1-Pad0)">
+      <node ref="M1" pin="0"/>
+    </net>
+    <net code="29" name="Net-(M1-Pad1)">
+      <node ref="M1" pin="1"/>
+    </net>
+    <net code="30" name="Net-(M1-Pad2)">
+      <node ref="M1" pin="2"/>
+    </net>
+    <net code="31" name="+3V3">
+      <node ref="U1" pin="28"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R4" pin="2"/>
+      <node ref="M1" pin="3v3"/>
+      <node ref="C28" pin="1"/>
+      <node ref="C25" pin="1"/>
+    </net>
+    <net code="32" name="Net-(C9-Pad2)">
+      <node ref="C9" pin="2"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="33" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="34" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
+    </net>
+  </nets>
+</export>

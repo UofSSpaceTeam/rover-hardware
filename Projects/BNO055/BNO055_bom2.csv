@@ -1,0 +1,10 @@
+"C2, C9"	"100nF"	"Capacitors_SMD:C_1206"	""	""	""		2
+"C25"	"6.8nF"	"Capacitors_SMD:C_1206"	""	""	""		1
+"C28"	"120nF"	"Capacitors_SMD:C_1206"	""	""	""		1
+"JP1"	"Jumper_NC_Small"	"USST-footprints:J_0603"	""	""	""		1
+"JP2"	"Jumper_NO_Small"	"USST-footprints:J_0603"	""	""	""		1
+"M1"	"Teensy3"	"USST-footprints:Teensy_3.2_NoTail"	""	""	""		1
+"R4, R11"	"10k"	"Resistors_SMD:R_0805"	""	""	""		2
+"R19"	"3.3k"	"Resistors_SMD:R_0805"	""	""	""		1
+"R20"	"2.7k"	"Resistors_SMD:R_0805"	""	""	""		1
+"U1"	"BNO055"	"BNO055:LGA28R50P4X10_380X520X100"	""	""	""	8.19 USD	1
