@@ -3,7 +3,6 @@ LIBS:power
 LIBS:device
 LIBS:switches
 LIBS:relays
-LIBS:motors
 LIBS:transistors
 LIBS:conn
 LIBS:linear
@@ -47,498 +46,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Conn_02x05_Top_Bottom J1
-U 1 1 5A63A6BF
-P 2225 2550
-F 0 "J1" H 2275 2850 50  0000 C CNN
-F 1 "Conn_02x05_Top_Bottom" H 2275 2250 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-10A2_2x05x4.20mm_Angled" H 2225 2550 50  0001 C CNN
-F 3 "" H 2225 2550 50  0001 C CNN
-	1    2225 2550
-	-1   0    0    1   
-$EndComp
-$Comp
-L Conn_02x05_Top_Bottom J2
-U 1 1 5A63A6F1
-P 3100 2550
-F 0 "J2" H 3150 2850 50  0000 C CNN
-F 1 "Conn_02x05_Top_Bottom" H 3150 2250 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-10A2_2x05x4.20mm_Angled" H 3100 2550 50  0001 C CNN
-F 3 "" H 3100 2550 50  0001 C CNN
-	1    3100 2550
-	1    0    0    1   
-$EndComp
-$Comp
-L Conn_02x05_Top_Bottom J3
-U 1 1 5A63AEE1
-P 2250 3525
-F 0 "J3" H 2300 3825 50  0000 C CNN
-F 1 "Conn_02x05_Top_Bottom" H 2300 3225 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-10A2_2x05x4.20mm_Angled" H 2250 3525 50  0001 C CNN
-F 3 "" H 2250 3525 50  0001 C CNN
-	1    2250 3525
-	-1   0    0    1   
-$EndComp
-$Comp
-L Conn_02x05_Top_Bottom J4
-U 1 1 5A63AEE7
-P 3125 3525
-F 0 "J4" H 3175 3825 50  0000 C CNN
-F 1 "Conn_02x05_Top_Bottom" H 3175 3225 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-10A2_2x05x4.20mm_Angled" H 3125 3525 50  0001 C CNN
-F 3 "" H 3125 3525 50  0001 C CNN
-	1    3125 3525
-	1    0    0    1   
-$EndComp
-$Comp
-L Conn_02x05_Top_Bottom J5
-U 1 1 5A63AF71
-P 2225 4550
-F 0 "J5" H 2275 4850 50  0000 C CNN
-F 1 "Conn_02x05_Top_Bottom" H 2275 4250 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-10A2_2x05x4.20mm_Angled" H 2225 4550 50  0001 C CNN
-F 3 "" H 2225 4550 50  0001 C CNN
-	1    2225 4550
-	-1   0    0    1   
-$EndComp
-$Comp
-L Conn_02x05_Top_Bottom J6
-U 1 1 5A63AF77
-P 3100 4550
-F 0 "J6" H 3150 4850 50  0000 C CNN
-F 1 "Conn_02x05_Top_Bottom" H 3150 4250 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-10A2_2x05x4.20mm_Angled" H 3100 4550 50  0001 C CNN
-F 3 "" H 3100 4550 50  0001 C CNN
-	1    3100 4550
-	1    0    0    1   
-$EndComp
-$Comp
-L Conn_02x05_Top_Bottom J7
-U 1 1 5A63B445
-P 4125 2550
-F 0 "J7" H 4175 2850 50  0000 C CNN
-F 1 "Conn_02x05_Top_Bottom" H 4175 2250 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-10A2_2x05x4.20mm_Angled" H 4125 2550 50  0001 C CNN
-F 3 "" H 4125 2550 50  0001 C CNN
-	1    4125 2550
-	-1   0    0    1   
-$EndComp
-$Comp
-L Conn_02x05_Top_Bottom J8
-U 1 1 5A63B44B
-P 5000 2550
-F 0 "J8" H 5050 2850 50  0000 C CNN
-F 1 "Conn_02x05_Top_Bottom" H 5050 2250 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-10A2_2x05x4.20mm_Angled" H 5000 2550 50  0001 C CNN
-F 3 "" H 5000 2550 50  0001 C CNN
-	1    5000 2550
-	1    0    0    1   
-$EndComp
-$Comp
-L Conn_02x05_Top_Bottom J9
-U 1 1 5A63B46F
-P 4150 3525
-F 0 "J9" H 4200 3825 50  0000 C CNN
-F 1 "Conn_02x05_Top_Bottom" H 4200 3225 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-10A2_2x05x4.20mm_Angled" H 4150 3525 50  0001 C CNN
-F 3 "" H 4150 3525 50  0001 C CNN
-	1    4150 3525
-	-1   0    0    1   
-$EndComp
-$Comp
-L Conn_02x05_Top_Bottom J10
-U 1 1 5A63B475
-P 5025 3525
-F 0 "J10" H 5075 3825 50  0000 C CNN
-F 1 "Conn_02x05_Top_Bottom" H 5075 3225 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-10A2_2x05x4.20mm_Angled" H 5025 3525 50  0001 C CNN
-F 3 "" H 5025 3525 50  0001 C CNN
-	1    5025 3525
-	1    0    0    1   
-$EndComp
-$Comp
-L Conn_02x05_Top_Bottom J11
-U 1 1 5A63B499
-P 4125 4550
-F 0 "J11" H 4175 4850 50  0000 C CNN
-F 1 "Conn_02x05_Top_Bottom" H 4175 4250 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-10A2_2x05x4.20mm_Angled" H 4125 4550 50  0001 C CNN
-F 3 "" H 4125 4550 50  0001 C CNN
-	1    4125 4550
-	-1   0    0    1   
-$EndComp
-$Comp
-L Conn_02x05_Top_Bottom J12
-U 1 1 5A63B49F
-P 5000 4550
-F 0 "J12" H 5050 4850 50  0000 C CNN
-F 1 "Conn_02x05_Top_Bottom" H 5050 4250 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-10A2_2x05x4.20mm_Angled" H 5000 4550 50  0001 C CNN
-F 3 "" H 5000 4550 50  0001 C CNN
-	1    5000 4550
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	2900 2350 2900 2275
-Wire Wire Line
-	2900 2275 2425 2275
-Wire Wire Line
-	2425 2275 2425 2350
-Wire Wire Line
-	2900 2750 2900 2825
-Wire Wire Line
-	2900 2825 2425 2825
-Wire Wire Line
-	2425 2825 2425 2750
-Wire Wire Line
-	2900 2650 2425 2650
-Wire Wire Line
-	2425 2550 2900 2550
-Wire Wire Line
-	2900 2450 2425 2450
-Wire Wire Line
-	3400 2750 3400 2900
-Wire Wire Line
-	3400 2900 1925 2900
-Wire Wire Line
-	1925 2900 1925 2750
-Wire Wire Line
-	3400 2350 3400 2200
-Wire Wire Line
-	3400 2200 1925 2200
-Wire Wire Line
-	1925 2200 1925 2350
-Wire Wire Line
-	1900 2175 1900 2450
-Wire Wire Line
-	1900 2450 1925 2450
-Wire Wire Line
-	1875 2150 1875 2550
-Wire Wire Line
-	1875 2550 1925 2550
-Wire Wire Line
-	1925 2650 1900 2650
-Wire Wire Line
-	1900 2650 1900 2925
-Wire Wire Line
-	1900 2925 3425 2925
-Wire Wire Line
-	3425 2925 3425 2650
-Wire Wire Line
-	3425 2650 3400 2650
-Wire Wire Line
-	1900 2175 3425 2175
-Wire Wire Line
-	3425 2175 3425 2450
-Wire Wire Line
-	3425 2450 3400 2450
-Wire Wire Line
-	1875 2150 3450 2150
-Wire Wire Line
-	3450 2150 3450 2550
-Wire Wire Line
-	3450 2550 3400 2550
-Wire Wire Line
-	2925 3325 2925 3250
-Wire Wire Line
-	2925 3250 2450 3250
-Wire Wire Line
-	2450 3250 2450 3325
-Wire Wire Line
-	2925 3725 2925 3800
-Wire Wire Line
-	2925 3800 2450 3800
-Wire Wire Line
-	2450 3800 2450 3725
-Wire Wire Line
-	2925 3625 2450 3625
-Wire Wire Line
-	2450 3525 2925 3525
-Wire Wire Line
-	2925 3425 2450 3425
-Wire Wire Line
-	3425 3725 3425 3875
-Wire Wire Line
-	3425 3875 1950 3875
-Wire Wire Line
-	1950 3875 1950 3725
-Wire Wire Line
-	3425 3325 3425 3175
-Wire Wire Line
-	3425 3175 1950 3175
-Wire Wire Line
-	1950 3175 1950 3325
-Wire Wire Line
-	1925 3150 1925 3425
-Wire Wire Line
-	1925 3425 1950 3425
-Wire Wire Line
-	1900 3125 1900 3525
-Wire Wire Line
-	1900 3525 1950 3525
-Wire Wire Line
-	1950 3625 1925 3625
-Wire Wire Line
-	1925 3625 1925 3900
-Wire Wire Line
-	1925 3900 3450 3900
-Wire Wire Line
-	3450 3900 3450 3625
-Wire Wire Line
-	3450 3625 3425 3625
-Wire Wire Line
-	1925 3150 3450 3150
-Wire Wire Line
-	3450 3150 3450 3425
-Wire Wire Line
-	3450 3425 3425 3425
-Wire Wire Line
-	1900 3125 3475 3125
-Wire Wire Line
-	3475 3125 3475 3525
-Wire Wire Line
-	3475 3525 3425 3525
-Wire Wire Line
-	2900 4350 2900 4275
-Wire Wire Line
-	2900 4275 2425 4275
-Wire Wire Line
-	2425 4275 2425 4350
-Wire Wire Line
-	2900 4750 2900 4825
-Wire Wire Line
-	2900 4825 2425 4825
-Wire Wire Line
-	2425 4825 2425 4750
-Wire Wire Line
-	2900 4650 2425 4650
-Wire Wire Line
-	2425 4550 2900 4550
-Wire Wire Line
-	2900 4450 2425 4450
-Wire Wire Line
-	3400 4750 3400 4900
-Wire Wire Line
-	3400 4900 1925 4900
-Wire Wire Line
-	1925 4900 1925 4750
-Wire Wire Line
-	3400 4350 3400 4200
-Wire Wire Line
-	3400 4200 1925 4200
-Wire Wire Line
-	1925 4200 1925 4350
-Wire Wire Line
-	1900 4175 1900 4450
-Wire Wire Line
-	1900 4450 1925 4450
-Wire Wire Line
-	1875 4150 1875 4550
-Wire Wire Line
-	1875 4550 1925 4550
-Wire Wire Line
-	1925 4650 1900 4650
-Wire Wire Line
-	1900 4650 1900 4925
-Wire Wire Line
-	1900 4925 3425 4925
-Wire Wire Line
-	3425 4925 3425 4650
-Wire Wire Line
-	3425 4650 3400 4650
-Wire Wire Line
-	1900 4175 3425 4175
-Wire Wire Line
-	3425 4175 3425 4450
-Wire Wire Line
-	3425 4450 3400 4450
-Wire Wire Line
-	1875 4150 3450 4150
-Wire Wire Line
-	3450 4150 3450 4550
-Wire Wire Line
-	3450 4550 3400 4550
-Wire Wire Line
-	4800 2350 4800 2275
-Wire Wire Line
-	4800 2275 4325 2275
-Wire Wire Line
-	4325 2275 4325 2350
-Wire Wire Line
-	4800 2750 4800 2825
-Wire Wire Line
-	4800 2825 4325 2825
-Wire Wire Line
-	4325 2825 4325 2750
-Wire Wire Line
-	4800 2650 4325 2650
-Wire Wire Line
-	4325 2550 4800 2550
-Wire Wire Line
-	4800 2450 4325 2450
-Wire Wire Line
-	5300 2750 5300 2900
-Wire Wire Line
-	5300 2900 3825 2900
-Wire Wire Line
-	3825 2900 3825 2750
-Wire Wire Line
-	5300 2350 5300 2200
-Wire Wire Line
-	5300 2200 3825 2200
-Wire Wire Line
-	3825 2200 3825 2350
-Wire Wire Line
-	3800 2175 3800 2450
-Wire Wire Line
-	3800 2450 3825 2450
-Wire Wire Line
-	3775 2150 3775 2550
-Wire Wire Line
-	3775 2550 3825 2550
-Wire Wire Line
-	3825 2650 3800 2650
-Wire Wire Line
-	3800 2650 3800 2925
-Wire Wire Line
-	3800 2925 5325 2925
-Wire Wire Line
-	5325 2925 5325 2650
-Wire Wire Line
-	5325 2650 5300 2650
-Wire Wire Line
-	3800 2175 5325 2175
-Wire Wire Line
-	5325 2175 5325 2450
-Wire Wire Line
-	5325 2450 5300 2450
-Wire Wire Line
-	3775 2150 5350 2150
-Wire Wire Line
-	5350 2150 5350 2550
-Wire Wire Line
-	5350 2550 5300 2550
-Wire Wire Line
-	4825 3325 4825 3250
-Wire Wire Line
-	4825 3250 4350 3250
-Wire Wire Line
-	4350 3250 4350 3325
-Wire Wire Line
-	4825 3725 4825 3800
-Wire Wire Line
-	4825 3800 4350 3800
-Wire Wire Line
-	4350 3800 4350 3725
-Wire Wire Line
-	4825 3625 4350 3625
-Wire Wire Line
-	4350 3525 4825 3525
-Wire Wire Line
-	4825 3425 4350 3425
-Wire Wire Line
-	5325 3725 5325 3875
-Wire Wire Line
-	5325 3875 3850 3875
-Wire Wire Line
-	3850 3875 3850 3725
-Wire Wire Line
-	5325 3325 5325 3175
-Wire Wire Line
-	5325 3175 3850 3175
-Wire Wire Line
-	3850 3175 3850 3325
-Wire Wire Line
-	3825 3150 3825 3425
-Wire Wire Line
-	3825 3425 3850 3425
-Wire Wire Line
-	3800 3125 3800 3525
-Wire Wire Line
-	3800 3525 3850 3525
-Wire Wire Line
-	3850 3625 3825 3625
-Wire Wire Line
-	3825 3625 3825 3900
-Wire Wire Line
-	3825 3900 5350 3900
-Wire Wire Line
-	5350 3900 5350 3625
-Wire Wire Line
-	5350 3625 5325 3625
-Wire Wire Line
-	3825 3150 5350 3150
-Wire Wire Line
-	5350 3150 5350 3425
-Wire Wire Line
-	5350 3425 5325 3425
-Wire Wire Line
-	3800 3125 5375 3125
-Wire Wire Line
-	5375 3125 5375 3525
-Wire Wire Line
-	5375 3525 5325 3525
-Wire Wire Line
-	4800 4350 4800 4275
-Wire Wire Line
-	4800 4275 4325 4275
-Wire Wire Line
-	4325 4275 4325 4350
-Wire Wire Line
-	4800 4750 4800 4825
-Wire Wire Line
-	4800 4825 4325 4825
-Wire Wire Line
-	4325 4825 4325 4750
-Wire Wire Line
-	4800 4650 4325 4650
-Wire Wire Line
-	4325 4550 4800 4550
-Wire Wire Line
-	4800 4450 4325 4450
-Wire Wire Line
-	5300 4750 5300 4900
-Wire Wire Line
-	5300 4900 3825 4900
-Wire Wire Line
-	3825 4900 3825 4750
-Wire Wire Line
-	5300 4350 5300 4200
-Wire Wire Line
-	5300 4200 3825 4200
-Wire Wire Line
-	3825 4200 3825 4350
-Wire Wire Line
-	3800 4175 3800 4450
-Wire Wire Line
-	3800 4450 3825 4450
-Wire Wire Line
-	3775 4150 3775 4550
-Wire Wire Line
-	3775 4550 3825 4550
-Wire Wire Line
-	3825 4650 3800 4650
-Wire Wire Line
-	3800 4650 3800 4925
-Wire Wire Line
-	3800 4925 5325 4925
-Wire Wire Line
-	5325 4925 5325 4650
-Wire Wire Line
-	5325 4650 5300 4650
-Wire Wire Line
-	3800 4175 5325 4175
-Wire Wire Line
-	5325 4175 5325 4450
-Wire Wire Line
-	5325 4450 5300 4450
-Wire Wire Line
-	3775 4150 5350 4150
-Wire Wire Line
-	5350 4150 5350 4550
-Wire Wire Line
-	5350 4550 5300 4550
 $Comp
 L PowerConnector U1
 U 1 1 5A6958B3
@@ -849,4 +356,376 @@ Wire Wire Line
 	3800 1275 3800 1500
 Wire Wire Line
 	3800 1500 3825 1500
+$Comp
+L CONN_02X04 P11
+U 1 1 5A7A4F56
+P 5100 3400
+F 0 "P11" H 5100 3650 50  0000 C CNN
+F 1 "CONN_02X04" H 5100 3150 50  0000 C CNN
+F 2 "USST-footprints:Molex_MiniFit-JR-5569-08A2_2x04x4.20mm_Angled_Overhang" H 5100 2200 50  0001 C CNN
+F 3 "" H 5100 2200 50  0000 C CNN
+	1    5100 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X04 P8
+U 1 1 5A7A4FCA
+P 4200 3400
+F 0 "P8" H 4200 3650 50  0000 C CNN
+F 1 "CONN_02X04" H 4200 3150 50  0000 C CNN
+F 2 "USST-footprints:Molex_MiniFit-JR-5569-08A2_2x04x4.20mm_Angled_Overhang" H 4200 2200 50  0001 C CNN
+F 3 "" H 4200 2200 50  0000 C CNN
+	1    4200 3400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3250 4850 3250
+Wire Wire Line
+	4450 3350 4850 3350
+Wire Wire Line
+	4450 3450 4850 3450
+Wire Wire Line
+	4450 3550 4850 3550
+Wire Wire Line
+	3950 3150 3950 3250
+Wire Wire Line
+	5350 3150 5350 3250
+Wire Wire Line
+	5350 3150 3950 3150
+Wire Wire Line
+	3950 3350 3850 3350
+Wire Wire Line
+	3850 3350 3850 3100
+Wire Wire Line
+	3850 3100 5450 3100
+Wire Wire Line
+	5450 3100 5450 3350
+Wire Wire Line
+	5450 3350 5350 3350
+Wire Wire Line
+	5350 3550 5350 3650
+Wire Wire Line
+	5350 3650 3950 3650
+Wire Wire Line
+	3950 3650 3950 3550
+Wire Wire Line
+	3950 3450 3850 3450
+Wire Wire Line
+	3850 3450 3850 3700
+Wire Wire Line
+	3850 3700 5450 3700
+Wire Wire Line
+	5450 3700 5450 3450
+Wire Wire Line
+	5450 3450 5350 3450
+$Comp
+L CONN_02X04 P10
+U 1 1 5A7A6A5E
+P 5100 2500
+F 0 "P10" H 5100 2750 50  0000 C CNN
+F 1 "CONN_02X04" H 5100 2250 50  0000 C CNN
+F 2 "USST-footprints:Molex_MiniFit-JR-5569-08A2_2x04x4.20mm_Angled_Overhang" H 5100 1300 50  0001 C CNN
+F 3 "" H 5100 1300 50  0000 C CNN
+	1    5100 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X04 P7
+U 1 1 5A7A6A64
+P 4200 2500
+F 0 "P7" H 4200 2750 50  0000 C CNN
+F 1 "CONN_02X04" H 4200 2250 50  0000 C CNN
+F 2 "USST-footprints:Molex_MiniFit-JR-5569-08A2_2x04x4.20mm_Angled_Overhang" H 4200 1300 50  0001 C CNN
+F 3 "" H 4200 1300 50  0000 C CNN
+	1    4200 2500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 2350 4850 2350
+Wire Wire Line
+	4450 2450 4850 2450
+Wire Wire Line
+	4450 2550 4850 2550
+Wire Wire Line
+	4450 2650 4850 2650
+Wire Wire Line
+	3950 2250 3950 2350
+Wire Wire Line
+	5350 2250 5350 2350
+Wire Wire Line
+	5350 2250 3950 2250
+Wire Wire Line
+	3950 2450 3850 2450
+Wire Wire Line
+	3850 2450 3850 2200
+Wire Wire Line
+	3850 2200 5450 2200
+Wire Wire Line
+	5450 2200 5450 2450
+Wire Wire Line
+	5450 2450 5350 2450
+Wire Wire Line
+	5350 2650 5350 2750
+Wire Wire Line
+	5350 2750 3950 2750
+Wire Wire Line
+	3950 2750 3950 2650
+Wire Wire Line
+	3950 2550 3850 2550
+Wire Wire Line
+	3850 2550 3850 2800
+Wire Wire Line
+	3850 2800 5450 2800
+Wire Wire Line
+	5450 2800 5450 2550
+Wire Wire Line
+	5450 2550 5350 2550
+$Comp
+L CONN_02X04 P5
+U 1 1 5A7A6B2E
+P 3000 3400
+F 0 "P5" H 3000 3650 50  0000 C CNN
+F 1 "CONN_02X04" H 3000 3150 50  0000 C CNN
+F 2 "USST-footprints:Molex_MiniFit-JR-5569-08A2_2x04x4.20mm_Angled_Overhang" H 3000 2200 50  0001 C CNN
+F 3 "" H 3000 2200 50  0000 C CNN
+	1    3000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X04 P2
+U 1 1 5A7A6B34
+P 2100 3400
+F 0 "P2" H 2100 3650 50  0000 C CNN
+F 1 "CONN_02X04" H 2100 3150 50  0000 C CNN
+F 2 "USST-footprints:Molex_MiniFit-JR-5569-08A2_2x04x4.20mm_Angled_Overhang" H 2100 2200 50  0001 C CNN
+F 3 "" H 2100 2200 50  0000 C CNN
+	1    2100 3400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3250 2750 3250
+Wire Wire Line
+	2350 3350 2750 3350
+Wire Wire Line
+	2350 3450 2750 3450
+Wire Wire Line
+	2350 3550 2750 3550
+Wire Wire Line
+	1850 3150 1850 3250
+Wire Wire Line
+	3250 3150 3250 3250
+Wire Wire Line
+	3250 3150 1850 3150
+Wire Wire Line
+	1850 3350 1750 3350
+Wire Wire Line
+	1750 3350 1750 3100
+Wire Wire Line
+	1750 3100 3350 3100
+Wire Wire Line
+	3350 3100 3350 3350
+Wire Wire Line
+	3350 3350 3250 3350
+Wire Wire Line
+	3250 3550 3250 3650
+Wire Wire Line
+	3250 3650 1850 3650
+Wire Wire Line
+	1850 3650 1850 3550
+Wire Wire Line
+	1850 3450 1750 3450
+Wire Wire Line
+	1750 3450 1750 3700
+Wire Wire Line
+	1750 3700 3350 3700
+Wire Wire Line
+	3350 3700 3350 3450
+Wire Wire Line
+	3350 3450 3250 3450
+$Comp
+L CONN_02X04 P4
+U 1 1 5A7A6B4E
+P 3000 2500
+F 0 "P4" H 3000 2750 50  0000 C CNN
+F 1 "CONN_02X04" H 3000 2250 50  0000 C CNN
+F 2 "USST-footprints:Molex_MiniFit-JR-5569-08A2_2x04x4.20mm_Angled_Overhang" H 3000 1300 50  0001 C CNN
+F 3 "" H 3000 1300 50  0000 C CNN
+	1    3000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X04 P1
+U 1 1 5A7A6B54
+P 2100 2500
+F 0 "P1" H 2100 2750 50  0000 C CNN
+F 1 "CONN_02X04" H 2100 2250 50  0000 C CNN
+F 2 "USST-footprints:Molex_MiniFit-JR-5569-08A2_2x04x4.20mm_Angled_Overhang" H 2100 1300 50  0001 C CNN
+F 3 "" H 2100 1300 50  0000 C CNN
+	1    2100 2500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 2350 2750 2350
+Wire Wire Line
+	2350 2450 2750 2450
+Wire Wire Line
+	2350 2550 2750 2550
+Wire Wire Line
+	2350 2650 2750 2650
+Wire Wire Line
+	1850 2250 1850 2350
+Wire Wire Line
+	3250 2250 3250 2350
+Wire Wire Line
+	3250 2250 1850 2250
+Wire Wire Line
+	1850 2450 1750 2450
+Wire Wire Line
+	1750 2450 1750 2200
+Wire Wire Line
+	1750 2200 3350 2200
+Wire Wire Line
+	3350 2200 3350 2450
+Wire Wire Line
+	3350 2450 3250 2450
+Wire Wire Line
+	3250 2650 3250 2750
+Wire Wire Line
+	3250 2750 1850 2750
+Wire Wire Line
+	1850 2750 1850 2650
+Wire Wire Line
+	1850 2550 1750 2550
+Wire Wire Line
+	1750 2550 1750 2800
+Wire Wire Line
+	1750 2800 3350 2800
+Wire Wire Line
+	3350 2800 3350 2550
+Wire Wire Line
+	3350 2550 3250 2550
+$Comp
+L CONN_02X04 P12
+U 1 1 5A7A6BEE
+P 5100 4300
+F 0 "P12" H 5100 4550 50  0000 C CNN
+F 1 "CONN_02X04" H 5100 4050 50  0000 C CNN
+F 2 "USST-footprints:Molex_MiniFit-JR-5569-08A2_2x04x4.20mm_Angled_Overhang" H 5100 3100 50  0001 C CNN
+F 3 "" H 5100 3100 50  0000 C CNN
+	1    5100 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X04 P9
+U 1 1 5A7A6BF4
+P 4200 4300
+F 0 "P9" H 4200 4550 50  0000 C CNN
+F 1 "CONN_02X04" H 4200 4050 50  0000 C CNN
+F 2 "USST-footprints:Molex_MiniFit-JR-5569-08A2_2x04x4.20mm_Angled_Overhang" H 4200 3100 50  0001 C CNN
+F 3 "" H 4200 3100 50  0000 C CNN
+	1    4200 4300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 4150 4850 4150
+Wire Wire Line
+	4450 4250 4850 4250
+Wire Wire Line
+	4450 4350 4850 4350
+Wire Wire Line
+	4450 4450 4850 4450
+Wire Wire Line
+	3950 4050 3950 4150
+Wire Wire Line
+	5350 4050 5350 4150
+Wire Wire Line
+	5350 4050 3950 4050
+Wire Wire Line
+	3950 4250 3850 4250
+Wire Wire Line
+	3850 4250 3850 4000
+Wire Wire Line
+	3850 4000 5450 4000
+Wire Wire Line
+	5450 4000 5450 4250
+Wire Wire Line
+	5450 4250 5350 4250
+Wire Wire Line
+	5350 4450 5350 4550
+Wire Wire Line
+	5350 4550 3950 4550
+Wire Wire Line
+	3950 4550 3950 4450
+Wire Wire Line
+	3950 4350 3850 4350
+Wire Wire Line
+	3850 4350 3850 4600
+Wire Wire Line
+	3850 4600 5450 4600
+Wire Wire Line
+	5450 4600 5450 4350
+Wire Wire Line
+	5450 4350 5350 4350
+$Comp
+L CONN_02X04 P6
+U 1 1 5A7A6C0E
+P 3000 4300
+F 0 "P6" H 3000 4550 50  0000 C CNN
+F 1 "CONN_02X04" H 3000 4050 50  0000 C CNN
+F 2 "USST-footprints:Molex_MiniFit-JR-5569-08A2_2x04x4.20mm_Angled_Overhang" H 3000 3100 50  0001 C CNN
+F 3 "" H 3000 3100 50  0000 C CNN
+	1    3000 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X04 P3
+U 1 1 5A7A6C14
+P 2100 4300
+F 0 "P3" H 2100 4550 50  0000 C CNN
+F 1 "CONN_02X04" H 2100 4050 50  0000 C CNN
+F 2 "USST-footprints:Molex_MiniFit-JR-5569-08A2_2x04x4.20mm_Angled_Overhang" H 2100 3100 50  0001 C CNN
+F 3 "" H 2100 3100 50  0000 C CNN
+	1    2100 4300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 4150 2750 4150
+Wire Wire Line
+	2350 4250 2750 4250
+Wire Wire Line
+	2350 4350 2750 4350
+Wire Wire Line
+	2350 4450 2750 4450
+Wire Wire Line
+	1850 4050 1850 4150
+Wire Wire Line
+	3250 4050 3250 4150
+Wire Wire Line
+	3250 4050 1850 4050
+Wire Wire Line
+	1850 4250 1750 4250
+Wire Wire Line
+	1750 4250 1750 4000
+Wire Wire Line
+	1750 4000 3350 4000
+Wire Wire Line
+	3350 4000 3350 4250
+Wire Wire Line
+	3350 4250 3250 4250
+Wire Wire Line
+	3250 4450 3250 4550
+Wire Wire Line
+	3250 4550 1850 4550
+Wire Wire Line
+	1850 4550 1850 4450
+Wire Wire Line
+	1850 4350 1750 4350
+Wire Wire Line
+	1750 4350 1750 4600
+Wire Wire Line
+	1750 4600 3350 4600
+Wire Wire Line
+	3350 4600 3350 4350
+Wire Wire Line
+	3350 4350 3250 4350
 $EndSCHEMATC
