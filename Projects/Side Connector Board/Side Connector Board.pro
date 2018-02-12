@@ -1,4 +1,4 @@
-update=1/24/2018 6:24:25 PM
+update=2018-02-12 12:30:33 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,4 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=Side Connector Board
+LibName34=C:/Users/Tyrel/USST/E8199-001-01
