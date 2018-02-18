@@ -1,0 +1,12 @@
+(fp_lib_table
+  (lib (name MF_Aesthetics)(type KiCad)(uri /home/carl/Kicad/rocket_board/designs/footprints/MF_Aesthetics.pretty)(options "")(descr ""))
+  (lib (name MF_Discrete_Semiconductor)(type KiCad)(uri /home/carl/Kicad/rocket_board/designs/footprints/MF_Discrete_Semiconductor.pretty)(options "")(descr ""))
+  (lib (name MF_Displays)(type KiCad)(uri /home/carl/Kicad/rocket_board/designs/footprints/MF_Displays.pretty)(options "")(descr ""))
+  (lib (name MF_Frequency_Control)(type KiCad)(uri /home/carl/Kicad/rocket_board/designs/footprints/MF_Frequency_Control.pretty)(options "")(descr ""))
+  (lib (name MF_IC_Digital)(type KiCad)(uri /home/carl/Kicad/rocket_board/designs/footprints/MF_IC_Digital.pretty)(options "")(descr ""))
+  (lib (name MF_IC_Power)(type KiCad)(uri /home/carl/Kicad/rocket_board/designs/footprints/MF_IC_Power.pretty)(options "")(descr ""))
+  (lib (name MF_LEDs)(type KiCad)(uri /home/carl/Kicad/rocket_board/designs/footprints/MF_LEDs.pretty)(options "")(descr ""))
+  (lib (name MF_Passives)(type KiCad)(uri /home/carl/Kicad/rocket_board/designs/footprints/MF_Passives.pretty)(options "")(descr ""))
+  (lib (name MF_Switches)(type KiCad)(uri /home/carl/Kicad/rocket_board/designs/footprints/MF_Switches.pretty)(options "")(descr ""))
+  (lib (name robobits-generic)(type KiCad)(uri /home/carl/Kicad/rocket_board/designs/footprints/robobits-generic.pretty)(options "")(descr ""))
+)

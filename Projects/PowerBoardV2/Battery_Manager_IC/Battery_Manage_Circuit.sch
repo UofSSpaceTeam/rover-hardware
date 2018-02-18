@@ -1582,4 +1582,10 @@ Connection ~ 5250 4350
 Connection ~ 9250 4150
 Connection ~ 7800 3200
 NoConn ~ 5700 2650
+Text Notes 850  4300 0    60   ~ 0
+Missing Cell connector and check power FET output to see if it requires BATT+
+Text GLabel 9450 5650 2    60   Input ~ 0
+BATT+
+Wire Wire Line
+	9300 5650 9450 5650
 $EndSCHEMATC
