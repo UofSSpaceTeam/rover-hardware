@@ -200,14 +200,6 @@ F 3 "" H 9350 4900 60  0001 C CNN
 	1    9350 4800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4600 2600 4600 2700
-Connection ~ 4600 2700
-Connection ~ 4600 2600
-Wire Wire Line
-	4600 2100 4600 2000
-Connection ~ 4600 2100
-Connection ~ 4600 2000
 $Comp
 L USB_OTG J?
 U 1 1 5A8F8C26
@@ -219,10 +211,6 @@ F 3 "" H 10850 4650 50  0001 C CNN
 	1    10700 4700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9950 4600 10150 4600
-Wire Wire Line
-	9950 4650 10150 4650
 Text GLabel 10150 4600 2    20   Input ~ 0
 USB_D+
 Text GLabel 10150 4650 2    20   Input ~ 0
@@ -249,16 +237,6 @@ Text Notes 7350 7500 0    60   ~ 0
 PowerBoard V3
 Text Notes 10100 5250 0    20   ~ 0
 Microcontroller usb  connection
-Wire Notes Line
-	10100 4650 10100 5300
-Wire Notes Line
-	10100 5300 11150 5300
-Wire Notes Line
-	11150 5300 11150 4200
-Wire Notes Line
-	11150 4200 10100 4200
-Wire Notes Line
-	10100 4200 10100 4600
 $Comp
 L R_Small R?
 U 1 1 5A9AD936
@@ -347,8 +325,6 @@ F 3 "" H 5600 3050 50  0001 C CNN
 	1    5600 3050
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4400 2100 4700 2100
 $Comp
 L C_Small C?
 U 1 1 5A9AE4A1
@@ -404,34 +380,8 @@ F 3 "" H 5350 2400 50  0001 C CNN
 	1    5350 2400
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4600 1900 4600 1500
-Wire Wire Line
-	4600 1500 5500 1500
-Wire Wire Line
-	4700 2100 4700 1700
-Wire Wire Line
-	4700 1700 5500 1700
-Wire Wire Line
-	4400 2200 4800 2200
-Wire Wire Line
-	4800 2200 4800 1900
-Wire Wire Line
-	4800 1900 5500 1900
-Wire Wire Line
-	4400 2300 4900 2300
-Wire Wire Line
-	4900 2300 4900 2100
-Wire Wire Line
-	4900 2100 5500 2100
-Wire Wire Line
-	5350 2300 5600 2300
 Text GLabel 5600 2300 2    39   Input ~ 0
 VC5x
-Wire Wire Line
-	4400 2400 4900 2400
-Wire Wire Line
-	4900 2400 4900 2500
 $Comp
 L R_Small R?
 U 1 1 5A9AF0FD
@@ -443,8 +393,6 @@ F 3 "" H 5600 2650 50  0001 C CNN
 	1    5600 2650
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4400 2700 5050 2700
 $Comp
 L C_Small C?
 U 1 1 5A9AF20F
@@ -456,23 +404,8 @@ F 3 "" H 5350 2750 50  0001 C CNN
 	1    5350 2750
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4400 2500 4750 2500
-Wire Wire Line
-	4750 2500 4750 2650
-Connection ~ 5350 2650
-Connection ~ 5350 2500
-Wire Wire Line
-	5700 2500 5700 2650
-Wire Wire Line
-	5700 2550 6200 2550
-Connection ~ 5700 2550
 Text GLabel 6200 2550 2    39   Input ~ 0
 A
-Wire Wire Line
-	5050 2700 5050 2850
-Wire Wire Line
-	5050 2850 5500 2850
 $Comp
 L C_Small C?
 U 1 1 5A9AFBB5
@@ -517,20 +450,6 @@ F 3 "" H 5350 3550 50  0001 C CNN
 	1    5350 3550
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4400 2800 4950 2800
-Wire Wire Line
-	4950 2800 4950 3050
-Wire Wire Line
-	4950 3050 5500 3050
-Wire Wire Line
-	4400 2900 4850 2900
-Wire Wire Line
-	4850 2900 4850 3250
-Wire Wire Line
-	4850 3250 5500 3250
-Wire Wire Line
-	4400 3000 4750 3000
 $Comp
 L GND #PWR?
 U 1 1 5A9AFEBF
@@ -553,12 +472,6 @@ F 3 "" H 5600 3650 50  0001 C CNN
 	1    5600 3650
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4750 3000 4750 3650
-Wire Wire Line
-	4750 3650 5500 3650
-Wire Wire Line
-	5700 3450 5350 3450
 Text GLabel 5700 3250 2    39   Input ~ 0
 Cell_1+
 Text GLabel 5700 3050 2    39   Input ~ 0
@@ -586,21 +499,6 @@ F 3 "" H 5700 3650 50  0001 C CNN
 	1    5700 3650
 	0    -1   -1   0   
 $EndComp
-Connection ~ 5350 3650
-Connection ~ 5350 3250
-Connection ~ 5350 3050
-Connection ~ 5350 2850
-Connection ~ 5350 2100
-Connection ~ 5350 1900
-Connection ~ 5350 1700
-Connection ~ 5350 1500
-Wire Wire Line
-	4400 1900 4600 1900
-Wire Wire Line
-	4600 2000 4400 2000
-Wire Wire Line
-	4750 2600 5000 2600
-Connection ~ 4750 2600
 $Comp
 L D_Small D?
 U 1 1 5A9B1C8C
@@ -616,9 +514,6 @@ Text GLabel 5200 2600 2    39   Input ~ 0
 VC5x
 Text GLabel 2700 2400 0    39   Input ~ 0
 VC5x
-Wire Wire Line
-	4500 1900 4500 1750
-Connection ~ 4500 1900
 $Comp
 L D_Small D?
 U 1 1 5A9B24A7
@@ -632,18 +527,14 @@ F 3 "" V 4400 1750 50  0001 C CNN
 $EndComp
 Text GLabel 4300 1750 0    39   Input ~ 0
 BAT
-Text GLabel 2700 1900 0    39   Input ~ 0
+Text GLabel 2600 1900 1    39   Input ~ 0
 BAT
-Wire Wire Line
-	4750 2650 5500 2650
-Wire Wire Line
-	4900 2500 5500 2500
 $Comp
 L Thermistor TH?
 U 1 1 5A9B2BE5
 P 2500 2100
 F 0 "TH?" V 2600 2150 50  0000 C CNN
-F 1 "10k" V 2400 2100 50  0000 C BNN
+F 1 "10k" H 2400 2100 50  0000 C BNN
 F 2 "" H 2500 2100 50  0001 C CNN
 F 3 "" H 2500 2100 50  0001 C CNN
 	1    2500 2100
@@ -651,16 +542,6 @@ F 3 "" H 2500 2100 50  0001 C CNN
 $EndComp
 Text GLabel 2300 2100 0    39   Input ~ 0
 VC5x
-Wire Wire Line
-	2700 2300 2050 2300
-Wire Wire Line
-	2050 2300 2050 2000
-Wire Wire Line
-	2050 2000 2700 2000
-Wire Wire Line
-	2050 2200 2700 2200
-Connection ~ 2100 2000
-Connection ~ 2050 2200
 $Comp
 L C_Small C?
 U 1 1 5A9B3570
@@ -698,21 +579,8 @@ F 3 "" H 5600 700 50  0001 C CNN
 $EndComp
 Text GLabel 5400 700  0    39   Input ~ 0
 Cell_8+
-Wire Wire Line
-	5050 3250 5050 3350
-Connection ~ 5050 3250
 Text GLabel 5050 3350 3    28   Input ~ 0
 BOOT_VC1
-Text GLabel 8800 4600 0    28   Input ~ 0
-BOOT_VC1
-Text Notes 6250 4650 0    39   ~ 0
-Can analog pins physically connect using input from controller code?
-Wire Notes Line
-	8550 4550 6250 4550
-Wire Notes Line
-	6250 4550 6250 4700
-Wire Notes Line
-	6250 4700 8550 4700
 $Comp
 L R_Small R?
 U 1 1 5A9B5BA0
@@ -724,11 +592,6 @@ F 3 "" H 2250 2800 50  0001 C CNN
 	1    2250 2800
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2700 2800 2350 2800
-Wire Wire Line
-	2450 2800 2450 3000
-Connection ~ 2450 2800
 $Comp
 L Thermistor TH?
 U 1 1 5A9B60F4
@@ -740,13 +603,296 @@ F 3 "" H 1950 3000 50  0001 C CNN
 	1    1950 3000
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2450 3000 2150 3000
 Text GLabel 2150 2800 0    28   Input ~ 0
 BOOT_TS1
 $Comp
+L C_Small C?
+U 1 1 5AA08884
+P 2600 2700
+F 0 "C?" H 2610 2770 50  0000 L CNN
+F 1 "1 uF" H 2610 2620 50  0000 L CNN
+F 2 "" H 2600 2700 50  0001 C CNN
+F 3 "" H 2600 2700 50  0001 C CNN
+	1    2600 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
 L GND #PWR?
-U 1 1 5A9B6465
+U 1 1 5AA08979
+P 2500 2700
+F 0 "#PWR?" H 2500 2450 50  0001 C CNN
+F 1 "GND" H 2500 2550 50  0000 C CNN
+F 2 "" H 2500 2700 50  0001 C CNN
+F 3 "" H 2500 2700 50  0001 C CNN
+	1    2500 2700
+	0    1    1    0   
+$EndComp
+Text GLabel 3650 4100 2    28   Input ~ 0
+BOOT_VC1
+Text GLabel 3250 4100 0    28   Input ~ 0
+BOOT_TS1
+Text GLabel 3450 4400 3    28   Input ~ 0
+Micrcontroller
+$Comp
+L 2N3904 Q?
+U 1 1 5AA0B18B
+P 3450 4200
+F 0 "Q?" H 3650 4275 50  0000 L CNN
+F 1 "2N3904" H 3650 4200 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 3650 4125 50  0001 L CIN
+F 3 "" H 3450 4200 50  0001 L CNN
+	1    3450 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AA0C502
+P 1150 1650
+F 0 "C?" H 1160 1720 50  0000 L CNN
+F 1 "10 uF" H 1160 1570 50  0000 L CNN
+F 2 "" H 1150 1650 50  0001 C CNN
+F 3 "" H 1150 1650 50  0001 C CNN
+	1    1150 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5AA0CCA5
+P 1150 2100
+F 0 "R?" H 1180 2120 50  0000 L CNN
+F 1 "100" H 1180 2060 50  0000 L CNN
+F 2 "" H 1150 2100 50  0001 C CNN
+F 3 "" H 1150 2100 50  0001 C CNN
+	1    1150 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2N3906 Q?
+U 1 1 5AA0D03F
+P 1050 2450
+F 0 "Q?" H 1250 2525 50  0000 L CNN
+F 1 "2N3906" H 1250 2450 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 1250 2375 50  0001 L CIN
+F 3 "" H 1050 2450 50  0001 L CNN
+	1    1050 2450
+	1    0    0    -1  
+$EndComp
+Text GLabel 800  1150 0    39   Input ~ 0
+VC5x
+$Comp
+L R_Small R?
+U 1 1 5AA0D74B
+P 1050 1150
+F 0 "R?" H 1080 1170 50  0000 L CNN
+F 1 "100" H 1080 1110 50  0000 L CNN
+F 2 "" H 1050 1150 50  0001 C CNN
+F 3 "" H 1050 1150 50  0001 C CNN
+	1    1050 1150
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1150 1150 2    39   Input ~ 0
+A
+$Comp
+L C_Small C?
+U 1 1 5AA0DD75
+P 850 850
+F 0 "C?" H 860 920 50  0000 L CNN
+F 1 "10 uF" H 860 770 50  0000 L CNN
+F 2 "" H 850 850 50  0001 C CNN
+F 3 "" H 850 850 50  0001 C CNN
+	1    850  850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AA0DEA4
+P 850 750
+F 0 "#PWR?" H 850 500 50  0001 C CNN
+F 1 "GND" H 850 600 50  0000 C CNN
+F 2 "" H 850 750 50  0001 C CNN
+F 3 "" H 850 750 50  0001 C CNN
+	1    850  750 
+	-1   0    0    1   
+$EndComp
+Text GLabel 1350 2700 2    28   Input ~ 0
+REGSRC
+Text GLabel 2700 2500 0    28   Input ~ 0
+REGSRC
+$Comp
+L C_Small C?
+U 1 1 5AA0E215
+P 1150 2850
+F 0 "C?" H 1160 2920 50  0000 L CNN
+F 1 "1 uF" H 1160 2770 50  0000 L CNN
+F 2 "" H 1150 2850 50  0001 C CNN
+F 3 "" H 1150 2850 50  0001 C CNN
+	1    1150 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AA0E3FB
+P 1150 2950
+F 0 "#PWR?" H 1150 2700 50  0001 C CNN
+F 1 "GND" H 1150 2800 50  0000 C CNN
+F 2 "" H 1150 2950 50  0001 C CNN
+F 3 "" H 1150 2950 50  0001 C CNN
+	1    1150 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  950  850  2450
+Wire Wire Line
+	1150 1750 1150 2000
+Wire Wire Line
+	1150 2200 1150 2250
+Wire Wire Line
+	1150 2650 1150 2750
+Connection ~ 850  1150
+Wire Wire Line
+	800  1150 950  1150
+Connection ~ 850  1300
+Wire Wire Line
+	1150 1300 850  1300
+Wire Wire Line
+	1150 1550 1150 1300
+Connection ~ 1150 1900
+Wire Wire Line
+	1150 1900 2700 1900
+Wire Wire Line
+	4400 2600 4600 2600
+Wire Wire Line
+	2450 3000 2150 3000
+Connection ~ 2450 2800
+Wire Wire Line
+	2450 2800 2450 3000
+Wire Wire Line
+	2700 2800 2350 2800
+Connection ~ 5050 3250
+Wire Wire Line
+	5050 3250 5050 3350
+Connection ~ 2050 2200
+Connection ~ 2100 2000
+Wire Wire Line
+	2050 2200 2700 2200
+Wire Wire Line
+	2050 2000 2700 2000
+Wire Wire Line
+	2050 2300 2050 2000
+Wire Wire Line
+	2700 2300 2050 2300
+Wire Wire Line
+	4900 2500 5500 2500
+Wire Wire Line
+	4750 2650 5500 2650
+Connection ~ 4500 1900
+Wire Wire Line
+	4500 1900 4500 1750
+Connection ~ 4750 2600
+Wire Wire Line
+	4750 2600 5000 2600
+Wire Wire Line
+	4600 2000 4400 2000
+Wire Wire Line
+	4400 1900 4600 1900
+Connection ~ 5350 1500
+Connection ~ 5350 1700
+Connection ~ 5350 1900
+Connection ~ 5350 2100
+Connection ~ 5350 2850
+Connection ~ 5350 3050
+Connection ~ 5350 3250
+Connection ~ 5350 3650
+Wire Wire Line
+	5700 3450 5350 3450
+Wire Wire Line
+	4750 3650 5500 3650
+Wire Wire Line
+	4750 3000 4750 3650
+Wire Wire Line
+	4400 3000 4750 3000
+Wire Wire Line
+	4850 3250 5500 3250
+Wire Wire Line
+	4850 2900 4850 3250
+Wire Wire Line
+	4400 2900 4850 2900
+Wire Wire Line
+	4950 3050 5500 3050
+Wire Wire Line
+	4950 2800 4950 3050
+Wire Wire Line
+	4400 2800 4950 2800
+Wire Wire Line
+	5050 2850 5500 2850
+Wire Wire Line
+	5050 2700 5050 2850
+Connection ~ 5700 2550
+Wire Wire Line
+	5700 2550 6200 2550
+Wire Wire Line
+	5700 2500 5700 2650
+Connection ~ 5350 2500
+Connection ~ 5350 2650
+Wire Wire Line
+	4750 2500 4750 2650
+Wire Wire Line
+	4400 2500 4750 2500
+Wire Wire Line
+	4400 2700 5050 2700
+Wire Wire Line
+	4900 2400 4900 2500
+Wire Wire Line
+	4400 2400 4900 2400
+Wire Wire Line
+	5350 2300 5600 2300
+Wire Wire Line
+	4900 2100 5500 2100
+Wire Wire Line
+	4900 2300 4900 2100
+Wire Wire Line
+	4400 2300 4900 2300
+Wire Wire Line
+	4800 1900 5500 1900
+Wire Wire Line
+	4800 2200 4800 1900
+Wire Wire Line
+	4400 2200 4800 2200
+Wire Wire Line
+	4700 1700 5500 1700
+Wire Wire Line
+	4700 2100 4700 1700
+Wire Wire Line
+	4600 1500 5500 1500
+Wire Wire Line
+	4600 1900 4600 1500
+Wire Wire Line
+	4400 2100 4700 2100
+Wire Notes Line
+	10100 4200 10100 4600
+Wire Notes Line
+	11150 4200 10100 4200
+Wire Notes Line
+	11150 5300 11150 4200
+Wire Notes Line
+	10100 5300 11150 5300
+Wire Notes Line
+	10100 4650 10100 5300
+Wire Wire Line
+	9950 4650 10150 4650
+Wire Wire Line
+	9950 4600 10150 4600
+Connection ~ 4600 2000
+Connection ~ 4600 2100
+Wire Wire Line
+	4600 2100 4600 2000
+Connection ~ 4600 2600
+Connection ~ 4600 2700
+Wire Wire Line
+	4600 2600 4600 2700
+$Comp
+L GND #PWR?
+U 1 1 5AA0EF0B
 P 1750 3000
 F 0 "#PWR?" H 1750 2750 50  0001 C CNN
 F 1 "GND" H 1750 2850 50  0000 C CNN
@@ -755,6 +901,7 @@ F 3 "" H 1750 3000 50  0001 C CNN
 	1    1750 3000
 	0    1    1    0   
 $EndComp
-Text GLabel 8800 4650 0    28   Input ~ 0
-BOOT_TS1
+Wire Wire Line
+	1150 2700 1350 2700
+Connection ~ 1150 2700
 $EndSCHEMATC
