@@ -32,154 +32,12 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:USST-parts
-LIBS:dk_Addressable-Specialty
-LIBS:dk_Alarms-Buzzers-and-Sirens
-LIBS:dk_Automotive-Relays
-LIBS:dk_Balun
-LIBS:dk_Barrel-Audio-Connectors
-LIBS:dk_Battery-Holders-Clips-Contacts
-LIBS:dk_Clock-Timing-Clock-Generators-PLLs-Frequency-Synthesizers
-LIBS:dk_Clock-Timing-Programmable-Timers-and-Oscillators
-LIBS:dk_Clock-Timing-Real-Time-Clocks
-LIBS:dk_Coaxial-Connectors-RF
-LIBS:dk_Current-Transducers
-LIBS:dk_Data-Acquisition-ADCs-DACs-Special-Purpose
-LIBS:dk_Data-Acquisition-Analog-to-Digital-Converters-ADC
-LIBS:dk_Data-Acquisition-Digital-Potentiometers
-LIBS:dk_Data-Acquisition-Digital-to-Analog-Converters-DAC
-LIBS:dk_Data-Acquisition-Touch-Screen-Controllers
-LIBS:dk_DC-DC-Converters
-LIBS:dk_Digital-Isolators
-LIBS:dk_Diodes-Bridge-Rectifiers
-LIBS:dk_Diodes-Rectifiers-Arrays
-LIBS:dk_Diodes-Rectifiers-Single
-LIBS:dk_Diodes-Zener-Single
-LIBS:dk_Display-Modules-LED-Character-and-Numeric
-LIBS:dk_D-Sub-Connectors
-LIBS:dk_Embedded-Microcontrollers
-LIBS:dk_Encoders
-LIBS:dk_Evaluation-Boards-Sensors
-LIBS:dk_Ferrite-Beads-and-Chips
-LIBS:dk_Fixed-Inductors
-LIBS:dk_Fuses
-LIBS:dk_Gas-Sensors
-LIBS:dk_Humidity-Moisture-Sensors
-LIBS:dk_Image-Sensors-Camera
-LIBS:dk_Infrared-UV-Visible-Emitters
-LIBS:dk_Inrush-Current-Limiters-ICL
-LIBS:dk_Interface-Analog-Switches-Multiplexers-Demultiplexers
-LIBS:dk_Interface-Analog-Switches-Special-Purpose
-LIBS:dk_Interface-Controllers
-LIBS:dk_Interface-Drivers-Receivers-Transceivers
-LIBS:dk_Interface-I-O-Expanders
-LIBS:dk_Interface-Modules
-LIBS:dk_Interface-Sensor-and-Detector-Interfaces
-LIBS:dk_Interface-Sensor-Capacitive-Touch
-LIBS:dk_Interface-Specialized
-LIBS:dk_LED-Indication-Discrete
-LIBS:dk_LEDs-Circuit-Board-Indicators-Arrays-Light-Bars-Bar-Graphs
-LIBS:dk_Linear-Amplifiers-Audio
-LIBS:dk_Linear-Amplifiers-Instrumentation-OP-Amps-Buffer-Amps
-LIBS:dk_Linear-Comparators
-LIBS:dk_Logic-Buffers-Drivers-Receivers-Transceivers
-LIBS:dk_Logic-Flip-Flops
-LIBS:dk_Logic-Gates-and-Inverters
-LIBS:dk_Logic-Multivibrators
-LIBS:dk_Logic-Shift-Registers
-LIBS:dk_Logic-Signal-Switches-Multiplexers-Decoders
-LIBS:dk_Logic-Translators-Level-Shifters
-LIBS:dk_Magnetic-Sensors-Compass-Magnetic-Field-Modules
-LIBS:dk_Magnetic-Sensors-Linear-Compass-ICs
-LIBS:dk_Magnetic-Sensors-Switches-Solid-State
-LIBS:dk_Memory
-LIBS:dk_Memory-Connectors-PC-Card-Sockets
-LIBS:dk_Microphones
-LIBS:dk_Modular-Connectors-Jacks
-LIBS:dk_Modular-Connectors-Jacks-With-Magnetics
-LIBS:dk_Motion-Sensors-Accelerometers
-LIBS:dk_Motion-Sensors-IMUs-Inertial-Measurement-Units
-LIBS:dk_Motion-Sensors-Tilt-Switches
-LIBS:dk_Navigation-Switches-Joystick
-LIBS:dk_Optical-Sensors-Ambient-Light-IR-UV-Sensors
-LIBS:dk_Optical-Sensors-Photo-Detectors-Remote-Receiver
-LIBS:dk_Optical-Sensors-Photodiodes
-LIBS:dk_Optical-Sensors-Phototransistors
-LIBS:dk_Optical-Sensors-Reflective-Analog-Output
-LIBS:dk_Optoisolators-Logic-Output
-LIBS:dk_Optoisolators-Transistor-Photovoltaic-Output
-LIBS:dk_Optoisolators-Triac-SCR-Output
-LIBS:dk_Oscillators
-LIBS:dk_PMIC-AC-DC-Converters-Offline-Switchers
-LIBS:dk_PMIC-Battery-Chargers
-LIBS:dk_PMIC-Battery-Management
-LIBS:dk_PMIC-Current-Regulation-Management
-LIBS:dk_PMIC-Full-Half-Bridge-Drivers
-LIBS:dk_PMIC-Gate-Drivers
-LIBS:dk_PMIC-LED-Drivers
-LIBS:dk_PMIC-Motor-Drivers-Controllers
-LIBS:dk_PMIC-OR-Controllers-Ideal-Diodes
-LIBS:dk_PMIC-Power-Distribution-Switches-Load-Drivers
-LIBS:dk_PMIC-Power-Management-Specialized
-LIBS:dk_PMIC-RMS-to-DC-Converters
-LIBS:dk_PMIC-Supervisors
-LIBS:dk_PMIC-Thermal-Management
-LIBS:dk_PMIC-V-F-and-F-V-Converters
-LIBS:dk_PMIC-Voltage-Reference
-LIBS:dk_PMIC-Voltage-Regulators-DC-DC-Switching-Controllers
-LIBS:dk_PMIC-Voltage-Regulators-DC-DC-Switching-Regulators
-LIBS:dk_PMIC-Voltage-Regulators-Linear
-LIBS:dk_PMIC-Voltage-Regulators-Special-Purpose
-LIBS:dk_Power-Relays-Over-2-Amps
-LIBS:dk_Pressure-Sensors-Transducers
-LIBS:dk_Programmable-Oscillators
-LIBS:dk_Pushbutton-Switches
-LIBS:dk_Rectangular-Connectors-Headers-Male-Pins
-LIBS:dk_Reed-Relays
-LIBS:dk_Resistor-Networks-Arrays
-LIBS:dk_RF-Amplifiers
-LIBS:dk_RF-Antennas
-LIBS:dk_RF-Demodulators
-LIBS:dk_RF-Detectors
-LIBS:dk_RF-Evaluation-and-Development-Kits-Boards
-LIBS:dk_RFID-RF-Access-Monitoring-ICs
-LIBS:dk_RF-Receivers
-LIBS:dk_RF-Switches
-LIBS:dk_RF-Transceiver-ICs
-LIBS:dk_RF-Transceiver-Modules
-LIBS:dk_RF-Transmitters
-LIBS:dk_Rotary-Potentiometers-Rheostats
-LIBS:dk_Sensors-Transducers_Accessories
-LIBS:dk_Signal-Relays-Up-to-2-Amps
-LIBS:dk_Slide-Switches
-LIBS:dk_Solid-State-Relays
-LIBS:dk_Specialized-ICs
-LIBS:dk_Specialized-Sensors
-LIBS:dk_Surge-Suppression-ICs
-LIBS:dk_Tactile-Switches
-LIBS:dk_Temperature-Sensors-Analog-and-Digital-Output
-LIBS:dk_Thermal-Cutoffs-Thermal-Fuses
-LIBS:dk_Thyristors-DIACs-SIDACs
-LIBS:dk_Thyristors-SCRs
-LIBS:dk_Thyristors-TRIACs
-LIBS:dk_Toggle-Switches
-LIBS:dk_Transistors-Bipolar-BJT-Arrays
-LIBS:dk_Transistors-Bipolar-BJT-RF
-LIBS:dk_Transistors-Bipolar-BJT-Single
-LIBS:dk_Transistors-Bipolar-BJT-Single-Pre-Biased
-LIBS:dk_Transistors-FETs-MOSFETs-Arrays
-LIBS:dk_Transistors-FETs-MOSFETs-RF
-LIBS:dk_Transistors-FETs-MOSFETs-Single
-LIBS:dk_Transistors-JFETs
-LIBS:dk_Trimmer-Potentiometers
-LIBS:dk_TVS-Diodes
-LIBS:dk_TVS-Mixed-Technology
-LIBS:dk_USB-DVI-HDMI-Connectors
 LIBS:PowerBoardV3-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 2 2
 Title ""
 Date ""
 Rev ""
@@ -189,4 +47,119 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 7350 7500 0    60   ~ 0
+High Power Circuit with Connectors\n
+$Comp
+L Conn_01x02 J?
+U 1 1 5AA1C5D4
+P 1850 1250
+F 0 "J?" H 1850 1350 50  0000 C CNN
+F 1 "BATT" H 1850 1050 50  0000 C CNN
+F 2 "" H 1850 1250 50  0001 C CNN
+F 3 "" H 1850 1250 50  0001 C CNN
+	1    1850 1250
+	-1   0    0    1   
+$EndComp
+Text GLabel 2050 1150 2    39   Input ~ 0
+BATT+
+Text GLabel 2050 1250 2    39   Input ~ 0
+BATT-
+$Comp
+L IRF3205 Q?
+U 1 1 5AA1D616
+P 3200 1700
+F 0 "Q?" H 3450 1775 50  0000 L CNN
+F 1 "IRF3205" H 3450 1700 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 3450 1625 50  0001 L CIN
+F 3 "" H 3200 1700 50  0001 L CNN
+	1    3200 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L IRF3205 Q?
+U 1 1 5AA1D654
+P 4400 1700
+F 0 "Q?" H 4650 1775 50  0000 L CNN
+F 1 "IRF3205" H 4650 1700 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 4650 1625 50  0001 L CIN
+F 3 "" H 4400 1700 50  0001 L CNN
+	1    4400 1700
+	0    1    1    0   
+$EndComp
+Text GLabel 3200 1500 1    39   Input ~ 0
+DSH
+Text GLabel 4400 900  1    39   Input ~ 0
+CHG
+$Comp
+L BSS84 Q?
+U 1 1 5AA1D9C7
+P 4500 1100
+F 0 "Q?" H 4700 1175 50  0000 L CNN
+F 1 "BSS84" H 4700 1100 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 4700 1025 50  0001 L CIN
+F 3 "" H 4500 1100 50  0001 L CNN
+	1    4500 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AA1DAD9
+P 4700 1100
+F 0 "#PWR?" H 4700 850 50  0001 C CNN
+F 1 "GND" H 4700 950 50  0000 C CNN
+F 2 "" H 4700 1100 50  0001 C CNN
+F 3 "" H 4700 1100 50  0001 C CNN
+	1    4700 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5AA1DAFD
+P 4400 1400
+F 0 "R?" H 4430 1420 50  0000 L CNN
+F 1 "1M" H 4430 1360 50  0000 L CNN
+F 2 "" H 4400 1400 50  0001 C CNN
+F 3 "" H 4400 1400 50  0001 C CNN
+	1    4400 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small_ALT D?
+U 1 1 5AA1DB58
+P 4250 1400
+F 0 "D?" H 4200 1480 50  0000 L CNN
+F 1 "D_Small_ALT" H 4100 1320 50  0000 L CNN
+F 2 "" V 4250 1400 50  0001 C CNN
+F 3 "" V 4250 1400 50  0001 C CNN
+	1    4250 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 1300 4250 1300
+Wire Wire Line
+	4200 1500 4400 1500
+$Comp
+L R_Small R?
+U 1 1 5AA1DDE0
+P 4200 1700
+F 0 "R?" H 4230 1720 50  0000 L CNN
+F 1 "1M" H 4230 1660 50  0000 L CNN
+F 2 "" H 4200 1700 50  0001 C CNN
+F 3 "" H 4200 1700 50  0001 C CNN
+	1    4200 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 1600 4200 1500
+Connection ~ 4250 1500
+Wire Wire Line
+	4200 1800 4000 1800
+Text GLabel 4000 1800 0    39   Input ~ 0
+BATT-
+Text GLabel 3400 1800 2    39   Input ~ 0
+CHG_T
+Text GLabel 4600 1800 2    39   Input ~ 0
+CHG_T
+Text GLabel 3000 1800 0    39   Input ~ 0
+SENSE_R
 $EndSCHEMATC
