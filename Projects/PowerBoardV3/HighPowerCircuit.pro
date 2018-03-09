@@ -1,6 +1,6 @@
-update=22/05/2015 07:44:53
+update=Thursday, March 08, 2018 'pmt' 07:10:21 pm
 version=1
-last_client=kicad
+last_client=eeschema
 [general]
 version=1
 RootSch=
@@ -60,3 +60,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=/Users/Tom_Mac/Documents/GitHub/Kicad-symbols/USST-parts

@@ -290,7 +290,7 @@ F 3 "" H 1200 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-PowerBoard #PWR?
 U 1 1 569D92A5
 P 1200 7450
 F 0 "#PWR?" H 1200 7200 50  0001 C CNN
