@@ -189,8 +189,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 7350 7500 0    59   ~ 0
-Low Power Circuit\n
+Text Notes 7350 7600 0    59   ~ 0
+Blackbox\n\n
 $Sheet
 S 8050 1250 2750 2400
 U 5AA250C9
@@ -203,4 +203,6 @@ U 5AA20151
 F0 "Low Power Circuit " 60
 F1 "LowPowerCircuit.sch" 60
 $EndSheet
+Text Notes 8000 3850 0    39   ~ 0
+Is there supposed to be a diode parallel to the BSS84 transistor\n in the PTC circuit. (Refer to bq Datasheet)?
 $EndSCHEMATC

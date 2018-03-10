@@ -450,18 +450,18 @@ F 3 "" V 4200 2150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 4300 2150 2    39   Input ~ 0
-VC5x
+VC5
 Text GLabel 1800 1950 0    39   Input ~ 0
 VC5x
 $Comp
 L D_Small D?
 U 1 1 5AA27557
-P 3500 1300
-F 0 "D?" H 3450 1380 50  0000 L CNN
-F 1 "D_Small" H 3350 1220 50  0000 L CNN
-F 2 "" V 3500 1300 50  0001 C CNN
-F 3 "" V 3500 1300 50  0001 C CNN
-	1    3500 1300
+P 3600 1050
+F 0 "D?" H 3550 1130 50  0000 L CNN
+F 1 "D_Small" H 3450 970 50  0000 L CNN
+F 2 "" V 3600 1050 50  0001 C CNN
+F 3 "" V 3600 1050 50  0001 C CNN
+	1    3600 1050
 	1    0    0    -1  
 $EndComp
 Text GLabel 1700 1450 1    39   Input ~ 0
@@ -478,7 +478,7 @@ F 3 "" H 1600 1650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 1400 1650 0    39   Input ~ 0
-VC5x
+TS2
 $Comp
 L C_Small C?
 U 1 1 5AA27567
@@ -491,7 +491,7 @@ F 3 "" H 1050 1550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 950  1550 0    39   Input ~ 0
-VC5x
+CAP2
 $Comp
 L bq76930 U?
 U 1 1 5AA2756F
@@ -527,7 +527,7 @@ F 3 "" H 1050 2550 50  0001 C CNN
 	1    1050 2550
 	0    1    1    0   
 $EndComp
-Text GLabel 1250 2350 0    28   Input ~ 0
+Text GLabel 1250 2350 0    39   Input ~ 0
 BOOT_TS1
 $Comp
 L C_Small C?
@@ -556,105 +556,105 @@ BOOT_VC1
 Text GLabel 7400 3100 0    28   Input ~ 0
 BOOT_TS1
 Text GLabel 7600 3400 0    28   Input ~ 0
-Micrcontroller
+BOOT_MC
 $Comp
 L C_Small C?
 U 1 1 5AA2759D
-P 8850 1600
-F 0 "C?" H 8860 1670 50  0000 L CNN
-F 1 "10 uF" H 8860 1520 50  0000 L CNN
-F 2 "" H 8850 1600 50  0001 C CNN
-F 3 "" H 8850 1600 50  0001 C CNN
-	1    8850 1600
+P 8950 1600
+F 0 "C?" H 8960 1670 50  0000 L CNN
+F 1 "10 uF" H 8960 1520 50  0000 L CNN
+F 2 "" H 8950 1600 50  0001 C CNN
+F 3 "" H 8950 1600 50  0001 C CNN
+	1    8950 1600
 	-1   0    0    1   
 $EndComp
 $Comp
 L R_Small R?
 U 1 1 5AA275A4
-P 8850 2050
-F 0 "R?" H 8880 2070 50  0000 L CNN
-F 1 "100" H 8880 2010 50  0000 L CNN
-F 2 "" H 8850 2050 50  0001 C CNN
-F 3 "" H 8850 2050 50  0001 C CNN
-	1    8850 2050
+P 8950 2050
+F 0 "R?" H 8980 2070 50  0000 L CNN
+F 1 "100" H 8980 2010 50  0000 L CNN
+F 2 "" H 8950 2050 50  0001 C CNN
+F 3 "" H 8950 2050 50  0001 C CNN
+	1    8950 2050
 	-1   0    0    1   
 $EndComp
-Text GLabel 8500 1350 0    39   Input ~ 0
+Text GLabel 8350 1350 0    39   Input ~ 0
 VC5x
 $Comp
 L R_Small R?
 U 1 1 5AA275B3
-P 8750 1350
-F 0 "R?" H 8780 1370 50  0000 L CNN
-F 1 "100" H 8780 1310 50  0000 L CNN
-F 2 "" H 8750 1350 50  0001 C CNN
-F 3 "" H 8750 1350 50  0001 C CNN
-	1    8750 1350
+P 8850 1350
+F 0 "R?" H 8880 1370 50  0000 L CNN
+F 1 "100" H 8880 1310 50  0000 L CNN
+F 2 "" H 8850 1350 50  0001 C CNN
+F 3 "" H 8850 1350 50  0001 C CNN
+	1    8850 1350
 	0    -1   -1   0   
 $EndComp
-Text GLabel 8850 1350 2    39   Input ~ 0
+Text GLabel 8950 1350 2    39   Input ~ 0
 A
 $Comp
 L C_Small C?
 U 1 1 5AA275BB
-P 8550 1050
-F 0 "C?" H 8560 1120 50  0000 L CNN
-F 1 "10 uF" H 8560 970 50  0000 L CNN
-F 2 "" H 8550 1050 50  0001 C CNN
-F 3 "" H 8550 1050 50  0001 C CNN
-	1    8550 1050
+P 8650 1050
+F 0 "C?" H 8660 1120 50  0000 L CNN
+F 1 "10 uF" H 8660 970 50  0000 L CNN
+F 2 "" H 8650 1050 50  0001 C CNN
+F 3 "" H 8650 1050 50  0001 C CNN
+	1    8650 1050
 	-1   0    0    1   
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 5AA275C2
-P 8550 950
-F 0 "#PWR?" H 8550 700 50  0001 C CNN
-F 1 "GND" H 8550 800 50  0000 C CNN
-F 2 "" H 8550 950 50  0001 C CNN
-F 3 "" H 8550 950 50  0001 C CNN
-	1    8550 950 
+P 8650 950
+F 0 "#PWR?" H 8650 700 50  0001 C CNN
+F 1 "GND" H 8650 800 50  0000 C CNN
+F 2 "" H 8650 950 50  0001 C CNN
+F 3 "" H 8650 950 50  0001 C CNN
+	1    8650 950 
 	-1   0    0    1   
 $EndComp
-Text GLabel 9050 2650 2    28   Input ~ 0
+Text GLabel 9150 2650 2    28   Input ~ 0
 REGSRC
-Text GLabel 1800 2050 0    28   Input ~ 0
+Text GLabel 1800 2050 0    39   Input ~ 0
 REGSRC
 $Comp
 L C_Small C?
 U 1 1 5AA275CA
-P 8850 2800
-F 0 "C?" H 8860 2870 50  0000 L CNN
-F 1 "1 uF" H 8860 2720 50  0000 L CNN
-F 2 "" H 8850 2800 50  0001 C CNN
-F 3 "" H 8850 2800 50  0001 C CNN
-	1    8850 2800
+P 8950 2800
+F 0 "C?" H 8960 2870 50  0000 L CNN
+F 1 "1 uF" H 8960 2720 50  0000 L CNN
+F 2 "" H 8950 2800 50  0001 C CNN
+F 3 "" H 8950 2800 50  0001 C CNN
+	1    8950 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 5AA275D1
-P 8850 2900
-F 0 "#PWR?" H 8850 2650 50  0001 C CNN
-F 1 "GND" H 8850 2750 50  0000 C CNN
-F 2 "" H 8850 2900 50  0001 C CNN
-F 3 "" H 8850 2900 50  0001 C CNN
-	1    8850 2900
+P 8950 2900
+F 0 "#PWR?" H 8950 2650 50  0001 C CNN
+F 1 "GND" H 8950 2750 50  0000 C CNN
+F 2 "" H 8950 2900 50  0001 C CNN
+F 3 "" H 8950 2900 50  0001 C CNN
+	1    8950 2900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8850 1700 8850 1950
+	8950 1700 8950 1950
 Wire Wire Line
-	8850 2150 8850 2200
+	8950 2150 8950 2200
 Wire Wire Line
-	8850 2600 8850 2700
-Connection ~ 8550 1350
+	8950 2600 8950 2700
+Connection ~ 8650 1350
 Wire Wire Line
-	8500 1350 8650 1350
-Connection ~ 8550 1500
+	8350 1350 8750 1350
+Connection ~ 8650 1500
 Wire Wire Line
-	8550 1500 8850 1500
-Connection ~ 8850 1850
+	8650 1500 8950 1500
+Connection ~ 8950 1850
 Wire Wire Line
 	3500 2150 3700 2150
 Wire Wire Line
@@ -667,8 +667,6 @@ Wire Wire Line
 Connection ~ 4150 2800
 Wire Wire Line
 	4150 2800 4150 2900
-Connection ~ 1150 1750
-Connection ~ 1200 1550
 Wire Wire Line
 	1150 1750 1800 1750
 Wire Wire Line
@@ -681,9 +679,6 @@ Wire Wire Line
 	4000 2050 4600 2050
 Wire Wire Line
 	3850 2200 4600 2200
-Connection ~ 3600 1450
-Wire Wire Line
-	3600 1450 3600 1300
 Connection ~ 3850 2150
 Wire Wire Line
 	3850 2150 4100 2150
@@ -782,18 +777,18 @@ F 3 "" H 850 2550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8850 2650 9050 2650
-Connection ~ 8850 2650
-Text GLabel 8850 1850 2    39   Input ~ 0
+	8950 2650 9150 2650
+Connection ~ 8950 2650
+Text GLabel 8950 1850 2    39   Input ~ 0
 BAT2
 Wire Wire Line
 	1800 1450 1550 1450
 Text GLabel 1550 1450 0    39   Input ~ 0
 BAT2
-Text GLabel 3400 1300 0    39   Input ~ 0
+Text GLabel 3500 1050 0    39   Input ~ 0
 BAT1
 Wire Wire Line
-	8550 1150 8550 2400
+	8650 1150 8650 2400
 $Comp
 L GND #PWR?
 U 1 1 5AA27631
@@ -817,7 +812,7 @@ SRP
 Text GLabel 3500 2750 2    39   Input ~ 0
 SRN
 Wire Wire Line
-	5850 3200 6050 3200
+	5700 3200 6050 3200
 $Comp
 L C_Small C?
 U 1 1 5AA27642
@@ -933,14 +928,10 @@ F 3 "" H 6100 1550 60  0001 C CNN
 	1    6100 1450
 	1    0    0    -1  
 $EndComp
-Text GLabel 6900 1250 2    20   Input ~ 0
+Text GLabel 6700 1250 2    20   Input ~ 0
 USB_D+
-Text GLabel 6900 1300 2    20   Input ~ 0
+Text GLabel 6700 1300 2    20   Input ~ 0
 USB_D-
-Wire Wire Line
-	6700 1300 6900 1300
-Wire Wire Line
-	6700 1250 6900 1250
 $Comp
 L USB_OTG J?
 U 1 1 5AA28FDE
@@ -964,12 +955,12 @@ SENSE_R
 $Comp
 L BSS138 Q?
 U 1 1 5AA2202D
-P 8750 2400
-F 0 "Q?" H 8950 2475 50  0000 L CNN
-F 1 "BSS138" H 8950 2400 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 8950 2325 50  0001 L CIN
-F 3 "" H 8750 2400 50  0001 L CNN
-	1    8750 2400
+P 8850 2400
+F 0 "Q?" H 9050 2475 50  0000 L CNN
+F 1 "BSS138" H 9050 2400 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 9050 2325 50  0001 L CIN
+F 3 "" H 8850 2400 50  0001 L CNN
+	1    8850 2400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -985,7 +976,7 @@ F 3 "" H 7600 3200 50  0001 L CNN
 $EndComp
 Text Notes 8250 700  0    60   ~ 0
 Battery Power to IC\n
-Text Notes 8950 2600 0    39   ~ 0
+Text Notes 9000 2600 0    39   ~ 0
 Expected 14V here
 Wire Notes Line
 	8150 550  9550 550 
@@ -1003,7 +994,7 @@ Text Notes 6100 3550 0    39   ~ 0
 Sense_R goes into high \npower circuit to the Power \nTransistors
 Text GLabel 4800 3200 2    39   Input ~ 0
 Cell_1-
-Text GLabel 5850 3200 0    39   Input ~ 0
+Text GLabel 5700 3200 0    39   Input ~ 0
 Cell_1-
 Text GLabel 4850 2100 2    39   Input ~ 0
 A
@@ -1100,4 +1091,42 @@ Text GLabel 6000 2350 0    39   Input ~ 0
 VCC
 Text GLabel 1800 2750 0    39   Input ~ 0
 CHG
+Text GLabel 5850 2150 0    39   Input ~ 0
+BOOT_MC
+Text Notes 6750 750  0    39   ~ 0
+VCC is the power from the IC. \nConnection shown on MC Datasheet Page 39\nSCL info found on bq datasheet page 31\n
+Text Notes 600  800  0    39   ~ 0
+All connections complete. \n
+Connection ~ 3700 1050
+Connection ~ 4450 1850
+$Comp
+L GND #PWR?
+U 1 1 5AA35416
+P 5800 3400
+F 0 "#PWR?" H 5800 3150 50  0001 C CNN
+F 1 "GND" H 5800 3250 50  0000 C CNN
+F 2 "" H 5800 3400 50  0001 C CNN
+F 3 "" H 5800 3400 50  0001 C CNN
+	1    5800 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3200 5800 3400
+Connection ~ 5800 3200
+Connection ~ 1150 1550
+Connection ~ 1150 1750
+Text GLabel 8400 1250 1    39   Input ~ 0
+CAP2
+Text GLabel 8500 1450 3    39   Input ~ 0
+TS2
+Text GLabel 8400 1450 3    39   Input ~ 0
+VC5
+Wire Wire Line
+	8400 1250 8400 1450
+Connection ~ 8400 1350
+Wire Wire Line
+	8500 1450 8500 1350
+Connection ~ 8500 1350
+Text Notes 1600 3050 0    39   ~ 0
+CHG and DSG both go to \npower transistors in High Power Circuit.\n
 $EndSCHEMATC
