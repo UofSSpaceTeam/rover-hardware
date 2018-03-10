@@ -1,6 +1,9 @@
 EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
 LIBS:transistors
 LIBS:conn
 LIBS:linear
@@ -29,12 +32,12 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:USST-parts
-LIBS:HighPowerCircuit-cache
+LIBS:PowerBoardV3-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -83,10 +86,6 @@ F 3 "" H 1350 3450 50  0001 L CNN
 	1    1350 3450
 	0    1    1    0   
 $EndComp
-Text GLabel 1350 4250 1    39   Input ~ 0
-DSH
-Text GLabel 1350 2650 1    39   Input ~ 0
-CHG
 $Comp
 L BSS84 Q?
 U 1 1 5AA1D9C7
@@ -134,7 +133,9 @@ $EndComp
 Wire Wire Line
 	1350 3050 1200 3050
 Wire Wire Line
-	1150 3250 1350 3250
+	1150 3250 1200 3250
+Wire Wire Line
+	1200 3250 1350 3250
 $Comp
 L R_Small R?
 U 1 1 5AA1DDE0
@@ -153,12 +154,6 @@ Wire Wire Line
 	1150 3550 950  3550
 Text GLabel 950  3550 0    39   Input ~ 0
 BATT-
-Text GLabel 1550 4550 2    39   Input ~ 0
-CHG_T
-Text GLabel 1550 3550 2    39   Input ~ 0
-CHG_T
-Text GLabel 1150 4550 0    39   Input ~ 0
-SENSE_R
 Text Notes 800  2400 0    60   ~ 0
 Power Transistor Circuit
 $Comp
@@ -231,7 +226,9 @@ Wire Notes Line
 Text Notes 600  650  0    60   ~ 0
 Battery Inputs
 Wire Wire Line
-	2100 6050 2100 6250
+	2100 6050 2100 6150
+Wire Wire Line
+	2100 6150 2100 6250
 Connection ~ 2100 6150
 Text GLabel 3050 5500 0    39   Input ~ 0
 +3.3V_1
@@ -295,10 +292,6 @@ Text GLabel 2100 5850 2    39   Input ~ 0
 +5v0
 Text GLabel 2100 6450 2    39   Input ~ 0
 -5v0
-Text GLabel 1200 5950 0    39   Input ~ 0
-PG
-Text GLabel 2100 6350 2    39   Input ~ 0
-P_OK
 Text GLabel 3050 6800 0    39   Input ~ 0
 -5V
 Text GLabel 3050 7000 0    39   Input ~ 0
@@ -464,22 +457,42 @@ MC3+
 Text GLabel 3650 3600 2    39   Input ~ 0
 MC3-
 Wire Wire Line
-	2600 2800 2900 2800
+	2600 2800 2700 2800
+Wire Wire Line
+	2700 2800 2900 2800
 Wire Wire Line
 	2900 3200 2700 3200
 Wire Wire Line
 	2700 3600 2900 3600
 Wire Wire Line
-	2700 2800 2700 4950
+	2700 2800 2700 3200
+Wire Wire Line
+	2700 3200 2700 3600
+Wire Wire Line
+	2700 3600 2700 4150
+Wire Wire Line
+	2700 4150 2700 4550
+Wire Wire Line
+	2700 4550 2700 4950
 Connection ~ 2700 3200
 Wire Wire Line
 	2900 2900 2650 2900
 Wire Wire Line
-	2600 2500 2900 2500
+	2600 2500 2650 2500
+Wire Wire Line
+	2650 2500 2900 2500
 Wire Wire Line
 	2650 3300 2900 3300
 Wire Wire Line
-	2650 2500 2650 4650
+	2650 2500 2650 2900
+Wire Wire Line
+	2650 2900 2650 3300
+Wire Wire Line
+	2650 3300 2650 3850
+Wire Wire Line
+	2650 3850 2650 4250
+Wire Wire Line
+	2650 4250 2650 4650
 Connection ~ 2650 2900
 Connection ~ 2700 2800
 Connection ~ 2650 2500
@@ -917,13 +930,21 @@ F 3 "" H 2850 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2750 1050 3400 1050
+	2750 1050 2850 1050
+Wire Wire Line
+	2850 1050 3050 1050
+Wire Wire Line
+	3050 1050 3400 1050
 Connection ~ 3050 1050
 Connection ~ 2850 1050
 Text GLabel 2750 1050 0    39   Input ~ 0
 BATT+
 Wire Wire Line
-	2750 1250 3150 1250
+	2750 1250 2850 1250
+Wire Wire Line
+	2850 1250 3050 1250
+Wire Wire Line
+	3050 1250 3150 1250
 Connection ~ 2850 1250
 Text GLabel 2750 1250 0    39   Input ~ 0
 BATT-
@@ -979,7 +1000,9 @@ $EndComp
 Wire Wire Line
 	4300 1050 4300 1000
 Wire Wire Line
-	4300 1000 4650 1000
+	4300 1000 4500 1000
+Wire Wire Line
+	4500 1000 4650 1000
 Wire Wire Line
 	4300 1150 4300 1200
 Wire Wire Line
@@ -1007,7 +1030,9 @@ F 3 "" H 4650 1150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4300 1350 4900 1350
+	4300 1350 4650 1350
+Wire Wire Line
+	4650 1350 4900 1350
 Connection ~ 4500 1000
 $Comp
 L L_Small L?
@@ -1027,10 +1052,6 @@ Wire Wire Line
 	4650 1000 4650 1050
 Wire Wire Line
 	4650 1250 4650 1350
-Text GLabel 3400 1250 0    39   Input ~ 0
-9V_EN
-Text GLabel 4300 1250 2    39   Input ~ 0
-9V_PGOOD
 Connection ~ 4900 1000
 Text GLabel 5650 1000 2    39   Input ~ 0
 +9V
@@ -1150,7 +1171,17 @@ FB
 Text Label 3400 1350 2    39   ~ 0
 FB
 Wire Wire Line
-	4850 1000 5650 1000
+	4850 1000 4900 1000
+Wire Wire Line
+	4900 1000 5050 1000
+Wire Wire Line
+	5050 1000 5150 1000
+Wire Wire Line
+	5150 1000 5350 1000
+Wire Wire Line
+	5350 1000 5550 1000
+Wire Wire Line
+	5550 1000 5650 1000
 Text Notes 2600 850  0    60   ~ 0
 9V Power Supply\n
 Wire Notes Line
@@ -1184,4 +1215,33 @@ Text GLabel 6000 1450 0    39   Input ~ 0
 -9V
 Wire Wire Line
 	4500 900  4500 1000
+$Comp
+L GND #PWR?
+U 1 1 5AA43AC5
+P 1500 900
+F 0 "#PWR?" H 1500 650 50  0001 C CNN
+F 1 "GND" H 1500 750 50  0000 C CNN
+F 2 "" H 1500 900 50  0001 C CNN
+F 3 "" H 1500 900 50  0001 C CNN
+	1    1500 900 
+	1    0    0    -1  
+$EndComp
+Text Label 1550 3550 0    39   ~ 0
+CHG_T
+Text Label 1550 4550 0    39   ~ 0
+CHG_T
+Text HLabel 1150 4550 0    39   Output ~ 0
+SENSE_R
+Text HLabel 1350 2650 1    39   Output ~ 0
+CHG
+Text HLabel 1350 4250 1    39   Output ~ 0
+DSG
+Text HLabel 2100 6350 2    39   Output ~ 0
+P_OK
+Text HLabel 1200 5950 0    39   Output ~ 0
+PG
+Text HLabel 3400 1250 0    39   Output ~ 0
+9V_EN
+Text HLabel 4300 1250 2    39   Output ~ 0
+9v_PGOOD
 $EndSCHEMATC
