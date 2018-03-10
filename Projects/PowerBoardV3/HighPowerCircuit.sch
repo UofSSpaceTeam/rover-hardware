@@ -134,7 +134,9 @@ $EndComp
 Wire Wire Line
 	1350 3050 1200 3050
 Wire Wire Line
-	1150 3250 1350 3250
+	1150 3250 1200 3250
+Wire Wire Line
+	1200 3250 1350 3250
 $Comp
 L R_Small R?
 U 1 1 5AA1DDE0
@@ -231,7 +233,9 @@ Wire Notes Line
 Text Notes 600  650  0    60   ~ 0
 Battery Inputs
 Wire Wire Line
-	2100 6050 2100 6250
+	2100 6050 2100 6150
+Wire Wire Line
+	2100 6150 2100 6250
 Connection ~ 2100 6150
 Text GLabel 3050 5500 0    39   Input ~ 0
 +3.3V_1
@@ -464,22 +468,42 @@ MC3+
 Text GLabel 3650 3600 2    39   Input ~ 0
 MC3-
 Wire Wire Line
-	2600 2800 2900 2800
+	2600 2800 2700 2800
+Wire Wire Line
+	2700 2800 2900 2800
 Wire Wire Line
 	2900 3200 2700 3200
 Wire Wire Line
 	2700 3600 2900 3600
 Wire Wire Line
-	2700 2800 2700 4950
+	2700 2800 2700 3200
+Wire Wire Line
+	2700 3200 2700 3600
+Wire Wire Line
+	2700 3600 2700 4150
+Wire Wire Line
+	2700 4150 2700 4550
+Wire Wire Line
+	2700 4550 2700 4950
 Connection ~ 2700 3200
 Wire Wire Line
 	2900 2900 2650 2900
 Wire Wire Line
-	2600 2500 2900 2500
+	2600 2500 2650 2500
+Wire Wire Line
+	2650 2500 2900 2500
 Wire Wire Line
 	2650 3300 2900 3300
 Wire Wire Line
-	2650 2500 2650 4650
+	2650 2500 2650 2900
+Wire Wire Line
+	2650 2900 2650 3300
+Wire Wire Line
+	2650 3300 2650 3850
+Wire Wire Line
+	2650 3850 2650 4250
+Wire Wire Line
+	2650 4250 2650 4650
 Connection ~ 2650 2900
 Connection ~ 2700 2800
 Connection ~ 2650 2500
@@ -713,28 +737,6 @@ Text GLabel 3800 6800 0    39   Input ~ 0
 -5V
 Text GLabel 3800 7000 0    39   Input ~ 0
 -5V
-$Comp
-L Conn_01x18 J?
-U 1 1 5AA27119
-P 3250 6300
-F 0 "J?" H 3250 7200 50  0000 C CNN
-F 1 "EXT_PWR_BLK_01" H 3250 5300 50  0000 C CNN
-F 2 "" H 3250 6300 50  0001 C CNN
-F 3 "" H 3250 6300 50  0001 C CNN
-	1    3250 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x18 J?
-U 1 1 5AA272EA
-P 4000 6300
-F 0 "J?" H 4000 7200 50  0000 C CNN
-F 1 "EXT_PWR_BLK_02" H 4000 5300 50  0000 C CNN
-F 2 "" H 4000 6300 50  0001 C CNN
-F 3 "" H 4000 6300 50  0001 C CNN
-	1    4000 6300
-	1    0    0    -1  
-$EndComp
 Text Notes 1100 7400 0    39   ~ 0
 Input for the PWRSUPP\n
 $Comp
@@ -875,4 +877,34 @@ Text GLabel 4750 7250 2    39   Input ~ 0
 -12V
 Text GLabel 4750 7350 2    39   Input ~ 0
 -12V
+$Comp
+L Conn_01x20 J?
+U 1 1 5AA34AB5
+P 3250 6400
+F 0 "J?" H 3250 7400 50  0000 C CNN
+F 1 "EXT_PWR_BLK_01" H 3250 5300 50  0000 C CNN
+F 2 "" H 3250 6400 50  0001 C CNN
+F 3 "" H 3250 6400 50  0001 C CNN
+	1    3250 6400
+	1    0    0    -1  
+$EndComp
+Text GLabel 3050 7300 0    39   Input ~ 0
+BATT+
+Text GLabel 3050 7400 0    39   Input ~ 0
+BATT-
+$Comp
+L Conn_01x20 J?
+U 1 1 5AA34D97
+P 4000 6400
+F 0 "J?" H 4000 7400 50  0000 C CNN
+F 1 "EXT_PWR_BLK_02" H 4000 5300 50  0000 C CNN
+F 2 "" H 4000 6400 50  0001 C CNN
+F 3 "" H 4000 6400 50  0001 C CNN
+	1    4000 6400
+	1    0    0    -1  
+$EndComp
+Text GLabel 3800 7300 0    39   Input ~ 0
+BATT+
+Text GLabel 3800 7400 0    39   Input ~ 0
+BATT-
 $EndSCHEMATC
