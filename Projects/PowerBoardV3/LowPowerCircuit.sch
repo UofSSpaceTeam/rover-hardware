@@ -948,10 +948,6 @@ USB_D+
 Text GLabel 7800 1500 2    20   Input ~ 0
 USB_D-
 Connection ~ 6300 3200
-Text GLabel 1800 2850 0    39   Input ~ 0
-DSG
-Text GLabel 6500 3200 2    39   Input ~ 0
-SENSE_R
 $Comp
 L BSS138 Q?
 U 1 1 5AA2202D
@@ -1016,10 +1012,6 @@ Wire Notes Line
 	8100 3500 8100 2500
 Wire Notes Line
 	8100 2500 7050 2500
-Text GLabel 6250 2250 0    39   Input ~ 0
-PG
-Text GLabel 6250 2350 0    39   Input ~ 0
-P_OK
 Text Notes 6700 2300 0    39   ~ 0
 Status for M3-ATX-20 Power Supply. \nP_OK is a self check that sends an output \nto the microcontroller telling it that the \nsupply is ready for use and PG is a signal \nfrom the microcontroller to tell the \nPWRSUPP to turn on.
 Text Notes 7350 7500 0    60   ~ 0
@@ -1089,8 +1081,6 @@ Text GLabel 6050 2250 0    39   Input ~ 0
 GPIO
 Text GLabel 6000 2350 0    39   Input ~ 0
 VCC
-Text GLabel 1800 2750 0    39   Input ~ 0
-CHG
 Text GLabel 5850 2150 0    39   Input ~ 0
 BOOT_MC
 Text Notes 6750 750  0    39   ~ 0
@@ -1129,4 +1119,18 @@ Wire Wire Line
 Connection ~ 8500 1350
 Text Notes 1600 3050 0    39   ~ 0
 CHG and DSG both go to \npower transistors in High Power Circuit.\n
+Text HLabel 6500 3200 2    39   Input ~ 0
+SENSE_R
+Text HLabel 1800 2750 0    39   Input ~ 0
+CHG
+Text HLabel 1800 2850 0    39   Input ~ 0
+DSG
+Text HLabel 6250 2250 0    39   Input ~ 0
+PG
+Text HLabel 6250 2350 0    39   Input ~ 0
+P_OK
+Text HLabel 6500 2150 0    39   Input ~ 0
+9V_EN
+Text HLabel 6600 2250 0    39   Input ~ 0
+9V_GOOD
 $EndSCHEMATC
