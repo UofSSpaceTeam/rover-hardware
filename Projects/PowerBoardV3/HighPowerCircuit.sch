@@ -134,9 +134,7 @@ $EndComp
 Wire Wire Line
 	1350 3050 1200 3050
 Wire Wire Line
-	1150 3250 1200 3250
-Wire Wire Line
-	1200 3250 1350 3250
+	1150 3250 1350 3250
 $Comp
 L R_Small R?
 U 1 1 5AA1DDE0
@@ -233,9 +231,7 @@ Wire Notes Line
 Text Notes 600  650  0    60   ~ 0
 Battery Inputs
 Wire Wire Line
-	2100 6050 2100 6150
-Wire Wire Line
-	2100 6150 2100 6250
+	2100 6050 2100 6250
 Connection ~ 2100 6150
 Text GLabel 3050 5500 0    39   Input ~ 0
 +3.3V_1
@@ -468,42 +464,22 @@ MC3+
 Text GLabel 3650 3600 2    39   Input ~ 0
 MC3-
 Wire Wire Line
-	2600 2800 2700 2800
-Wire Wire Line
-	2700 2800 2900 2800
+	2600 2800 2900 2800
 Wire Wire Line
 	2900 3200 2700 3200
 Wire Wire Line
 	2700 3600 2900 3600
 Wire Wire Line
-	2700 2800 2700 3200
-Wire Wire Line
-	2700 3200 2700 3600
-Wire Wire Line
-	2700 3600 2700 4150
-Wire Wire Line
-	2700 4150 2700 4550
-Wire Wire Line
-	2700 4550 2700 4950
+	2700 2800 2700 4950
 Connection ~ 2700 3200
 Wire Wire Line
 	2900 2900 2650 2900
 Wire Wire Line
-	2600 2500 2650 2500
-Wire Wire Line
-	2650 2500 2900 2500
+	2600 2500 2900 2500
 Wire Wire Line
 	2650 3300 2900 3300
 Wire Wire Line
-	2650 2500 2650 2900
-Wire Wire Line
-	2650 2900 2650 3300
-Wire Wire Line
-	2650 3300 2650 3850
-Wire Wire Line
-	2650 3850 2650 4250
-Wire Wire Line
-	2650 4250 2650 4650
+	2650 2500 2650 4650
 Connection ~ 2650 2900
 Connection ~ 2700 2800
 Connection ~ 2650 2500
@@ -907,4 +883,305 @@ Text GLabel 3800 7300 0    39   Input ~ 0
 BATT+
 Text GLabel 3800 7400 0    39   Input ~ 0
 BATT-
+$Comp
+L MP2492 U?
+U 1 1 5AA42B48
+P 3850 1250
+F 0 "U?" H 3850 1550 60  0000 C CNN
+F 1 "MP2492" H 3850 950 60  0000 C CNN
+F 2 "" H 3800 1300 60  0000 C CNN
+F 3 "" H 3800 1300 60  0000 C CNN
+	1    3850 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1_Small C?
+U 1 1 5AA42C20
+P 3050 1150
+F 0 "C?" H 3060 1220 50  0000 L CNN
+F 1 "100uF" H 3060 1070 50  0000 L CNN
+F 2 "" H 3050 1150 50  0001 C CNN
+F 3 "" H 3050 1150 50  0001 C CNN
+	1    3050 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1_Small C?
+U 1 1 5AA42F39
+P 2850 1150
+F 0 "C?" H 2860 1220 50  0000 L CNN
+F 1 "4.7uF" H 2860 1070 50  0000 L CNN
+F 2 "" H 2850 1150 50  0001 C CNN
+F 3 "" H 2850 1150 50  0001 C CNN
+	1    2850 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 1050 3400 1050
+Connection ~ 3050 1050
+Connection ~ 2850 1050
+Text GLabel 2750 1050 0    39   Input ~ 0
+BATT+
+Wire Wire Line
+	2750 1250 3150 1250
+Connection ~ 2850 1250
+Text GLabel 2750 1250 0    39   Input ~ 0
+BATT-
+Wire Wire Line
+	3150 1250 3150 1150
+Wire Wire Line
+	3150 1150 3400 1150
+Connection ~ 3050 1250
+$Comp
+L CP1_Small C?
+U 1 1 5AA4426B
+P 3300 1450
+F 0 "C?" H 3310 1520 50  0000 L CNN
+F 1 "100uF" H 3310 1370 50  0000 L CNN
+F 2 "" H 3300 1450 50  0001 C CNN
+F 3 "" H 3300 1450 50  0001 C CNN
+	1    3300 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AA44335
+P 3050 1250
+F 0 "#PWR?" H 3050 1000 50  0001 C CNN
+F 1 "GND" H 3050 1100 50  0000 C CNN
+F 2 "" H 3050 1250 50  0001 C CNN
+F 3 "" H 3050 1250 50  0001 C CNN
+	1    3050 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AA443C5
+P 3200 1450
+F 0 "#PWR?" H 3200 1200 50  0001 C CNN
+F 1 "GND" H 3200 1300 50  0000 C CNN
+F 2 "" H 3200 1450 50  0001 C CNN
+F 3 "" H 3200 1450 50  0001 C CNN
+	1    3200 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L CP1_Small C?
+U 1 1 5AA44892
+P 4500 1100
+F 0 "C?" H 4510 1170 50  0000 L CNN
+F 1 "10nF" H 4510 1020 50  0000 L CNN
+F 2 "" H 4500 1100 50  0001 C CNN
+F 3 "" H 4500 1100 50  0001 C CNN
+	1    4500 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 1050 4300 1000
+Wire Wire Line
+	4300 1000 4650 1000
+Wire Wire Line
+	4300 1150 4300 1200
+Wire Wire Line
+	4300 1200 4500 1200
+$Comp
+L CP1_Small C?
+U 1 1 5AA44D09
+P 4900 1100
+F 0 "C?" H 4910 1170 50  0000 L CNN
+F 1 "10nF" H 4910 1020 50  0000 L CNN
+F 2 "" H 4900 1100 50  0001 C CNN
+F 3 "" H 4900 1100 50  0001 C CNN
+	1    4900 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5AA44DD4
+P 4650 1150
+F 0 "R?" H 4680 1170 50  0000 L CNN
+F 1 "20k" H 4680 1110 50  0000 L CNN
+F 2 "" H 4650 1150 50  0001 C CNN
+F 3 "" H 4650 1150 50  0001 C CNN
+	1    4650 1150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4300 1350 4900 1350
+Connection ~ 4500 1000
+$Comp
+L L_Small L?
+U 1 1 5AA451FB
+P 4750 1000
+F 0 "L?" H 4780 1040 50  0000 L CNN
+F 1 "39uH" H 4780 960 50  0000 L CNN
+F 2 "" H 4750 1000 50  0001 C CNN
+F 3 "" H 4750 1000 50  0001 C CNN
+	1    4750 1000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4900 1350 4900 1200
+Connection ~ 4650 1350
+Wire Wire Line
+	4650 1000 4650 1050
+Wire Wire Line
+	4650 1250 4650 1350
+Text GLabel 3400 1250 0    39   Input ~ 0
+9V_EN
+Text GLabel 4300 1250 2    39   Input ~ 0
+9V_PGOOD
+Connection ~ 4900 1000
+Text GLabel 5650 1000 2    39   Input ~ 0
++9V
+$Comp
+L CP1_Small C?
+U 1 1 5AA4609C
+P 5350 1100
+F 0 "C?" H 5360 1170 50  0000 L CNN
+F 1 "68uF" H 5360 1020 50  0000 L CNN
+F 2 "" H 5350 1100 50  0001 C CNN
+F 3 "" H 5350 1100 50  0001 C CNN
+	1    5350 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1_Small C?
+U 1 1 5AA4613B
+P 5550 1100
+F 0 "C?" H 5560 1170 50  0000 L CNN
+F 1 "10uF" H 5560 1020 50  0000 L CNN
+F 2 "" H 5550 1100 50  0001 C CNN
+F 3 "" H 5550 1100 50  0001 C CNN
+	1    5550 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Zener_Small_ALT D?
+U 1 1 5AA466AF
+P 4400 900
+F 0 "D?" H 4400 990 50  0000 C CNN
+F 1 "D_Zener_Small_ALT" H 4400 810 50  0000 C CNN
+F 2 "" V 4400 900 50  0001 C CNN
+F 3 "" V 4400 900 50  0001 C CNN
+	1    4400 900 
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AA4679F
+P 4300 900
+F 0 "#PWR?" H 4300 650 50  0001 C CNN
+F 1 "GND" H 4300 750 50  0000 C CNN
+F 2 "" H 4300 900 50  0001 C CNN
+F 3 "" H 4300 900 50  0001 C CNN
+	1    4300 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AA46844
+P 5350 1200
+F 0 "#PWR?" H 5350 950 50  0001 C CNN
+F 1 "GND" H 5350 1050 50  0000 C CNN
+F 2 "" H 5350 1200 50  0001 C CNN
+F 3 "" H 5350 1200 50  0001 C CNN
+	1    5350 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AA46B52
+P 5550 1200
+F 0 "#PWR?" H 5550 950 50  0001 C CNN
+F 1 "GND" H 5550 1050 50  0000 C CNN
+F 2 "" H 5550 1200 50  0001 C CNN
+F 3 "" H 5550 1200 50  0001 C CNN
+	1    5550 1200
+	1    0    0    -1  
+$EndComp
+Connection ~ 5350 1000
+Connection ~ 5550 1000
+$Comp
+L R_Small R?
+U 1 1 5AA4741A
+P 5150 1100
+F 0 "R?" H 5180 1120 50  0000 L CNN
+F 1 "300k" H 5180 1060 50  0000 L CNN
+F 2 "" H 5150 1100 50  0001 C CNN
+F 3 "" H 5150 1100 50  0001 C CNN
+	1    5150 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5AA47522
+P 5150 1350
+F 0 "R?" H 5180 1370 50  0000 L CNN
+F 1 "30k" H 5180 1310 50  0000 L CNN
+F 2 "" H 5150 1350 50  0001 C CNN
+F 3 "" H 5150 1350 50  0001 C CNN
+	1    5150 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 1450 5050 1450
+Wire Wire Line
+	5050 1450 5050 1000
+Wire Wire Line
+	5150 1200 5150 1250
+Connection ~ 5050 1000
+Connection ~ 5150 1000
+$Comp
+L GND #PWR?
+U 1 1 5AA47A3F
+P 5150 1450
+F 0 "#PWR?" H 5150 1200 50  0001 C CNN
+F 1 "GND" H 5150 1300 50  0000 C CNN
+F 2 "" H 5150 1450 50  0001 C CNN
+F 3 "" H 5150 1450 50  0001 C CNN
+	1    5150 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 1250 5200 1250
+Text Label 5200 1250 0    39   ~ 0
+FB
+Text Label 3400 1350 2    39   ~ 0
+FB
+Wire Wire Line
+	4850 1000 5650 1000
+Text Notes 2600 850  0    60   ~ 0
+9V Power Supply\n
+Wire Notes Line
+	2400 700  2400 2050
+Wire Notes Line
+	2400 2050 7000 2050
+Wire Notes Line
+	7000 2050 7000 700 
+Wire Notes Line
+	7000 700  2400 700 
+$Comp
+L Conn_01x04 J?
+U 1 1 5AA49181
+P 6200 1250
+F 0 "J?" H 6200 1450 50  0000 C CNN
+F 1 "9V_PWR_TERMBLK" H 6200 950 50  0000 C CNN
+F 2 "" H 6200 1250 50  0001 C CNN
+F 3 "" H 6200 1250 50  0001 C CNN
+	1    6200 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 6000 1150 0    39   Input ~ 0
++9V
+Text GLabel 6000 1250 0    39   Input ~ 0
+-9V
+Text GLabel 2850 1250 3    39   Input ~ 0
+-9V
+Text GLabel 6000 1350 0    39   Input ~ 0
++9V
+Text GLabel 6000 1450 0    39   Input ~ 0
+-9V
+Wire Wire Line
+	4500 900  4500 1000
 $EndSCHEMATC
