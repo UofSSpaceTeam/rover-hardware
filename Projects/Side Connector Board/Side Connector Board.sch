@@ -3,6 +3,7 @@ LIBS:power
 LIBS:device
 LIBS:switches
 LIBS:relays
+LIBS:motors
 LIBS:transistors
 LIBS:conn
 LIBS:linear
@@ -31,7 +32,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:Side Connector Board
-LIBS:E8199-001-01
 LIBS:Side Connector Board-cache
 EELAYER 25 0
 EELAYER END
@@ -48,98 +48,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L PowerConnector U1
-U 1 1 5A6958B3
-P 6775 2100
-F 0 "U1" H 6825 2175 60  0000 C CNN
-F 1 "PowerConnector" H 6650 2900 60  0000 C CNN
-F 2 "USB2_Modified:MolexEuroStyleTerminalBlock2Position" H 7125 2175 60  0001 C CNN
-F 3 "" H 7125 2175 60  0001 C CNN
-	1    6775 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L PowerConnector U2
-U 1 1 5A69595E
-P 7600 2100
-F 0 "U2" H 7650 2175 60  0000 C CNN
-F 1 "PowerConnector" H 7475 2900 60  0000 C CNN
-F 2 "USST-footprints:Phoenix_Contact_1770539" H 7950 2175 60  0001 C CNN
-F 3 "" H 7950 2175 60  0001 C CNN
-	1    7600 2100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L PowerConnector U3
-U 1 1 5A6964B8
-P 6775 3475
-F 0 "U3" H 6825 3550 60  0000 C CNN
-F 1 "PowerConnector" H 6650 4275 60  0000 C CNN
-F 2 "USB2_Modified:MolexEuroStyleTerminalBlock2Position" H 7125 3550 60  0001 C CNN
-F 3 "" H 7125 3550 60  0001 C CNN
-	1    6775 3475
-	1    0    0    -1  
-$EndComp
-$Comp
-L PowerConnector U4
-U 1 1 5A6964BE
-P 7600 3475
-F 0 "U4" H 7650 3550 60  0000 C CNN
-F 1 "PowerConnector" H 7475 4275 60  0000 C CNN
-F 2 "USST-footprints:Phoenix_Contact_1770539" H 7950 3550 60  0001 C CNN
-F 3 "" H 7950 3550 60  0001 C CNN
-	1    7600 3475
-	-1   0    0    -1  
-$EndComp
-$Comp
-L PowerConnector U5
-U 1 1 5A696644
-P 6775 4800
-F 0 "U5" H 6825 4875 60  0000 C CNN
-F 1 "PowerConnector" H 6650 5600 60  0000 C CNN
-F 2 "USB2_Modified:MolexEuroStyleTerminalBlock2Position" H 7125 4875 60  0001 C CNN
-F 3 "" H 7125 4875 60  0001 C CNN
-	1    6775 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L PowerConnector U6
-U 1 1 5A69664A
-P 7600 4800
-F 0 "U6" H 7650 4875 60  0000 C CNN
-F 1 "PowerConnector" H 7475 5600 60  0000 C CNN
-F 2 "USST-footprints:Phoenix_Contact_1770539" H 7950 4875 60  0001 C CNN
-F 3 "" H 7950 4875 60  0001 C CNN
-	1    7600 4800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Conn_02x04_Top_Bottom J13
-U 1 1 5A7610BD
-P 2125 2100
-F 0 "J13" H 2175 2300 50  0000 C CNN
-F 1 "Conn_02x04_Top_Bottom" H 2175 1800 50  0000 C CNN
-F 2 "USST-footprints:USB_A_Stacked_AE11131-ND" H 2125 2100 50  0001 C CNN
-F 3 "" H 2125 2100 50  0001 C CNN
-	1    2125 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x04_Top_Bottom J14
-U 1 1 5A76110E
-P 3225 2100
-F 0 "J14" H 3275 2300 50  0000 C CNN
-F 1 "Conn_02x04_Top_Bottom" H 3275 1800 50  0000 C CNN
-F 2 "USST-footprints:USB_A_Stacked_AE11131-ND" H 3225 2100 50  0001 C CNN
-F 3 "" H 3225 2100 50  0001 C CNN
-	1    3225 2100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_02X04 P10
+L CONN_02X04 P4
 U 1 1 5A7A6A5E
 P 4900 3100
-F 0 "P10" H 4900 3350 50  0000 C CNN
+F 0 "P4" H 4900 3350 50  0000 C CNN
 F 1 "CONN_02X04" H 4900 2850 50  0000 C CNN
 F 2 "USST-footprints:Molex_MiniFit-JR-5569-08A2_2x04x4.20mm_Angled_Overhang" H 4900 1900 50  0001 C CNN
 F 3 "" H 4900 1900 50  0000 C CNN
@@ -147,10 +59,10 @@ F 3 "" H 4900 1900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_02X04 P7
+L CONN_02X04 P3
 U 1 1 5A7A6A64
 P 4000 3100
-F 0 "P7" H 4000 3350 50  0000 C CNN
+F 0 "P3" H 4000 3350 50  0000 C CNN
 F 1 "CONN_02X04" H 4000 2850 50  0000 C CNN
 F 2 "USST-footprints:Molex_MiniFit-JR-5569-08A2_2x04x4.20mm_Angled_Overhang" H 4000 1900 50  0001 C CNN
 F 3 "" H 4000 1900 50  0000 C CNN
@@ -158,10 +70,10 @@ F 3 "" H 4000 1900 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CONN_02X04 P5
+L CONN_02X04 P6
 U 1 1 5A7A6B2E
 P 3000 4000
-F 0 "P5" H 3000 4250 50  0000 C CNN
+F 0 "P6" H 3000 4250 50  0000 C CNN
 F 1 "CONN_02X04" H 3000 3750 50  0000 C CNN
 F 2 "USST-footprints:Molex_MiniFit-JR-5569-08A2_2x04x4.20mm_Angled_Overhang" H 3000 2800 50  0001 C CNN
 F 3 "" H 3000 2800 50  0000 C CNN
@@ -169,10 +81,10 @@ F 3 "" H 3000 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_02X04 P2
+L CONN_02X04 P5
 U 1 1 5A7A6B34
 P 2100 4000
-F 0 "P2" H 2100 4250 50  0000 C CNN
+F 0 "P5" H 2100 4250 50  0000 C CNN
 F 1 "CONN_02X04" H 2100 3750 50  0000 C CNN
 F 2 "USST-footprints:Molex_MiniFit-JR-5569-08A2_2x04x4.20mm_Angled_Overhang" H 2100 2800 50  0001 C CNN
 F 3 "" H 2100 2800 50  0000 C CNN
@@ -180,10 +92,10 @@ F 3 "" H 2100 2800 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CONN_02X04 P4
+L CONN_02X04 P2
 U 1 1 5A7A6B4E
 P 3000 3100
-F 0 "P4" H 3000 3350 50  0000 C CNN
+F 0 "P2" H 3000 3350 50  0000 C CNN
 F 1 "CONN_02X04" H 3000 2850 50  0000 C CNN
 F 2 "USST-footprints:Molex_MiniFit-JR-5569-08A2_2x04x4.20mm_Angled_Overhang" H 3000 1900 50  0001 C CNN
 F 3 "" H 3000 1900 50  0000 C CNN
@@ -202,10 +114,10 @@ F 3 "" H 2100 1900 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CONN_02X04 P6
+L CONN_02X04 P8
 U 1 1 5A7A6C0E
 P 4900 4000
-F 0 "P6" H 4900 4250 50  0000 C CNN
+F 0 "P8" H 4900 4250 50  0000 C CNN
 F 1 "CONN_02X04" H 4900 3750 50  0000 C CNN
 F 2 "USST-footprints:Molex_MiniFit-JR-5569-08A2_2x04x4.20mm_Angled_Overhang" H 4900 2800 50  0001 C CNN
 F 3 "" H 4900 2800 50  0000 C CNN
@@ -213,176 +125,38 @@ F 3 "" H 4900 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_02X04 P3
+L CONN_02X04 P7
 U 1 1 5A7A6C14
 P 4000 4000
-F 0 "P3" H 4000 4250 50  0000 C CNN
+F 0 "P7" H 4000 4250 50  0000 C CNN
 F 1 "CONN_02X04" H 4000 3750 50  0000 C CNN
 F 2 "USST-footprints:Molex_MiniFit-JR-5569-08A2_2x04x4.20mm_Angled_Overhang" H 4000 2800 50  0001 C CNN
 F 3 "" H 4000 2800 50  0000 C CNN
 	1    4000 4000
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	7075 1500 7300 1500
-Wire Wire Line
-	7075 1625 7300 1625
-Wire Wire Line
-	7075 1750 7300 1750
-Wire Wire Line
-	7075 1875 7300 1875
-Wire Wire Line
-	6175 1500 6175 1250
-Wire Wire Line
-	6175 1250 8200 1250
-Wire Wire Line
-	8200 1250 8200 1500
-Wire Wire Line
-	8200 1625 8225 1625
-Wire Wire Line
-	8225 1625 8225 1225
-Wire Wire Line
-	8225 1225 6150 1225
-Wire Wire Line
-	6150 1225 6150 1625
-Wire Wire Line
-	6150 1625 6175 1625
-Wire Wire Line
-	6175 1875 6175 2075
-Wire Wire Line
-	6175 2075 8200 2075
-Wire Wire Line
-	8200 2075 8200 1875
-Wire Wire Line
-	8200 1750 8225 1750
-Wire Wire Line
-	8225 1750 8225 2100
-Wire Wire Line
-	8225 2100 6150 2100
-Wire Wire Line
-	6150 2100 6150 1750
-Wire Wire Line
-	6150 1750 6175 1750
-Wire Wire Line
-	7075 2875 7300 2875
-Wire Wire Line
-	7075 3000 7300 3000
-Wire Wire Line
-	7075 3125 7300 3125
-Wire Wire Line
-	7075 3250 7300 3250
-Wire Wire Line
-	6175 2875 6175 2625
-Wire Wire Line
-	6175 2625 8200 2625
-Wire Wire Line
-	8200 2625 8200 2875
-Wire Wire Line
-	8200 3000 8225 3000
-Wire Wire Line
-	8225 3000 8225 2600
-Wire Wire Line
-	8225 2600 6150 2600
-Wire Wire Line
-	6150 2600 6150 3000
-Wire Wire Line
-	6150 3000 6175 3000
-Wire Wire Line
-	6175 3250 6175 3450
-Wire Wire Line
-	6175 3450 8200 3450
-Wire Wire Line
-	8200 3450 8200 3250
-Wire Wire Line
-	8200 3125 8225 3125
-Wire Wire Line
-	8225 3125 8225 3475
-Wire Wire Line
-	8225 3475 6150 3475
-Wire Wire Line
-	6150 3475 6150 3125
-Wire Wire Line
-	6150 3125 6175 3125
-Wire Wire Line
-	7075 4200 7300 4200
-Wire Wire Line
-	7075 4325 7300 4325
-Wire Wire Line
-	7075 4450 7300 4450
-Wire Wire Line
-	7075 4575 7300 4575
-Wire Wire Line
-	6175 4200 6175 3950
-Wire Wire Line
-	6175 3950 8200 3950
-Wire Wire Line
-	8200 3950 8200 4200
-Wire Wire Line
-	8200 4325 8225 4325
-Wire Wire Line
-	8225 4325 8225 3925
-Wire Wire Line
-	8225 3925 6150 3925
-Wire Wire Line
-	6150 3925 6150 4325
-Wire Wire Line
-	6150 4325 6175 4325
-Wire Wire Line
-	6175 4575 6175 4775
-Wire Wire Line
-	6175 4775 8200 4775
-Wire Wire Line
-	8200 4775 8200 4575
-Wire Wire Line
-	8200 4450 8225 4450
-Wire Wire Line
-	8225 4450 8225 4800
-Wire Wire Line
-	8225 4800 6150 4800
-Wire Wire Line
-	6150 4800 6150 4450
-Wire Wire Line
-	6150 4450 6175 4450
-Wire Wire Line
-	2425 2100 2925 2100
-Wire Wire Line
-	2425 2200 2925 2200
-Wire Wire Line
-	2425 2000 2925 2000
-Wire Wire Line
-	2425 2300 2925 2300
-Wire Wire Line
-	3425 2300 3425 2400
-Wire Wire Line
-	3425 2400 1925 2400
-Wire Wire Line
-	1925 2400 1925 2300
-Wire Wire Line
-	3425 2200 3450 2200
-Wire Wire Line
-	3450 2200 3450 2425
-Wire Wire Line
-	3450 2425 1900 2425
-Wire Wire Line
-	1900 2425 1900 2200
-Wire Wire Line
-	1900 2200 1925 2200
-Wire Wire Line
-	1925 2000 1925 1900
-Wire Wire Line
-	1925 1900 3425 1900
-Wire Wire Line
-	3425 1900 3425 2000
-Wire Wire Line
-	3425 2100 3450 2100
-Wire Wire Line
-	3450 2100 3450 1875
-Wire Wire Line
-	3450 1875 1900 1875
-Wire Wire Line
-	1900 1875 1900 2100
-Wire Wire Line
-	1900 2100 1925 2100
+$Comp
+L Conn_02x09_Odd_Even J1
+U 1 1 5AA4511C
+P 2350 1450
+F 0 "J1" H 2400 1950 50  0000 C CNN
+F 1 "Conn_02x09_Odd_Even" H 2400 950 50  0000 C CNN
+F 2 "USST-footprints:USB-A_3.0_Stacked_WM10420-ND" H 2350 1450 50  0001 C CNN
+F 3 "" H 2350 1450 50  0001 C CNN
+	1    2350 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_02x09_Odd_Even J2
+U 1 1 5AA45159
+P 3275 1450
+F 0 "J2" H 3325 1950 50  0000 C CNN
+F 1 "Conn_02x09_Odd_Even" H 3325 950 50  0000 C CNN
+F 2 "USST-footprints:USB-A_3.0_Stacked_WM10420-ND" H 3275 1450 50  0001 C CNN
+F 3 "" H 3275 1450 50  0001 C CNN
+	1    3275 1450
+	-1   0    0    -1  
+$EndComp
 Wire Wire Line
 	4250 2950 4650 2950
 Wire Wire Line
@@ -544,53 +318,287 @@ Wire Wire Line
 Wire Wire Line
 	5250 4050 5150 4050
 Wire Wire Line
-	4700 1200 4900 1200
+	2650 1050 2975 1050
 Wire Wire Line
-	4700 1300 4900 1300
+	2650 1150 2975 1150
 Wire Wire Line
-	4700 1400 4900 1400
+	2650 1250 2975 1250
 Wire Wire Line
-	4700 1500 4900 1500
+	2650 1350 2975 1350
 Wire Wire Line
-	4700 1600 4900 1600
+	2650 1450 2975 1450
 Wire Wire Line
-	4700 1700 4900 1700
+	2650 1550 2975 1550
 Wire Wire Line
-	4700 1800 4900 1800
+	2650 1650 2975 1650
 Wire Wire Line
-	4700 1900 4900 1900
+	2650 1750 2975 1750
 Wire Wire Line
-	4700 2000 4900 2000
+	2650 1850 2975 1850
+Wire Wire Line
+	2150 1050 2150 975 
+Wire Wire Line
+	2150 975  3475 975 
+Wire Wire Line
+	3475 975  3475 1050
+Wire Wire Line
+	2150 1150 2125 1150
+Wire Wire Line
+	2125 1150 2125 950 
+Wire Wire Line
+	2125 950  3500 950 
+Wire Wire Line
+	3500 950  3500 1150
+Wire Wire Line
+	3500 1150 3475 1150
+Wire Wire Line
+	2150 1250 2100 1250
+Wire Wire Line
+	2100 1250 2100 925 
+Wire Wire Line
+	2100 925  3525 925 
+Wire Wire Line
+	3525 925  3525 1250
+Wire Wire Line
+	3525 1250 3475 1250
+Wire Wire Line
+	2150 1350 2075 1350
+Wire Wire Line
+	2075 1350 2075 900 
+Wire Wire Line
+	2075 900  3550 900 
+Wire Wire Line
+	3550 900  3550 1350
+Wire Wire Line
+	3550 1350 3475 1350
+Wire Wire Line
+	2150 1850 2150 1925
+Wire Wire Line
+	2150 1925 3475 1925
+Wire Wire Line
+	3475 1925 3475 1850
+Wire Wire Line
+	2150 1750 2125 1750
+Wire Wire Line
+	2125 1750 2125 1950
+Wire Wire Line
+	2125 1950 3500 1950
+Wire Wire Line
+	3500 1950 3500 1750
+Wire Wire Line
+	3500 1750 3475 1750
+Wire Wire Line
+	2150 1650 2100 1650
+Wire Wire Line
+	2100 1650 2100 1975
+Wire Wire Line
+	2100 1975 3525 1975
+Wire Wire Line
+	3525 1975 3525 1650
+Wire Wire Line
+	3525 1650 3475 1650
+Wire Wire Line
+	2150 1550 2075 1550
+Wire Wire Line
+	2075 1550 2075 2000
+Wire Wire Line
+	2075 2000 3550 2000
+Wire Wire Line
+	3550 2000 3550 1550
+Wire Wire Line
+	3550 1550 3475 1550
+Wire Wire Line
+	2150 1450 2050 1450
+Wire Wire Line
+	2050 1450 2050 2025
+Wire Wire Line
+	2050 2025 3575 2025
+Wire Wire Line
+	3575 2025 3575 1450
+Wire Wire Line
+	3575 1450 3475 1450
 $Comp
-L E8199-001-01 P13
-U 1 1 5A81E07C
-P 4200 1700
-F 0 "P13" H 3900 2301 50  0000 L BNN
-F 1 "E8199-001-01" H 3899 998 50  0000 L BNN
-F 2 "USST-footprints:USB3.0-A-3.0-TH-RA" H 4200 1700 50  0001 L BNN
-F 3 "https://www.digikey.ca/product-detail/en/pulse-electronics-network/E8199-001-01/553-2273-ND/4868943?WT.z_cid=ref_snapeda&utm_source=snapeda&utm_medium=aggregator&utm_campaign=buynow" H 4200 1700 50  0001 L BNN
-F 4 "553-2273-ND" H 4200 1700 50  0001 L BNN "Field4"
-F 5 "E8199-001-01" H 4200 1700 50  0001 L BNN "Field5"
-F 6 "None" H 4200 1700 50  0001 L BNN "Field6"
-F 7 "CONN USB 3.0 TYPE A RCPT" H 4200 1700 50  0001 L BNN "Field7"
-F 8 "Pulse Electronics" H 4200 1700 50  0001 L BNN "Field8"
-	1    4200 1700
-	-1   0    0    -1  
-$EndComp
-$Comp
-L E8199-001-01 P14
-U 1 1 5A81DD74
-P 5400 1700
-F 0 "P14" H 5100 2301 50  0000 L BNN
-F 1 "E8199-001-01" H 5099 998 50  0000 L BNN
-F 2 "USST-footprints:USB3.0-A-3.0-TH-RA" H 5400 1700 50  0001 L BNN
-F 3 "https://www.digikey.ca/product-detail/en/pulse-electronics-network/E8199-001-01/553-2273-ND/4868943?WT.z_cid=ref_snapeda&utm_source=snapeda&utm_medium=aggregator&utm_campaign=buynow" H 5400 1700 50  0001 L BNN
-F 4 "553-2273-ND" H 5400 1700 50  0001 L BNN "Field4"
-F 5 "E8199-001-01" H 5400 1700 50  0001 L BNN "Field5"
-F 6 "None" H 5400 1700 50  0001 L BNN "Field6"
-F 7 "CONN USB 3.0 TYPE A RCPT" H 5400 1700 50  0001 L BNN "Field7"
-F 8 "Pulse Electronics" H 5400 1700 50  0001 L BNN "Field8"
-	1    5400 1700
+L Conn_02x09_Odd_Even J3
+U 1 1 5AA46292
+P 4425 1450
+F 0 "J3" H 4475 1950 50  0000 C CNN
+F 1 "Conn_02x09_Odd_Even" H 4475 950 50  0000 C CNN
+F 2 "USST-footprints:USB-A_3.0_Stacked_WM10420-ND" H 4425 1450 50  0001 C CNN
+F 3 "" H 4425 1450 50  0001 C CNN
+	1    4425 1450
 	1    0    0    -1  
 $EndComp
+$Comp
+L Conn_02x09_Odd_Even J4
+U 1 1 5AA46298
+P 5350 1450
+F 0 "J4" H 5400 1950 50  0000 C CNN
+F 1 "Conn_02x09_Odd_Even" H 5400 950 50  0000 C CNN
+F 2 "USST-footprints:USB-A_3.0_Stacked_WM10420-ND" H 5350 1450 50  0001 C CNN
+F 3 "" H 5350 1450 50  0001 C CNN
+	1    5350 1450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4725 1050 5050 1050
+Wire Wire Line
+	4725 1150 5050 1150
+Wire Wire Line
+	4725 1250 5050 1250
+Wire Wire Line
+	4725 1350 5050 1350
+Wire Wire Line
+	4725 1450 5050 1450
+Wire Wire Line
+	4725 1550 5050 1550
+Wire Wire Line
+	4725 1650 5050 1650
+Wire Wire Line
+	4725 1750 5050 1750
+Wire Wire Line
+	4725 1850 5050 1850
+Wire Wire Line
+	4225 1050 4225 975 
+Wire Wire Line
+	4225 975  5550 975 
+Wire Wire Line
+	5550 975  5550 1050
+Wire Wire Line
+	4225 1150 4200 1150
+Wire Wire Line
+	4200 1150 4200 950 
+Wire Wire Line
+	4200 950  5575 950 
+Wire Wire Line
+	5575 950  5575 1150
+Wire Wire Line
+	5575 1150 5550 1150
+Wire Wire Line
+	4225 1250 4175 1250
+Wire Wire Line
+	4175 1250 4175 925 
+Wire Wire Line
+	4175 925  5600 925 
+Wire Wire Line
+	5600 925  5600 1250
+Wire Wire Line
+	5600 1250 5550 1250
+Wire Wire Line
+	4225 1350 4150 1350
+Wire Wire Line
+	4150 1350 4150 900 
+Wire Wire Line
+	4150 900  5625 900 
+Wire Wire Line
+	5625 900  5625 1350
+Wire Wire Line
+	5625 1350 5550 1350
+Wire Wire Line
+	4225 1850 4225 1925
+Wire Wire Line
+	4225 1925 5550 1925
+Wire Wire Line
+	5550 1925 5550 1850
+Wire Wire Line
+	4225 1750 4200 1750
+Wire Wire Line
+	4200 1750 4200 1950
+Wire Wire Line
+	4200 1950 5575 1950
+Wire Wire Line
+	5575 1950 5575 1750
+Wire Wire Line
+	5575 1750 5550 1750
+Wire Wire Line
+	4225 1650 4175 1650
+Wire Wire Line
+	4175 1650 4175 1975
+Wire Wire Line
+	4175 1975 5600 1975
+Wire Wire Line
+	5600 1975 5600 1650
+Wire Wire Line
+	5600 1650 5550 1650
+Wire Wire Line
+	4225 1550 4150 1550
+Wire Wire Line
+	4150 1550 4150 2000
+Wire Wire Line
+	4150 2000 5625 2000
+Wire Wire Line
+	5625 2000 5625 1550
+Wire Wire Line
+	5625 1550 5550 1550
+Wire Wire Line
+	4225 1450 4125 1450
+Wire Wire Line
+	4125 1450 4125 2025
+Wire Wire Line
+	4125 2025 5650 2025
+Wire Wire Line
+	5650 2025 5650 1450
+Wire Wire Line
+	5650 1450 5550 1450
+$Comp
+L CONN_02X04 P10
+U 1 1 5AA46572
+P 3000 4775
+F 0 "P10" H 3000 5025 50  0000 C CNN
+F 1 "CONN_02X04" H 3000 4525 50  0000 C CNN
+F 2 "USST-footprints:Molex_MiniFit-JR-5569-08A2_2x04x4.20mm_Angled_Overhang" H 3000 3575 50  0001 C CNN
+F 3 "" H 3000 3575 50  0000 C CNN
+	1    3000 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X04 P9
+U 1 1 5AA46578
+P 2100 4775
+F 0 "P9" H 2100 5025 50  0000 C CNN
+F 1 "CONN_02X04" H 2100 4525 50  0000 C CNN
+F 2 "USST-footprints:Molex_MiniFit-JR-5569-08A2_2x04x4.20mm_Angled_Overhang" H 2100 3575 50  0001 C CNN
+F 3 "" H 2100 3575 50  0000 C CNN
+	1    2100 4775
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 4625 2750 4625
+Wire Wire Line
+	2350 4725 2750 4725
+Wire Wire Line
+	2350 4825 2750 4825
+Wire Wire Line
+	2350 4925 2750 4925
+Wire Wire Line
+	1850 4525 1850 4625
+Wire Wire Line
+	3250 4525 3250 4625
+Wire Wire Line
+	3250 4525 1850 4525
+Wire Wire Line
+	1850 4725 1750 4725
+Wire Wire Line
+	1750 4725 1750 4475
+Wire Wire Line
+	1750 4475 3350 4475
+Wire Wire Line
+	3350 4475 3350 4725
+Wire Wire Line
+	3350 4725 3250 4725
+Wire Wire Line
+	3250 4925 3250 5025
+Wire Wire Line
+	3250 5025 1850 5025
+Wire Wire Line
+	1850 5025 1850 4925
+Wire Wire Line
+	1850 4825 1750 4825
+Wire Wire Line
+	1750 4825 1750 5075
+Wire Wire Line
+	1750 5075 3350 5075
+Wire Wire Line
+	3350 5075 3350 4825
+Wire Wire Line
+	3350 4825 3250 4825
 $EndSCHEMATC
