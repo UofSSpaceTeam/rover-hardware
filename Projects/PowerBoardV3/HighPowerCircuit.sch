@@ -229,7 +229,7 @@ F 3 "" H 1350 3450 50  0001 L CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 1350 4250 1    39   Input ~ 0
-DSH
+DSG
 Text GLabel 1350 2650 1    39   Input ~ 0
 CHG
 $Comp
