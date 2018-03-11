@@ -231,4 +231,8 @@ Wire Wire Line
 	5650 4000 6000 4000
 Text Notes 7350 7500 0    60   ~ 0
 Power Board Complete circuit
+Text Notes 2650 1100 0    60   ~ 0
+All GNDs are connected to the negative of the last cell. BATT- is not GND. \nThere is a separation between GND and BATT- using Power Transistors. \nThis can be seen on the layout example for the BQ76930 on Page 48\n
+Text Notes 3750 750  0    118  ~ 0
+IMPORTANT
 $EndSCHEMATC
