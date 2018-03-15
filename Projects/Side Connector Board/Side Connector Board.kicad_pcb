@@ -264,7 +264,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 5A7FB034) (tstamp 5A7F76C2)
-    (at 72.5932 96.6978)
+    (at 73 96)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
@@ -280,7 +280,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 5A7FB03C) (tstamp 5A7F76BA)
-    (at 72.5932 109.2073)
+    (at 73 109.8)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
@@ -296,7 +296,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 5A7F842C) (tstamp 5A7F733D)
-    (at 220.9292 109.2073)
+    (at 220.8 109.8)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
@@ -312,7 +312,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 5A7FB024) (tstamp 5A7F7341)
-    (at 220.9292 96.6978)
+    (at 220.8 96)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
