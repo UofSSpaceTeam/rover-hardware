@@ -241,12 +241,8 @@ Text GLabel 1750 7200 0    39   Input ~ 0
 -12V
 Text GLabel 2100 6250 2    39   Input ~ 0
 -12V
-Text GLabel 1200 5850 0    39   Input ~ 0
-+5VSB
 Text GLabel 1200 6250 0    39   Input ~ 0
 -5V
-Text GLabel 2100 5850 2    39   Input ~ 0
-+5v0
 Text GLabel 2100 6450 2    39   Input ~ 0
 -5V
 Wire Notes Line
@@ -1156,4 +1152,6 @@ F 3 "" H 2600 2800 50  0001 C CNN
 	1    2600 2800
 	0    1    1    0   
 $EndComp
+NoConn ~ 2100 5850
+NoConn ~ 1200 5850
 $EndSCHEMATC
