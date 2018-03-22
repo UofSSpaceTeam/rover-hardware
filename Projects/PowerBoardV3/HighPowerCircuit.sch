@@ -1,6 +1,9 @@
 EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
 LIBS:transistors
 LIBS:conn
 LIBS:linear
@@ -29,12 +32,154 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:USST-parts
-LIBS:HighPowerCircuit-cache
+LIBS:dk_Addressable-Specialty
+LIBS:dk_Alarms-Buzzers-and-Sirens
+LIBS:dk_Automotive-Relays
+LIBS:dk_Balun
+LIBS:dk_Barrel-Audio-Connectors
+LIBS:dk_Battery-Holders-Clips-Contacts
+LIBS:dk_Clock-Timing-Clock-Generators-PLLs-Frequency-Synthesizers
+LIBS:dk_Clock-Timing-Programmable-Timers-and-Oscillators
+LIBS:dk_Clock-Timing-Real-Time-Clocks
+LIBS:dk_Coaxial-Connectors-RF
+LIBS:dk_Current-Transducers
+LIBS:dk_Data-Acquisition-ADCs-DACs-Special-Purpose
+LIBS:dk_Data-Acquisition-Analog-to-Digital-Converters-ADC
+LIBS:dk_Data-Acquisition-Digital-Potentiometers
+LIBS:dk_Data-Acquisition-Digital-to-Analog-Converters-DAC
+LIBS:dk_Data-Acquisition-Touch-Screen-Controllers
+LIBS:dk_DC-DC-Converters
+LIBS:dk_Digital-Isolators
+LIBS:dk_Diodes-Bridge-Rectifiers
+LIBS:dk_Diodes-Rectifiers-Arrays
+LIBS:dk_Diodes-Rectifiers-Single
+LIBS:dk_Diodes-Zener-Single
+LIBS:dk_Display-Modules-LED-Character-and-Numeric
+LIBS:dk_D-Sub-Connectors
+LIBS:dk_Embedded-Microcontrollers
+LIBS:dk_Encoders
+LIBS:dk_Evaluation-Boards-Sensors
+LIBS:dk_Ferrite-Beads-and-Chips
+LIBS:dk_Fixed-Inductors
+LIBS:dk_Fuses
+LIBS:dk_Gas-Sensors
+LIBS:dk_Humidity-Moisture-Sensors
+LIBS:dk_Image-Sensors-Camera
+LIBS:dk_Infrared-UV-Visible-Emitters
+LIBS:dk_Inrush-Current-Limiters-ICL
+LIBS:dk_Interface-Analog-Switches-Multiplexers-Demultiplexers
+LIBS:dk_Interface-Analog-Switches-Special-Purpose
+LIBS:dk_Interface-Controllers
+LIBS:dk_Interface-Drivers-Receivers-Transceivers
+LIBS:dk_Interface-I-O-Expanders
+LIBS:dk_Interface-Modules
+LIBS:dk_Interface-Sensor-and-Detector-Interfaces
+LIBS:dk_Interface-Sensor-Capacitive-Touch
+LIBS:dk_Interface-Specialized
+LIBS:dk_LED-Indication-Discrete
+LIBS:dk_LEDs-Circuit-Board-Indicators-Arrays-Light-Bars-Bar-Graphs
+LIBS:dk_Linear-Amplifiers-Audio
+LIBS:dk_Linear-Amplifiers-Instrumentation-OP-Amps-Buffer-Amps
+LIBS:dk_Linear-Comparators
+LIBS:dk_Logic-Buffers-Drivers-Receivers-Transceivers
+LIBS:dk_Logic-Flip-Flops
+LIBS:dk_Logic-Gates-and-Inverters
+LIBS:dk_Logic-Multivibrators
+LIBS:dk_Logic-Shift-Registers
+LIBS:dk_Logic-Signal-Switches-Multiplexers-Decoders
+LIBS:dk_Logic-Translators-Level-Shifters
+LIBS:dk_Magnetic-Sensors-Compass-Magnetic-Field-Modules
+LIBS:dk_Magnetic-Sensors-Linear-Compass-ICs
+LIBS:dk_Magnetic-Sensors-Switches-Solid-State
+LIBS:dk_Memory
+LIBS:dk_Memory-Connectors-PC-Card-Sockets
+LIBS:dk_Microphones
+LIBS:dk_Modular-Connectors-Jacks
+LIBS:dk_Modular-Connectors-Jacks-With-Magnetics
+LIBS:dk_Motion-Sensors-Accelerometers
+LIBS:dk_Motion-Sensors-IMUs-Inertial-Measurement-Units
+LIBS:dk_Motion-Sensors-Tilt-Switches
+LIBS:dk_Navigation-Switches-Joystick
+LIBS:dk_Optical-Sensors-Ambient-Light-IR-UV-Sensors
+LIBS:dk_Optical-Sensors-Photo-Detectors-Remote-Receiver
+LIBS:dk_Optical-Sensors-Photodiodes
+LIBS:dk_Optical-Sensors-Phototransistors
+LIBS:dk_Optical-Sensors-Reflective-Analog-Output
+LIBS:dk_Optoisolators-Logic-Output
+LIBS:dk_Optoisolators-Transistor-Photovoltaic-Output
+LIBS:dk_Optoisolators-Triac-SCR-Output
+LIBS:dk_Oscillators
+LIBS:dk_PMIC-AC-DC-Converters-Offline-Switchers
+LIBS:dk_PMIC-Battery-Chargers
+LIBS:dk_PMIC-Battery-Management
+LIBS:dk_PMIC-Current-Regulation-Management
+LIBS:dk_PMIC-Full-Half-Bridge-Drivers
+LIBS:dk_PMIC-Gate-Drivers
+LIBS:dk_PMIC-LED-Drivers
+LIBS:dk_PMIC-Motor-Drivers-Controllers
+LIBS:dk_PMIC-OR-Controllers-Ideal-Diodes
+LIBS:dk_PMIC-Power-Distribution-Switches-Load-Drivers
+LIBS:dk_PMIC-Power-Management-Specialized
+LIBS:dk_PMIC-RMS-to-DC-Converters
+LIBS:dk_PMIC-Supervisors
+LIBS:dk_PMIC-Thermal-Management
+LIBS:dk_PMIC-V-F-and-F-V-Converters
+LIBS:dk_PMIC-Voltage-Reference
+LIBS:dk_PMIC-Voltage-Regulators-DC-DC-Switching-Controllers
+LIBS:dk_PMIC-Voltage-Regulators-DC-DC-Switching-Regulators
+LIBS:dk_PMIC-Voltage-Regulators-Linear
+LIBS:dk_PMIC-Voltage-Regulators-Special-Purpose
+LIBS:dk_Power-Relays-Over-2-Amps
+LIBS:dk_Pressure-Sensors-Transducers
+LIBS:dk_Programmable-Oscillators
+LIBS:dk_Pushbutton-Switches
+LIBS:dk_Rectangular-Connectors-Headers-Male-Pins
+LIBS:dk_Reed-Relays
+LIBS:dk_Resistor-Networks-Arrays
+LIBS:dk_RF-Amplifiers
+LIBS:dk_RF-Antennas
+LIBS:dk_RF-Demodulators
+LIBS:dk_RF-Detectors
+LIBS:dk_RF-Evaluation-and-Development-Kits-Boards
+LIBS:dk_RFID-RF-Access-Monitoring-ICs
+LIBS:dk_RF-Receivers
+LIBS:dk_RF-Switches
+LIBS:dk_RF-Transceiver-ICs
+LIBS:dk_RF-Transceiver-Modules
+LIBS:dk_RF-Transmitters
+LIBS:dk_Rotary-Potentiometers-Rheostats
+LIBS:dk_Sensors-Transducers_Accessories
+LIBS:dk_Signal-Relays-Up-to-2-Amps
+LIBS:dk_Slide-Switches
+LIBS:dk_Solid-State-Relays
+LIBS:dk_Specialized-ICs
+LIBS:dk_Specialized-Sensors
+LIBS:dk_Surge-Suppression-ICs
+LIBS:dk_Tactile-Switches
+LIBS:dk_Temperature-Sensors-Analog-and-Digital-Output
+LIBS:dk_Thermal-Cutoffs-Thermal-Fuses
+LIBS:dk_Thyristors-DIACs-SIDACs
+LIBS:dk_Thyristors-SCRs
+LIBS:dk_Thyristors-TRIACs
+LIBS:dk_Toggle-Switches
+LIBS:dk_Transistors-Bipolar-BJT-Arrays
+LIBS:dk_Transistors-Bipolar-BJT-RF
+LIBS:dk_Transistors-Bipolar-BJT-Single
+LIBS:dk_Transistors-Bipolar-BJT-Single-Pre-Biased
+LIBS:dk_Transistors-FETs-MOSFETs-Arrays
+LIBS:dk_Transistors-FETs-MOSFETs-RF
+LIBS:dk_Transistors-FETs-MOSFETs-Single
+LIBS:dk_Transistors-JFETs
+LIBS:dk_Trimmer-Potentiometers
+LIBS:dk_TVS-Diodes
+LIBS:dk_TVS-Mixed-Technology
+LIBS:dk_USB-DVI-HDMI-Connectors
+LIBS:PowerBoardV3-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -67,7 +212,7 @@ U 1 1 5AA1D616
 P 1350 4450
 F 0 "Q2" H 1600 4525 50  0000 L CNN
 F 1 "IRF3205" H 1600 4450 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 1600 4375 50  0001 L CIN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 1600 4375 50  0001 L CIN
 F 3 "" H 1350 4450 50  0001 L CNN
 	1    1350 4450
 	0    1    1    0   
@@ -78,7 +223,7 @@ U 1 1 5AA1D654
 P 1350 3450
 F 0 "Q1" H 1600 3525 50  0000 L CNN
 F 1 "IRF3205" H 1600 3450 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 1600 3375 50  0001 L CIN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 1600 3375 50  0001 L CIN
 F 3 "" H 1350 3450 50  0001 L CNN
 	1    1350 3450
 	0    1    1    0   
@@ -195,7 +340,7 @@ U 1 1 5AA1E38F
 P 1250 7100
 F 0 "J3" H 1250 7200 50  0000 C CNN
 F 1 "M3-ATX-20-PWR" H 1250 6900 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 1250 7100 50  0001 C CNN
+F 2 "TerminalBlocks_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_2pol" H 1250 7100 50  0001 C CNN
 F 3 "" H 1250 7100 50  0001 C CNN
 	1    1250 7100
 	1    0    0    -1  
@@ -259,7 +404,7 @@ U 1 1 5AA20046
 P 2900 2650
 F 0 "C2" H 2925 2750 50  0000 L CNN
 F 1 "680uF" H 2925 2550 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D12.5_L25_P5" H 2938 2500 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D12.5mm_P5.00mm" H 2938 2500 50  0001 C CNN
 F 3 "" H 2900 2650 50  0001 C CNN
 	1    2900 2650
 	1    0    0    -1  
@@ -272,7 +417,7 @@ U 1 1 5AA201F9
 P 3200 2650
 F 0 "C9" H 3225 2750 50  0000 L CNN
 F 1 "680uF" H 3225 2550 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D12.5_L25_P5" H 3238 2500 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D12.5mm_P5.00mm" H 3238 2500 50  0001 C CNN
 F 3 "" H 3200 2650 50  0001 C CNN
 	1    3200 2650
 	1    0    0    -1  
@@ -283,7 +428,7 @@ U 1 1 5AA20231
 P 3500 2650
 F 0 "C16" H 3525 2750 50  0000 L CNN
 F 1 "680uF" H 3525 2550 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D12.5_L25_P5" H 3538 2500 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D12.5mm_P5.00mm" H 3538 2500 50  0001 C CNN
 F 3 "" H 3500 2650 50  0001 C CNN
 	1    3500 2650
 	1    0    0    -1  
@@ -294,7 +439,7 @@ U 1 1 5AA2042E
 P 2900 3050
 F 0 "C3" H 2925 3150 50  0000 L CNN
 F 1 "680uF" H 2925 2950 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D12.5_L25_P5" H 2938 2900 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D12.5mm_P5.00mm" H 2938 2900 50  0001 C CNN
 F 3 "" H 2900 3050 50  0001 C CNN
 	1    2900 3050
 	1    0    0    -1  
@@ -305,7 +450,7 @@ U 1 1 5AA20476
 P 3200 3050
 F 0 "C10" H 3225 3150 50  0000 L CNN
 F 1 "680uF" H 3225 2950 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D12.5_L25_P5" H 3238 2900 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D12.5mm_P5.00mm" H 3238 2900 50  0001 C CNN
 F 3 "" H 3200 3050 50  0001 C CNN
 	1    3200 3050
 	1    0    0    -1  
@@ -316,7 +461,7 @@ U 1 1 5AA204BA
 P 3500 3050
 F 0 "C17" H 3525 3150 50  0000 L CNN
 F 1 "680uF" H 3525 2950 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D12.5_L25_P5" H 3538 2900 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D12.5mm_P5.00mm" H 3538 2900 50  0001 C CNN
 F 3 "" H 3500 3050 50  0001 C CNN
 	1    3500 3050
 	1    0    0    -1  
@@ -327,7 +472,7 @@ U 1 1 5AA204FF
 P 2900 3450
 F 0 "C4" H 2925 3550 50  0000 L CNN
 F 1 "680uF" H 2925 3350 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D12.5_L25_P5" H 2938 3300 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D12.5mm_P5.00mm" H 2938 3300 50  0001 C CNN
 F 3 "" H 2900 3450 50  0001 C CNN
 	1    2900 3450
 	1    0    0    -1  
@@ -338,7 +483,7 @@ U 1 1 5AA2054B
 P 3200 3450
 F 0 "C11" H 3225 3550 50  0000 L CNN
 F 1 "680uF" H 3225 3350 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D12.5_L25_P5" H 3238 3300 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D12.5mm_P5.00mm" H 3238 3300 50  0001 C CNN
 F 3 "" H 3200 3450 50  0001 C CNN
 	1    3200 3450
 	1    0    0    -1  
@@ -349,7 +494,7 @@ U 1 1 5AA20596
 P 3500 3450
 F 0 "C18" H 3525 3550 50  0000 L CNN
 F 1 "680uF" H 3525 3350 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D12.5_L25_P5" H 3538 3300 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D12.5mm_P5.00mm" H 3538 3300 50  0001 C CNN
 F 3 "" H 3500 3450 50  0001 C CNN
 	1    3500 3450
 	1    0    0    -1  
@@ -423,7 +568,7 @@ U 1 1 5AA221CC
 P 2900 4000
 F 0 "C5" H 2925 4100 50  0000 L CNN
 F 1 "680uF" H 2925 3900 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D12.5_L25_P5" H 2938 3850 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D12.5mm_P5.00mm" H 2938 3850 50  0001 C CNN
 F 3 "" H 2900 4000 50  0001 C CNN
 	1    2900 4000
 	1    0    0    -1  
@@ -434,7 +579,7 @@ U 1 1 5AA221D2
 P 3200 4000
 F 0 "C12" H 3225 4100 50  0000 L CNN
 F 1 "680uF" H 3225 3900 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D12.5_L25_P5" H 3238 3850 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D12.5mm_P5.00mm" H 3238 3850 50  0001 C CNN
 F 3 "" H 3200 4000 50  0001 C CNN
 	1    3200 4000
 	1    0    0    -1  
@@ -445,7 +590,7 @@ U 1 1 5AA221D8
 P 3500 4000
 F 0 "C19" H 3525 4100 50  0000 L CNN
 F 1 "680uF" H 3525 3900 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D12.5_L25_P5" H 3538 3850 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D12.5mm_P5.00mm" H 3538 3850 50  0001 C CNN
 F 3 "" H 3500 4000 50  0001 C CNN
 	1    3500 4000
 	1    0    0    -1  
@@ -456,7 +601,7 @@ U 1 1 5AA221DE
 P 2900 4400
 F 0 "C6" H 2925 4500 50  0000 L CNN
 F 1 "680uF" H 2925 4300 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D12.5_L25_P5" H 2938 4250 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D12.5mm_P5.00mm" H 2938 4250 50  0001 C CNN
 F 3 "" H 2900 4400 50  0001 C CNN
 	1    2900 4400
 	1    0    0    -1  
@@ -467,7 +612,7 @@ U 1 1 5AA221E4
 P 3200 4400
 F 0 "C13" H 3225 4500 50  0000 L CNN
 F 1 "680uF" H 3225 4300 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D12.5_L25_P5" H 3238 4250 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D12.5mm_P5.00mm" H 3238 4250 50  0001 C CNN
 F 3 "" H 3200 4400 50  0001 C CNN
 	1    3200 4400
 	1    0    0    -1  
@@ -478,7 +623,7 @@ U 1 1 5AA221EA
 P 3500 4400
 F 0 "C20" H 3525 4500 50  0000 L CNN
 F 1 "680uF" H 3525 4300 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D12.5_L25_P5" H 3538 4250 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D12.5mm_P5.00mm" H 3538 4250 50  0001 C CNN
 F 3 "" H 3500 4400 50  0001 C CNN
 	1    3500 4400
 	1    0    0    -1  
@@ -489,7 +634,7 @@ U 1 1 5AA221F0
 P 2900 4800
 F 0 "C7" H 2925 4900 50  0000 L CNN
 F 1 "680uF" H 2925 4700 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D12.5_L25_P5" H 2938 4650 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D12.5mm_P5.00mm" H 2938 4650 50  0001 C CNN
 F 3 "" H 2900 4800 50  0001 C CNN
 	1    2900 4800
 	1    0    0    -1  
@@ -500,7 +645,7 @@ U 1 1 5AA221F6
 P 3200 4800
 F 0 "C14" H 3225 4900 50  0000 L CNN
 F 1 "680uF" H 3225 4700 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D12.5_L25_P5" H 3238 4650 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D12.5mm_P5.00mm" H 3238 4650 50  0001 C CNN
 F 3 "" H 3200 4800 50  0001 C CNN
 	1    3200 4800
 	1    0    0    -1  
@@ -511,7 +656,7 @@ U 1 1 5AA221FC
 P 3500 4800
 F 0 "C21" H 3525 4900 50  0000 L CNN
 F 1 "680uF" H 3525 4700 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D12.5_L25_P5" H 3538 4650 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D12.5mm_P5.00mm" H 3538 4650 50  0001 C CNN
 F 3 "" H 3500 4800 50  0001 C CNN
 	1    3500 4800
 	1    0    0    -1  
@@ -624,7 +769,7 @@ U 1 1 5AA27DB2
 P 3450 6500
 F 0 "J10" H 3450 6800 50  0000 C CNN
 F 1 "5V_INT_PWR_BLK" H 3450 6100 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_6pol" H 3450 6500 50  0001 C CNN
+F 2 "TerminalBlocks_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_6pol" H 3450 6500 50  0001 C CNN
 F 3 "" H 3450 6500 50  0001 C CNN
 	1    3450 6500
 	1    0    0    -1  
@@ -649,7 +794,7 @@ U 1 1 5AA281D8
 P 4250 6500
 F 0 "J13" H 4250 6800 50  0000 C CNN
 F 1 "3.3V_INT_PWR_BLK" H 4250 6100 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_6pol" H 4250 6500 50  0001 C CNN
+F 2 "TerminalBlocks_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_6pol" H 4250 6500 50  0001 C CNN
 F 3 "" H 4250 6500 50  0001 C CNN
 	1    4250 6500
 	1    0    0    -1  
@@ -710,7 +855,7 @@ U 1 1 5AA42C20
 P 3050 1150
 F 0 "C8" H 3060 1220 50  0000 L CNN
 F 1 "100uF" H 3060 1070 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5" H 3050 1150 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D6.3mm_P2.50mm" H 3050 1150 50  0001 C CNN
 F 3 "" H 3050 1150 50  0001 C CNN
 	1    3050 1150
 	1    0    0    -1  
@@ -746,7 +891,7 @@ U 1 1 5AA4426B
 P 3300 1450
 F 0 "C15" H 3310 1520 50  0000 L CNN
 F 1 "100uF" H 3310 1370 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5" H 3300 1450 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D6.3mm_P2.50mm" H 3300 1450 50  0001 C CNN
 F 3 "" H 3300 1450 50  0001 C CNN
 	1    3300 1450
 	0    1    1    0   
@@ -823,7 +968,7 @@ U 1 1 5AA451FB
 P 4750 1000
 F 0 "L1" H 4780 1040 50  0000 L CNN
 F 1 "39uH" H 4780 960 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D10_L20_P5" H 4750 1000 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 4750 1000 50  0001 C CNN
 F 3 "" H 4750 1000 50  0001 C CNN
 	1    4750 1000
 	0    1    1    0   
@@ -844,7 +989,7 @@ U 1 1 5AA4609C
 P 5350 1100
 F 0 "C24" H 5360 1170 50  0000 L CNN
 F 1 "68uF" H 5360 1020 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5" H 5350 1100 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D6.3mm_P2.50mm" H 5350 1100 50  0001 C CNN
 F 3 "" H 5350 1100 50  0001 C CNN
 	1    5350 1100
 	1    0    0    -1  
@@ -855,7 +1000,7 @@ U 1 1 5AA4613B
 P 5550 1100
 F 0 "C25" H 5560 1170 50  0000 L CNN
 F 1 "10uF" H 5560 1020 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D5_L6_P2.5" H 5550 1100 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 5550 1100 50  0001 C CNN
 F 3 "" H 5550 1100 50  0001 C CNN
 	1    5550 1100
 	1    0    0    -1  
@@ -971,7 +1116,7 @@ U 1 1 5AA49181
 P 6200 1250
 F 0 "J14" H 6200 1450 50  0000 C CNN
 F 1 "9V_PWR_TERMBLK" H 6200 950 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol" H 6200 1250 50  0001 C CNN
+F 2 "TerminalBlocks_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_4pol" H 6200 1250 50  0001 C CNN
 F 3 "" H 6200 1250 50  0001 C CNN
 	1    6200 1250
 	1    0    0    -1  
