@@ -3,9 +3,9 @@
   (general
     (links 28)
     (no_connects 0)
-    (area 109.924999 95.924999 189.075001 148.075001)
+    (area 105.924999 92.924999 194.675001 151.075001)
     (thickness 1.6)
-    (drawings 12)
+    (drawings 16)
     (tracks 0)
     (zones 0)
     (modules 8)
@@ -58,8 +58,8 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 4.064 4.064)
-    (pad_drill 3.048)
+    (pad_size 3.2 3.2)
+    (pad_drill 3.2)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
@@ -82,7 +82,7 @@
       (plotvalue true)
       (plotinvisibletext false)
       (padsonsilk false)
-      (subtractmaskfromsilk false)
+      (subtractmaskfromsilk true)
       (outputformat 1)
       (mirror false)
       (drillshape 0)
@@ -109,41 +109,56 @@
     (add_net "Net-(U3-Pad2)")
   )
 
-  (module USST-footprints:VIA_STICH_0.5 (layer F.Cu) (tedit 5AA469EA) (tstamp 5AA49180)
-    (at 185.5 144.5)
-    (fp_text reference REF** (at 0.02032 3.8862) (layer F.SilkS) hide
+  (module Connect:1pin (layer F.Cu) (tedit 5ACC3627) (tstamp 5ACC3749)
+    (at 111 146)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value VIA_STICH_0.5 (at -0.00254 -3.3909) (layer F.Fab) hide
+    (fp_text value 1pin (at 0 3) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask))
+    (fp_circle (center 0 0) (end 2 0.8) (layer F.Fab) (width 0.1))
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 0 -2.286) (layer F.SilkS) (width 0.12))
+    (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (module USST-footprints:VIA_STICH_0.5 (layer F.Cu) (tedit 5AA469EA) (tstamp 5AA4917C)
-    (at 113.5 144.5)
-    (fp_text reference REF** (at 0.02032 3.8862) (layer F.SilkS) hide
+  (module Connect:1pin (layer F.Cu) (tedit 5ACC3627) (tstamp 5ACC373A)
+    (at 189.6 146)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value VIA_STICH_0.5 (at -0.00254 -3.3909) (layer F.Fab) hide
+    (fp_text value 1pin (at 0 3) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask))
+    (fp_circle (center 0 0) (end 2 0.8) (layer F.Fab) (width 0.1))
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 0 -2.286) (layer F.SilkS) (width 0.12))
+    (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (module USST-footprints:VIA_STICH_0.5 (layer F.Cu) (tedit 5AA469EA) (tstamp 5AA49178)
-    (at 113.5 99.5)
-    (fp_text reference REF** (at 0.02032 3.8862) (layer F.SilkS) hide
+  (module Connect:1pin (layer F.Cu) (tedit 5ACC3627) (tstamp 5ACC372B)
+    (at 189.6 98)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value VIA_STICH_0.5 (at -0.00254 -3.3909) (layer F.Fab) hide
+    (fp_text value 1pin (at 0 3) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask))
+    (fp_circle (center 0 0) (end 2 0.8) (layer F.Fab) (width 0.1))
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 0 -2.286) (layer F.SilkS) (width 0.12))
+    (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
   (module USST-footprints:MolexEuroStyleTerminalBlock2Position (layer F.Cu) (tedit 5AAAAD6E) (tstamp 5AA46776)
-    (at 133.2992 143.5608)
+    (at 133.45 143.44)
     (path /5AA46B44)
     (fp_text reference "MolexEuroStyle Conn." (at -0.2992 -10.5608 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -206,7 +221,7 @@
   )
 
   (module USST-footprints:MolexEuroStyleTerminalBlock2Position (layer F.Cu) (tedit 5AAAAD69) (tstamp 5AA4678E)
-    (at 166.8272 143.5608)
+    (at 167.05 143.5608)
     (path /5AA46C62)
     (fp_text reference "MolexEuroStyle Conn." (at 0.1728 -10.5608 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -268,18 +283,27 @@
       (net 4 "Net-(U3-Pad2)"))
   )
 
-  (module USST-footprints:VIA_STICH_0.5 (layer F.Cu) (tedit 5AA469EA) (tstamp 5AA469A5)
-    (at 185.5 99.5)
-    (fp_text reference REF** (at 0.02032 3.8862) (layer F.SilkS) hide
+  (module Connect:1pin (layer F.Cu) (tedit 5ACC3627) (tstamp 5ACC35F3)
+    (at 111 98)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value VIA_STICH_0.5 (at -0.00254 -3.3909) (layer F.Fab) hide
+    (fp_text value 1pin (at 0 3) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask))
+    (fp_circle (center 0 0) (end 2 0.8) (layer F.Fab) (width 0.1))
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 0 -2.286) (layer F.SilkS) (width 0.12))
+    (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (gr_text "BAT -" (at 140.4 145.8) (layer F.SilkS) (tstamp 5AAAAF88)
+  (gr_line (start 184.6 96) (end 116 96) (layer Dwgs.User) (width 0.2))
+  (gr_line (start 184.6 148) (end 184.6 96) (layer Dwgs.User) (width 0.2))
+  (gr_line (start 116 148) (end 184.6 148) (layer Dwgs.User) (width 0.2))
+  (gr_line (start 116 96) (end 116 148) (layer Dwgs.User) (width 0.2))
+  (gr_text "BAT -" (at 140.9 145.7) (layer F.SilkS) (tstamp 5AAAAF88)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text "BAT -" (at 140.4 98) (layer B.SilkS) (tstamp 5AAAAF7C)
@@ -288,41 +312,26 @@
   (gr_text "BAT -" (at 174.2 98) (layer B.SilkS) (tstamp 5AAAAF6B)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "BAT -" (at 174.2 145.8) (layer F.SilkS)
+  (gr_text "BAT -" (at 174.7 145.7) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text "BAT +" (at 125.7 98) (layer B.SilkS) (tstamp 5AAAAE5C)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "BAT +" (at 125.7 145.8) (layer F.SilkS) (tstamp 5AAAAE33)
+  (gr_text "BAT +" (at 125.6 145.7) (layer F.SilkS) (tstamp 5AAAAE33)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text "BAT +" (at 158.8 97.8) (layer B.SilkS) (tstamp 5AAAADF7)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "BAT +" (at 159.3 145.8) (layer F.SilkS)
+  (gr_text "BAT +" (at 160 145.7) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_line (start 110 148) (end 110 96) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 189 148) (end 110 148) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 189 96) (end 189 148) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 110 96) (end 189 96) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 106 151) (end 106 93) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 194.6 151) (end 106 151) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 194.6 93) (end 194.6 151) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 106 93) (end 194.6 93) (angle 90) (layer Edge.Cuts) (width 0.15))
 
-  (zone (net 1) (net_name "Net-(U1-Pad1)") (layer B.Cu) (tstamp 5AA4689A) (hatch edge 0.508)
-    (connect_pads yes (clearance 0.508))
-    (min_thickness 0.254)
-    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 130.7084 139.9032) (xy 120.7008 139.9032) (xy 120.7008 102.87) (xy 130.7084 102.87)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 130.5814 139.7762) (xy 120.8278 139.7762) (xy 120.8278 102.997) (xy 130.5814 102.997)
-      )
-    )
-  )
   (zone (net 2) (net_name "Net-(U1-Pad2)") (layer B.Cu) (tstamp 5AA4689C) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
@@ -365,6 +374,21 @@
     (filled_polygon
       (pts
         (xy 178.8414 139.7254) (xy 169.0878 139.7254) (xy 169.0878 102.9462) (xy 178.8414 102.9462)
+      )
+    )
+  )
+  (zone (net 1) (net_name "Net-(U1-Pad1)") (layer B.Cu) (tstamp 5AA4689A) (hatch edge 0.508)
+    (connect_pads yes (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 130.7084 139.9032) (xy 120.7008 139.9032) (xy 120.7008 102.87) (xy 130.7084 102.87)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 130.5814 139.7762) (xy 120.8278 139.7762) (xy 120.8278 102.997) (xy 130.5814 102.997)
       )
     )
   )
