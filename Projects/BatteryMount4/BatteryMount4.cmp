@@ -1,0 +1,171 @@
+Cmp-Mod V01 Created by PcbNew   date = 16/04/2018 2:40:25 AM
+
+BeginCmp
+TimeStamp = 5AB68C2E
+Path = 
+Reference = REF**;
+ValeurCmp = SolderWirePad_single_2-5mmDrill;
+IdModule  = USST-footprints:HolePad_single_4-5mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AB68043
+Path = 
+Reference = REF**;
+ValeurCmp = batt_wedge;
+IdModule  = USST-footprints:batt_wedge;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AB68057
+Path = 
+Reference = REF**;
+ValeurCmp = batt_wedge;
+IdModule  = USST-footprints:batt_wedge;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AB6806B
+Path = 
+Reference = REF**;
+ValeurCmp = batt_wedge;
+IdModule  = USST-footprints:batt_wedge;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AB6807F
+Path = 
+Reference = REF**;
+ValeurCmp = batt_wedge;
+IdModule  = USST-footprints:batt_wedge;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AB6809D
+Path = 
+Reference = REF**;
+ValeurCmp = batt_wedge;
+IdModule  = USST-footprints:batt_wedge;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AB680B1
+Path = 
+Reference = REF**;
+ValeurCmp = batt_wedge;
+IdModule  = USST-footprints:batt_wedge;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AB680C5
+Path = 
+Reference = REF**;
+ValeurCmp = batt_wedge;
+IdModule  = USST-footprints:batt_wedge;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AB68127
+Path = 
+Reference = REF**;
+ValeurCmp = batt_wedge;
+IdModule  = USST-footprints:batt_wedge;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AB68131
+Path = 
+Reference = REF**;
+ValeurCmp = batt_wedge;
+IdModule  = USST-footprints:batt_wedge;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AB6813B
+Path = 
+Reference = REF**;
+ValeurCmp = batt_wedge;
+IdModule  = USST-footprints:batt_wedge;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AB68145
+Path = 
+Reference = REF**;
+ValeurCmp = batt_wedge;
+IdModule  = USST-footprints:batt_wedge;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AB6814F
+Path = 
+Reference = REF**;
+ValeurCmp = batt_wedge;
+IdModule  = USST-footprints:batt_wedge;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AB68159
+Path = 
+Reference = REF**;
+ValeurCmp = batt_wedge;
+IdModule  = USST-footprints:batt_wedge;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AB68163
+Path = 
+Reference = REF**;
+ValeurCmp = batt_wedge;
+IdModule  = USST-footprints:batt_wedge;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AB6816D
+Path = 
+Reference = REF**;
+ValeurCmp = batt_wedge;
+IdModule  = USST-footprints:batt_wedge;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AB68C3A
+Path = 
+Reference = REF**;
+ValeurCmp = SolderWirePad_single_2-5mmDrill;
+IdModule  = USST-footprints:HolePad_single_4-5mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AB679B6
+Path = 
+Reference = REF**;
+ValeurCmp = BatteryConnector;
+IdModule  = USST-footprints:BatteryConnector4x2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AB68C68
+Path = 
+Reference = REF**;
+ValeurCmp = SolderWirePad_single_2-5mmDrill;
+IdModule  = USST-footprints:HolePad_single_4-5mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AB68C70
+Path = 
+Reference = REF**;
+ValeurCmp = SolderWirePad_single_2-5mmDrill;
+IdModule  = USST-footprints:HolePad_single_4-5mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AB68036
+Path = 
+Reference = REF**;
+ValeurCmp = batt_wedge;
+IdModule  = USST-footprints:batt_wedge;
+EndCmp
+
+EndListe
