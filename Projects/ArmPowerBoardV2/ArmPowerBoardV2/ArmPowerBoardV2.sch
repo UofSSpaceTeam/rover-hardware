@@ -1,0 +1,291 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Conn_01x12 J6
+U 1 1 5AFBA468
+P 8800 2775
+F 0 "J6" H 8800 3375 50  0000 C CNN
+F 1 "R-6212P" H 8800 2075 50  0000 C CNN
+F 2 "" H 8800 2775 50  0001 C CNN
+F 3 "" H 8800 2775 50  0001 C CNN
+	1    8800 2775
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8600 3375
+Text GLabel 8525 2275 0    60   Input ~ 0
+BATT+
+Text GLabel 8500 3275 0    60   Input ~ 0
++12V
+$Comp
+L GND #PWR4
+U 1 1 5AFBA563
+P 8500 2675
+F 0 "#PWR4" H 8500 2425 50  0001 C CNN
+F 1 "GND" H 8500 2525 50  0000 C CNN
+F 2 "" H 8500 2675 50  0001 C CNN
+F 3 "" H 8500 2675 50  0001 C CNN
+	1    8500 2675
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x04 J3
+U 1 1 5AFBA5F6
+P 6875 2325
+F 0 "J3" H 6875 2525 50  0000 C CNN
+F 1 "Small Motors" H 6875 2025 50  0000 C CNN
+F 2 "" H 6875 2325 50  0001 C CNN
+F 3 "" H 6875 2325 50  0001 C CNN
+	1    6875 2325
+	1    0    0    -1  
+$EndComp
+Text GLabel 6550 2225 0    60   Input ~ 0
++12V
+$Comp
+L GND #PWR2
+U 1 1 5AFBA6C4
+P 6525 2325
+F 0 "#PWR2" H 6525 2075 50  0001 C CNN
+F 1 "GND" H 6525 2175 50  0000 C CNN
+F 2 "" H 6525 2325 50  0001 C CNN
+F 3 "" H 6525 2325 50  0001 C CNN
+	1    6525 2325
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x02 J4
+U 1 1 5AFBA755
+P 6875 2900
+F 0 "J4" H 6875 3000 50  0000 C CNN
+F 1 "Phoenix Contact Batt" H 6875 2700 50  0000 C CNN
+F 2 "" H 6875 2900 50  0001 C CNN
+F 3 "" H 6875 2900 50  0001 C CNN
+	1    6875 2900
+	1    0    0    -1  
+$EndComp
+Text GLabel 6675 2900 0    60   Input ~ 0
+BATT+
+$Comp
+L GND #PWR3
+U 1 1 5AFBA814
+P 6675 3000
+F 0 "#PWR3" H 6675 2750 50  0001 C CNN
+F 1 "GND" H 6675 2850 50  0000 C CNN
+F 2 "" H 6675 3000 50  0001 C CNN
+F 3 "" H 6675 3000 50  0001 C CNN
+	1    6675 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x10 J5
+U 1 1 5AFBA87B
+P 6875 3800
+F 0 "J5" H 6875 4300 50  0000 C CNN
+F 1 "Conn_01x10" H 6875 3200 50  0000 C CNN
+F 2 "" H 6875 3800 50  0001 C CNN
+F 3 "" H 6875 3800 50  0001 C CNN
+	1    6875 3800
+	1    0    0    -1  
+$EndComp
+Text GLabel 6500 3400 0    60   Input ~ 0
+BATT+
+$Comp
+L GND #PWR1
+U 1 1 5AFBA8D7
+P 6500 3500
+F 0 "#PWR1" H 6500 3250 50  0001 C CNN
+F 1 "GND" H 6500 3350 50  0000 C CNN
+F 2 "" H 6500 3500 50  0001 C CNN
+F 3 "" H 6500 3500 50  0001 C CNN
+	1    6500 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x18 J2
+U 1 1 5AFBAB1A
+P 3725 3100
+F 0 "J2" H 3725 4000 50  0000 C CNN
+F 1 "USB 3.0 A" H 3725 2100 50  0000 C CNN
+F 2 "" H 3725 3100 50  0001 C CNN
+F 3 "" H 3725 3100 50  0001 C CNN
+	1    3725 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x18 J1
+U 1 1 5AFBABC5
+P 3175 3100
+F 0 "J1" H 3175 4000 50  0000 C CNN
+F 1 "USB 3.0 A" H 3175 2100 50  0000 C CNN
+F 2 "" H 3175 3100 50  0001 C CNN
+F 3 "" H 3175 3100 50  0001 C CNN
+	1    3175 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C_Small C1
+U 1 1 5AFBB341
+P 8425 3075
+F 0 "C1" H 8435 3145 50  0000 L CNN
+F 1 "100uF" H 8435 2995 50  0000 L CNN
+F 2 "" H 8425 3075 50  0001 C CNN
+F 3 "" H 8425 3075 50  0001 C CNN
+	1    8425 3075
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8600 2275 8600 2575
+Connection ~ 8600 2375
+Connection ~ 8600 2475
+Wire Wire Line
+	8600 2675 8600 2975
+Connection ~ 8600 2775
+Connection ~ 8600 2875
+Wire Wire Line
+	8600 3075 8600 3275
+Connection ~ 8600 3175
+Wire Wire Line
+	8525 2275 8600 2275
+Wire Wire Line
+	8600 2675 8500 2675
+Wire Wire Line
+	6550 2225 6675 2225
+Wire Wire Line
+	6600 2225 6600 2425
+Wire Wire Line
+	6600 2425 6675 2425
+Connection ~ 6600 2225
+Wire Wire Line
+	6525 2325 6675 2325
+Wire Wire Line
+	6575 2325 6575 2525
+Wire Wire Line
+	6575 2525 6675 2525
+Connection ~ 6575 2325
+Wire Wire Line
+	6500 3400 6675 3400
+Wire Wire Line
+	6625 3400 6625 4200
+Wire Wire Line
+	6625 3600 6675 3600
+Connection ~ 6625 3400
+Wire Wire Line
+	6625 3800 6675 3800
+Connection ~ 6625 3600
+Wire Wire Line
+	6625 4000 6675 4000
+Connection ~ 6625 3800
+Wire Wire Line
+	6625 4200 6675 4200
+Connection ~ 6625 4000
+Wire Wire Line
+	6500 3500 6675 3500
+Wire Wire Line
+	6550 3500 6550 3700
+Wire Wire Line
+	6550 3700 6675 3700
+Connection ~ 6550 3500
+Wire Wire Line
+	6550 3675 6550 4300
+Wire Wire Line
+	6550 3900 6675 3900
+Connection ~ 6550 3675
+Wire Wire Line
+	6550 4100 6675 4100
+Connection ~ 6550 3900
+Wire Wire Line
+	6550 4300 6675 4300
+Connection ~ 6550 4100
+Wire Wire Line
+	3375 2300 3525 2300
+Wire Wire Line
+	3375 2400 3525 2400
+Wire Wire Line
+	3375 2500 3525 2500
+Wire Wire Line
+	3375 2600 3525 2600
+Wire Wire Line
+	3375 2700 3525 2700
+Wire Wire Line
+	3375 2800 3525 2800
+Wire Wire Line
+	3375 2900 3525 2900
+Wire Wire Line
+	3375 3000 3525 3000
+Wire Wire Line
+	3375 3100 3525 3100
+Wire Wire Line
+	3375 3200 3525 3200
+Wire Wire Line
+	3375 3300 3525 3300
+Wire Wire Line
+	3375 3400 3525 3400
+Wire Wire Line
+	3375 3500 3525 3500
+Wire Wire Line
+	3375 3600 3525 3600
+Wire Wire Line
+	3375 3700 3525 3700
+Wire Wire Line
+	3375 3800 3525 3800
+Wire Wire Line
+	3375 3900 3525 3900
+Wire Wire Line
+	3375 4000 3525 4000
+Wire Wire Line
+	8600 3275 8500 3275
+Wire Wire Line
+	8525 3075 8600 3075
+$Comp
+L GND #PWR?
+U 1 1 5AFBB654
+P 8325 3075
+F 0 "#PWR?" H 8325 2825 50  0001 C CNN
+F 1 "GND" H 8325 2925 50  0000 C CNN
+F 2 "" H 8325 3075 50  0001 C CNN
+F 3 "" H 8325 3075 50  0001 C CNN
+	1    8325 3075
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
