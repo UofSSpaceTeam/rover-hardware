@@ -1,0 +1,4 @@
+
+TO DO:
+*Change footprints of resistor (MP2060) and connector (SPT-35-V-15), make pin holes bigger
+*Find new transistors, current ones are the wrong kind
