@@ -1,9 +1,9 @@
 EESchema Schematic File Version 2
+LIBS:PowerBoardV4-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
 LIBS:relays
-LIBS:motors
 LIBS:transistors
 LIBS:conn
 LIBS:linear
@@ -527,7 +527,7 @@ U 1 1 5AA2759D
 P 8950 1600
 F 0 "C43" H 8960 1670 50  0000 L CNN
 F 1 "10 uF" H 8960 1520 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 8950 1600 50  0001 C CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2.5" H 8950 1600 50  0001 C CNN
 F 3 "" H 8950 1600 50  0001 C CNN
 	1    8950 1600
 	-1   0    0    1   
@@ -564,7 +564,7 @@ U 1 1 5AA275BB
 P 8650 1050
 F 0 "C42" H 8660 1120 50  0000 L CNN
 F 1 "10 uF" H 8660 970 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 8650 1050 50  0001 C CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2.5" H 8650 1050 50  0001 C CNN
 F 3 "" H 8650 1050 50  0001 C CNN
 	1    8650 1050
 	-1   0    0    1   
@@ -845,6 +845,8 @@ $Comp
 L BSS138 Q5
 U 1 1 5AA2202D
 P 8850 2400
+AR Path="/5AA2202D" Ref="Q5"  Part="1" 
+AR Path="/5AA20151/5AA2202D" Ref="Q5"  Part="1" 
 F 0 "Q5" H 9050 2475 50  0000 L CNN
 F 1 "BSS138" H 9050 2400 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 9050 2325 50  0001 L CIN
