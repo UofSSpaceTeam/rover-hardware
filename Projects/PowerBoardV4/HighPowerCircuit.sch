@@ -227,7 +227,7 @@ F 3 "" H 1350 3450 50  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L BSS84 Q3
+L BSS84-RESCUE-PowerBoardV4 Q3
 U 1 1 5AA1D9C7
 P 1450 2850
 AR Path="/5AA1D9C7" Ref="Q3"  Part="1" 
