@@ -1,0 +1,201 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:USST-parts
+LIBS:Science2018-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L L7805 U3
+U 1 1 5B3BDDA7
+P 4450 2700
+F 0 "U3" H 4300 2825 50  0000 C CNN
+F 1 "R78B3.3-2.0" H 4450 2825 50  0000 L CNN
+F 2 "" H 4475 2550 50  0001 L CIN
+F 3 "" H 4450 2650 50  0001 C CNN
+	1    4450 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR014
+U 1 1 5B3BDE8C
+P 4450 3100
+F 0 "#PWR014" H 4450 2850 50  0001 C CNN
+F 1 "GND" H 4450 2950 50  0000 C CNN
+F 2 "" H 4450 3100 50  0001 C CNN
+F 3 "" H 4450 3100 50  0001 C CNN
+	1    4450 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3000 4450 3100
+Text GLabel 4000 2700 0    60   Input ~ 0
+Vin
+Wire Wire Line
+	4000 2700 4150 2700
+Text GLabel 5200 2700 2    60   Output ~ 0
+V_Emitter
+Wire Wire Line
+	4750 2700 5200 2700
+Text Notes 4250 2400 0    60   ~ 0
+3.3V at 2A\nFor Emitter
+Wire Notes Line
+	3500 2050 3500 3400
+Wire Notes Line
+	3500 3400 5800 3400
+Wire Notes Line
+	5800 3400 5800 2050
+Wire Notes Line
+	5800 2050 3500 2050
+$Comp
+L L7805 U4
+U 1 1 5B3BE51F
+P 4450 4000
+F 0 "U4" H 4300 4125 50  0000 C CNN
+F 1 "L7805" H 4450 4125 50  0000 L CNN
+F 2 "" H 4475 3850 50  0001 L CIN
+F 3 "" H 4450 3950 50  0001 C CNN
+	1    4450 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 3950 4000 0    60   Input ~ 0
+Vin
+Wire Wire Line
+	3950 4000 4150 4000
+$Comp
+L +5V #PWR015
+U 1 1 5B3BE587
+P 5050 3900
+F 0 "#PWR015" H 5050 3750 50  0001 C CNN
+F 1 "+5V" H 5050 4040 50  0000 C CNN
+F 2 "" H 5050 3900 50  0001 C CNN
+F 3 "" H 5050 3900 50  0001 C CNN
+	1    5050 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3900 5050 4000
+Wire Wire Line
+	5050 4000 4750 4000
+$Comp
+L GND #PWR016
+U 1 1 5B3BE5C7
+P 4450 4400
+F 0 "#PWR016" H 4450 4150 50  0001 C CNN
+F 1 "GND" H 4450 4250 50  0000 C CNN
+F 2 "" H 4450 4400 50  0001 C CNN
+F 3 "" H 4450 4400 50  0001 C CNN
+	1    4450 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 4300 4450 4400
+Wire Notes Line
+	3450 3700 3450 4700
+Wire Notes Line
+	3450 4700 5350 4700
+Wire Notes Line
+	5350 4700 5350 3700
+Wire Notes Line
+	5350 3700 3450 3700
+$Comp
+L Conn_01x02 J3
+U 1 1 5B3C1E8C
+P 4450 1450
+F 0 "J3" H 4450 1550 50  0000 C CNN
+F 1 "Conn_01x02" H 4450 1250 50  0000 C CNN
+F 2 "" H 4450 1450 50  0001 C CNN
+F 3 "" H 4450 1450 50  0001 C CNN
+	1    4450 1450
+	-1   0    0    1   
+$EndComp
+Text GLabel 4850 1350 2    60   Input ~ 0
+Vin
+Wire Wire Line
+	4650 1350 4850 1350
+$Comp
+L GND #PWR017
+U 1 1 5B3C1E95
+P 4900 1500
+F 0 "#PWR017" H 4900 1250 50  0001 C CNN
+F 1 "GND" H 4900 1350 50  0000 C CNN
+F 2 "" H 4900 1500 50  0001 C CNN
+F 3 "" H 4900 1500 50  0001 C CNN
+	1    4900 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 1450 4900 1450
+Wire Wire Line
+	4900 1450 4900 1500
+$Comp
+L PWR_FLAG #FLG018
+U 1 1 5B3C366F
+P 4800 1250
+F 0 "#FLG018" H 4800 1325 50  0001 C CNN
+F 1 "PWR_FLAG" H 4800 1400 50  0000 C CNN
+F 2 "" H 4800 1250 50  0001 C CNN
+F 3 "" H 4800 1250 50  0001 C CNN
+	1    4800 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 1250 4800 1350
+Connection ~ 4800 1350
+$Comp
+L PWR_FLAG #FLG019
+U 1 1 5B3C38A1
+P 4700 1650
+F 0 "#FLG019" H 4700 1725 50  0001 C CNN
+F 1 "PWR_FLAG" H 4700 1800 50  0000 C CNN
+F 2 "" H 4700 1650 50  0001 C CNN
+F 3 "" H 4700 1650 50  0001 C CNN
+	1    4700 1650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4700 1650 4700 1450
+Connection ~ 4700 1450
+$EndSCHEMATC

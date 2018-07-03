@@ -1,0 +1,289 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:USST-parts
+LIBS:Science2018-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TL082 U1
+U 1 1 5B3B1DA0
+P 5700 2750
+F 0 "U1" H 5700 2950 50  0000 L CNN
+F 1 "TL082" H 5700 2550 50  0000 L CNN
+F 2 "" H 5700 2750 50  0001 C CNN
+F 3 "" H 5700 2750 50  0001 C CNN
+	1    5700 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03 J1
+U 1 1 5B3B1E88
+P 5250 1750
+F 0 "J1" H 5250 1950 50  0000 C CNN
+F 1 "Conn_01x03" H 5250 1550 50  0000 C CNN
+F 2 "" H 5250 1750 50  0001 C CNN
+F 3 "" H 5250 1750 50  0001 C CNN
+	1    5250 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 5B3B1F59
+P 5350 2100
+F 0 "#PWR06" H 5350 1850 50  0001 C CNN
+F 1 "GND" H 5350 1950 50  0000 C CNN
+F 2 "" H 5350 2100 50  0001 C CNN
+F 3 "" H 5350 2100 50  0001 C CNN
+	1    5350 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR07
+U 1 1 5B3B1FF9
+P 5600 2350
+F 0 "#PWR07" H 5600 2200 50  0001 C CNN
+F 1 "+5V" H 5600 2490 50  0000 C CNN
+F 2 "" H 5600 2350 50  0001 C CNN
+F 3 "" H 5600 2350 50  0001 C CNN
+	1    5600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 5B3B207C
+P 5600 3100
+F 0 "#PWR08" H 5600 2850 50  0001 C CNN
+F 1 "GND" H 5600 2950 50  0000 C CNN
+F 2 "" H 5600 3100 50  0001 C CNN
+F 3 "" H 5600 3100 50  0001 C CNN
+	1    5600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 5B3B228D
+P 4850 2450
+F 0 "R3" V 4930 2450 50  0000 C CNN
+F 1 "R" V 4850 2450 50  0000 C CNN
+F 2 "" V 4780 2450 50  0001 C CNN
+F 3 "" H 4850 2450 50  0001 C CNN
+	1    4850 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L +5V #PWR09
+U 1 1 5B3B22DD
+P 4850 2200
+F 0 "#PWR09" H 4850 2050 50  0001 C CNN
+F 1 "+5V" H 4850 2340 50  0000 C CNN
+F 2 "" H 4850 2200 50  0001 C CNN
+F 3 "" H 4850 2200 50  0001 C CNN
+	1    4850 2200
+	1    0    0    -1  
+$EndComp
+Text Notes 4950 1500 0    60   ~ 0
+Connection to\nDetector
+$Comp
+L LT1636 U2
+U 1 1 5B3B362B
+P 5950 4250
+F 0 "U2" H 6300 4500 60  0000 C CNN
+F 1 "LT1636" H 6400 4050 60  0000 C CNN
+F 2 "" H 6100 4250 60  0001 C CNN
+F 3 "" H 6100 4250 60  0001 C CNN
+	1    5950 4250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 5B3B37E6
+P 6400 5150
+F 0 "R5" V 6480 5150 50  0000 C CNN
+F 1 "R" V 6400 5150 50  0000 C CNN
+F 2 "" V 6330 5150 50  0001 C CNN
+F 3 "" H 6400 5150 50  0001 C CNN
+	1    6400 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 5B3B3AD0
+P 5850 4700
+F 0 "#PWR010" H 5850 4450 50  0001 C CNN
+F 1 "GND" H 5850 4550 50  0000 C CNN
+F 2 "" H 5850 4700 50  0001 C CNN
+F 3 "" H 5850 4700 50  0001 C CNN
+	1    5850 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 1950 5250 2050
+Wire Wire Line
+	5250 2050 5350 2050
+Wire Wire Line
+	5350 1950 5350 2100
+Connection ~ 5350 2050
+Wire Wire Line
+	5150 1950 5150 2650
+Wire Wire Line
+	4850 2650 5400 2650
+Wire Wire Line
+	5600 2350 5600 2450
+Wire Wire Line
+	5600 3050 5600 3100
+Wire Wire Line
+	5400 2850 5300 2850
+Wire Wire Line
+	5300 2850 5300 3400
+Wire Wire Line
+	5300 3400 6100 3400
+Wire Wire Line
+	6100 3400 6100 2750
+Wire Wire Line
+	6000 2750 6450 2750
+Connection ~ 5150 2650
+Wire Wire Line
+	4850 2200 4850 2300
+Wire Wire Line
+	4850 2600 4850 2650
+Wire Wire Line
+	6450 2750 6450 4100
+Wire Wire Line
+	6450 4100 6200 4100
+Connection ~ 6100 2750
+Wire Wire Line
+	6200 4400 6400 4400
+Wire Wire Line
+	6400 4400 6400 5000
+Wire Wire Line
+	5850 4650 5850 4700
+$Comp
+L R R4
+U 1 1 5B3B3C8B
+P 5050 4600
+F 0 "R4" V 5130 4600 50  0000 C CNN
+F 1 "R" V 5050 4600 50  0000 C CNN
+F 2 "" V 4980 4600 50  0001 C CNN
+F 3 "" H 5050 4600 50  0001 C CNN
+	1    5050 4600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4900 4250 5200 4250
+Wire Wire Line
+	5050 4250 5050 4450
+Wire Wire Line
+	5050 4750 5050 4950
+Wire Wire Line
+	5050 4950 6400 4950
+Connection ~ 6400 4950
+$Comp
+L GND #PWR011
+U 1 1 5B3B3E08
+P 6400 5350
+F 0 "#PWR011" H 6400 5100 50  0001 C CNN
+F 1 "GND" H 6400 5200 50  0000 C CNN
+F 2 "" H 6400 5350 50  0001 C CNN
+F 3 "" H 6400 5350 50  0001 C CNN
+	1    6400 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 5300 6400 5350
+$Comp
+L R R2
+U 1 1 5B3B4E67
+P 4750 4250
+F 0 "R2" V 4830 4250 50  0000 C CNN
+F 1 "R" V 4750 4250 50  0000 C CNN
+F 2 "" V 4680 4250 50  0001 C CNN
+F 3 "" H 4750 4250 50  0001 C CNN
+	1    4750 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 5B3B4EAC
+P 4400 4600
+F 0 "R1" V 4480 4600 50  0000 C CNN
+F 1 "R" V 4400 4600 50  0000 C CNN
+F 2 "" V 4330 4600 50  0001 C CNN
+F 3 "" H 4400 4600 50  0001 C CNN
+	1    4400 4600
+	-1   0    0    1   
+$EndComp
+Connection ~ 5050 4250
+Wire Wire Line
+	3850 4250 4600 4250
+Wire Wire Line
+	4400 4250 4400 4450
+$Comp
+L GND #PWR012
+U 1 1 5B3B531C
+P 4400 4850
+F 0 "#PWR012" H 4400 4600 50  0001 C CNN
+F 1 "GND" H 4400 4700 50  0000 C CNN
+F 2 "" H 4400 4850 50  0001 C CNN
+F 3 "" H 4400 4850 50  0001 C CNN
+	1    4400 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 4750 4400 4850
+Text HLabel 3850 4250 0    60   Output ~ 0
+Detector_out
+Connection ~ 4400 4250
+Text GLabel 5700 3700 0    60   Input ~ 0
+20V
+Wire Wire Line
+	5700 3700 5850 3700
+Wire Wire Line
+	5850 3700 5850 3850
+Text Notes 4600 3850 0    60   ~ 0
+TODO:\nThe rover doesn't\nhave 20V...
+Text Notes 3700 2400 0    60   ~ 0
+Does this have to be\nthe same voltage\nas the microcontroller,\nor 5+?
+$EndSCHEMATC
