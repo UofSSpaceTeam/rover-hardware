@@ -4,6 +4,7 @@ LIBS:power
 LIBS:device
 LIBS:switches
 LIBS:relays
+LIBS:motors
 LIBS:transistors
 LIBS:conn
 LIBS:linear
@@ -719,7 +720,7 @@ BAT2
 Text GLabel 3500 1050 0    39   Input ~ 0
 BAT1
 Wire Wire Line
-	8650 1150 8650 2400
+	8650 1150 8650 2450
 Wire Wire Line
 	4800 1050 4900 1050
 Text GLabel 3500 2650 2    39   Input ~ 0
@@ -826,7 +827,7 @@ USB_D+
 Text GLabel 6700 1600 2    20   Input ~ 0
 USB_D-
 $Comp
-L USB_OTG J15
+L USB_OTG-RESCUE-PowerBoardV4 J15
 U 1 1 5AA28FDE
 P 7500 1400
 F 0 "J15" H 7300 1850 50  0000 L CNN
@@ -836,13 +837,13 @@ F 3 "" H 7650 1350 50  0001 C CNN
 	1    7500 1400
 	1    0    0    -1  
 $EndComp
-Text GLabel 7800 1400 2    20   Input ~ 0
+Text GLabel 7500 1700 3    20   Input ~ 0
 USB_D+
-Text GLabel 7800 1500 2    20   Input ~ 0
+Text GLabel 7400 1700 3    20   Input ~ 0
 USB_D-
 Connection ~ 6425 3200
 $Comp
-L BSS138 Q5
+L BSS138-RESCUE-PowerBoardV4 Q5
 U 1 1 5AA2202D
 P 8850 2400
 AR Path="/5AA2202D" Ref="Q5"  Part="1" 
@@ -994,23 +995,15 @@ Text HLabel 1800 2750 0    39   Input ~ 0
 CHG
 Text HLabel 1800 2850 0    39   Input ~ 0
 DSG
-Text HLabel 6350 850  1    20   Input ~ 0
-PG
-Text HLabel 6400 850  1    20   Input ~ 0
-P_OK
-Text HLabel 6250 850  1    20   Input ~ 0
-9V_EN
-Text HLabel 6300 850  1    20   Input ~ 0
-9V_PGOOD
 $Comp
 L GND #PWR022
 U 1 1 5AA43F96
-P 7500 1800
-F 0 "#PWR022" H 7500 1550 50  0001 C CNN
-F 1 "GND" H 7500 1650 50  0000 C CNN
-F 2 "" H 7500 1800 50  0001 C CNN
-F 3 "" H 7500 1800 50  0001 C CNN
-	1    7500 1800
+P 7700 1700
+F 0 "#PWR022" H 7700 1450 50  0001 C CNN
+F 1 "GND" H 7700 1550 50  0000 C CNN
+F 2 "" H 7700 1700 50  0001 C CNN
+F 3 "" H 7700 1700 50  0001 C CNN
+	1    7700 1700
 	1    0    0    -1  
 $EndComp
 Text GLabel 6200 2000 3    20   Input ~ 0
@@ -1021,10 +1014,6 @@ Text GLabel 6700 1450 2    20   Input ~ 0
 VCC
 Connection ~ 8650 1150
 Connection ~ 8950 2900
-Connection ~ 6250 850 
-Connection ~ 6300 850 
-Connection ~ 6350 850 
-Connection ~ 6400 850 
 Connection ~ 6700 1150
 NoConn ~ 6700 1350
 NoConn ~ 6700 1400
@@ -1104,9 +1093,9 @@ Wire Wire Line
 	6700 1500 6850 1500
 NoConn ~ 6700 1650
 NoConn ~ 6700 1700
-NoConn ~ 7400 1800
-NoConn ~ 7800 1600
-NoConn ~ 7800 1200
+NoConn ~ 7300 1750
+NoConn ~ 7600 1700
+NoConn ~ 7900 1300
 Connection ~ 4800 2200
 Connection ~ 4800 2400
 Connection ~ 4800 2600
@@ -1146,8 +1135,14 @@ Text GLabel 5775 2950 0    39   Input ~ 0
 BATT_IC_GND
 Text GLabel 6675 2950 2    39   Input ~ 0
 BATT_IC_GND
-Text GLabel 8950 2900 3    39   Input ~ 0
+Text GLabel 8950 2900 0    39   Input ~ 0
 BATT_IC_GND
 Text GLabel 8650 950  2    39   Input ~ 0
 BATT_IC_GND
+NoConn ~ 6400 850 
+NoConn ~ 6350 850 
+NoConn ~ 6300 850 
+NoConn ~ 6250 850 
+Text Notes 6850 1800 0    28   ~ 0
+Does VCC connect\n to other VCC tag?
 $EndSCHEMATC

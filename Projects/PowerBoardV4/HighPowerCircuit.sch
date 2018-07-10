@@ -4,6 +4,7 @@ LIBS:power
 LIBS:device
 LIBS:switches
 LIBS:relays
+LIBS:motors
 LIBS:transistors
 LIBS:conn
 LIBS:linear
@@ -354,31 +355,8 @@ F 3 "" H 2750 2800 50  0001 C CNN
 $EndComp
 Text Notes 2950 3150 1    39   ~ 0
 Outgoing Power to \nMC_STACK_1\n
-Text GLabel 2550 2600 0    39   Input ~ 0
-MC1+
-Text GLabel 2550 2800 0    39   Input ~ 0
-MC2+
-Text GLabel 2550 3000 0    39   Input ~ 0
-MC3+
-$Comp
-L Conn_01x06 J8
-U 1 1 5AA22202
-P 3625 2800
-F 0 "J8" H 3625 3100 50  0000 C CNN
-F 1 "MC_STACK_2" H 3625 2400 50  0000 C CNN
-F 2 "USST-footprints:TerminalBlock_Pheonix_PT-5mm_6pol" H 3625 2800 50  0001 C CNN
-F 3 "" H 3625 2800 50  0001 C CNN
-	1    3625 2800
-	1    0    0    -1  
-$EndComp
 Text Notes 3875 3150 1    39   ~ 0
 Outgoing Power to \nMC_STACK_2\n\n
-Text GLabel 3425 2600 0    39   Input ~ 0
-MC4+
-Text GLabel 3425 2800 0    39   Input ~ 0
-MC5+
-Text GLabel 3425 3000 0    39   Input ~ 0
-MC6+
 Wire Notes Line
 	550  2250 550  5050
 Wire Notes Line
@@ -736,37 +714,60 @@ F 3 "" H 2550 3100 50  0001 C CNN
 	1    2550 3100
 	0    1    1    0   
 $EndComp
+Text GLabel 2550 2600 0    39   Input ~ 0
+BATT+
+Text GLabel 2550 2800 0    39   Input ~ 0
+BATT+
+Text GLabel 2550 3000 0    39   Input ~ 0
+BATT+
+$Comp
+L Conn_01x06 J8
+U 1 1 5B44454C
+P 3600 2800
+F 0 "J8" H 3600 3100 50  0000 C CNN
+F 1 "MC_STACK_2" H 3600 2400 50  0000 C CNN
+F 2 "USST-footprints:TerminalBlock_Pheonix_PT-5mm_6pol" H 3600 2800 50  0001 C CNN
+F 3 "" H 3600 2800 50  0001 C CNN
+	1    3600 2800
+	1    0    0    -1  
+$EndComp
+Text GLabel 3400 2600 0    39   Input ~ 0
+BATT+
+Text GLabel 3400 2800 0    39   Input ~ 0
+BATT+
+Text GLabel 3400 3000 0    39   Input ~ 0
+BATT+
 $Comp
 L GND #PWR019
-U 1 1 5B2EE339
-P 3425 3100
-F 0 "#PWR019" H 3425 2850 50  0001 C CNN
-F 1 "GND" H 3425 2950 50  0000 C CNN
-F 2 "" H 3425 3100 50  0001 C CNN
-F 3 "" H 3425 3100 50  0001 C CNN
-	1    3425 3100
+U 1 1 5B444762
+P 3400 2700
+F 0 "#PWR019" H 3400 2450 50  0001 C CNN
+F 1 "GND" H 3400 2550 50  0000 C CNN
+F 2 "" H 3400 2700 50  0001 C CNN
+F 3 "" H 3400 2700 50  0001 C CNN
+	1    3400 2700
 	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR020
-U 1 1 5B2EE377
-P 3425 2900
-F 0 "#PWR020" H 3425 2650 50  0001 C CNN
-F 1 "GND" H 3425 2750 50  0000 C CNN
-F 2 "" H 3425 2900 50  0001 C CNN
-F 3 "" H 3425 2900 50  0001 C CNN
-	1    3425 2900
+U 1 1 5B4447A0
+P 3400 2900
+F 0 "#PWR020" H 3400 2650 50  0001 C CNN
+F 1 "GND" H 3400 2750 50  0000 C CNN
+F 2 "" H 3400 2900 50  0001 C CNN
+F 3 "" H 3400 2900 50  0001 C CNN
+	1    3400 2900
 	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR021
-U 1 1 5B2EE3B5
-P 3425 2700
-F 0 "#PWR021" H 3425 2450 50  0001 C CNN
-F 1 "GND" H 3425 2550 50  0000 C CNN
-F 2 "" H 3425 2700 50  0001 C CNN
-F 3 "" H 3425 2700 50  0001 C CNN
-	1    3425 2700
+U 1 1 5B4447DE
+P 3400 3100
+F 0 "#PWR021" H 3400 2850 50  0001 C CNN
+F 1 "GND" H 3400 2950 50  0000 C CNN
+F 2 "" H 3400 3100 50  0001 C CNN
+F 3 "" H 3400 3100 50  0001 C CNN
+	1    3400 3100
 	0    1    1    0   
 $EndComp
 $EndSCHEMATC
