@@ -1020,12 +1020,12 @@ NoConn ~ 6700 1400
 $Comp
 L GND #PWR023
 U 1 1 5AA4BA9E
-P 6850 1500
-F 0 "#PWR023" H 6850 1250 50  0001 C CNN
-F 1 "GND" H 6850 1350 50  0000 C CNN
-F 2 "" H 6850 1500 50  0001 C CNN
-F 3 "" H 6850 1500 50  0001 C CNN
-	1    6850 1500
+P 6700 1500
+F 0 "#PWR023" H 6700 1250 50  0001 C CNN
+F 1 "GND" H 6700 1350 50  0000 C CNN
+F 2 "" H 6700 1500 50  0001 C CNN
+F 3 "" H 6700 1500 50  0001 C CNN
+	1    6700 1500
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1089,13 +1089,10 @@ NoConn ~ 6050 850
 NoConn ~ 6100 850 
 Wire Wire Line
 	6150 850  6150 800 
-Wire Wire Line
-	6700 1500 6850 1500
 NoConn ~ 6700 1650
 NoConn ~ 6700 1700
-NoConn ~ 7300 1750
+NoConn ~ 7300 1700
 NoConn ~ 7600 1700
-NoConn ~ 7900 1300
 Connection ~ 4800 2200
 Connection ~ 4800 2400
 Connection ~ 4800 2600
@@ -1103,8 +1100,6 @@ Connection ~ 4800 2800
 Connection ~ 4800 1650
 Connection ~ 4800 1450
 Connection ~ 4800 1250
-Connection ~ 1800 2450
-Connection ~ 1800 1950
 Text GLabel 4800 1450 2    39   Input ~ 0
 CELL_6+
 Text GLabel 4900 1050 2    39   Input ~ 0
@@ -1145,4 +1140,15 @@ NoConn ~ 6300 850
 NoConn ~ 6250 850 
 Text Notes 6850 1800 0    28   ~ 0
 Does VCC connect\n to other VCC tag?
+$Comp
+L GND #PWR027
+U 1 1 5B457EF3
+P 7900 1300
+F 0 "#PWR027" H 7900 1050 50  0001 C CNN
+F 1 "GND" H 7900 1150 50  0000 C CNN
+F 2 "" H 7900 1300 50  0001 C CNN
+F 3 "" H 7900 1300 50  0001 C CNN
+	1    7900 1300
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
