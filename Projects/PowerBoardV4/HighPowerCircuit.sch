@@ -180,7 +180,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -226,19 +226,6 @@ F 2 "USST-footprints:TO-220-2_Vertical_Ver2" H 1600 3375 50  0001 L CIN
 F 3 "" H 1350 3450 50  0001 L CNN
 	1    1350 3450
 	0    1    1    0   
-$EndComp
-$Comp
-L BSS84-RESCUE-PowerBoardV4 Q3
-U 1 1 5AA1D9C7
-P 1450 2850
-AR Path="/5AA1D9C7" Ref="Q3"  Part="1" 
-AR Path="/5AA250C9/5AA1D9C7" Ref="Q3"  Part="1" 
-F 0 "Q3" H 1650 2925 50  0000 L CNN
-F 1 "BSS84" H 1650 2850 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 1650 2775 50  0001 L CIN
-F 3 "" H 1450 2850 50  0001 L CNN
-	1    1450 2850
-	-1   0    0    1   
 $EndComp
 $Comp
 L GND #PWR01
@@ -769,5 +756,31 @@ F 2 "" H 3400 3100 50  0001 C CNN
 F 3 "" H 3400 3100 50  0001 C CNN
 	1    3400 3100
 	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5B4A3D42
+P 1150 4450
+F 0 "R?" H 1180 4470 50  0000 L CNN
+F 1 "1M" H 1180 4410 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 1150 4450 50  0001 C CNN
+F 3 "" H 1150 4450 50  0001 C CNN
+	1    1150 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 4350 1150 4250
+Wire Wire Line
+	1150 4250 1350 4250
+$Comp
+L BSS84 Q3
+U 1 1 5B4A3F79
+P 1450 2850
+F 0 "Q3" H 1650 2925 50  0000 L CNN
+F 1 "BSS84" H 1650 2850 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 1650 2775 50  0001 L CIN
+F 3 "" H 1450 2850 50  0001 L CNN
+	1    1450 2850
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC

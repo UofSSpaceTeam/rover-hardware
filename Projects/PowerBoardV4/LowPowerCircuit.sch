@@ -426,7 +426,7 @@ F 3 "" V 4200 2150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 4300 2150 2    39   Input ~ 0
-VC5
+VC5x
 Text GLabel 1800 1950 0    39   Input ~ 0
 VC5x
 $Comp
@@ -440,8 +440,6 @@ F 3 "" V 3600 1050 50  0001 C CNN
 	1    3600 1050
 	1    0    0    -1  
 $EndComp
-Text GLabel 1700 1450 1    39   Input ~ 0
-BAT1
 $Comp
 L Thermistor TH2
 U 1 1 5AA2755F
@@ -454,7 +452,7 @@ F 3 "" H 1600 1650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 1400 1650 0    39   Input ~ 0
-TS2
+VC5x
 $Comp
 L C_Small C26
 U 1 1 5AA27567
@@ -467,7 +465,7 @@ F 3 "" H 1050 1550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 950  1550 0    39   Input ~ 0
-CAP2
+VC5x
 $Comp
 L bq76930 U2
 U 1 1 5AA2756F
@@ -544,7 +542,7 @@ F 3 "" H 8950 2050 50  0001 C CNN
 	1    8950 2050
 	-1   0    0    1   
 $EndComp
-Text GLabel 8350 1350 0    39   Input ~ 0
+Text GLabel 8500 1350 0    39   Input ~ 0
 VC5x
 $Comp
 L R_Small R20
@@ -593,7 +591,7 @@ Wire Wire Line
 	8950 2600 8950 2700
 Connection ~ 8650 1350
 Wire Wire Line
-	8350 1350 8750 1350
+	8500 1350 8750 1350
 Connection ~ 8650 1500
 Wire Wire Line
 	8650 1500 8950 1500
@@ -712,13 +710,13 @@ Wire Wire Line
 	8950 2650 9150 2650
 Connection ~ 8950 2650
 Text GLabel 8950 1850 2    39   Input ~ 0
-BAT2
+BAT
 Wire Wire Line
 	1800 1450 1550 1450
 Text GLabel 1550 1450 0    39   Input ~ 0
-BAT2
+BAT
 Text GLabel 3500 1050 0    39   Input ~ 0
-BAT1
+BAT
 Wire Wire Line
 	8650 1150 8650 2450
 Wire Wire Line
@@ -975,18 +973,6 @@ Connection ~ 4450 1850
 Connection ~ 5925 3200
 Connection ~ 1150 1550
 Connection ~ 1150 1750
-Text GLabel 8400 1250 1    39   Input ~ 0
-CAP2
-Text GLabel 8500 1450 3    39   Input ~ 0
-TS2
-Text GLabel 8400 1450 3    39   Input ~ 0
-VC5
-Wire Wire Line
-	8400 1250 8400 1450
-Connection ~ 8400 1350
-Wire Wire Line
-	8500 1450 8500 1350
-Connection ~ 8500 1350
 Text Notes 1600 3050 0    39   ~ 0
 CHG and DSG both go to \npower transistors in High Power Circuit.\n
 Text HLabel 6625 3200 2    39   Input ~ 0
@@ -1151,4 +1137,14 @@ F 3 "" H 7900 1300 50  0001 C CNN
 	1    7900 1300
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	4800 1050 4800 900 
+Wire Wire Line
+	4800 900  4900 900 
+Text GLabel 4900 900  2    39   Input ~ 0
+BATT+
+Text GLabel 9100 2200 2    39   Input ~ 0
+BATT+
+Wire Wire Line
+	8950 2200 9100 2200
 $EndSCHEMATC
