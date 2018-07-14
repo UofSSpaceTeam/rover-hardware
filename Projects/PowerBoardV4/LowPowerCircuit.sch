@@ -420,7 +420,7 @@ U 1 1 5AA2754E
 P 4200 2150
 F 0 "D4" H 4150 2230 50  0000 L CNN
 F 1 "D_Small" H 4050 2070 50  0000 L CNN
-F 2 "Diodes_SMD:D_SOD-323F" V 4200 2150 50  0001 C CNN
+F 2 "Diodes_SMD:D_0603" V 4200 2150 50  0001 C CNN
 F 3 "" V 4200 2150 50  0001 C CNN
 	1    4200 2150
 	-1   0    0    1   
@@ -435,7 +435,7 @@ U 1 1 5AA27557
 P 3600 1050
 F 0 "D3" H 3550 1130 50  0000 L CNN
 F 1 "D_Small" H 3450 970 50  0000 L CNN
-F 2 "Diodes_SMD:D_SOD-323F" V 3600 1050 50  0001 C CNN
+F 2 "Diodes_SMD:D_0603" V 3600 1050 50  0001 C CNN
 F 3 "" V 3600 1050 50  0001 C CNN
 	1    3600 1050
 	1    0    0    -1  
@@ -514,11 +514,11 @@ F 3 "" H 1700 2250 50  0001 C CNN
 	1    1700 2250
 	0    -1   -1   0   
 $EndComp
-Text GLabel 7800 3100 2    28   Input ~ 0
-BOOT_VC1
 Text GLabel 7400 3100 0    28   Input ~ 0
+BOOT_VC1
+Text GLabel 7800 3100 2    28   Input ~ 0
 BOOT_TS1
-Text GLabel 7600 3400 0    28   Input ~ 0
+Text GLabel 7650 3400 0    28   Input ~ 0
 BOOT_MC
 $Comp
 L C_Small C43
@@ -799,7 +799,7 @@ U 1 1 5AA27677
 P 6275 3200
 F 0 "R18" H 6305 3220 50  0000 L CNN
 F 1 "5m" H 6305 3160 50  0000 L CNN
-F 2 "USST-footprints:TO-220-2_Vertical_Ver2" H 6275 3200 50  0001 C CNN
+F 2 "USST-footprints:TO-220AB-2-Resistor" H 6275 3200 50  0001 C CNN
 F 3 "" H 6275 3200 50  0001 C CNN
 	1    6275 3200
 	0    1    1    0   
@@ -852,17 +852,6 @@ F 2 "TO_SOT_Packages_SMD:SOT-23" H 9050 2325 50  0001 L CIN
 F 3 "" H 8850 2400 50  0001 L CNN
 	1    8850 2400
 	1    0    0    -1  
-$EndComp
-$Comp
-L BSS83P Q4
-U 1 1 5AA2221D
-P 7600 3200
-F 0 "Q4" H 7800 3275 50  0000 L CNN
-F 1 "BSS83P" H 7800 3200 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 7800 3125 50  0001 L CIN
-F 3 "" H 7600 3200 50  0001 L CNN
-	1    7600 3200
-	0    -1   -1   0   
 $EndComp
 Text Notes 8250 700  0    60   ~ 0
 Battery Power to IC\n
@@ -981,17 +970,6 @@ Text HLabel 1800 2750 0    39   Input ~ 0
 CHG
 Text HLabel 1800 2850 0    39   Input ~ 0
 DSG
-$Comp
-L GND #PWR022
-U 1 1 5AA43F96
-P 7700 1700
-F 0 "#PWR022" H 7700 1450 50  0001 C CNN
-F 1 "GND" H 7700 1550 50  0000 C CNN
-F 2 "" H 7700 1700 50  0001 C CNN
-F 3 "" H 7700 1700 50  0001 C CNN
-	1    7700 1700
-	1    0    0    -1  
-$EndComp
 Text GLabel 6200 2000 3    20   Input ~ 0
 VCC
 Text GLabel 6200 850  1    20   Input ~ 0
@@ -1003,50 +981,6 @@ Connection ~ 8950 2900
 Connection ~ 6700 1150
 NoConn ~ 6700 1350
 NoConn ~ 6700 1400
-$Comp
-L GND #PWR023
-U 1 1 5AA4BA9E
-P 6700 1500
-F 0 "#PWR023" H 6700 1250 50  0001 C CNN
-F 1 "GND" H 6700 1350 50  0000 C CNN
-F 2 "" H 6700 1500 50  0001 C CNN
-F 3 "" H 6700 1500 50  0001 C CNN
-	1    6700 1500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR024
-U 1 1 5AA4BB34
-P 6150 800
-F 0 "#PWR024" H 6150 550 50  0001 C CNN
-F 1 "GND" H 6150 650 50  0000 C CNN
-F 2 "" H 6150 800 50  0001 C CNN
-F 3 "" H 6150 800 50  0001 C CNN
-	1    6150 800 
-	-1   0    0    1   
-$EndComp
-$Comp
-L GND #PWR025
-U 1 1 5AA4BCCB
-P 5550 1650
-F 0 "#PWR025" H 5550 1400 50  0001 C CNN
-F 1 "GND" H 5550 1500 50  0000 C CNN
-F 2 "" H 5550 1650 50  0001 C CNN
-F 3 "" H 5550 1650 50  0001 C CNN
-	1    5550 1650
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR026
-U 1 1 5AA4C0F6
-P 6100 2000
-F 0 "#PWR026" H 6100 1750 50  0001 C CNN
-F 1 "GND" H 6100 1850 50  0000 C CNN
-F 2 "" H 6100 2000 50  0001 C CNN
-F 3 "" H 6100 2000 50  0001 C CNN
-	1    6100 2000
-	1    0    0    -1  
-$EndComp
 NoConn ~ 6400 2000
 NoConn ~ 6350 2000
 NoConn ~ 6300 2000
@@ -1126,17 +1060,6 @@ NoConn ~ 6300 850
 NoConn ~ 6250 850 
 Text Notes 6850 1800 0    28   ~ 0
 Does VCC connect\n to other VCC tag?
-$Comp
-L GND #PWR027
-U 1 1 5B457EF3
-P 7900 1300
-F 0 "#PWR027" H 7900 1050 50  0001 C CNN
-F 1 "GND" H 7900 1150 50  0000 C CNN
-F 2 "" H 7900 1300 50  0001 C CNN
-F 3 "" H 7900 1300 50  0001 C CNN
-	1    7900 1300
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	4800 1050 4800 900 
 Wire Wire Line
@@ -1147,4 +1070,83 @@ Text GLabel 9100 2200 2    39   Input ~ 0
 BATT+
 Wire Wire Line
 	8950 2200 9100 2200
+Text HLabel 1050 4850 3    39   Input ~ 0
+CHG
+Text HLabel 1850 4850 3    39   Input ~ 0
+DSG
+Wire Wire Line
+	1050 4450 1850 4450
+Text GLabel 1450 4250 1    39   Input ~ 0
+BATT+
+Connection ~ 1450 4450
+Wire Wire Line
+	1550 5100 750  5100
+Wire Wire Line
+	1450 5100 1450 5200
+Connection ~ 1450 5100
+Text GLabel 1450 5200 3    39   Input ~ 0
+CELL_1+
+Wire Notes Line
+	550  3700 2350 3700
+Wire Notes Line
+	2350 3750 2350 5500
+Wire Notes Line
+	2350 5500 550  5500
+Wire Notes Line
+	550  5450 550  3700
+Text Notes 600  3800 0    60   ~ 0
+Battery Type Control Circuit
+Text Notes 600  4000 0    39   ~ 0
+If the Battery needs management, this circuit is off\nIf the Battery Self manages, this circuit shorts the \npower transistors making the Battery IC useless\n
+Wire Wire Line
+	1450 4250 1450 4450
+$Comp
+L BSS138-RESCUE-PowerBoardV4 Q7
+U 1 1 5B4A8A88
+P 7600 3200
+F 0 "Q7" H 7800 3275 50  0000 L CNN
+F 1 "BSS138" H 7800 3200 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 7800 3125 50  0001 L CIN
+F 3 "" H 7600 3200 50  0001 L CNN
+	1    7600 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BSS138-RESCUE-PowerBoardV4 Q6
+U 1 1 5B4A8DB2
+P 1750 4650
+F 0 "Q6" H 1950 4725 50  0000 L CNN
+F 1 "BSS138" H 1950 4650 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 1950 4575 50  0001 L CIN
+F 3 "" H 1750 4650 50  0001 L CNN
+	1    1750 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L BSS138-RESCUE-PowerBoardV4 Q4
+U 1 1 5B4A9079
+P 950 4650
+F 0 "Q4" H 1150 4725 50  0000 L CNN
+F 1 "BSS138" H 1150 4650 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 1150 4575 50  0001 L CIN
+F 3 "" H 950 4650 50  0001 L CNN
+	1    950  4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  5100 750  4700
+Wire Wire Line
+	1550 5100 1550 4700
+Text GLabel 6100 2000 3    20   Input ~ 0
+BATT_IC_GND
+Text GLabel 6700 1500 2    20   Input ~ 0
+BATT_IC_GND
+Text GLabel 5550 1650 0    20   Input ~ 0
+BATT_IC_GND
+Text GLabel 6150 800  1    20   Input ~ 0
+BATT_IC_GND
+Text GLabel 7700 1700 3    20   Input ~ 0
+BATT_IC_GND
+Text GLabel 7900 1300 3    20   Input ~ 0
+BATT_IC_GND
 $EndSCHEMATC
