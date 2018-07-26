@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~58~ubuntu16.04.1)
+(kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
     (links 201)
     (no_connects 3)
-    (area 69.774999 44.628999 253.059001 152.729001)
+    (area 69.345 43.945 325.107143 190.35)
     (thickness 1.6)
     (drawings 72)
     (tracks 717)
@@ -3546,7 +3546,7 @@
   (gr_text BATT+ (at 84.582 114.046 270) (layer F.SilkS)
     (effects (font (size 2 2) (thickness 0.25)))
   )
-  (gr_text "By: Thomas Sturgeon\nand Cody Beggren\n2017-2018" (at 92.408 139.146) (layer F.SilkS)
+  (gr_text "By: Thomas Sturgeon\nand Cody Berggren\n2017-2018" (at 92.408 139.146) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text 5V (at 183.896 86.106) (layer F.SilkS) (tstamp 5B5564CB)
