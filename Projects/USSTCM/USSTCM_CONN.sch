@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:USSTCM_CONN-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,13 +29,11 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:USST-parts
-LIBS:USSTCM-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 8
+Sheet 1 1
 Title "USSTCM.sch"
 Date "10 JUN 2016"
 Rev ""
@@ -78,7 +77,7 @@ F 3 "" H 5550 3600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P1
+L Conn_01x04 P1
 U 1 1 58DC2A27
 P 6175 4375
 F 0 "P1" H 6175 4650 50  0000 C CNN
@@ -141,7 +140,7 @@ F 3 "" H 6700 4050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P4
+L Conn_01x04 P4
 U 1 1 58DD19C5
 P 6250 1750
 F 0 "P4" H 6250 2025 50  0000 C CNN
@@ -178,7 +177,7 @@ UART0_TX
 Text HLabel 5500 1900 0    65   Input ~ 0
 UART0_RX
 $Comp
-L CONN_01X06 P5
+L Conn_01x06 P5
 U 1 1 58DD251A
 P 6250 2575
 F 0 "P5" H 6250 2925 50  0000 C CNN
@@ -233,7 +232,7 @@ Text Notes 4900 2850 0    39   ~ 0
 Text Notes 5050 3025 0    39   ~ 0
 UART1-Full configuration for use with 3DR Telemetry Radio
 $Comp
-L CONN_01X03 P2
+L Conn_01x03 P2
 U 1 1 58DD51E0
 P 6175 5175
 F 0 "P2" H 6175 5375 50  0000 C CNN
@@ -244,7 +243,7 @@ F 3 "" H 6175 5175 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 P3
+L Conn_01x03 P3
 U 1 1 58DD53E9
 P 6175 5700
 F 0 "P3" H 6175 5900 50  0000 C CNN
@@ -340,7 +339,7 @@ F 3 "" H 6700 5150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPEAKER SP1
+L Speaker SP1
 U 1 1 58DFEB45
 P 3800 3275
 F 0 "SP1" H 3700 3525 50  0000 C CNN

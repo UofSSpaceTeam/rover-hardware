@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:USSTCM_POWER-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,13 +29,11 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:USST-parts
-LIBS:USSTCM-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -227,7 +226,7 @@ F 3 "" H 5125 4675 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_01X02 P7
+L Conn_01x02 P7
 U 1 1 58E97EAB
 P 3850 2450
 F 0 "P7" H 3850 2600 50  0000 C CNN
