@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Power_Board_V-5.0)(type Legacy)(uri "${KIPRJMOD}/Power Board V-5.0.lib")(options "")(descr ""))
+  (lib (name "Power Board V-5.0")(type Legacy)(uri "C:/Users/riley/Documents/PCBs/Power Board V-5.0/Power Board V-5.0.lib")(options "")(descr ""))
+)

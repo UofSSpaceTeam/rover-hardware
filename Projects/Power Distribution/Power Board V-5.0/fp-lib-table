@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name PowerBoardV5)(type KiCad)(uri ${KIPRJMOD}/PowerBoardV5.pretty)(options "")(descr ""))
+)
