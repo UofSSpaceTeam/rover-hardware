@@ -1,6 +1,6 @@
-update=11/15/2018 10:51:54 AM
+update=Monday, January 07, 2019 'amt' 08:54:08 am
 version=1
-last_client=kicad
+last_client=eeschema
 [general]
 version=1
 [cvpcb]
