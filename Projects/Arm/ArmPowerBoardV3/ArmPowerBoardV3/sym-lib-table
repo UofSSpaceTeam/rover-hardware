@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "De-Swadj 3")(type Legacy)(uri "C:/Users/riley/USST/rover-hardware/Projects/Arm/ArmPowerBoardV3/ArmPowerBoardV3/De-Swadj 3.lib")(options "")(descr ""))
+  (lib (name 2019-01-31_22-20-11)(type Legacy)(uri C:/Users/riley/USST/rover-hardware/Projects/Arm/ArmPowerBoardV3/ArmPowerBoardV3/2019-01-31_22-20-11.lib)(options "")(descr ""))
+)
