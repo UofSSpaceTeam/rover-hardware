@@ -1,0 +1,32 @@
+Drill report for C:/Users/riley/USST/rover-hardware/Projects/Arm/ArmPowerBoardV3/ArmPowerBoardV3/ArmPowerBoardV3.kicad_pcb
+Created on 2019-02-09 12:58:59 PM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'ArmPowerBoardV3.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.40mm  0.016"  (59 holes)
+    T2  0.70mm  0.028"  (2 holes)
+    T3  0.80mm  0.031"  (48 holes)  (with 15 slots)
+    T4  0.90mm  0.035"  (2 holes)
+    T5  1.00mm  0.039"  (46 holes)
+    T6  1.20mm  0.047"  (3 holes)
+    T7  1.30mm  0.051"  (4 holes)
+    T8  1.40mm  0.055"  (5 holes)
+    T9  2.40mm  0.094"  (4 holes)
+
+    Total plated holes count 173
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T10  3.20mm  0.126"  (4 holes)
+    T11  3.50mm  0.138"  (4 holes)
+
+    Total unplated holes count 8
